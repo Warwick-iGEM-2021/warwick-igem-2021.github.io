@@ -1,0 +1,3 @@
+[submodule "themes/wiki-theme"]
+	path = themes/wiki-theme
+	url = https://github.com/Warwick-iGEM-2021/wiki-theme
