@@ -110,21 +110,21 @@ theme = "wiki-theme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
+      title = "Something we're doing"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
+      title = "Another thing we're doing"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-layers2"
     [[params.services.item]]
-      title = "Photo &amp; Video"
+      title = "A further thing we're doing"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-video2"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
+      title = "A final thing we're doing"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-monitor"
 
@@ -132,49 +132,42 @@ theme = "wiki-theme"
   [params.about]
     enable = true
     title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Our team is made up of people from a diverse range of fields, from more traditional life sciences to economics and computer science."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
+      name = "Edmund Goodman"
+      position = "Computer Science"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person1.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-github", "https://github.com/EdmundGoodman"],
+        ["icon-globe", "https://edmundgoodman.github.io"],
+        ["icon-linkedin", "https://www.linkedin.com/in/edmundgoodman/"]
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
+      name = "Tudor Onose"
+      position = "Biochemistry"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person2.jpg"
       alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
+      social = []
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
+      name = "Ameera Ghani"
+      position = "Biomedical"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person3.jpg"
       alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]
+      social = []
 
   # Counters section
   [params.counters]
     enable = true
     title = "Stats"
     background = "full_image_1.jpg"
+
 
     [[params.counters.item]]
       description = "Team members"
@@ -212,19 +205,16 @@ theme = "wiki-theme"
   [params.contact]
     enable = true
     map = false
-    form = false
-    img = true
-    img_source = ""
     title = "Get in touch"
-    description = "We would love to answer any questions about our project, or facilitate collaborations in the future."
+    description = "We would love to answer any questions about our project, or facilitate collaborations in the future"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "University of Warwick, England"],
-        ["icon-envelope", "<a href='mailto:igem@warwick.ac.uk'>igem@warwick.ac.uk</a>"],
         ["icon-twitter", "<a href='https://twitter.com/warwickigem'>warwickigem</a>"],
         ["icon-facebook", "<a href='https://www.facebook.com/WarwickIGEM'>WarwickIGEM</a>"],
         ["icon-instagram", "<a href='https://www.instagram.com/igem_warwick/'>igem_warwick</a>"],
+        ["icon-envelope", "<a href='mailto:igem@warwick.ac.uk'>igem@warwick.ac.uk</a>"],
+        ["icon-home", "University of Warwick, England"],
     ]
 
     name = "Name"
@@ -236,7 +226,4 @@ theme = "wiki-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
-    links = []
-
-    #links = [["icon-github", "https://github.com/Warwick-iGEM-2021"]]
+    copyright = '&copy; Warwick iGEM 2021, all rights reserved - Source code available on <a href="https://github.com/Warwick-iGEM-2021/wiki.github.io"><i class="icon-github"></i> GitHub</a> - Powered by <a href="https://gohugo.io/">Hugo</a>, adapting the <a href="https://github.com/saey55/hugo-elate-theme">Elate theme</a> by <a href="https://github.com/saey55">saey55</a>'
