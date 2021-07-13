@@ -7,7 +7,8 @@ theme = "wiki-theme"
 [params]
   # Any additional css to include
   custom_css = ["css/custom.css"]
-  custome_js = ["js/custom.js"]
+  custom_js = ["js/custom.js"]
+  show_headings_nav = false
 
   # Meta
   author = "Warwick iGEM team 2021"
@@ -195,7 +196,7 @@ theme = "wiki-theme"
 
     [[params.counters.item]]
       description = "Amazing project"
-      icon = "icon-people"
+      icon = "icon-briefcase"
       from = 0
       to = 1
       interval = 50
@@ -226,4 +227,4 @@ theme = "wiki-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Warwick iGEM 2021, all rights reserved - Source code available on <a href="https://github.com/Warwick-iGEM-2021/wiki.github.io"><i class="icon-github"></i> GitHub</a> - Powered by <a href="https://gohugo.io/">Hugo</a>, adapting the <a href="https://github.com/saey55/hugo-elate-theme">Elate theme</a> by <a href="https://github.com/saey55">saey55</a>'
+    copyright = '&copy; Warwick iGEM 2021, all rights reserved - Source code available on <a href="https://github.com/Warwick-iGEM-2021/wiki.github.io"><i class="icon-github"></i> GitHub</a> - Powered by <a href="https://gohugo.io/">Hugo</a>, adapting the <a href="https://github.com/saey55/hugo-elate-theme">Elate theme</a> by <a href="https://github.com/saey55">saey55</a> <br> Website content licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ast">Creative Commons BY-SA-4.0 License</a>, and the theme under the <a href="https://opensource.org/licenses/MIT">MIT License</a>'
