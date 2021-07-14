@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "https://localhost:1313" #"https://warwick-igem-2021.github.io/wiki.github.io/"
+baseurl = "https://warwick-igem-2021.github.io/wiki.github.io/"
 title = "CREscent"
 languageCode = "en-uk"
 theme = "wiki-theme"
