@@ -1,5 +1,8 @@
 # Page settings
 baseurl = "/"
+relativeURLs = true
+uglyURLs = true
+
 title = "CREscent"
 languageCode = "en-uk"
 theme = "wiki-theme"
