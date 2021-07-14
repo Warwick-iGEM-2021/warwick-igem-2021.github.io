@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "https://warwick-igem-2021.github.io/wiki.github.io/"
+baseurl = "https://localhost:1313" #"https://warwick-igem-2021.github.io/wiki.github.io/"
 title = "CREscent"
 languageCode = "en-uk"
 theme = "wiki-theme"
@@ -8,25 +8,35 @@ theme = "wiki-theme"
   # Any additional css to include
   custom_css = ["css/custom.css"]
   custom_js = ["js/custom.js"]
-  show_headings_nav = false
 
   # Meta
   author = "Warwick iGEM team 2021"
   description = "The wiki for the Warwick iGEM 2021 team entry"
   email = "igem@warwick.ac.uk"
 
-  # Navigation
+
+
+
+  # Navigation bar
   [params.navigation]
+
     brand = "CREscent"
     home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
-    contact = "Contact"
 
-    # You can add custom links before or after the default links
-    # Assign a weight to define the order
+    # Links within the current page
+    [[menu.internal]]
+      weight = 1
+      name = "Services"
+      URL = "services"
+    [[menu.internal]]
+      weight = 2
+      name = "About"
+      URL = "about"
+    [[menu.internal]]
+      weight = 3
+      name = "Contact"
+      URL = "contact"
+
 
     # prepended links
     #[[menu.prepend]]
@@ -40,189 +50,14 @@ theme = "wiki-theme"
     #  name = "External link"
     #  weight = 10
 
+
   # Hero section
   [params.hero]
     title = "CREscent"
     subtitle = "Easily identifying antibiotic resistant bacteria outbreaks before they can spread"
 
-  # Intro section
-  # Available icons: https://simplelineicons.github.io/
-  [params.intro]
-
-    [[params.intro.item]]
-      title = "Plan"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-      url = "#"
-      button = "Get In Touch"
-      icon = "icon-bulb"
-      img = "img_7.jpg"
-
-    [[params.intro.item]]
-      title = "Develop"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-      url = "#"
-      button = "Click Me"
-      icon = "icon-wrench"
-      img = "img_8.jpg"
-
-    [[params.intro.item]]
-      title = "Launch"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-      url = "#"
-      button = "Why us?"
-      icon = "icon-rocket"
-      img = "img_10.jpg"
-
-    [params.intro.video]
-      enable = true
-      title = "Watch our video"
-      url = "https://www.youtube.com/embed/dQw4w9WgXcQ"
 
 
-  # Work section
-  [params.work]
-    enable = false
-    #title = "Work"
-    #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    #footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
-    #[[params.work.row]]
-    #  img = "work_1.jpg"
-    #  alt = "Image2"
-    #  title = "Project 1"
-    #  subtitle = "Branding"
-
-
-  # Testimonials section
-  [params.testimonials]
-    enable = false
-    #title = "Testimonials"
-    #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    #[[params.testimonials.item]]
-    #  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-    #  person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-    #  img = "person1.jpg"
-    #  alt = "Person1"
-
-
-  # Services section
-  [params.services]
-    enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.services.item]]
-      title = "Something we're doing"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
-
-    [[params.services.item]]
-      title = "Another thing we're doing"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "A further thing we're doing"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
-      [[params.services.item]]
-      title = "A final thing we're doing"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-monitor"
-
-  # About section
-  [params.about]
-    enable = true
-    title = "About"
-    description = "Our team is made up of people from a diverse range of fields, from more traditional life sciences to economics and computer science."
-
-    [[params.about.item]]
-      name = "Edmund Goodman"
-      position = "Computer Science"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-github", "https://github.com/EdmundGoodman"],
-        ["icon-globe", "https://edmundgoodman.github.io"],
-        ["icon-linkedin", "https://www.linkedin.com/in/edmundgoodman/"]
-      ]
-
-    [[params.about.item]]
-      name = "Tudor Onose"
-      position = "Biochemistry"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = []
-
-    [[params.about.item]]
-      name = "Ameera Ghani"
-      position = "Biomedical"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = []
-
-  # Counters section
-  [params.counters]
-    enable = true
-    title = "Stats"
-    background = "full_image_1.jpg"
-
-
-    [[params.counters.item]]
-      description = "Team members"
-      icon = "icon-people"
-      from = 0
-      to = 8
-      interval = 50
-      speed = 2000
-
-    [[params.counters.item]]
-      description = "Hours of lab time"
-      icon = "icon-clock"
-      from = 0
-      to = 100
-      interval = 50
-      speed = 2000
-
-    [[params.counters.item]]
-      description = "Collaborations with other teams"
-      icon = "icon-share"
-      from = 0
-      to = 5
-      interval = 50
-      speed = 2000
-
-    [[params.counters.item]]
-      description = "Amazing project"
-      icon = "icon-briefcase"
-      from = 0
-      to = 1
-      interval = 50
-      speed = 2000
-
-  # Contact section
-  [params.contact]
-    enable = true
-    map = false
-    title = "Get in touch"
-    description = "We would love to answer any questions about our project, or facilitate collaborations in the future"
-
-    # Available icons: http://simplelineicons.com/
-    details = [
-        ["icon-twitter", "<a href='https://twitter.com/warwickigem'>warwickigem</a>"],
-        ["icon-facebook", "<a href='https://www.facebook.com/WarwickIGEM'>WarwickIGEM</a>"],
-        ["icon-instagram", "<a href='https://www.instagram.com/igem_warwick/'>igem_warwick</a>"],
-        ["icon-envelope", "<a href='mailto:igem@warwick.ac.uk'>igem@warwick.ac.uk</a>"],
-        ["icon-home", "University of Warwick, England"],
-    ]
-
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
 
   # Footer section
   [params.footer]

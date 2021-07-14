@@ -1,0 +1,153 @@
+# Intro section
+# Available icons: https://simplelineicons.github.io/
+
+[hero]
+  background = "background_image_2.jpg"
+
+
+[intro]
+  [[intro.item]]
+    title = "Plan"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[intro.item]]
+    title = "Develop"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Click Me"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[intro.item]]
+    title = "Launch"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Why us?"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [intro.video]
+    enable = true
+    title = "Watch our video"
+    url = "https://www.youtube.com/embed/dQw4w9WgXcQ"
+
+
+# Services section
+[services]
+  title = "Services"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  [[services.item]]
+    title = "Something we're doing"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-anchor"
+
+  [[services.item]]
+    title = "Another thing we're doing"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-layers2"
+  [[services.item]]
+    title = "A further thing we're doing"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-video2"
+
+    [[services.item]]
+    title = "A final thing we're doing"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-monitor"
+
+# About section
+[about]
+  title = "About"
+  description = "Our team is made up of people from a diverse range of fields, from more traditional life sciences to economics and computer science."
+
+  [[about.item]]
+    name = "Edmund Goodman"
+    position = "Computer Science"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "person1.jpg"
+    alt = "Person1"
+    social = [
+      ["icon-github", "https://github.com/EdmundGoodman"],
+      ["icon-globe", "https://edmundgoodman.github.io"],
+      ["icon-linkedin", "https://www.linkedin.com/in/edmundgoodman/"]
+    ]
+
+  [[about.item]]
+    name = "Tudor Onose"
+    position = "Biochemistry"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "person2.jpg"
+    alt = "Person2"
+    social = []
+
+  [[about.item]]
+    name = "Ameera Ghani"
+    position = "Biomedical"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "person3.jpg"
+    alt = "Person3"
+    social = []
+
+# Counters section
+[counters]
+  title = "Stats"
+  background = "background_image_1.jpg"
+
+  [[counters.item]]
+    description = "Team members"
+    icon = "icon-people"
+    from = 0
+    to = 8
+    interval = 50
+    speed = 2000
+
+  [[counters.item]]
+    description = "Hours of lab time"
+    icon = "icon-clock"
+    from = 0
+    to = 100
+    interval = 50
+    speed = 2000
+
+  [[counters.item]]
+    description = "Collaborations with other teams"
+    icon = "icon-share"
+    from = 0
+    to = 5
+    interval = 50
+    speed = 2000
+
+  [[counters.item]]
+    description = "Amazing project"
+    icon = "icon-people"
+    from = 0
+    to = 1
+    interval = 50
+    speed = 2000
+
+# Contact section
+[contact]
+  enable = true
+  map = false
+  title = "Get in touch"
+  description = "We would love to answer any questions about our project, or facilitate collaborations in the future"
+
+  # Available icons: http://simplelineicons.com/
+  details = [
+      ["icon-twitter", "<a href='https://twitter.com/warwickigem'>warwickigem</a>"],
+      ["icon-facebook", "<a href='https://www.facebook.com/WarwickIGEM'>WarwickIGEM</a>"],
+      ["icon-instagram", "<a href='https://www.instagram.com/igem_warwick/'>igem_warwick</a>"],
+      ["icon-envelope", "<a href='mailto:igem@warwick.ac.uk'>igem@warwick.ac.uk</a>"],
+      ["icon-home", "University of Warwick, England"],
+  ]
+
+  name = "Name"
+  email = "Email"
+  phone = "Phone"
+  message = "Message"
+  button = "Send message"
