@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "/"
+baseurl = "https://warwick-igem-2021.github.io/wiki.github.io/"
 relativeURLs = true
 uglyURLs = true
 
