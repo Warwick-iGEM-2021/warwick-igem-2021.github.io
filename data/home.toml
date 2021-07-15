@@ -69,8 +69,8 @@
     name = "Edmund Goodman"
     position = "Computer Science"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-    img = "person1.jpg"
-    alt = "Person1"
+    img = "people/eg.jpg"
+    alt = "Picture of Edmund Goodman"
     social = [
       ["icon-github", "https://github.com/EdmundGoodman"],
       ["icon-globe", "https://edmundgoodman.github.io"],
@@ -81,17 +81,71 @@
     name = "Tudor Onose"
     position = "Biochemistry"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-    img = "person2.jpg"
-    alt = "Person2"
-    social = []
+    img = "people/to.png"
+    alt = "Picture of Tudor Onose"
+    social = [
+        ["icon-linkedin", "#"]
+    ]
 
   [[about.item]]
     name = "Ameera Ghani"
     position = "Biomedical"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-    img = "person3.jpg"
-    alt = "Person3"
-    social = []
+    img = "people/ag.jpg"
+    alt = "Picture of Ameera Ghani"
+    social = [
+        ["icon-linkedin", "#"]
+    ]
+
+  [[about.item]]
+    name = "Reanna Gregory"
+    position = "Biomedical"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "people/rg.jpg"
+    alt = "Picture of Reanna Gregory"
+    social = [
+        ["icon-linkedin", "#"]
+    ]
+
+  [[about.item]]
+    name = "Roman Shantsila"
+    position = "Chemistry"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "people/rs.jpg"
+    alt = "Picture of Roman Shantsila"
+    social = [
+        ["icon-linkedin", "#"]
+    ]
+
+  [[about.item]]
+    name = "Lucy Hayter"
+    position = "Biomedical"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "people/lh.jpg"
+    alt = "Picture of Lucy Hayter"
+    social = [
+        ["icon-linkedin", "#"]
+    ]
+
+  [[about.item]]
+    name = "Axel Schoerner Emillon"
+    position = "Economics"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "people/aes.jpg"
+    alt = "Picture of Axel Schoerner Emillon"
+    social = [
+        ["icon-linkedin", "#"]
+    ]
+
+  [[about.item]]
+    name = "Jerry Yu"
+    position = "Biochemistry"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "people/jy.jpg"
+    alt = "Picture of Jerry Yu"
+    social = [
+        ["icon-linkedin", "#"]
+    ]
 
 # Counters section
 [counters]
