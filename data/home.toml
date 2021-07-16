@@ -2,7 +2,7 @@
 # Available icons: https://simplelineicons.github.io/
 
 [hero]
-  background = "background_image_2.jpg"
+  background = "images/background_image_2.jpg"
 
 
 [intro]

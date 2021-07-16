@@ -7,52 +7,55 @@ title = "CREscent"
 languageCode = "en-uk"
 theme = "wiki-theme"
 
+
+
+[menu]
+    [[menu.main]]
+        weight = 1
+        identifier = "home"
+        Name  = "Home"
+        URL  = ""
+    [[menu.main]]
+        weight = 2
+        identifier = "services"
+        Name  = "Services"
+        URL  = "services"
+    [[menu.main]]
+        identifier = "about"
+        weight = 3
+        Name  = "About"
+        URL  = "about"
+    [[menu.main]]
+        identifier = "aboutus"
+        weight = 4
+        parent = "about"
+        Name = "About us"
+        URL = "#"
+    [[menu.main]]
+        identifier = "aboutyou"
+        weight = 5
+        parent = "about"
+        Name = "About you"
+        URL = "#"
+    [[menu.main]]
+        identifier = "contact"
+        weight = 6
+        Name  = "Contact"
+        URL  = "contact"
+
 [params]
   # Any additional css to include
-  custom_css = ["css/custom.css"]
-  custom_js = ["js/custom.js"]
+  custom_css = []
+  custom_js = []
 
   # Meta
   author = "Warwick iGEM team 2021"
   description = "The wiki for the Warwick iGEM 2021 team entry"
   email = "igem@warwick.ac.uk"
 
-
-
-
-  # Navigation bar
+  # Navigation section
   [params.navigation]
-
     brand = "CREscent"
-    home = "Home"
-
-    # Links within the current page
-    [[menu.internal]]
-      weight = 1
-      name = "Services"
-      URL = "services"
-    [[menu.internal]]
-      weight = 2
-      name = "About"
-      URL = "about"
-    [[menu.internal]]
-      weight = 3
-      name = "Contact"
-      URL = "contact"
-
-
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
-
 
   # Hero section
   [params.hero]
@@ -60,9 +63,6 @@ theme = "wiki-theme"
     subtitle = "Easily identifying antibiotic resistant bacteria outbreaks before they can spread"
 
 
-
-
   # Footer section
   [params.footer]
-    enable = true
-    copyright = '&copy; Warwick iGEM 2021, all rights reserved - Source code available on <a href="https://github.com/Warwick-iGEM-2021/wiki.github.io"><i class="icon-github"></i> GitHub</a> - Powered by <a href="https://gohugo.io/">Hugo</a>, adapting the <a href="https://github.com/saey55/hugo-elate-theme">Elate theme</a> by <a href="https://github.com/saey55">saey55</a> <br> Website content licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ast">Creative Commons BY-SA-4.0 License</a>, and the theme under the <a href="https://opensource.org/licenses/MIT">MIT License</a>'
+    copyright = '&copy; Warwick iGEM 2021, all rights reserved - Source code available on <a href="https://github.com/Warwick-iGEM-2021/wiki.github.io">GitHub</a> - Powered by <a href="https://gohugo.io/">Hugo</a> <br> Website content licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ast">Creative Commons BY-SA-4.0 License</a>, and the theme under the <a href="https://opensource.org/licenses/MIT">MIT License</a>'
