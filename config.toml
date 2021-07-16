@@ -60,6 +60,7 @@ theme = "wiki-theme"
   # Hero section
   [params.hero]
     title = "CREscent"
+    img = "images/logo.png"
     subtitle = "Easily identifying antibiotic resistant bacteria outbreaks before they can spread"
 
 
