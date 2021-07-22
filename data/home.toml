@@ -31,7 +31,6 @@
     img = "img_10.jpg"
 
   [intro.video]
-    enable = true
     title = "Watch our video"
     url = "https://www.youtube.com/embed/JlEQy6qlAaU"
 
@@ -146,6 +145,23 @@
     social = [
         ["icon-linkedin", "#"]
     ]
+
+[gallery]
+  title = "Gallery"
+  description = "Photos of what we've been getting up to."
+
+  [[gallery.item]]
+    img = "https://picsum.photos/id/500/1920/1080"
+    alt = "Slide one"
+
+  [[gallery.item]]
+    img = "https://picsum.photos/id/501/1920/1080"
+    alt = "Slide two"
+
+  [[gallery.item]]
+    img = "https://picsum.photos/id/502/1920/1080"
+    alt = "Slide three"
+
 
 # Counters section
 [counters]

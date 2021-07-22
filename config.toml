@@ -12,36 +12,55 @@ theme = "wiki-theme"
 [menu]
     [[menu.main]]
         weight = 1
-        identifier = "home"
-        Name  = "Home"
-        URL  = ""
-    [[menu.main]]
-        weight = 2
-        identifier = "services"
-        Name  = "Services"
-        URL  = "services"
-    [[menu.main]]
-        identifier = "about"
-        weight = 3
-        Name  = "About"
+        identifier = "our-project"
+        Name  = "Our project"
         URL  = "http://localhost:1313/wiki.github.io/about.html"
     [[menu.main]]
-        identifier = "aboutus"
-        weight = 4
-        parent = "about"
-        Name = "About us"
-        URL = "http://localhost:1313/wiki.github.io/about.html"
-    [[menu.main]]
-        identifier = "aboutyou"
-        weight = 5
-        parent = "about"
-        Name = "About you"
+        weight = 2
+        parent = "our-project"
+        identifier = "description"
+        Name = "Description"
         URL = "#"
     [[menu.main]]
-        identifier = "contact"
+        weight = 3
+        parent = "our-project"
+        identifier = "results"
+        Name = "Results"
+        URL = "#"
+    [[menu.main]]
+        weight = 4
+        identifier = "lab-work"
+        Name  = "Lab work"
+        URL  = "#"
+    [[menu.main]]
+        weight = 5
+        parent = "lab-work"
+        identifier = "modelling"
+        Name  = "Modelling"
+        URL  = "#"
+    [[menu.main]]
         weight = 6
-        Name  = "Contact"
-        URL  = "contact"
+        parent = "lab-work"
+        identifier = "wet lab"
+        Name  = "Wet lab"
+        URL  = "#"
+    [[menu.main]]
+        identifier = "human-practices"
+        weight = 7
+        Name  = "Human practices"
+        URL  = "#"
+    [[menu.main]]
+        identifier = "team"
+        weight = 8
+        Name  = "Team"
+        URL  = "#"
+    [[menu.main]]
+        identifier = "awards"
+        weight = 9
+        Name  = "Awards"
+        URL  = "#"
+
+
 
 [params]
   # Any additional css to include
