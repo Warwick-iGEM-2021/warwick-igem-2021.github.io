@@ -148,7 +148,6 @@
 
 [gallery]
   title = "Gallery"
-  description = "Photos of what we've been getting up to."
 
   [[gallery.item]]
     img = "https://picsum.photos/id/500/1920/1080"
@@ -209,9 +208,9 @@
 
   # Available icons: http://simplelineicons.com/
   details = [
-      ["icon-twitter", "<a href='https://twitter.com/warwickigem'>warwickigem</a>"],
-      ["icon-facebook", "<a href='https://www.facebook.com/WarwickIGEM'>WarwickIGEM</a>"],
-      ["icon-instagram", "<a href='https://www.instagram.com/igem_warwick/'>igem_warwick</a>"],
+      ["icon-social-twitter", "<a href='https://twitter.com/warwickigem'>warwickigem</a>"],
+      ["icon-social-facebook", "<a href='https://www.facebook.com/WarwickIGEM'>WarwickIGEM</a>"],
+      ["icon-social-instagram", "<a href='https://www.instagram.com/igem_warwick/'>igem_warwick</a>"],
       ["icon-envelope", "<a href='mailto:igem@warwick.ac.uk'>igem@warwick.ac.uk</a>"],
       ["icon-home", "University of Warwick, England"],
   ]
