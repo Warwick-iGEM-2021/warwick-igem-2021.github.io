@@ -7,28 +7,25 @@
 
 [intro]
   [[intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Swab"
+    description = "Some areas accumulate dangerous bacteria, for example hospital sinks - which we can swab to identify outbreaks."
     url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
+    button = "How?"
+    icon = "icon-magnifier"
 
   [[intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Screen"
+    description = "We developed a novel screening technique to bring reduce the result latency from days to minutes."
     url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
+    button = "For what?"
+    icon = "icon-eye"
 
   [[intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Stop"
+    description = "Routinely checking for outbreaks and finding them early can help save large amounts of money."
     url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+    button = "Why?"
+    icon = "icon-ban"
 
   [intro.video]
     title = "Watch our video"
@@ -88,7 +85,7 @@
 
   [[about.item]]
     name = "Ameera Ghani"
-    position = "Biomedical"
+    position = "Biomedical Science"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
     img = "people/ag.jpg"
     alt = "Picture of Ameera Ghani"
@@ -98,7 +95,7 @@
 
   [[about.item]]
     name = "Reanna Gregory"
-    position = "Biomedical"
+    position = "Biomedical Science"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
     img = "people/rg.jpg"
     alt = "Picture of Reanna Gregory"
@@ -118,7 +115,7 @@
 
   [[about.item]]
     name = "Lucy Hayter"
-    position = "Biomedical"
+    position = "Biomedical Science"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
     img = "people/lh.jpg"
     alt = "Picture of Lucy Hayter"

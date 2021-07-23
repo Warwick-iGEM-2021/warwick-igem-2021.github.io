@@ -14,7 +14,8 @@ theme = "wiki-theme"
         weight = 1
         identifier = "our-project"
         Name  = "Our project"
-        URL  = "http://localhost:1313/wiki.github.io/about.html"
+        # TODO: Fix this for push to github
+        URL  = "http://localhost:1313/wiki.github.io/about"
     [[menu.main]]
         weight = 2
         parent = "our-project"
