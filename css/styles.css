@@ -18,6 +18,9 @@
 .enter-up {
   animation: slideInUp 2s, fadeIn 1s; }
 
+.fade-in {
+  animation: fadeIn 2s; }
+
 /* Modules */
 /* General section*/
 html,
@@ -313,6 +316,27 @@ nav {
 /* Carousel section */
 #carousel {
   margin: 50px 0px 50px 0px; }
+
+/* Contact section */
+#contact {
+  margin-top: 50px;
+  text-align: right; }
+
+#contact .contact-info {
+  padding: 0;
+  margin: 0 0 1.5em 0; }
+
+#contact .contact-info li {
+  position: relative;
+  padding: 0;
+  margin: 0 0 1.5em 0;
+  padding-left: 50px;
+  list-style: none; }
+
+#contact .contact-info li i {
+  position: absolute;
+  top: .2em;
+  left: 0; }
 
 /* Footer section */
 footer {
