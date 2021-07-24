@@ -10,8 +10,6 @@ draft: true
 ## Abstract
 
 We aim to develop a CRISPR dcas9 based fast fluorescent detection method system
-for carbapenem- resistant Enterobacteriaceae (CRE), which will hopefully be
+for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be
 implemented in hospital cleaning routine to prevent CRE a common family of
 antibiotic resistant bacteria found in sinks from spreading.
-
-## Our team
