@@ -15,7 +15,7 @@ theme = "wiki-theme"
         identifier = "our-project"
         Name  = "Our project"
         # TODO: Fix this for push to github
-        URL  = "/about"
+        URL  = "./about"
     [[menu.main]]
         weight = 2
         parent = "our-project"
@@ -54,7 +54,7 @@ theme = "wiki-theme"
         identifier = "team"
         weight = 8
         Name  = "Team"
-        URL  = "/team"
+        URL  = "./team"
     [[menu.main]]
         identifier = "awards"
         weight = 9
