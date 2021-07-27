@@ -25,7 +25,9 @@
 /* General section*/
 html,
 body {
-  height: 100%; }
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -77,11 +79,6 @@ a:active {
   max-width: 90%;
   min-height: 70vh; }
 
-.slanted-bottom {
-  padding-bottom: 100px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); }
-
 .btn {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -122,6 +119,14 @@ a:active {
 .btn.btn-default:focus,
 .btn.btn-default:active {
   border-color: transparent; }
+
+.content-wrapper {
+  flex: 1; }
+
+.slanted-bottom {
+  padding-bottom: 100px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); }
 
 /*
     Pre-loader section
@@ -300,7 +305,8 @@ nav {
 /* Intro section */
 #intro {
   margin: -100px 0px 25px 0px;
-  padding-bottom: 200px; }
+  padding-bottom: 150px;
+  display: flex; }
 
 .watch-video {
   text-align: center;
