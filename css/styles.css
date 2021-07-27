@@ -183,7 +183,7 @@ nav {
 
 /* Intro section */
 #intro {
-  margin: -100px 0px 50px 0px;
+  margin: -100px 0px 25px 0px;
   padding-bottom: 200px; }
 
 .watch-video {
@@ -315,11 +315,12 @@ nav {
 
 /* Carousel section */
 #carousel {
-  margin: 50px 0px 50px 0px; }
+  margin: 25px 0px 25px 0px; }
 
 /* Contact section */
 #contact {
-  margin-top: 50px;
+  margin: 50px 0px 25px 0px;
+  padding: 50px 0px 25px 0px;
   text-align: right; }
 
 #contact .contact-info {
