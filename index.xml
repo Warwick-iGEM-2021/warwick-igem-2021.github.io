@@ -6,5 +6,33 @@
     <description>Recent content on CREscent</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language><atom:link href="https://warwick-igem-2021.github.io/wiki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About us</title>
+      <link>https://warwick-igem-2021.github.io/wiki.github.io/about/</link>
+      <pubDate>Tue, 13 Jul 2021 16:57:46 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/wiki.github.io/about/</guid>
+      <description>About us Abstract We aim to develop a CRISPR dcas9 based fast fluorescent detection method system for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be implemented in hospital cleaning routine to prevent CRE a common family of antibiotic resistant bacteria found in sinks from spreading.</description>
+    </item>
+    
+    <item>
+      <title>Meet the team!</title>
+      <link>https://warwick-igem-2021.github.io/wiki.github.io/team/</link>
+      <pubDate>Tue, 13 Jul 2021 16:57:46 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/wiki.github.io/team/</guid>
+      <description>Our team is made up of people from a diverse range of fields, from more traditional life sciences to economics and computer science. Ameera GhaniBiomedical ScienceAxel Schoerner EmillonEconomicsEdmund GoodmanComputer ScienceJerry YuBiochemistryLucy HayterBiomedical ScienceReanna GregoryBiomedical ScienceRoman ShantsilaChemistryTudor OnoseBiochemistry</description>
+    </item>
+    
+    <item>
+      <title>Timeline</title>
+      <link>https://warwick-igem-2021.github.io/wiki.github.io/timeline/</link>
+      <pubDate>Tue, 13 Jul 2021 16:57:46 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/wiki.github.io/timeline/</guid>
+      <description>Initial Brainstorming and Planning-Mid FebruaryDivided into 3 groups looking at different potential areas following a Microsoft teams meeting where we all meteach other (virtually). The group looked into past IGEM projects, use of casein and production of alternative dairy products, biosensors and also microplastics.
+Sharing Ideas and Research-Early MarchIn our second teams meeting we discussed the research we foundand also potential problems for example legal and ethical issues relating to a food product.</description>
+    </item>
+    
   </channel>
 </rss>
