@@ -2,7 +2,7 @@
 title: "About us"
 subtitle: "Inspirational quote"
 date: 2021-07-13T16:57:46+01:00
-draft: true
+draft: false
 ---
 
 # About us

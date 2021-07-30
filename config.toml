@@ -51,13 +51,18 @@ theme = "wiki-theme"
         Name  = "Human practices"
         URL  = "#"
     [[menu.main]]
-        identifier = "team"
+        identifier = "timeline"
         weight = 8
+        Name  = "Timeline"
+        URL  = "./timeline"
+    [[menu.main]]
+        identifier = "team"
+        weight = 9
         Name  = "Team"
         URL  = "./team"
     [[menu.main]]
         identifier = "awards"
-        weight = 9
+        weight = 10
         Name  = "Awards"
         URL  = "#"
 
