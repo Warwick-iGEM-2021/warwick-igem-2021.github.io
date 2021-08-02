@@ -7,7 +7,7 @@ draft: false
 
 
 {{< leftTextPhoto >}}
-+++../images/planning/lightbulb.svg, Lightbulb icon+++
++++/images/planning/lightbulb.svg, Lightbulb icon+++
 
 ## INITIAL BRAINSTORMING AND PLANNING (MID FEB)
 
@@ -20,7 +20,7 @@ biosensors and also microplastics.
 
 
 {{< rightTextPhoto >}}
-+++../images/planning/zoomMeeting.png, Photo of a zoom meeting+++
++++/images/planning/zoomMeeting.png, Photo of a zoom meeting+++
 
 ## SHARING IDEAS AND RESEARCH (EARLY MARCH)
 
@@ -35,7 +35,7 @@ diagnostics. Use of GFP was mentioned but also plastic biodegradability too.
 
 
 {{< leftTextPhoto >}}
-+++../images/planning/socialLogos.png, Logos of social media+++
++++/images/planning/socialLogos.png, Logos of social media+++
 
 ## CATCH UP AND PROGRESS MEETING (MID MARCH)
 
@@ -51,7 +51,7 @@ aid in future collaborations.
 
 
 {{< rightTextPhoto >}}
-+++../images/planning/magnifyingGlass.svg, Magnifying glass icon+++
++++/images/planning/magnifyingGlass.svg, Magnifying glass icon+++
 
 ## DETECTION OF CRE AND BIOSENSORS
 
@@ -68,7 +68,7 @@ presence of CRE.
 
 
 {{< leftTextPhoto >}}
-+++../images/planning/spreadsheet.png, A bacteria icon and a photo of a spreadsheet+++
++++/images/planning/spreadsheet.png, A bacteria icon and a photo of a spreadsheet+++
 
 ## DEVELOPING OUR IDEA ON HOW TO DETECT CRE
 
@@ -82,7 +82,7 @@ gain a better understanding of how to tackle this problem.
 
 
 {{< rightTextPhoto >}}
-+++../images/planning/meeting.svg, Meeting icon+++
++++/images/planning/meeting.svg, Meeting icon+++
 
 ## MEETING WITH FREYA HARRISON
 

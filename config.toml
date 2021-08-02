@@ -2,6 +2,8 @@
 baseurl = "https://warwick-igem-2021.github.io/wiki.github.io/"
 relativeURLs = true
 uglyURLs = false
+canonifyURLs = true
+
 enableInlineShortcodes = true
 
 title = "CREscent"
@@ -15,7 +17,7 @@ theme = "wiki-theme"
         identifier = "our-project"
         Name  = "Our project"
         # TODO: Fix this for push to github
-        URL  = "./about"
+        URL  = "/about"
     [[menu.main]]
         weight = 2
         parent = "our-project"
@@ -54,12 +56,12 @@ theme = "wiki-theme"
         identifier = "timeline"
         weight = 8
         Name  = "Timeline"
-        URL  = "./timeline"
+        URL  = "/timeline"
     [[menu.main]]
         identifier = "team"
         weight = 9
         Name  = "Team"
-        URL  = "./team"
+        URL  = "/team"
     [[menu.main]]
         identifier = "awards"
         weight = 10
