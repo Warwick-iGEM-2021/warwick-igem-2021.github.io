@@ -1,5 +1,5 @@
 ---
-title: "Proof_of_concept"
+title: "Proof of concept"
 subtitle: "Inspirational quote -- person"
 date: 2021-08-03T22:55:42+01:00
 draft: false
