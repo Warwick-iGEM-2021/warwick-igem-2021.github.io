@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "https://warwick-igem-2021.github.io/wiki.github.io/"
+baseURL = "https://warwick-igem-2021.github.io/wiki.github.io/"
 relativeURLs = true
 uglyURLs = false
 canonifyURLs = true
@@ -13,62 +13,149 @@ theme = "wiki-theme"
 
 
 
+
 [menu]
+    ### Project tab
     [[menu.main]]
         weight = 1
-        identifier = "our-project"
-        Name  = "Our project"
-        # TODO: Fix this for push to github
-        URL  = "/about"
+        identifier = "project"
+        Name = "Project"
+        URL = "#"
     [[menu.main]]
         weight = 2
-        parent = "our-project"
-        identifier = "description"
-        Name = "Description"
-        URL = "#"
+        parent = "project"
+        identifier = "about"
+        Name = "About"
+        URL = "/project/about"
     [[menu.main]]
         weight = 3
-        parent = "our-project"
-        identifier = "results"
-        Name = "Results"
-        URL = "#"
+        parent = "project"
+        identifier = "planning"
+        Name = "Planning"
+        URL = "/project/planning"
     [[menu.main]]
         weight = 4
-        identifier = "lab-work"
-        Name  = "Lab work"
-        URL  = "#"
+        parent = "project"
+        identifier = "design"
+        Name = "Design"
+        URL = "/project/design"
     [[menu.main]]
         weight = 5
-        parent = "lab-work"
-        identifier = "modelling"
-        Name  = "Modelling"
-        URL  = "#"
+        parent = "project"
+        identifier = "models"
+        Name = "Models"
+        URL = "/project/models"
     [[menu.main]]
         weight = 6
-        parent = "lab-work"
-        identifier = "wet lab"
-        Name  = "Wet lab"
-        URL  = "#"
+        parent = "project"
+        identifier = "results"
+        Name = "Results"
+        URL = "/project/results"
     [[menu.main]]
-        identifier = "human-practices"
         weight = 7
-        Name  = "Human practices"
-        URL  = "#"
+        parent = "project"
+        identifier = "contributions"
+        Name = "Contributions"
+        URL = "/project/contributions"
+
+    ### Lab tab
     [[menu.main]]
-        identifier = "timeline"
         weight = 8
-        Name  = "Timeline"
-        URL  = "/timeline"
+        identifier = "lab"
+        Name = "Lab work"
+        URL = "#"
     [[menu.main]]
-        identifier = "team"
         weight = 9
-        Name  = "Team"
-        URL  = "/team"
+        parent = "lab"
+        identifier = "proof_of_concept"
+        Name = "Proof of concept"
+        URL = "/lab/proof_of_concept"
     [[menu.main]]
-        identifier = "awards"
         weight = 10
-        Name  = "Awards"
-        URL  = "#"
+        parent = "lab"
+        identifier = "experiments"
+        Name = "Experiments"
+        URL = "/lab/experiments"
+    [[menu.main]]
+        weight = 11
+        parent = "lab"
+        identifier = "parts"
+        Name = "Parts"
+        URL = "/lab/parts"
+    [[menu.main]]
+        weight = 12
+        parent = "lab"
+        identifier = "notebook"
+        Name = "Notebook"
+        URL = "/lab/notebook"
+    [[menu.main]]
+        weight = 13
+        parent = "lab"
+        identifier = "safety"
+        Name = "Safety"
+        URL = "/lab/safety"
+
+    ### Human practices tab
+    [[menu.main]]
+        weight = 14
+        identifier = "human_practices"
+        Name = "Human practices"
+        URL = "#"
+    [[menu.main]]
+        weight = 15
+        parent = "human_practices"
+        identifier = "overview"
+        Name = "Overview"
+        URL = "/human_practices/overview"
+    [[menu.main]]
+        weight = 16
+        parent = "human_practices"
+        identifier = "public_engagement_and_education"
+        Name = "Public engagement and education"
+        URL = "/human_practices/public_engagement_and_education"
+    [[menu.main]]
+        weight = 17
+        parent = "human_practices"
+        identifier = "sustainability"
+        Name = "Sustainability"
+        URL = "/human_practices/sustainability"
+    [[menu.main]]
+        weight = 18
+        parent = "human_practices"
+        identifier = "entrepreneurship"
+        Name = "Entrepreneurship"
+        URL = "/human_practices/entrepreneurship"
+
+    ### Team tab
+    [[menu.main]]
+        weight = 19
+        identifier = "team"
+        Name = "Team"
+        URL = "#"
+    [[menu.main]]
+        weight = 20
+        parent = "team"
+        identifier = "about"
+        Name = "Team"
+        URL = "/team/team"
+    [[menu.main]]
+        weight = 21
+        parent = "team"
+        identifier = "attributions"
+        Name = "Attributions"
+        URL = "/team/attributions"
+    [[menu.main]]
+        weight = 22
+        parent = "team"
+        identifier = "collaborations"
+        Name = "Collaborations"
+        URL = "/team/collaborations"
+    [[menu.main]]
+        weight = 23
+        parent = "team"
+        identifier = "sponsors"
+        Name = "Sponsors"
+        URL = "/team/sponsors"
 
 
 
