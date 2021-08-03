@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labs on CREscent</title>
+    <link>https://warwick-igem-2021.github.io/wiki.github.io/lab/</link>
+    <description>Recent content in Labs on CREscent</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 03 Aug 2021 22:56:06 +0100</lastBuildDate><atom:link href="https://warwick-igem-2021.github.io/wiki.github.io/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Safety</title>
+      <link>https://warwick-igem-2021.github.io/wiki.github.io/lab/safety/</link>
+      <pubDate>Tue, 03 Aug 2021 22:56:06 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/wiki.github.io/lab/safety/</guid>
+      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
+    </item>
+    
+    <item>
+      <title>Notebook</title>
+      <link>https://warwick-igem-2021.github.io/wiki.github.io/lab/notebook/</link>
+      <pubDate>Tue, 03 Aug 2021 22:55:55 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/wiki.github.io/lab/notebook/</guid>
+      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
+    </item>
+    
+    <item>
+      <title>Proof_of_concept</title>
+      <link>https://warwick-igem-2021.github.io/wiki.github.io/lab/proof_of_concept/</link>
+      <pubDate>Tue, 03 Aug 2021 22:55:42 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/wiki.github.io/lab/proof_of_concept/</guid>
+      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
+    </item>
+    
+    <item>
+      <title>Parts</title>
+      <link>https://warwick-igem-2021.github.io/wiki.github.io/lab/parts/</link>
+      <pubDate>Tue, 03 Aug 2021 22:55:17 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/wiki.github.io/lab/parts/</guid>
+      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
+    </item>
+    
+    <item>
+      <title>Experiments</title>
+      <link>https://warwick-igem-2021.github.io/wiki.github.io/lab/experiments/</link>
+      <pubDate>Tue, 03 Aug 2021 22:55:09 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/wiki.github.io/lab/experiments/</guid>
+      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
+    </item>
+    
+  </channel>
+</rss>
