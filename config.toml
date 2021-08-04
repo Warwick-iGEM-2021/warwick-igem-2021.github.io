@@ -1,9 +1,9 @@
 # Page settings
-baseURL = "https://warwick-igem-2021.github.io/"
 relativeURLs = true
 uglyURLs = false
 canonifyURLs = true
 
+# baseURL = "https://warwick-igem-2021.github.io/"
 enableInlineShortcodes = true
 
 title = "CREscent"
