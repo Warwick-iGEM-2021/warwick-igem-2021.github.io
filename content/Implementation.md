@@ -1,7 +1,7 @@
 ---
-title: "Design"
+title: "Implementation"
 subtitle: "Inspirational quote -- person"
-date: 2021-08-03T22:53:50+01:00
+date: 2021-08-04T12:52:42+01:00
 draft: false
 ---
 

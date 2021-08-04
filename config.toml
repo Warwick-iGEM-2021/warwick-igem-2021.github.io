@@ -24,142 +24,164 @@ theme = "wiki-theme"
     [[menu.main]]
         weight = 2
         parent = "project"
-        identifier = "about"
-        Name = "About"
-        URL = "/project/about"
+        identifier = "description"
+        Name = "Description"
+        URL = "/Description"
     [[menu.main]]
         weight = 3
         parent = "project"
         identifier = "planning"
         Name = "Planning"
-        URL = "/project/planning"
+        URL = "/Planning"
     [[menu.main]]
         weight = 4
         parent = "project"
-        identifier = "design"
-        Name = "Design"
-        URL = "/project/design"
+        identifier = "engineering"
+        Name = "Engineering"
+        URL = "/Engineering"
     [[menu.main]]
         weight = 5
         parent = "project"
-        identifier = "models"
-        Name = "Models"
-        URL = "/project/models"
+        identifier = "model"
+        Name = "Model"
+        URL = "/Model"
     [[menu.main]]
         weight = 6
         parent = "project"
         identifier = "results"
         Name = "Results"
-        URL = "/project/results"
+        URL = "/Results"
     [[menu.main]]
         weight = 7
         parent = "project"
-        identifier = "contributions"
+        identifier = "contribution"
         Name = "Contributions"
-        URL = "/project/contributions"
+        URL = "/Contribution"
+        [[menu.main]]
+        weight = 8
+        parent = "project"
+        identifier = "implementation"
+        Name = "Implementation"
+        URL = "/Implementation"
 
     ### Lab tab
     [[menu.main]]
-        weight = 8
+        weight = 20
         identifier = "lab"
         Name = "Lab work"
         URL = "#"
     [[menu.main]]
-        weight = 9
+        weight = 21
         parent = "lab"
         identifier = "proof_of_concept"
         Name = "Proof of concept"
-        URL = "/lab/proof_of_concept"
+        URL = "/Proof_Of_Concept"
     [[menu.main]]
-        weight = 10
+        weight = 22
         parent = "lab"
         identifier = "experiments"
         Name = "Experiments"
-        URL = "/lab/experiments"
+        URL = "/Experiments"
     [[menu.main]]
-        weight = 11
+        weight = 23
         parent = "lab"
         identifier = "parts"
         Name = "Parts"
-        URL = "/lab/parts"
+        URL = "/Parts"
     [[menu.main]]
-        weight = 12
+        weight = 24
         parent = "lab"
         identifier = "notebook"
         Name = "Notebook"
-        URL = "/lab/notebook"
+        URL = "/Notebook"
     [[menu.main]]
-        weight = 13
+        weight = 25
         parent = "lab"
         identifier = "safety"
         Name = "Safety"
-        URL = "/lab/safety"
+        URL = "/Safety"
 
     ### Human practices tab
     [[menu.main]]
-        weight = 14
+        weight = 40
         identifier = "human_practices"
         Name = "Human practices"
         URL = "#"
     [[menu.main]]
-        weight = 15
+        weight = 41
         parent = "human_practices"
         identifier = "overview"
-        Name = "Overview"
-        URL = "/human_practices/overview"
+        Name = "Human practices"
+        URL = "/Human_Practices"
     [[menu.main]]
-        weight = 16
+        weight = 42
         parent = "human_practices"
-        identifier = "public_engagement_and_education"
+        identifier = "communication"
         Name = "Public engagement and education"
-        URL = "/human_practices/public_engagement_and_education"
-    [[menu.main]]
-        weight = 17
-        parent = "human_practices"
-        identifier = "sustainability"
-        Name = "Sustainability"
-        URL = "/human_practices/sustainability"
-    [[menu.main]]
-        weight = 18
-        parent = "human_practices"
-        identifier = "entrepreneurship"
-        Name = "Entrepreneurship"
-        URL = "/human_practices/entrepreneurship"
+        URL = "/Communication"
 
     ### Team tab
     [[menu.main]]
-        weight = 19
+        weight = 60
         identifier = "team"
         Name = "Team"
         URL = "#"
     [[menu.main]]
-        weight = 20
+        weight = 61
         parent = "team"
         identifier = "about"
         Name = "Team"
-        URL = "/team/team"
+        URL = "/Team"
     [[menu.main]]
-        weight = 21
+        weight = 62
         parent = "team"
         identifier = "attributions"
         Name = "Attributions"
-        URL = "/team/attributions"
+        URL = "/Attributions"
     [[menu.main]]
-        weight = 22
+        weight = 63
         parent = "team"
         identifier = "collaborations"
         Name = "Collaborations"
-        URL = "/team/collaborations"
+        URL = "/Collaborations"
     [[menu.main]]
-        weight = 23
+        weight = 64
         parent = "team"
         identifier = "sponsors"
         Name = "Sponsors"
-        URL = "/team/sponsors"
+        URL = "/Sponsors"
 
+    ### Awards tab
+    [[menu.main]]
+        weight = 80
+        identifier = "awards"
+        Name = "Awards"
+        URL = "#"
+    [[menu.main]]
+        weight = 81
+        parent = "awards"
+        identifier = "model_award"
+        Name = "Model"
+        URL = "/Model"
+    [[menu.main]]
+        weight = 82
+        parent = "awards"
+        identifier = "human_practices_award"
+        Name = "Human practices"
+        URL = "/Human_Practices"
 
-
-
+    [[menu.main]]
+        weight = 83
+        parent = "awards"
+        identifier = "sustainable"
+        Name = "Sustainability"
+        URL = "/Sustainable"
+    [[menu.main]]
+        weight = 84
+        parent = "awards"
+        identifier = "entrepreneurship"
+        Name = "Entrepreneurship"
+        URL = "/Entrepreneurship"
 
 [params]
   # Any additional css to include

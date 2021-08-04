@@ -1,5 +1,5 @@
 ---
-title: "About us"
+title: "Description"
 subtitle: "Inspirational quote -- person"
 date: 2021-07-13T16:57:46+01:00
 draft: false
