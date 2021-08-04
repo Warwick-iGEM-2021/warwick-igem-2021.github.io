@@ -2,189 +2,189 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CREscent</title>
-    <link>https://warwick-igem-2021.github.io/</link>
+    <link>/</link>
     <description>Recent content on CREscent</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language><atom:link href="https://warwick-igem-2021.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-uk</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementation</title>
-      <link>https://warwick-igem-2021.github.io/implementation/</link>
+      <link>/implementation/</link>
       <pubDate>Wed, 04 Aug 2021 12:52:42 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/implementation/</guid>
+      <guid>/implementation/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Human Practices</title>
-      <link>https://warwick-igem-2021.github.io/human_practices/</link>
+      <link>/human_practices/</link>
       <pubDate>Tue, 03 Aug 2021 23:02:32 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/human_practices/</guid>
+      <guid>/human_practices/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Sustainability</title>
-      <link>https://warwick-igem-2021.github.io/sustainable/</link>
+      <link>/sustainable/</link>
       <pubDate>Tue, 03 Aug 2021 22:57:27 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/sustainable/</guid>
+      <guid>/sustainable/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Entrepreneurship</title>
-      <link>https://warwick-igem-2021.github.io/entrepreneurship/</link>
+      <link>/entrepreneurship/</link>
       <pubDate>Tue, 03 Aug 2021 22:57:04 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/entrepreneurship/</guid>
+      <guid>/entrepreneurship/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Public engagement and education outreach</title>
-      <link>https://warwick-igem-2021.github.io/communication/</link>
+      <link>/communication/</link>
       <pubDate>Tue, 03 Aug 2021 22:56:44 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/communication/</guid>
+      <guid>/communication/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Safety</title>
-      <link>https://warwick-igem-2021.github.io/safety/</link>
+      <link>/safety/</link>
       <pubDate>Tue, 03 Aug 2021 22:56:06 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/safety/</guid>
+      <guid>/safety/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Notebook</title>
-      <link>https://warwick-igem-2021.github.io/notebook/</link>
+      <link>/notebook/</link>
       <pubDate>Tue, 03 Aug 2021 22:55:55 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/notebook/</guid>
+      <guid>/notebook/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Proof of concept</title>
-      <link>https://warwick-igem-2021.github.io/proof_of_concept/</link>
+      <link>/proof_of_concept/</link>
       <pubDate>Tue, 03 Aug 2021 22:55:42 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/proof_of_concept/</guid>
+      <guid>/proof_of_concept/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Parts</title>
-      <link>https://warwick-igem-2021.github.io/parts/</link>
+      <link>/parts/</link>
       <pubDate>Tue, 03 Aug 2021 22:55:17 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/parts/</guid>
+      <guid>/parts/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Experiments</title>
-      <link>https://warwick-igem-2021.github.io/experiments/</link>
+      <link>/experiments/</link>
       <pubDate>Tue, 03 Aug 2021 22:55:09 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/experiments/</guid>
+      <guid>/experiments/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Sponsors</title>
-      <link>https://warwick-igem-2021.github.io/sponsors/</link>
+      <link>/sponsors/</link>
       <pubDate>Tue, 03 Aug 2021 22:54:59 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/sponsors/</guid>
+      <guid>/sponsors/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Collaborations</title>
-      <link>https://warwick-igem-2021.github.io/collaborations/</link>
+      <link>/collaborations/</link>
       <pubDate>Tue, 03 Aug 2021 22:54:46 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/collaborations/</guid>
+      <guid>/collaborations/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Attributions</title>
-      <link>https://warwick-igem-2021.github.io/attributions/</link>
+      <link>/attributions/</link>
       <pubDate>Tue, 03 Aug 2021 22:54:37 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/attributions/</guid>
+      <guid>/attributions/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Contributions</title>
-      <link>https://warwick-igem-2021.github.io/contribution/</link>
+      <link>/contribution/</link>
       <pubDate>Tue, 03 Aug 2021 22:54:10 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/contribution/</guid>
+      <guid>/contribution/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Models</title>
-      <link>https://warwick-igem-2021.github.io/model/</link>
+      <link>/model/</link>
       <pubDate>Tue, 03 Aug 2021 22:54:01 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/model/</guid>
+      <guid>/model/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Results</title>
-      <link>https://warwick-igem-2021.github.io/results/</link>
+      <link>/results/</link>
       <pubDate>Tue, 03 Aug 2021 22:53:55 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/results/</guid>
+      <guid>/results/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Engineering</title>
-      <link>https://warwick-igem-2021.github.io/engineering/</link>
+      <link>/engineering/</link>
       <pubDate>Tue, 03 Aug 2021 22:53:50 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/engineering/</guid>
+      <guid>/engineering/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Timeline of planning</title>
-      <link>https://warwick-igem-2021.github.io/planning/</link>
+      <link>/planning/</link>
       <pubDate>Mon, 02 Aug 2021 18:05:00 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/planning/</guid>
+      <guid>/planning/</guid>
       <description>Initial Brainstorming and Planning - Mid FebruaryDivided into 3 groups looking at different potential areas following a Microsoft teams meeting where we all meteach other (virtually). The group looked into past IGEM projects, use of casein and production of alternative dairy products, biosensors and also microplastics.
 Sharing Ideas and Research - Early MarchIn our second teams meeting we discussed the research we foundand also potential problems for example legal and ethical issues relating to a food product.</description>
     </item>
     
     <item>
       <title>Description</title>
-      <link>https://warwick-igem-2021.github.io/description/</link>
+      <link>/description/</link>
       <pubDate>Tue, 13 Jul 2021 16:57:46 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/description/</guid>
+      <guid>/description/</guid>
       <description>Abstract We aim to develop a CRISPR dcas9 based fast fluorescent detection method system for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be implemented in hospital cleaning routine to prevent CRE a common family of antibiotic resistant bacteria found in sinks from spreading.
 GalleryPreviousNext</description>
     </item>
     
     <item>
       <title>Meet the team!</title>
-      <link>https://warwick-igem-2021.github.io/team/</link>
+      <link>/team/</link>
       <pubDate>Tue, 13 Jul 2021 16:57:46 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/team/</guid>
+      <guid>/team/</guid>
       <description>Our team is made up of people from a diverse range of fields, from more traditional life sciences to economics and computer science. Ameera GhaniBiomedical ScienceAxel Schoerner EmillonEconomicsEdmund GoodmanComputer ScienceJerry YuBiochemistryLucy HayterBiomedical ScienceReanna GregoryBiomedical ScienceRoman ShantsilaChemistryTudor OnoseBiochemistry</description>
     </item>
     
