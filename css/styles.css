@@ -594,6 +594,11 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%); }
 
+.shortcode-hr {
+  border: none;
+  height: 10px;
+  background-color: #b3b3b3; }
+
 /* Footer section */
 footer {
   color: #b3b3b3;

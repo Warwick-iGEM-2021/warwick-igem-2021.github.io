@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CREscent</title>
-    <link>https://warwick-igem-2021.github.io/wiki.github.io/tags/</link>
+    <link>https://warwick-igem-2021.github.io/tags/</link>
     <description>Recent content in Tags on CREscent</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language><atom:link href="https://warwick-igem-2021.github.io/wiki.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-uk</language><atom:link href="https://warwick-igem-2021.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

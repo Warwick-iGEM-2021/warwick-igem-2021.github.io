@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on CREscent</title>
-    <link>https://warwick-igem-2021.github.io/wiki.github.io/project/</link>
+    <link>https://warwick-igem-2021.github.io/project/</link>
     <description>Recent content in Projects on CREscent</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 03 Aug 2021 22:54:10 +0100</lastBuildDate><atom:link href="https://warwick-igem-2021.github.io/wiki.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Aug 2021 22:54:10 +0100</lastBuildDate><atom:link href="https://warwick-igem-2021.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contributions</title>
-      <link>https://warwick-igem-2021.github.io/wiki.github.io/project/contributions/</link>
+      <link>https://warwick-igem-2021.github.io/project/contributions/</link>
       <pubDate>Tue, 03 Aug 2021 22:54:10 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/wiki.github.io/project/contributions/</guid>
+      <guid>https://warwick-igem-2021.github.io/project/contributions/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Models</title>
-      <link>https://warwick-igem-2021.github.io/wiki.github.io/project/models/</link>
+      <link>https://warwick-igem-2021.github.io/project/models/</link>
       <pubDate>Tue, 03 Aug 2021 22:54:01 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/wiki.github.io/project/models/</guid>
+      <guid>https://warwick-igem-2021.github.io/project/models/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Results</title>
-      <link>https://warwick-igem-2021.github.io/wiki.github.io/project/results/</link>
+      <link>https://warwick-igem-2021.github.io/project/results/</link>
       <pubDate>Tue, 03 Aug 2021 22:53:55 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/wiki.github.io/project/results/</guid>
+      <guid>https://warwick-igem-2021.github.io/project/results/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>https://warwick-igem-2021.github.io/wiki.github.io/project/design/</link>
+      <link>https://warwick-igem-2021.github.io/project/design/</link>
       <pubDate>Tue, 03 Aug 2021 22:53:50 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/wiki.github.io/project/design/</guid>
+      <guid>https://warwick-igem-2021.github.io/project/design/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius, sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec tellus lacinia, elementum libero a, iaculis justo.</description>
     </item>
     
     <item>
       <title>Timeline of planning</title>
-      <link>https://warwick-igem-2021.github.io/wiki.github.io/project/planning/</link>
+      <link>https://warwick-igem-2021.github.io/project/planning/</link>
       <pubDate>Mon, 02 Aug 2021 18:05:00 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/wiki.github.io/project/planning/</guid>
+      <guid>https://warwick-igem-2021.github.io/project/planning/</guid>
       <description>Initial Brainstorming and Planning - Mid FebruaryDivided into 3 groups looking at different potential areas following a Microsoft teams meeting where we all meteach other (virtually). The group looked into past IGEM projects, use of casein and production of alternative dairy products, biosensors and also microplastics.
 Sharing Ideas and Research - Early MarchIn our second teams meeting we discussed the research we foundand also potential problems for example legal and ethical issues relating to a food product.</description>
     </item>
     
     <item>
       <title>About us</title>
-      <link>https://warwick-igem-2021.github.io/wiki.github.io/project/about/</link>
+      <link>https://warwick-igem-2021.github.io/project/about/</link>
       <pubDate>Tue, 13 Jul 2021 16:57:46 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/wiki.github.io/project/about/</guid>
+      <guid>https://warwick-igem-2021.github.io/project/about/</guid>
       <description>Abstract We aim to develop a CRISPR dcas9 based fast fluorescent detection method system for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be implemented in hospital cleaning routine to prevent CRE a common family of antibiotic resistant bacteria found in sinks from spreading.
 GalleryPreviousNext</description>
     </item>
