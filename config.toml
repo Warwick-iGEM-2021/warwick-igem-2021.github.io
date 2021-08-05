@@ -2,6 +2,7 @@
 relativeURLs = true
 uglyURLs = false
 canonifyURLs = true
+disablePathToLower = true
 
 # baseURL = "https://warwick-igem-2021.github.io/"
 enableInlineShortcodes = true
