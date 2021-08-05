@@ -1,11 +1,13 @@
-# Page settings
+# Page settings 
 relativeURLs = true
 uglyURLs = false
 canonifyURLs = true
 disablePathToLower = true
 
-# baseURL = "https://warwick-igem-2021.github.io/"
 enableInlineShortcodes = true
+disableRSS = true
+disableSitemap = true
+# baseURL = "https://warwick-igem-2021.github.io/"
 
 title = "CREscent"
 languageCode = "en-uk"
@@ -201,7 +203,7 @@ theme = "wiki-theme"
   # Hero section
   [params.hero]
     title = "CREscent"
-    img = "images/logo.png"
+    img = "/assets/images/logo.png"
     subtitle = "Easily identifying antibiotic resistant bacteria outbreaks before they can spread"
 
 
