@@ -1,2 +1,19 @@
+### Don't track the python virtual environment
+venv/
+
+### Don't track generated webpage, and other odd generated files
 public/
 resources/_gen/
+
+
+
+# Don't track the rendered output files uploaded and other temp directories, but keep the folders existent for ease of use and not needing mkdir on clone
+out/*
+!out/.gitkeep
+
+# Don't track the log files, but keep the upload map (cookies file included PII)
+wikisync.log
+wikisync.cookies
+
+# Don't track load_creds.sh file, as it contains plaintext credentials :grimace:
+load_creds.sh
