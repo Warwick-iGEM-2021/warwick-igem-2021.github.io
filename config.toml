@@ -5,8 +5,6 @@ canonifyURLs = true
 disablePathToLower = true
 
 enableInlineShortcodes = true
-disableRSS = true
-disableSitemap = true
 # baseURL = "https://warwick-igem-2021.github.io/"
 
 title = "CREscent"
