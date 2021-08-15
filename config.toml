@@ -1,11 +1,11 @@
-# Page settings 
+# Page settings
 relativeURLs = true
 uglyURLs = false
 canonifyURLs = true
 disablePathToLower = true
 
 enableInlineShortcodes = true
-# baseURL = "https://warwick-igem-2021.github.io/"
+baseURL = "https://warwick-igem-2021.github.io/"
 
 title = "CREscent"
 languageCode = "en-uk"
@@ -196,7 +196,7 @@ theme = "wiki-theme"
 
   # Navigation section
   [params.navigation]
-    brand = "CREscent"
+    brand = "CREscent."
 
   # Hero section
   [params.hero]
