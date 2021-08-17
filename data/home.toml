@@ -32,24 +32,6 @@
     url = "/assets/videos/promotionalVideo.mp4"
 
 
-
-[gallery]
-  title = "Gallery"
-
-  [[gallery.item]]
-    img = "https://picsum.photos/id/500/1920/1080"
-    alt = "Slide one"
-
-  [[gallery.item]]
-    img = "https://picsum.photos/id/501/1920/1080"
-    alt = "Slide two"
-
-  [[gallery.item]]
-    img = "https://picsum.photos/id/502/1920/1080"
-    alt = "Slide three"
-
-
-
 # Contact section
 [contact]
   enable = true
