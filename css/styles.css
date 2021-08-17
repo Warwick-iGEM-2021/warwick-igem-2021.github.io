@@ -14,14 +14,7 @@
   background-image: -ms-linear-gradient(top left, #535353 0%, #171717 100%); }
 
 /* Fonts section */
-/* Animations section */
-.enter-up {
-  animation: slideInUp 2s, fadeIn 1s; }
-
-.fade-in {
-  animation: fadeIn 2s; }
-
-/* Modules */
+/* General stylings */
 /* General section*/
 html,
 body {
@@ -65,7 +58,7 @@ body.offcanvas-menu:before {
   visibility: visible; }
 
 p {
-  color: #b3b3b3;
+  color: #222;
   font-weight: 300; }
 
 a {
@@ -158,6 +151,149 @@ a:active {
 .content-wrapper {
   flex: 1; }
 
+/* Unique page's stylings */
+/* Hero section */
+#hero {
+  padding: 75px 0px 75px 0px;
+  margin: 0px 0px 50px 0px;
+  color: #fff; }
+
+.hero-divider {
+  width: 40%;
+  border-top: 3px solid #fff; }
+
+.hero-logo {
+  max-width: 60%;
+  max-height: 40vh; }
+
+/* Intro section */
+#intro {
+  margin: -100px 0px 25px 0px;
+  padding-bottom: 150px;
+  display: flex; }
+
+.watch-video {
+  text-align: center;
+  width: 100%;
+  display: block;
+  float: left;
+  height: 500px; }
+
+.intro-background {
+  width: 30%;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  min-height: 300px;
+  vertical-align: middle;
+  padding: 40px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background: #fff;
+  box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.1);
+  z-index: 7;
+  flex-grow: 1;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
+@media screen and (max-width: 768px) {
+  .intro-background {
+    width: 100%; } }
+
+.intro-icon {
+  font-size: 50px;
+  color: #329998;
+  margin-bottom: 30px;
+  display: block; }
+
+.intro-background > .overlay-darker {
+  z-index: 8;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+.intro-background > .overlay {
+  background: #fff;
+  opacity: 1;
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.intro-background > .intro-text {
+  position: relative;
+  z-index: 10; }
+
+.intro-background h2 {
+  font-size: 24px;
+  font-weight: 400; }
+
+.intro-background:hover > .overlay,
+.intro-background:focus > .overlay {
+  opacity: 0;
+  z-index: 9; }
+
+.intro-background:hover > .intro-text,
+.intro-background:focus > .intro-text {
+  color: #fff; }
+
+.intro-background:hover > .intro-text .fh5co-intro-icon,
+.intro-background:focus > .intro-text .fh5co-intro-icon {
+  color: #fff; }
+
+.intro-background:hover h2,
+.intro-background:focus h2 {
+  color: #fff; }
+
+.intro-background:hover .btn,
+.intro-background:focus .btn {
+  border: 2px solid #fff !important;
+  background: transparent; }
+
+.intro-background:hover .btn:hover,
+.intro-background:focus .btn:hover {
+  background: #a9a9a9 !important;
+  border: 2px solid #a9a9a9 !important; }
+
+.row-bottom-padded-lg {
+  padding-bottom: 7em; }
+
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-lg {
+    padding-bottom: 2em; } }
+
+/* Contact section */
+#contact {
+  margin: 50px 0px 25px 0px;
+  padding: 50px 0px 25px 0px;
+  text-align: right; }
+
+#contact .contact-info {
+  padding: 0;
+  margin: 0 0 1.5em 0; }
+
+#contact .contact-info li {
+  position: relative;
+  padding: 0;
+  margin: 0 0 1.5em 0;
+  padding-left: 50px;
+  list-style: none; }
+
+#contact .contact-info li i {
+  position: absolute;
+  top: 0.2em;
+  left: 0; }
+
+/* Partials' stylings */
 /*
     Pre-loader section
     Modified from: https://ihatetomatoes.net/create-custom-preloading-screen/
@@ -657,7 +793,8 @@ https://codepen.io/albizan/pen/mMWdWZ
   color: #fff; }
 
 .sticky-wrapper .site-navbar .site-menu > li > a {
-  color: rgba(255, 255, 255, 0.7) !important; }
+  color: #fff !important;
+  font-weight: 600; }
 
 .sticky-wrapper .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper .site-navbar .site-menu > li > a.active {
@@ -682,20 +819,6 @@ https://codepen.io/albizan/pen/mMWdWZ
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
   color: #329998 !important; }
 
-/* Hero section */
-#hero {
-  padding: 75px 0px 75px 0px;
-  margin: 0px 0px 50px 0px;
-  color: #fff; }
-
-.hero-divider {
-  width: 40%;
-  border-top: 3px solid #fff; }
-
-.hero-logo {
-  max-width: 60%;
-  max-height: 40vh; }
-
 /* Header section */
 #header {
   padding: 125px 0px 75px 0px;
@@ -705,111 +828,6 @@ https://codepen.io/albizan/pen/mMWdWZ
 .header-divider {
   width: 40%;
   border-top: 3px solid #fff; }
-
-/* Intro section */
-#intro {
-  margin: -100px 0px 25px 0px;
-  padding-bottom: 150px;
-  display: flex; }
-
-.watch-video {
-  text-align: center;
-  width: 100%;
-  display: block;
-  float: left;
-  height: 500px; }
-
-.intro-background {
-  width: 30%;
-  float: left;
-  text-align: center;
-  font-size: 16px;
-  min-height: 300px;
-  vertical-align: middle;
-  padding: 40px;
-  margin-left: 3px;
-  margin-right: 3px;
-  background: #fff;
-  box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.1);
-  z-index: 7;
-  flex-grow: 1;
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat; }
-
-@media screen and (max-width: 768px) {
-  .intro-background {
-    width: 100%; } }
-
-.intro-icon {
-  font-size: 50px;
-  color: #329998;
-  margin-bottom: 30px;
-  display: block; }
-
-.intro-background > .overlay-darker {
-  z-index: 8;
-  opacity: .5;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0; }
-
-.intro-background > .overlay {
-  background: #fff;
-  opacity: 1;
-  z-index: 9;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
-
-.intro-background > .intro-text {
-  position: relative;
-  z-index: 10; }
-
-.intro-background h2 {
-  font-size: 24px;
-  font-weight: 400; }
-
-.intro-background:hover > .overlay,
-.intro-background:focus > .overlay {
-  opacity: 0;
-  z-index: 9; }
-
-.intro-background:hover > .intro-text,
-.intro-background:focus > .intro-text {
-  color: #fff; }
-
-.intro-background:hover > .intro-text .fh5co-intro-icon,
-.intro-background:focus > .intro-text .fh5co-intro-icon {
-  color: #fff; }
-
-.intro-background:hover h2,
-.intro-background:focus h2 {
-  color: #fff; }
-
-.intro-background:hover .btn,
-.intro-background:focus .btn {
-  border: 2px solid #fff !important;
-  background: transparent; }
-
-.intro-background:hover .btn:hover,
-.intro-background:focus .btn:hover {
-  background: #a9a9a9 !important;
-  border: 2px solid #a9a9a9 !important; }
-
-.row-bottom-padded-lg {
-  padding-bottom: 7em; }
-
-@media screen and (max-width: 768px) {
-  .row-bottom-padded-lg {
-    padding-bottom: 2em; } }
 
 /* About section */
 .about-person {
@@ -845,31 +863,21 @@ https://codepen.io/albizan/pen/mMWdWZ
   display: block;
   margin-bottom: 20px; }
 
+/* Footer section */
+footer {
+  flex-shrink: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 50px; }
+
+footer p {
+  color: #b3b3b3 !important;
+  margin-bottom: 0; }
+
+/* Shortcodes' stylings */
 /* Carousel section */
 #carousel {
   margin: 25px 0px 25px 0px; }
-
-/* Contact section */
-#contact {
-  margin: 50px 0px 25px 0px;
-  padding: 50px 0px 25px 0px;
-  text-align: right; }
-
-#contact .contact-info {
-  padding: 0;
-  margin: 0 0 1.5em 0; }
-
-#contact .contact-info li {
-  position: relative;
-  padding: 0;
-  margin: 0 0 1.5em 0;
-  padding-left: 50px;
-  list-style: none; }
-
-#contact .contact-info li i {
-  position: absolute;
-  top: .2em;
-  left: 0; }
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -984,32 +992,3 @@ https://codepen.io/albizan/pen/mMWdWZ
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%; } }
-
-/* SideTextPhoto section */
-.sideTextPhoto {
-  padding: 25px 0 25px 0; }
-
-.sideTextPhoto img {
-  padding: auto;
-  max-width: 100%;
-  max-height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.shortcode-hr {
-  border: none;
-  height: 10px;
-  background-color: #eaeaea; }
-
-/* Footer section */
-footer {
-  color: #b3b3b3;
-  flex-shrink: 0;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  margin-top: 50px; }
-
-footer p {
-  margin-bottom: 0; }
