@@ -30,26 +30,3 @@
   [intro.video]
     title = "Watch our video"
     url = "/assets/videos/promotionalVideo.mp4"
-
-
-# Contact section
-[contact]
-  enable = true
-  map = false
-  title = "Get in touch"
-  description = "We would love to answer any questions about our project, or facilitate collaborations in the future"
-
-  # Available icons: http://simplelineicons.com/
-  details = [
-      ["icon-social-twitter", "<a href='https://twitter.com/warwickigem'>warwickigem</a>"],
-      ["icon-social-facebook", "<a href='https://www.facebook.com/WarwickIGEM'>WarwickIGEM</a>"],
-      ["icon-social-instagram", "<a href='https://www.instagram.com/igem_warwick/'>igem_warwick</a>"],
-      ["icon-envelope", "<a href='mailto:igem@warwick.ac.uk'>igem@warwick.ac.uk</a>"],
-      ["icon-home", "University of Warwick, England"],
-  ]
-
-  name = "Name"
-  email = "Email"
-  phone = "Phone"
-  message = "Message"
-  button = "Send message"
