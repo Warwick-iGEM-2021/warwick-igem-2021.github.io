@@ -12,6 +12,11 @@ languageCode = "en-uk"
 theme = "wiki-theme"
 
 
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+    ordered = false
 
 
 
