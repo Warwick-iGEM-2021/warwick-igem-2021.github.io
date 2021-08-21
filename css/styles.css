@@ -1019,12 +1019,13 @@ https://codepen.io/albizan/pen/mMWdWZ
 /* Shortcodes' stylings */
 /* About section */
 .about-person {
-  border: 2px solid #f2f2f2;
+  outline: 2px solid #f2f2f2;
+  outline-offset: -10px;
   padding: 80px 30px 30px 30px;
   float: left;
   width: 100%;
   position: relative;
-  margin-top: 100px; }
+  margin-top: 80px; }
 
 .about-person figure {
   position: absolute;
@@ -1037,7 +1038,7 @@ https://codepen.io/albizan/pen/mMWdWZ
 
 .about-person figure img {
   width: 120px;
-  border: 2px solid #f2f2f2;
+  border: inset 2px solid #f2f2f2;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
