@@ -6,6 +6,4 @@ draft: false
 toc: false
 ---
 
-### Our team is made up of people from a diverse range of fields, from more traditional life sciences to economics and computer science.
-
 {{< about >}}
