@@ -21,7 +21,8 @@ html {
   flex-direction: column;
   min-height: 100vh;
   scroll-behavior: smooth;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: scroll; }
 
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -58,6 +59,20 @@ body:before {
 body.offcanvas-menu:before {
   opacity: 1;
   visibility: visible; }
+
+/* https://css-tricks.com/hash-tag-links-padding/ */
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  display: block;
+  content: " ";
+  /* TODO: Make this match with the heading height*/
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+  pointer-events: none; }
 
 p {
   color: #222;
@@ -820,10 +835,10 @@ https://codepen.io/albizan/pen/mMWdWZ
   top: 4rem;
   align-self: start;
   padding-left: 0;
-  border-left: 1px solid #efefef;
-  padding-top: 20px; }
+  border-left: 2px solid #efefef;
+  padding-top: 20px;
+  font-size: larger !important; }
 
-/* 3. ScrollSpy active styles (see JS tab for activation) */
 #TableOfContents li.active > a {
   color: #333;
   font-weight: 500; }
@@ -833,8 +848,7 @@ https://codepen.io/albizan/pen/mMWdWZ
   display: block;
   padding: 0.125rem 0;
   color: #ccc;
-  transition: all 100ms ease-in-out;
-  /* ?? This small transition makes setting of the active state smooth */ }
+  transition: all 100ms ease-in-out; }
 
 #TableOfContents a:hover,
 #TableOfContents a:focus {
