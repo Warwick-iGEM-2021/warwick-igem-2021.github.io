@@ -22,6 +22,12 @@
     <link rel="stylesheet" type="text/css" href="../css/simple-line-icons.css">
     <link rel="stylesheet" type="text/css" href="../css/igem-reset.css">
 
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+/>
+
     
     
      
@@ -39,6 +45,8 @@
 	<script src="../js/bootstrap.min.js" defer></script>
 	<script src="../js/respond.min.js" defer></script>
 
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
     <script src="../js/main.js" defer></script>
     
 
@@ -46,9 +54,8 @@
     <body>
         <div id="loader-wrapper">
     <div id="loader"></div>
-    
 </div>
- 
+
 
         
 <div class="site-mobile-menu site-navbar-target">
@@ -202,11 +209,21 @@
     </div>
 </section>
 
-            <div class="content">
-                
-<section class="section">
-    <div class="container w-80">
-        <div class="content">
+            
+<section id="hugo-content-wrapper">
+
+    <div class="row">
+
+        <section id="sidebar" class="col-3">
+            
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#abstract">Abstract</a></li>
+  </ul>
+</nav>
+        </section>
+
+        <div id="hugo-content" class="col-9 container" data-spy="scroll" data-target="#TableOfContents">
             <h2 id="abstract">Abstract</h2>
 <p>We aim to develop a CRISPR dcas9 based fast fluorescent detection method system
 for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be
@@ -292,8 +309,7 @@ antibiotic resistant bacteria found in sinks from spreading.</p>
     </div>
 </section>
 
-            </div>
-        <div class="content-wrapper">
+        </div>
 
         <footer id="footer" class="tertiary-background-gradient" role="contentinfo">
     <div class="container">
@@ -302,49 +318,47 @@ antibiotic resistant bacteria found in sinks from spreading.</p>
 
         
         <div id="footer-info">
-            <div class="row">
-                
-                <div id="contact-info" class="col-3 align-middle">
-                    <ul class="social-media">
-                        <li>
-                            <a href="https://twitter.com/warwickigem" class="icon-button twitter">
-                                <i class="icon-social-twitter"></i><span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/WarwickIGEM" class="icon-button facebook">
-                                <i class="icon-social-facebook"></i><span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/igem_warwick" class="icon-button instagram">
-                                <i class="icon-social-instagram"></i><span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:igem@warwick.ac.uk" class="icon-button email">
-                                <i class="icon-envelope"></i><span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://warwick.ac.uk/" class="icon-button home">
-                                <i class="icon-home"></i><span></span>
-                            </a>
-                        </li>
-                    </ul>
 
-                </div>
                 
-                <div id="sponsors" class="col-9">
+                <div id="sponsor-logos">
                     <img src="../assets/images/placeholder.jpg" alt="Sponsors">
                 </div>
 
 
+                
+                <div id="contact-info">
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://twitter.com/warwickigem" class="icon-button twitter">
+                                <i class="icon-social-twitter"></i><span></span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.facebook.com/WarwickIGEM" class="icon-button facebook">
+                                <i class="icon-social-facebook"></i><span></span>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a href="https://www.instagram.com/igem_warwick" class="icon-button instagram">
+                                <i class="icon-social-instagram"></i><span></span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="mailto:igem@warwick.ac.uk" class="icon-button email">
+                                <i class="icon-envelope"></i><span></span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://warwick.ac.uk/" class="icon-button home">
+                                <i class="icon-home"></i><span></span>
+                            </a>
+                        </div>
+                </div>
             </div>
+
+
         </div>
-
-        
-
 
         <div id="footer-navigation">
             <div class="row">
@@ -452,7 +466,7 @@ antibiotic resistant bacteria found in sinks from spreading.</p>
         <div id="licensing">
             <div class="row">
                 <div class="col-sm">
-                     &copy; 2021 - Warwick iGEM CREscent, all rights reserved
+                    &copy; 2021 - Warwick iGEM CREscent, all rights reserved
                 </div>
                 <div class="col-sm">
                     Website content under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" class="license-image" src="../assets/images/CC_BY_License.png"/></a>

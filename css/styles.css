@@ -16,11 +16,12 @@
 /* Fonts section */
 /* General stylings */
 /* General section*/
-html,
-body {
+html {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; }
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
 
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -36,6 +37,7 @@ body {
   background: #fff;
   position: relative;
   display: flex;
+  min-height: 100vh;
   flex-direction: column; }
 
 body:before {
@@ -97,6 +99,13 @@ a:active {
   max-width: 90%;
   min-height: 70vh; }
 
+.watch-video {
+  text-align: center;
+  width: 100%;
+  display: block;
+  float: left;
+  height: 500px; }
+
 ::-webkit-selection,
 ::-moz-selection,
 ::selection {
@@ -151,6 +160,14 @@ a:active {
 .content-wrapper {
   flex: 1; }
 
+#hugo-content-wrapper {
+  padding-bottom: 2em; }
+
+@media only screen and (min-width: 800px) {
+  #hugo-content {
+    padding-left: 75px;
+    padding-right: 75px; } }
+
 /* Unique page's stylings */
 /* Hero section */
 #hero {
@@ -172,13 +189,6 @@ a:active {
   padding-bottom: 150px;
   display: flex; }
 
-.watch-video {
-  text-align: center;
-  width: 100%;
-  display: block;
-  float: left;
-  height: 500px; }
-
 .intro-background {
   width: 30%;
   float: left;
@@ -187,8 +197,9 @@ a:active {
   min-height: 300px;
   vertical-align: middle;
   padding: 40px;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
   background: #fff;
   box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.1);
   z-index: 7;
@@ -264,11 +275,13 @@ a:active {
   background: #a9a9a9 !important;
   border: 2px solid #a9a9a9 !important; }
 
-.row-bottom-padded-lg {
+#intro-cards {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
   padding-bottom: 7em; }
 
 @media screen and (max-width: 768px) {
-  .row-bottom-padded-lg {
+  #intro-cards {
     padding-bottom: 2em; } }
 
 /* Partials' stylings */
@@ -797,6 +810,41 @@ https://codepen.io/albizan/pen/mMWdWZ
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
   color: #329998 !important; }
 
+/* https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/ */
+@media only screen and (max-width: 800px) {
+  #sidebar {
+    display: none; } }
+
+#TableOfContents {
+  position: sticky;
+  top: 4rem;
+  align-self: start;
+  padding-left: 0;
+  border-left: 1px solid #efefef;
+  padding-top: 20px; }
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+#TableOfContents li.active > a {
+  color: #333;
+  font-weight: 500; }
+
+#TableOfContents a {
+  text-decoration: none;
+  display: block;
+  padding: 0.125rem 0;
+  color: #ccc;
+  transition: all 100ms ease-in-out;
+  /* ?? This small transition makes setting of the active state smooth */ }
+
+#TableOfContents a:hover,
+#TableOfContents a:focus {
+  color: #666; }
+
+#TableOfContents ul {
+  padding-left: 30px;
+  text-decoration: none;
+  list-style-type: none; }
+
 /* Header section */
 #header {
   padding: 125px 0px 75px 0px;
@@ -811,20 +859,22 @@ https://codepen.io/albizan/pen/mMWdWZ
 #footer-info {
   padding: 25px; }
 
+/* Sponsors */
+#sponsor-logos {
+  padding-bottom: 25px;
+  text-align: center; }
+
+#sponsor-logos img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; }
+
 /* Social media icons
     - https://codepen.io/minimalmonkey/pen/Ecpla
-    */
-.social-media {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
-
-.social-media li {
-  list-style: none;
-  text-align: center;
-  text-decoration: none; }
+*/
+@media only screen and (max-width: 600px) {
+  #contact-info {
+    text-align: center; } }
 
 .icon-button {
   background-color: white;
@@ -834,7 +884,7 @@ https://codepen.io/albizan/pen/mMWdWZ
   font-size: 2rem;
   height: 3.6rem;
   line-height: 3.6rem;
-  margin: 0 5px;
+  margin: 5px 5px;
   position: relative;
   text-align: center;
   -webkit-user-select: none;
@@ -919,11 +969,6 @@ https://codepen.io/albizan/pen/mMWdWZ
   background: initial;
   -webkit-text-fill-color: white; }
 
-/* Sponsors */
-#sponsors img {
-  max-width: 100%;
-  max-height: 100%; }
-
 /* Footer navigation */
 #footer-navigation h3 {
   color: #fff;
@@ -938,9 +983,12 @@ https://codepen.io/albizan/pen/mMWdWZ
   color: #b3b3b3;
   font-size: 0.75em; }
 
+#footer-navigation .col {
+  margin-bottom: 20px; }
+
 /* Licensing */
 #licensing {
-  margin-top: -10px;
+  margin-top: -15px;
   font-size: 0.8em;
   flex-shrink: 0;
   padding-top: 2em;
