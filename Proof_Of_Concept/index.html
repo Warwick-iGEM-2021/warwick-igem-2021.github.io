@@ -187,17 +187,15 @@
 </header>
 
         <div class="content-wrapper">
-            <section id="header" class="secondary-background-gradient slanted-bottom">
+            
+    <section id="hero" style="background-image: url('https://picsum.photos/1920/360')" class="slanted-bottom">
+
     <div class="container text-center">
-        <h1> 
-            Proof of concept
+            
+            <h1>
+                Proof of concept
+            </h1>
         </h1>
-        <div class="col-lg-9 mx-auto">
-            <hr class="header-divider">
-            <h3>
-                Inspirational quote &ndash; person
-            </h3>
-        </div>
     </div>
 </section>
 
@@ -210,8 +208,10 @@
     
         
         <div class="row">
-            <section id="sidebar" class="col-auto">
-                <nav id="TableOfContents">
+            <div id="sidebar" class="col-auto">
+                <div class="toc-wrapper">
+                    <u><h3>Table of contents</h3></u>
+                    <nav id="TableOfContents">
   <ul>
     <li><a href="#lorem-ipsum">Lorem Ipsum</a>
       <ul>
@@ -226,9 +226,11 @@
     </li>
   </ul>
 </nav>
-            </section>
+                </div>
+            </div>
             <div id="hugo-content" class="col">
-                <h2 id="lorem-ipsum">Lorem Ipsum</h2>
+                <div class="sidebar-removed">
+                    <h2 id="lorem-ipsum">Lorem Ipsum</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
 dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
 sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
@@ -345,6 +347,7 @@ consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
 diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
 Pellentesque non hendrerit nisl.</p>
 
+                </div>
             </div>
         </div>
     
@@ -353,7 +356,7 @@ Pellentesque non hendrerit nisl.</p>
 
         </div>
 
-        <footer id="footer" class="tertiary-background-gradient" role="contentinfo">
+        <footer id="footer" class="tertiary-background-gradient slanted-top" role="contentinfo">
     <div class="container">
 
         <span id="footer-top-separator"></span>

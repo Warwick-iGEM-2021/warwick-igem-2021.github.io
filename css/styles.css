@@ -14,6 +14,7 @@
   background-image: -ms-linear-gradient(top left, #535353 0%, #171717 100%); }
 
 /* Fonts section */
+/* https://scotch.io/tutorials/how-to-use-sass-mixins */
 /* General stylings */
 /* General section*/
 html {
@@ -172,6 +173,12 @@ a:active {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); }
 
+.slanted-top {
+  padding-top: 100px;
+  /* https://www.cssportal.com/css-clip-path-generator/ */
+  -webkit-clip-path: polygon(0 1.5%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 1.5%, 100% 0, 100% 100%, 0% 100%); }
+
 .content-wrapper {
   flex: 1; }
 
@@ -185,16 +192,16 @@ a:active {
 
 /* Unique page's stylings */
 /* Hero section */
-#hero {
+#homepage-hero {
   padding: 75px 0px 75px 0px;
   margin: 0px 0px 50px 0px;
   color: #fff; }
 
-.hero-divider {
+.homepage-hero-divider {
   width: 40%;
   border-top: 3px solid #fff; }
 
-.hero-logo {
+.homepage-hero-logo {
   max-width: 60%;
   max-height: 40vh; }
 
@@ -828,46 +835,45 @@ https://codepen.io/albizan/pen/mMWdWZ
 /* https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/ */
 @media only screen and (max-width: 800px) {
   #sidebar {
-    display: none; } }
+    display: none; }
+  .sidebar-removed {
+    margin: 0px 20px 0px 20px; } }
 
-#TableOfContents {
+.toc-wrapper {
   position: sticky;
   top: 4rem;
   align-self: start;
-  padding-left: 0;
-  border-left: 2px solid #efefef;
+  margin-left: 30px;
   padding-top: 20px;
   font-size: larger !important; }
 
 #TableOfContents li.active > a {
-  color: #333;
+  color: #329998;
   font-weight: 500; }
 
 #TableOfContents a {
   text-decoration: none;
   display: block;
   padding: 0.125rem 0;
-  color: #ccc;
+  color: #222;
   transition: all 100ms ease-in-out; }
 
-#TableOfContents a:hover,
-#TableOfContents a:focus {
-  color: #666; }
-
 #TableOfContents ul {
-  padding-left: 30px;
   text-decoration: none;
   list-style-type: none; }
 
-/* Header section */
-#header {
-  padding: 125px 0px 75px 0px;
-  margin: 0px 0px 50px 0px;
-  color: #fff; }
+#TableOfContents ul ul {
+  padding-left: 30px; }
 
-.header-divider {
-  width: 40%;
-  border-top: 3px solid #fff; }
+/* Hero section */
+#hero {
+  padding: 250px 0px 50px 0px;
+  margin: 0px 0px 50px 0px;
+  color: #fff;
+  background-size: cover; }
+
+#hero h1 {
+  margin-top: 50px; }
 
 /* Footer section */
 #footer-info {
