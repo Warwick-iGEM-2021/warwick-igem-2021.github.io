@@ -1,6 +1,6 @@
 ---
 title: "Contributions"
-subtitle: "Inspirational quote -- person"
+hero_img: "https://picsum.photos/1920/360"
 date: 2021-08-03T22:54:10+01:00
 draft: false
 ---

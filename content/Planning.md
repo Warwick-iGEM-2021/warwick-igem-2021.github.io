@@ -1,6 +1,6 @@
 ---
 title: "Timeline of planning"
-subtitle: "'Life is what happens to us while we are making other plans.' -- Allen Saunders"
+hero_img: "https://picsum.photos/1920/360"
 date: 2021-08-02T18:05:00+01:00
 draft: false
 ---

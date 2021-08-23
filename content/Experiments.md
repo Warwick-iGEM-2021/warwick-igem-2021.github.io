@@ -1,6 +1,6 @@
 ---
 title: "Experiments"
-subtitle: "Inspirational quote -- person"
+hero_img: "https://picsum.photos/1920/360"
 date: 2021-08-03T22:55:09+01:00
 draft: false
 ---

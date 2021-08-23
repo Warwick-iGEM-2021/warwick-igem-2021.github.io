@@ -1,6 +1,6 @@
 ---
 title: "Human Practices"
-subtitle: "Inspirational quote -- person"
+hero_img: "https://picsum.photos/1920/360"
 date: 2021-08-03T23:02:32+01:00
 draft: false
 ---
