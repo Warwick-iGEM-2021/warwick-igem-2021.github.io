@@ -58,6 +58,7 @@ consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
 diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
 Pellentesque non hendrerit nisl.
 
+{{< new_sheet >}}
 
 ### Subheading 2
 
@@ -97,12 +98,11 @@ consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
 diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
 Pellentesque non hendrerit nisl.
 
-{{< new_sheet >}}
-
-
 #### Subsubheading 2.1
 
 Hello world
+
+{{< new_sheet >}}
 
 ### Subheading 3
 
