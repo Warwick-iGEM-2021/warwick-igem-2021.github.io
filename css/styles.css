@@ -775,6 +775,17 @@ https://codepen.io/albizan/pen/mMWdWZ
  * Accessibility section
  * https://github.com/brenonovelli/Accessibility-Settings-Bar
  */
+/*
+ *   - https://allyjs.io/
+ *   - Sliding accessibility panel:
+ *       - https://www.cssscript.com/sliding-accessibility-settings-panel/
+ *       - https://www.cssscript.com/demo/sliding-accessibility-settings-panel/
+ *       - very nice
+ *   - CSS modifiers to show unaccessible sections:
+ *       - https://www.cssscript.com/page-accessibility-testing/
+ *   - Hide inaccessible elements:
+ *       - https://www.cssscript.com/hide-elements-accessibility-issues-hidden/
+ */
 #accessibilityBar {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -810,7 +821,7 @@ https://codepen.io/albizan/pen/mMWdWZ
   font-size: 1.5rem;
   line-height: 1;
   color: #fff;
-  background-color: #b3b3b3;
+  background-color: #535353;
   width: 2.5rem;
   height: 2.5rem;
   padding: 0;
@@ -832,7 +843,7 @@ https://codepen.io/albizan/pen/mMWdWZ
   text-align: right;
   font-weight: bold;
   color: #fff;
-  background-color: #b3b3b3;
+  background-color: #535353;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   height: 100%;
   padding: 0 1rem;
@@ -875,7 +886,7 @@ https://codepen.io/albizan/pen/mMWdWZ
 
 #accessibilityBar button.setAccessibility strong {
   color: #fff;
-  background-color: #b3b3b3;
+  background-color: #535353;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 0.2rem;
@@ -899,16 +910,16 @@ https://codepen.io/albizan/pen/mMWdWZ
     border-radius: 50%; } }
 
 body.contrast #accessibilityBar button[data-accessibility="contrast"] {
-  background-color: #b3b3b3; }
+  background-color: #535353; }
 
 body.accessibility_readingLine
 #accessibilityBar
 button[data-accessibility="readingLine"] {
-  background-color: #b3b3b3;
+  background-color: #535353;
   color: #fff !important; }
 
 body.accessibility_readingLine #readingLine {
-  background-color: #b3b3b3 !important;
+  background-color: #535353 !important;
   opacity: 1;
   width: 100vw;
   height: 0.5rem;
@@ -918,8 +929,9 @@ body.accessibility_readingLine #readingLine {
   transform: translateY(0.5rem); }
 
 body.contrast {
-  background: #000 !important;
-  color: #fff !important; }
+  color: #fff !important;
+  background-image: none !important;
+  background: #000 !important; }
 
 body.contrast nav,
 body.contrast li,
@@ -930,6 +942,7 @@ body.contrast section,
 body.contrast main,
 body.contrast aside,
 body.contrast article {
+  background-image: none !important;
   background: #000 !important;
   color: #fff !important; }
 
@@ -962,6 +975,7 @@ body.contrast input[type="button"],
 body.contrast input[type="reset"],
 body.contrast input[type="submit"] {
   background: #ff0 !important;
+  background-image: none !important;
   color: #000 !important;
   font-weight: bold;
   border: none !important; }
@@ -982,11 +996,13 @@ body.contrast input[type="datetime"],
 body.contrast input[type="datetime-local"],
 body.contrast textarea,
 body.contrast input[type="number"] {
+  background-image: none !important;
   background: #000 !important;
   border: 1px solid #fff !important;
   color: #fff !important; }
 
 body.contrast #accessibilityBar * {
+  background-image: none !important;
   background-color: #000 !important;
   color: #ff0 !important; }
 
@@ -997,7 +1013,11 @@ body.contrast
 #accessibilityBar
 .setAccessibility[data-accessibility="contrast"] {
   background-color: #ff0 !important;
+  background-image: none !important;
   color: #000 !important; }
+
+body.contrast .torn-page {
+  background-image: none !important; }
 
 /* Hero section */
 #hero {
@@ -1032,7 +1052,7 @@ body.contrast
     text-align: center; } }
 
 .icon-button {
-  background-color: white;
+  background-color: white !important;
   border-radius: 3.6rem;
   cursor: pointer;
   display: inline-block;
@@ -1069,23 +1089,23 @@ body.contrast
   margin: -1.8rem; }
 
 .twitter span {
-  background-color: #4099ff; }
+  background-color: #4099ff !important; }
 
 .facebook span {
-  background-color: #3b5998; }
+  background-color: #3b5998 !important; }
 
 .instagram span {
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%); }
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%) !important; }
 
 .email span {
-  background-color: #3b5998; }
+  background-color: #3b5998 !important; }
 
 .home span {
-  background-color: #552d62; }
+  background-color: #552d62 !important; }
 
 .icon-button i {
   background: none;
-  color: white;
+  color: white !important;
   height: 3.6rem;
   left: 0;
   line-height: 3.6rem;
@@ -1099,10 +1119,10 @@ body.contrast
   z-index: 10; }
 
 .icon-button .fa-twitter {
-  color: #4099ff; }
+  color: #4099ff !important; }
 
 .icon-button .fa-facebook {
-  color: #3b5998; }
+  color: #3b5998 !important; }
 
 .icon-button .fa-instagram {
   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
@@ -1110,19 +1130,19 @@ body.contrast
   -webkit-text-fill-color: transparent; }
 
 .icon-button .fa-envelope {
-  color: #3b5998; }
+  color: #3b5998 !important; }
 
 .icon-button .fa-home {
-  color: #552d62; }
+  color: #552d62 !important; }
 
 .icon-button:hover .fa-twitter,
 .icon-button:hover .fa-facebook,
 .icon-button:hover .fa-instagram,
 .icon-button:hover .fa-envelope,
 .icon-button:hover .fa-home {
-  color: white;
+  color: white !important;
   background: initial;
-  -webkit-text-fill-color: white; }
+  -webkit-text-fill-color: white !important; }
 
 /* Footer navigation */
 #footer-navigation h3 {
