@@ -1,7 +1,8 @@
 ---
 title: "Results"
 hero_img: "https://picsum.photos/1920/360"
-date: 2021-08-03T22:53:55+01:00
+summary: "A brief summary of the content of the page"
+date: 2021-08-26T11:45:31+01:00
 draft: false
 ---
 

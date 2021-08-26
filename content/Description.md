@@ -1,7 +1,8 @@
 ---
 title: "Description"
 hero_img: "https://picsum.photos/1920/360"
-date: 2021-07-13T16:57:46+01:00
+summary: "A brief summary of the content of the page"
+date: 2021-08-26T11:45:24+01:00
 draft: false
 ---
 

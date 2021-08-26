@@ -1,7 +1,8 @@
 ---
-title: "Proof of concept"
+title: "Proof of Concept"
 hero_img: "https://picsum.photos/1920/360"
-date: 2021-08-03T22:55:42+01:00
+summary: "A brief summary of the content of the page"
+date: 2021-08-26T11:45:27+01:00
 draft: false
 ---
 
@@ -95,6 +96,9 @@ et consectetur lectus feugiat non. In iaculis eros sit amet dui lobortis, eu
 consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
 diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
 Pellentesque non hendrerit nisl.
+
+{{< new_sheet >}}
+
 
 #### Subsubheading 2.1
 

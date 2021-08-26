@@ -1,10 +1,10 @@
 ---
-title: "Timeline of planning"
+title: "Planning"
 hero_img: "https://picsum.photos/1920/360"
-date: 2021-08-02T18:05:00+01:00
+summary: "A brief summary of the content of the page"
+date: 2021-08-26T11:45:31+01:00
 draft: false
 ---
-
 
 
 {{< timeline >}}

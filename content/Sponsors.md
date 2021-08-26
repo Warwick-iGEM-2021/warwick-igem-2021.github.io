@@ -1,7 +1,8 @@
 ---
 title: "Sponsors"
 hero_img: "https://picsum.photos/1920/360"
-date: 2021-08-03T22:54:59+01:00
+summary: "A brief summary of the content of the page"
+date: 2021-08-26T11:45:32+01:00
 draft: false
 ---
 
