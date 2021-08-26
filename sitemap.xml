@@ -2,65 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://warwick-igem-2021.github.io/Implementation/</loc>
-    <lastmod>2021-08-04T12:52:42+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Human_Practices/</loc>
-    <lastmod>2021-08-03T23:02:32+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Sustainable/</loc>
-    <lastmod>2021-08-03T22:57:27+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Entrepreneurship/</loc>
-    <lastmod>2021-08-03T22:57:04+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Communication/</loc>
-    <lastmod>2021-08-03T22:56:44+01:00</lastmod>
-  </url><url>
     <loc>https://warwick-igem-2021.github.io/Safety/</loc>
-    <lastmod>2021-08-03T22:56:06+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Notebook/</loc>
-    <lastmod>2021-08-03T22:55:55+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Proof_Of_Concept/</loc>
-    <lastmod>2021-08-03T22:55:42+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Parts/</loc>
-    <lastmod>2021-08-03T22:55:17+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Experiments/</loc>
-    <lastmod>2021-08-03T22:55:09+01:00</lastmod>
+    <lastmod>2021-08-26T11:45:32+01:00</lastmod>
   </url><url>
     <loc>https://warwick-igem-2021.github.io/Sponsors/</loc>
-    <lastmod>2021-08-03T22:54:59+01:00</lastmod>
+    <lastmod>2021-08-26T11:45:32+01:00</lastmod>
   </url><url>
-    <loc>https://warwick-igem-2021.github.io/Collaborations/</loc>
-    <lastmod>2021-08-03T22:54:46+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Attributions/</loc>
-    <lastmod>2021-08-03T22:54:37+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Contribution/</loc>
-    <lastmod>2021-08-03T22:54:10+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Model/</loc>
-    <lastmod>2021-08-03T22:54:01+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Results/</loc>
-    <lastmod>2021-08-03T22:53:55+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Engineering/</loc>
-    <lastmod>2021-08-03T22:53:50+01:00</lastmod>
+    <loc>https://warwick-igem-2021.github.io/Parts/</loc>
+    <lastmod>2021-08-26T11:45:31+01:00</lastmod>
   </url><url>
     <loc>https://warwick-igem-2021.github.io/Planning/</loc>
-    <lastmod>2021-08-02T18:05:00+01:00</lastmod>
+    <lastmod>2021-08-26T11:45:31+01:00</lastmod>
   </url><url>
-    <loc>https://warwick-igem-2021.github.io/Description/</loc>
-    <lastmod>2021-07-13T16:57:46+01:00</lastmod>
+    <loc>https://warwick-igem-2021.github.io/Results/</loc>
+    <lastmod>2021-08-26T11:45:31+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Experiments/</loc>
+    <lastmod>2021-08-26T11:45:30+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Notebook/</loc>
+    <lastmod>2021-08-26T11:45:30+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Entrepreneurship/</loc>
+    <lastmod>2021-08-26T11:45:29+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Sustainable/</loc>
+    <lastmod>2021-08-26T11:45:29+01:00</lastmod>
   </url><url>
     <loc>https://warwick-igem-2021.github.io/Team/</loc>
-    <lastmod>2021-07-13T16:57:46+01:00</lastmod>
+    <lastmod>2021-08-26T11:45:29+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Communication/</loc>
+    <lastmod>2021-08-26T11:45:28+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Model/</loc>
+    <lastmod>2021-08-26T11:45:27+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Proof_Of_Concept/</loc>
+    <lastmod>2021-08-26T11:45:27+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Human_Practices/</loc>
+    <lastmod>2021-08-26T11:45:26+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Implementation/</loc>
+    <lastmod>2021-08-26T11:45:26+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Collaborations/</loc>
+    <lastmod>2021-08-26T11:45:25+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Contribution/</loc>
+    <lastmod>2021-08-26T11:45:25+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Engineering/</loc>
+    <lastmod>2021-08-26T11:45:25+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Attributions/</loc>
+    <lastmod>2021-08-26T11:45:24+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Description/</loc>
+    <lastmod>2021-08-26T11:45:24+01:00</lastmod>
   </url><url>
     <loc>https://warwick-igem-2021.github.io/categories/</loc>
   </url><url>
