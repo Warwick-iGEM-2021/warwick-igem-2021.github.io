@@ -14,6 +14,14 @@
   background-image: -ms-linear-gradient(top left, #535353 0%, #171717 100%); }
 
 /* Fonts section */
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/fonts/helvetica_neue/Helvetica_Neue.ttf"); }
+
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("/assets/fonts/bahnschrift/Bahnschrift.ttf"); }
+
 /* https://scotch.io/tutorials/how-to-use-sass-mixins */
 /* General stylings */
 /* General section*/
@@ -26,12 +34,7 @@ html {
   overflow-y: scroll; }
 
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
-  /*
-    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    */
+  font-family: "Bahnschrift", sans-serif !important;
   font-weight: 300;
   font-size: 18px;
   line-height: 1.5;
@@ -68,6 +71,7 @@ h3::before,
 h4::before,
 h5::before,
 h6::before {
+  font-family: "Helvetica Neue", sans-serif !important;
   display: block;
   content: " ";
   /* TODO: Make this match with the heading height*/
