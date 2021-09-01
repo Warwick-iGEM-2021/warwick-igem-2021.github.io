@@ -7,6 +7,7 @@ The *development* site is hosted on GitHub pages, and is located at: [https://wa
 
 The *production* site is hosted on the iGEM website, and is located at: [https://2021.igem.org/Team:Warwick](https://2021.igem.org/Team:Warwick)
 
+---
 
 This site is powered by
 
