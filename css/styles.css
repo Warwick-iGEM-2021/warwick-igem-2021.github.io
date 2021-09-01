@@ -39,7 +39,6 @@ body {
   font-size: 18px;
   line-height: 1.5;
   color: #222;
-  background-image: url("/assets/images/paper-background-brown.jpg");
   background-size: cover;
   position: relative;
   display: flex;
@@ -181,21 +180,28 @@ a:active {
 /* Unique page's stylings */
 /* Hero section */
 #homepage-hero {
-  margin: 0 0 4em 0;
   color: #fff;
   height: 100vh; }
 
-#homepage-hero > .container {
+#homepage-hero > .row {
   position: relative;
-  top: 20%; }
+  top: 30%; }
 
-.homepage-hero-divider {
-  width: 40%;
-  border-top: 3px solid #fff; }
+#homepage-hero-text {
+  padding-left: 15vw; }
+  @media screen and (max-width: 800px), screen and (max-height: 90vh) {
+    #homepage-hero-text {
+      display: none; } }
+#homepage-hero-text h1 {
+  font-size: 6vw; }
 
 .homepage-hero-logo {
   max-width: 100%;
   max-height: 50vh; }
+
+.parallax-window {
+  min-height: 70vh;
+  background: transparent; }
 
 /* Partials' stylings */
 /*
