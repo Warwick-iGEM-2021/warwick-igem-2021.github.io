@@ -205,9 +205,10 @@ theme = "wiki-theme"
 
   # Hero section
   [params.hero]
-    title = "CREscent"
     img = "/assets/images/logo.png"
-    subtitle = "Easily identifying antibiotic resistant bacteria outbreaks before they can spread"
+    title = "CREscent to the moon"
+    subtitle = "Fluorescent detection system for CRE"
+    summary = "CREscent is our team's solution to combat CRE/CPE outbreaks in hospitals. It aims to be fast and efficient so that outbreaks can be prevented in advance."
 
 
   # Footer section
