@@ -12,7 +12,7 @@
     img = "/assets/images/people/ag.jpg"
     alt = "Picture of Ameera Ghani"
     social = [
-        ["icon-linkedin", "#"]
+        ["fab fa-linkedin", "#"], ["fa fa-envelope", "#"]
     ]
   [[team_members.item]]
     name = "Axel Schoerner Emillon"
@@ -21,7 +21,7 @@
     img = "/assets/images/people/aes.jpg"
     alt = "Picture of Axel Schoerner Emillon"
     social = [
-        ["icon-linkedin", "#"]
+        ["fab fa-linkedin", "#"], ["fa fa-envelope", "#"]
     ]
   [[team_members.item]]
     name = "Edmund Goodman"
@@ -32,7 +32,7 @@
     social = [
       ["icon-github", "https://github.com/EdmundGoodman"],
       ["icon-globe", "https://edmundgoodman.github.io"],
-      ["icon-linkedin", "https://www.linkedin.com/in/edmundgoodman/"]
+      ["fa-linkedin", "https://www.linkedin.com/in/edmundgoodman/"]
     ]
   [[team_members.item]]
     name = "Jerry Yu"
@@ -41,7 +41,7 @@
     img = "/assets/images/people/jy.jpg"
     alt = "Picture of Jerry Yu"
     social = [
-        ["icon-linkedin", "#"]
+        ["fab fa-linkedin", "#"], ["fa fa-envelope", "#"]
     ]
   [[team_members.item]]
     name = "Lucy Hayter"
@@ -50,7 +50,7 @@
     img = "/assets/images/people/lh.jpg"
     alt = "Picture of Lucy Hayter"
     social = [
-        ["icon-linkedin", "#"]
+        ["fab fa-linkedin", "#"], ["fa fa-envelope", "#"]
     ]
   [[team_members.item]]
     name = "Reanna Gregory"
@@ -59,7 +59,7 @@
     img = "/assets/images/people/rg.jpg"
     alt = "Picture of Reanna Gregory"
     social = [
-        ["icon-linkedin", "#"]
+        ["fab fa-linkedin", "#"], ["fa fa-envelope", "#"]
     ]
   [[team_members.item]]
     name = "Roman Shantsila"
@@ -68,7 +68,7 @@
     img = "/assets/images/people/rs.jpg"
     alt = "Picture of Roman Shantsila"
     social = [
-        ["icon-linkedin", "#"]
+        ["fab fa-linkedin", "#"], ["fa fa-envelope", "#"]
     ]
   [[team_members.item]]
     name = "Tudor Onose"
@@ -77,7 +77,7 @@
     img = "/assets/images/people/to.png"
     alt = "Picture of Tudor Onose"
     social = [
-        ["icon-linkedin", "#"]
+        ["fab fa-linkedin", "#"], ["fa fa-envelope", "#"]
     ]
 
 
@@ -86,12 +86,12 @@
   heading = "Supervisors"
   subtext = "We also owe a huge thanks to everyone who has helped out on the project."
 
-  [[team_members.item]]
+  [[supervisors.item]]
     name = "Dr Christophe Corre"
     position = "Associate Professor, University of Warwick - Chemistry"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-    img = "#"
+    img = "https://picsum.photos/300/300"
     alt = "Picture of Dr Christophe Corre"
     social = [
-        ["icon-linkedin", "#"]
+        ["fab fa-linkedin", "#"], ["fa fa-envelope", "#"]
     ]
