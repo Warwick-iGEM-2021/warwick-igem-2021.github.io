@@ -749,7 +749,7 @@ https://codepen.io/albizan/pen/mMWdWZ
   padding-top: 30px;
   font-size: larger !important; }
 
-#hugo-content {
+.row > #hugo-content {
   margin-left: 20px;
   margin-right: 20px; }
 
@@ -778,6 +778,7 @@ https://codepen.io/albizan/pen/mMWdWZ
 /*
  * Accessibility section
  * https://github.com/brenonovelli/Accessibility-Settings-Bar
+ * https://www.smashingmagazine.com/2015/12/making-accessibility-simpler/
  */
 /*
  *   - https://allyjs.io/
@@ -899,20 +900,6 @@ https://codepen.io/albizan/pen/mMWdWZ
   justify-content: center;
   margin-right: 0.25rem; }
 
-@media (max-width: 576px) {
-  #accessibilityBar {
-    position: fixed;
-    top: initial;
-    bottom: 0;
-    transform: translateX(100%); }
-  #accessibilityBar.active {
-    transform: translateX(0); }
-  #accessibilityBar #universalAccessBtn {
-    top: initial;
-    transform: translateX(-120%);
-    bottom: 16px;
-    border-radius: 50%; } }
-
 body.contrast #accessibilityBar button[data-accessibility="contrast"] {
   background-color: #535353; }
 
@@ -923,7 +910,7 @@ button[data-accessibility="readingLine"] {
   color: #fff !important; }
 
 body.accessibility_readingLine #readingLine {
-  background-color: #535353 !important;
+  background-color: #f20 !important;
   opacity: 1;
   width: 100vw;
   height: 0.5rem;
@@ -1184,7 +1171,7 @@ body.contrast .torn-page {
 /* Shortcodes' stylings */
 /* About section */
 .about-person {
-  outline: 2px solid #f2f2f2;
+  outline: 2px solid #b3b3b3;
   outline-offset: -10px;
   padding: 80px 30px 30px 30px;
   float: left;
@@ -1203,7 +1190,7 @@ body.contrast .torn-page {
 
 .about-person figure img {
   width: 120px;
-  border: inset 2px solid #f2f2f2;
+  border: inset 2px solid #b3b3b3;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
