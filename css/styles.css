@@ -201,7 +201,8 @@ a:active {
 
 .parallax-window {
   min-height: 70vh;
-  background: transparent; }
+  background: transparent;
+  padding: 30px; }
 
 /* Partials' stylings */
 /*
