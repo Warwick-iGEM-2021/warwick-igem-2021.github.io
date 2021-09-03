@@ -354,7 +354,11 @@ https://codepen.io/albizan/pen/mMWdWZ
 .site-navbar .site-logo {
   position: relative;
   left: 0;
-  font-size: 1.5em; }
+  font-size: 2em; }
+
+.site-navbar .site-logo img {
+  height: 1.75em;
+  padding: 5px 0; }
 
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0; }
@@ -569,6 +573,10 @@ https://codepen.io/albizan/pen/mMWdWZ
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease; }
 
+.js-menu-toggle {
+  font-size: 18px !important;
+  padding: 0 30px 10px 30px !important; }
+
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo {
   float: left;
   margin-top: 10px;
@@ -780,6 +788,9 @@ https://codepen.io/albizan/pen/mMWdWZ
 #sidebar-logo {
   text-align: center;
   padding-bottom: 30px; }
+
+#sidebar-logo img {
+  width: 20vh; }
 
 #TableOfContents li.active > a {
   color: #329998;
