@@ -202,10 +202,14 @@ theme = "wiki-theme"
   # Navigation section
   [params.navigation]
     brand = "CREscent."
+    # brand_img = "/assets/images/logo.png"
+
+  # Sidebar section
+  [params.sidebar]
+    logo_img = "/assets/images/logo_circle.png"
 
   # Hero section
   [params.hero]
-    img = "/assets/images/logo.png"
     title = "CREscent to the moon"
     subtitle = "Fluorescent detection system for CRE"
     summary = "CREscent is our team's solution to combat CRE/CPE outbreaks in hospitals. It aims to be fast and efficient so that outbreaks can be prevented in advance."
