@@ -190,9 +190,6 @@ theme = "wiki-theme"
         URL = "/Entrepreneurship"
 
 [params]
-  # Any additional css to include
-  custom_css = []
-  custom_js = []
 
   # Meta
   author = "Warwick iGEM team 2021"
@@ -201,8 +198,8 @@ theme = "wiki-theme"
 
   # Navigation section
   [params.navigation]
-    brand = "CREscent."
-    # brand_img = "/assets/images/logo.png"
+    # brand = "CREscent."
+    brand_img = "/assets/images/logo.png"
 
   # Sidebar section
   [params.sidebar]
