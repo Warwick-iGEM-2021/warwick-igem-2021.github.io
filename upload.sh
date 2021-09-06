@@ -16,7 +16,12 @@
 # Use hugo to build the site to the public folder
 echo "Started building the site"
 hugo -D
-echo "Finished building the site"
+if [ $? -eq 0 ]; then
+    echo "Finished building the site"
+else
+    echo "Failed to build the site"
+    exit
+fi
 
 # Load the credentials for the iGEM site from a separate non-tracked file
 CRED_FILE=load_creds.sh
@@ -36,3 +41,9 @@ echo "Cleaning up"
 rm -rf public
 rm -rf out
 mkdir out
+
+
+printf "\n\n"
+echo "##########################################################"
+echo "### Ensure the wrapping div tags are moved on the site ###"
+echo "##########################################################"
