@@ -117,6 +117,12 @@ a:active {
   background: transparent;
   padding: 30px; }
 
+img[src$='#center'] {
+  display: block;
+  margin: 1.0rem auto;
+  max-width: 100%;
+  height: auto; }
+
 .torn-page {
   background-image: url("/assets/images/paper-background-minimal.jpg");
   background-size: cover;
@@ -285,7 +291,7 @@ https://colorlib.com/wp/template/website-menu-01/
 https://preview.colorlib.com/theme/bootstrap/website-menu-01/#about-section
 https://codepen.io/albizan/pen/mMWdWZ
 */
-#navbar-main-wrapper .col-12 .col-md-10 .d-none .d-xl-block {
+#navbar-main-wrapper {
   padding-top: 10px !important;
   margin-bottom: -3px !important; }
 
@@ -724,7 +730,7 @@ https://codepen.io/albizan/pen/mMWdWZ
   position: sticky;
   top: 6rem;
   align-self: start;
-  margin-left: 30px;
+  margin-left: 20px;
   padding-top: 30px;
   font-size: larger !important;
   overflow-y: auto; }

@@ -20,3 +20,4 @@ Results.md
 Planning.md
 Safety.md
 Sponsors.md
+Education.md

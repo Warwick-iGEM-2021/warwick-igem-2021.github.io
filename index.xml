@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language><atom:link href="https://warwick-igem-2021.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Education</title>
+      <link>https://warwick-igem-2021.github.io/Education/</link>
+      <pubDate>Tue, 07 Sep 2021 14:59:05 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/Education/</guid>
+      <description>A brief summary of the content of the page</description>
+    </item>
+    
+    <item>
       <title>Safety</title>
       <link>https://warwick-igem-2021.github.io/Safety/</link>
       <pubDate>Thu, 26 Aug 2021 11:45:32 +0100</pubDate>
