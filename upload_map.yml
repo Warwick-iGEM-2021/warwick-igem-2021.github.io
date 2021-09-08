@@ -1,4 +1,36 @@
 assets:
+  assets/content/education/CREPoster.png:
+    link_URL: https://2021.igem.org/wiki/images/3/3c/T--Warwick--content--education--CREPoster.png
+    md5: ba1ae45743774d77964e46bb06b6fe82
+    upload_filename: T--Warwick--content--education--CREPoster.png
+  assets/content/education/LMSUFEMClub.png:
+    link_URL: https://2021.igem.org/wiki/images/b/b0/T--Warwick--content--education--LMSUFEMClub.png
+    md5: 747ae8fbb054293a2093190c94682952
+    upload_filename: T--Warwick--content--education--LMSUFEMClub.png
+  assets/content/education/MicrooganismsInHospitalsPoster.png:
+    link_URL: https://2021.igem.org/wiki/images/5/5a/T--Warwick--content--education--MicrooganismsInHospitalsPoster.png
+    md5: d309c4e5272971377f822442c5c13b7c
+    upload_filename: T--Warwick--content--education--MicrooganismsInHospitalsPoster.png
+  assets/content/education/PCRPoster.png:
+    link_URL: https://2021.igem.org/wiki/images/8/8d/T--Warwick--content--education--PCRPoster.png
+    md5: cf1e0c64b0e7ccff25a318b2ff8b8fb2
+    upload_filename: T--Warwick--content--education--PCRPoster.png
+  assets/content/education/SynBioPoster.png:
+    link_URL: https://2021.igem.org/wiki/images/b/b3/T--Warwick--content--education--SynBioPoster.png
+    md5: cbb5e302c4834d8a87247b74053edb53
+    upload_filename: T--Warwick--content--education--SynBioPoster.png
+  assets/content/education/nuffieldStudentsMeeting.png:
+    link_URL: https://2021.igem.org/wiki/images/5/50/T--Warwick--content--education--nuffieldStudentsMeeting.png
+    md5: 5b71be0dfa06a77fb54374908d022d10
+    upload_filename: T--Warwick--content--education--nuffieldStudentsMeeting.png
+  assets/content/education/socialMediaStory.png:
+    link_URL: https://2021.igem.org/wiki/images/5/55/T--Warwick--content--education--socialMediaStory.png
+    md5: ee320ec9f6fb5ace065fd68c2a855990
+    upload_filename: T--Warwick--content--education--socialMediaStory.png
+  assets/content/education/splash.jpg:
+    link_URL: https://2021.igem.org/wiki/images/1/1f/T--Warwick--content--education--splash.jpg
+    md5: ed05ed3e0d95044020cfa1a041294e39
+    upload_filename: T--Warwick--content--education--splash.jpg
   assets/favicon.svg:
     link_URL: https://2021.igem.org/wiki/images/7/7b/T--Warwick--favicon.svg
     md5: 3af6ac34bee4132c19feef35b6252981
@@ -226,7 +258,7 @@ css:
     md5: 3eb56e197e9e81760c0c217452d40ef3
   css/styles.css:
     link_URL: https://2021.igem.org/Template:Warwick/css/stylesCSS?action=raw&ctype=text/css
-    md5: d4e6ce7ff925f73ae753abf23e5614b2
+    md5: 9c097edf82355eb821aba5f6b1cd4cad
 html:
   Attributions/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Attributions
@@ -242,7 +274,10 @@ html:
     md5: 833393a802c716a034e73bbb3aba6685
   Description/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Description
-    md5: 1a7628aee555afba6a7b175de928eac9
+    md5: 3ca52c1aca4e5a989a5e8638b264fc89
+  Education/index.html:
+    link_URL: https://2021.igem.org/Team:Warwick/Education
+    md5: 92b4acb03eaf373c257a53db5a1c872e
   Engineering/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Engineering
     md5: 3c4d17cb49aa88cf4f02ce2a8acf795e
