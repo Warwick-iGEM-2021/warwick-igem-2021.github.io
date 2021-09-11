@@ -43,6 +43,8 @@
 	<script src="../js/asb.min.js" defer></script>
 	<script src="../js/parallax.min.js" defer></script>
 
+	<script src="../js/sidebarScrollPath.js" defer></script>
+
     <script src="../js/main.js" defer></script>
 
     </head>
@@ -201,16 +203,8 @@
 
         <div class="content-wrapper">
             
-    <section id="hero" data-parallax="scroll" data-image-src="https://picsum.photos/1920/360" data-speed=0.7>
+<section id="hero" style="background-image: url('https://picsum.photos/1920/360');">
 
-    <div class="container text-center">
-            
-            <h1>
-                Description
-            </h1>
-
-        </h1>
-    </div>
 </section>
 
             
@@ -225,7 +219,7 @@
     
         
         <section id="hugo-content" class="container">
-            <div class="torn-page">
+            <div class="content-page">
                 <h2 id="abstract">Abstract</h2>
 <p>We aim to develop a CRISPR dcas9 based fast fluorescent detection method system
 for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be
@@ -235,13 +229,16 @@ antibiotic resistant bacteria found in sinks from spreading.</p>
 
     <div class="container">
 
-        <div class="row">
-            <div class="col-md-12 section-heading">
-                <h2 class="subtitle">
-                    Gallery
-                </h2>
+        
+        
+            <div class="row">
+                <div class="col-md-12 section-heading">
+                    <h2 class="subtitle">
+                        Gallery
+                    </h2>
+                </div>
             </div>
-        </div>
+        
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             
@@ -314,7 +311,11 @@ antibiotic resistant bacteria found in sinks from spreading.</p>
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
 
+        <div class="text-center">
+            
+            
         </div>
 
     </div>
@@ -330,7 +331,7 @@ antibiotic resistant bacteria found in sinks from spreading.</p>
 
         </div>
 
-        <footer id="footer" class="tertiary-background-gradient" role="contentinfo">
+        <footer id="footer" role="contentinfo"> 
     <div class="container">
 
         <span id="footer-top-separator"></span>
