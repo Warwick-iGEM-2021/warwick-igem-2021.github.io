@@ -1,7 +1,7 @@
 ---
 title: "Education"
 hero_img: "/assets/content/education/splash.jpg"
-summary: "A brief summary of the content of the page"
+summary: "Throughout the iGEM project, we engaged with both other teams and other students, aiming to help with education and outreach throughout many communities"
 date: 2021-09-07T14:59:05+01:00
 draft: false
 ---
