@@ -1,0 +1,45 @@
+# Sponsor image logo file paths
+
+[sponsors]
+  heading = "Sponsors"
+  subtext = "We are hugely thankful those who generously donated to our project"
+
+  [[sponsors.item]]
+    name = "BBSRC"
+    img = "/assets/images/sponsors/BBSRC.png"
+
+  [[sponsors.item]]
+    name = "Warwick department of Chemistry"
+    img = "/assets/images/sponsors/Chemistry.png"
+
+  [[sponsors.item]]
+    name = "Warwick department of Computer Science"
+    img = "/assets/images/sponsors/ComputerScience.png"
+
+  [[sponsors.item]]
+    name = "Warwick department of Economics"
+    img = "/assets/images/sponsors/Economics.png"
+
+  [[sponsors.item]]
+    name = "Warwick faculty of science"
+    img = "/assets/images/sponsors/FacultyOfScience.png"
+
+  [[sponsors.item]]
+    name = "Warwick school of life sciences"
+    img = "/assets/images/sponsors/SLS.png"
+
+  [[sponsors.item]]
+    name = "SnapGene software for molecular biology"
+    img = "/assets/images/sponsors/SnapGene.png"
+
+  [[sponsors.item]]
+    name = "Warwick faculty of social sciences"
+    img = "/assets/images/sponsors/SocialSciences.png"
+
+  [[sponsors.item]]
+    name = "Wellcome trust"
+    img = "/assets/images/sponsors/WellcomeTrust.png"
+
+  [[sponsors.item]]
+    name = "WISB - Warwick integrative synthetic biology centre"
+    img = "/assets/images/sponsors/WISB.png"

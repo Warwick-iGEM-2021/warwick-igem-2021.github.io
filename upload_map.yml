@@ -239,6 +239,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/7/74/T--Warwick--images--planning--zoomMeeting.png
     md5: 7c35b3e6bd7c110fa2dd4b3f51de8591
     upload_filename: T--Warwick--images--planning--zoomMeeting.png
+  assets/images/sponsors.png:
+    link_URL: https://2021.igem.org/wiki/images/0/01/T--Warwick--images--sponsors.png
+    md5: 68e09cb57a4df99476d21dfff3389925
+    upload_filename: T--Warwick--images--sponsors.png
   assets/videos/promotionalVideo.mp4:
     link_URL: https://2021.igem.org/wiki/images/0/0a/T--Warwick--videos--promotionalVideo.mp4
     md5: c616566f36b2e26d7bfb4d1f281c0696
@@ -270,74 +274,74 @@ css:
     md5: 3eb56e197e9e81760c0c217452d40ef3
   css/styles.css:
     link_URL: https://2021.igem.org/Template:Warwick/css/stylesCSS?action=raw&ctype=text/css
-    md5: b1aaaa0090da36c6d30b5018d30ce1b3
+    md5: d81975dc83955d594683d6b7b5b7ef10
 html:
   Attributions/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Attributions
-    md5: 9caecb6365bd1f8acaeecac6181471ff
+    md5: a4eda94503534c05e5929b2385b74bee
   Collaborations/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Collaborations
-    md5: 63d0781f48565446412bcdd2e85622de
+    md5: 692a2aafb352162158e630c27347f6ff
   Communication/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Communication
-    md5: 5e974e403d89791853233ec09b9d9887
+    md5: d535b13cddf71dd343de0b1206b13b07
   Contribution/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Contribution
-    md5: f829c4d1e6983197e6c4d42aad8202cf
+    md5: be424276f0e252a526504650e4fd0bb9
   Description/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Description
-    md5: 8d03c4a3252016876da0cd4f4997167c
+    md5: 8b9204873ab11e4facace236a0dd4124
   Education/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Education
-    md5: eec933efccf5e8adfb14fa6a54ad59b5
+    md5: e88737fc1f652097cb481e5e385b6bde
   Engineering/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Engineering
-    md5: fc27b1d6d962575d03353c568147a332
+    md5: 7dfa2e96db86bd4f3b9997df07d1e115
   Entrepreneurship/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Entrepreneurship
-    md5: 8f2c96cc6bd4f6935b589f9340626e52
+    md5: 809027b195a54ac9cba679f934117c46
   Experiments/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Experiments
-    md5: cdeab3569cf07664d8dd3173b9af8642
+    md5: 77db6c9549ce95fc4762df498b2344a4
   Human_Practices/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Human_Practices
-    md5: 0b7d5dd1fe6b38069226931ebcf578fd
+    md5: 0564156d28e1536399663778e729bb9f
   Implementation/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Implementation
-    md5: 61627c1779b493dc1902ab43b8b6df33
+    md5: ddf01990560c5f1498b63af6d5ec1228
   Model/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Model
-    md5: 81122530a11afa80bfbcab52437b02cf
+    md5: 0455e52c9b7cdee0a59a9ae57d8e8696
   Notebook/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Notebook
-    md5: ae4e058a79411681c9adf84afa3c2dfc
+    md5: 2a00ac61c083b4db3c813527c11568e2
   Parts/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Parts
-    md5: 910fab6ad49ba85340728344edfddaee
+    md5: 00d1997723afe04e69212c8bc3eeb77a
   Planning/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Planning
-    md5: b75a0fec1a547f656b2dd78cd957a223
+    md5: 9d1bad6978431a8ff456600f40097452
   Proof_Of_Concept/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Proof_Of_Concept
-    md5: 4a4ca364ab5fdca706b2fa978fc6cb76
+    md5: bfbf67bbba80209962e022fda1618f86
   Results/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Results
-    md5: 30f9fc7c7a1607840168cd5760e5c2e9
+    md5: 76bcd1c8431116e307a9daad7943cff9
   Safety/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Safety
-    md5: 37624528b481180b9c7c70ecd8d667eb
+    md5: 83a9885db67465bf97e0906c604eea4e
   Sponsors/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Sponsors
-    md5: fe47ffa73edfa8235050cc3948cb0c10
+    md5: f773bbf70e75bec347d0928ef860f35e
   Sustainable/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Sustainable
-    md5: 14412cca28a76f37902eaa1ba8a6b715
+    md5: acdf2940c811163c2265ba8c347c90b2
   Team/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Team
-    md5: 9e1b9a19fdea4927407a2ce0a6bfec64
+    md5: 8a8021565c1e6c0b9e68d193da37171f
   index.html:
     link_URL: https://2021.igem.org/Team:Warwick
-    md5: cc43a7841f0ff94dd40a1691a03d8606
+    md5: 59c74478785c31cc426328565179774c
 js:
   js/asb.min.js:
     link_URL: https://2021.igem.org/Template:Warwick/js/asb-minJS?action=raw&ctype=text/javascript
