@@ -216,7 +216,7 @@ theme = "wiki-theme"
   [params.footer]
     copyright = '&copy; 2021 - Warwick iGEM CREscent, all rights reserved'
     content_license = 'Website content under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" class="license-image" src="/assets/images/CC_BY_License.png"/></a>'
-    theme_license = 'Website theme under <a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" class="license-image" src="/assets/images/MIT_logo.svg" /></a>'
+    theme_license = 'Website generator theme under <a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" class="license-image" src="/assets/images/MIT_logo.svg" /></a>'
 
     twitter_url = "https://twitter.com/warwickigem"
     facebook_url = "https://www.facebook.com/WarwickIGEM"
