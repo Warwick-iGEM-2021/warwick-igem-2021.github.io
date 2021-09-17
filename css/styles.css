@@ -82,6 +82,14 @@ h5,
 h6 {
   font-family: "Bahnschrift", sans-serif !important; }
 
+#hugo-content-wrapper h1,
+#hugo-content-wrapper h2,
+#hugo-content-wrapper h3,
+#hugo-content-wrapper h4,
+#hugo-content-wrapper h5,
+#hugo-content-wrapper h6 {
+  color: #005700 !important; }
+
 h2::before,
 h3::before,
 h4::before,
@@ -136,12 +144,15 @@ a:active {
   padding: 30px; }
 
 .content-page {
+  overflow-wrap: break-word;
   background-color: #fff;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
   border-radius: 3px;
   padding: 20px;
-  margin-bottom: 2em; }
-
+  margin: 0 128px 2em 80px; }
+  @media only screen and (max-width: 1000px) {
+    .content-page {
+      margin: 0 30px 2em 30px; } }
 /* Unique page's stylings */
 /* Homepage custom styles */
 #homepage-hero {
@@ -170,7 +181,8 @@ a:active {
   color: #42ea67; }
 
 #homepage-hero-text h1 {
-  font-size: 6vw; }
+  font-size: 6vw;
+  font-weight: 1000; }
 
 #homepage-hero-text p {
   font-family: "Bahnschrift", sans-serif !important;
@@ -688,9 +700,6 @@ https://codepen.io/albizan/pen/mMWdWZ
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease; }
 
-.sticky-wrapper .site-navbar {
-  border-bottom: 2px solid #fff; }
-
 .sticky-wrapper .site-navbar .site-menu-toggle {
   color: #fff;
   margin-bottom: -20px; }
@@ -738,25 +747,18 @@ https://codepen.io/albizan/pen/mMWdWZ
   content: "\f054";
 */
 /* https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/ */
-#sidebar {
-  margin-right: -20px; }
-  @media only screen and (max-width: 1000px) {
-    #sidebar {
-      display: none; } }
+@media only screen and (max-width: 1200px) {
+  #sidebar {
+    display: none; } }
+
 .toc-wrapper {
   position: sticky;
-  top: 6rem;
+  top: calc(50% - 8rem);
   align-self: start;
-  margin-left: 20px;
   padding-top: 30px;
   font-size: larger !important;
   overflow-y: auto;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); }
-
-.row > #hugo-content {
-  margin-left: 20px;
-  margin-right: 20px; }
+  margin-right: 0; }
 
 #TableOfContents li.active > a {
   color: #005700;
@@ -1037,23 +1039,12 @@ body.contrast .torn-page {
   font-size: 6vw; }
 
 /* Sponsors */
-#sponsor-logos-wrapper {
-  margin: 50px 5px 75px 5px; }
-
 #sponsor-logos {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
-  box-shadow: 0 0 10px #42ea67, #42ea67 0 0 10px inset;
-  border-radius: 10px; }
+  text-align: center; }
 
 #sponsor-logos img {
-  height: 50px;
   max-width: 100%;
-  margin: 15px;
+  max-height: 100%;
   object-fit: contain; }
 
 /* Social media icons
