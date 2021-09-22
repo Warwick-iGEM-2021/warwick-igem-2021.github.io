@@ -123,6 +123,10 @@ a:active {
   outline: none;
   text-decoration: none !important; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 .subtitle {
   display: block;
   margin-bottom: 20px;
@@ -160,11 +164,15 @@ a:active {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
   border-radius: 3px;
-  padding: 20px;
+  padding: 45px;
   margin: 0 128px 2em 80px; }
+  @media only screen and (max-width: 1500px) and (min-width: 1000px) {
+    .content-page {
+      margin: 0 15% 2em 15%; } }
   @media only screen and (max-width: 1000px) {
     .content-page {
-      margin: 0 30px 2em 30px; } }
+      margin: 0 30px 2em 30px;
+      padding: 20px; } }
 /* Unique page's stylings */
 /* Homepage custom styles */
 #homepage-hero {
@@ -795,18 +803,21 @@ https://codepen.io/albizan/pen/mMWdWZ
   content: "\f054";
 */
 /* https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/ */
-@media only screen and (max-width: 1500px) {
-  #sidebar {
-    display: none; } }
-
+#sidebar {
+  max-width: 25%; }
+  @media only screen and (max-width: 1500px) {
+    #sidebar {
+      display: none; } }
 .toc-wrapper {
   position: sticky;
-  top: calc(50% - 8rem);
+  top: 6rem;
+  overflow-y: auto;
+  max-height: calc(100vh - 8rem);
   align-self: start;
   padding-top: 30px;
   font-size: larger !important;
-  overflow-y: auto;
-  margin-right: 0; }
+  margin-right: 0;
+  word-wrap: break-word; }
 
 #TableOfContents li.active > a {
   color: #005700;
@@ -1369,7 +1380,6 @@ body.contrast .torn-page {
   margin-left: 0.4em; }
 
 .read_more_small {
-  height: 4.5em;
   overflow: hidden !important;
   -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 50%, transparent 100%); }

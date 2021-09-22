@@ -307,7 +307,16 @@
                     
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#modelling-of-antibiotic-resistance">Modelling of antibiotic resistance</a></li>
+    <li><a href="#modelling-the-spread-of-antibiotic-resistance">Modelling the spread of antibiotic resistance</a>
+      <ul>
+        <li><a href="#motivation">Motivation</a></li>
+        <li><a href="#assets">Assets</a></li>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#context">Context</a></li>
+        <li><a href="#discussion-of-the-model">Discussion of the model</a></li>
+      </ul>
+    </li>
     <li><a href="#modelling-with-copasi">Modelling with COPASI</a></li>
   </ul>
 </nav>
@@ -329,66 +338,409 @@
 
                 
                 <div class="content-page">
-                    <h2 id="modelling-of-antibiotic-resistance">Modelling of antibiotic resistance</h2>
-<p><div class="read_more">
-    <div class="read_more_small">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
-dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
-sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
-nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus
-et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula
-placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec
-tellus lacinia, elementum libero a, iaculis justo. Proin interdum placerat elit,
-et consectetur lectus feugiat non. In iaculis eros sit amet dui lobortis, eu
-consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
-diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
-Pellentesque non hendrerit nisl.
-    </div>
-    <a href="#">Click to read more</a>
+                    <h2 id="modelling-the-spread-of-antibiotic-resistance">Modelling the spread of antibiotic resistance</h2>
+<h3 id="motivation">Motivation</h3>
+<p>The purpose of the model is two-fold:</p>
+<ul>
+<li>Demonstrating that our product is beneficial</li>
+<li>Understanding the use cases where it is most and least applicable</li>
+</ul>
+<h3 id="assets">Assets</h3>
+<p>The whole project repository is available on GitHub at: <a href="https://github.com/Warwick-iGEM-2021/modelling">https://github.com/Warwick-iGEM-2021/modelling</a></p>
+<p>The newest model version is also available: <a href="https://github.com/Warwick-iGEM-2021/modelling/blob/main/model_v3.py">Model V3</a></p>
+<p>A interactive toy simulator currently under development for the model is <a href="https://www.dcs.warwick.ac.uk/~u2006527/iGEM/model_v3_in.html">hosted here</a>, but is not fully tested, and may be subject to location change</p>
+<h3 id="overview">Overview</h3>
+<p>Our model is a discrete time, stochastic, compartmental model:</p>
+<ul>
+<li>
+<p>Compartmental means that the model is expressed in terms of the transitions between a set of states. The logic for these transitions forms a fundamental part of the model</p>
+</li>
+<li>
+<p>Stochastic means that the model is based on random probabilities, as opposed to a deterministic system of equations</p>
+<ul>
+<li>A set of constant probabilities define the properties of the model</li>
+<li>Transitions between states are chosen randomly with these constant probabilities</li>
+</ul>
+<p>Below shows code for a default setting of these probabilities, the meaning of which will be explained further on:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># General</span>
+NUM_TIMESTEPS <span style="color:#f92672">=</span> <span style="color:#ae81ff">50</span>
+POPULATION_SIZE <span style="color:#f92672">=</span> <span style="color:#ae81ff">5000</span>
+NUM_RESISTANCE_TYPES <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>
+<span style="color:#75715e"># Recovery generally or by treatment</span>
+PROBABILITY_GENERAL_RECOVERY <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.01</span>
+PROBABILITY_TREATMENT_RECOVERY <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.2</span>
+<span style="color:#75715e"># Mutation to higher resistance due to treatment</span>
+PROBABILITY_MUTATION <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.02</span>
+PROBABILITY_MOVE_UP_TREATMENT <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.8</span>
+TIMESTEPS_MOVE_UP_LAG_TIME <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+ISOLATION_THRESHOLD <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+<span style="color:#75715e"># Death</span>
+PROBABILITY_DEATH <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.01</span>
+<span style="color:#75715e"># Spreading</span>
+PROBABILITY_SPREAD <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+NUM_SPREAD_TO <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+<span style="color:#75715e"># Whether our product is used in the simulation</span>
+PRODUCT_IN_USE <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+PROBABILIY_PRODUCT_DETECT <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.5</span>
+PRODUCT_DETECTION_LEVEL <span style="color:#f92672">=</span> ISOLATION_THRESHOLD
+</code></pre></td></tr></table>
 </div>
-</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
-dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
-sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
-nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus
-et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula
-placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec
-tellus lacinia, elementum libero a, iaculis justo. Proin interdum placerat elit,
-et consectetur lectus feugiat non. In iaculis eros sit amet dui lobortis, eu
-consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
-diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
-Pellentesque non hendrerit nisl.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
-dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
-sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
-nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus
-et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula
-placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec
-tellus lacinia, elementum libero a, iaculis justo. Proin interdum placerat elit,
-et consectetur lectus feugiat non. In iaculis eros sit amet dui lobortis, eu
-consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
-diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
-Pellentesque non hendrerit nisl.</p>
+</div></li>
+<li>
+<p>Discrete time means that changes in the model occur at granular timesteps - like turns in a boards game</p>
+<p>Below shows the code for how operations are performed on every person in the population each timestep, and data about them recorded</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Make a new data handler for each simulation</span>
+self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">.</span>__init__()
+
+<span style="color:#75715e"># Repeat the simulation for a set number of timesteps</span>
+<span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(NUM_TIMESTEPS):
+
+    <span style="color:#75715e"># For each person in the population</span>
+    <span style="color:#66d9ef">for</span> person <span style="color:#f92672">in</span> self<span style="color:#f92672">.</span>population:
+
+        <span style="color:#75715e"># Record the data throughout the model</span>
+        self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">.</span>record_person(person)
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<p>The model essentially is a modification of the standard SIR model for epidemic disease, adding more &ldquo;compartments&rdquo; for additional states people can take, when they are infected with increasingly antibiotic resistant pathogens.</p>
+<div class="centered-image text-center">
+    
+    
+    <img src="../assets/content/model/SIR_graph.png" alt="A diagram of the SIR model" decoding="async"/>
+    
+    
+        <p class="hugo-figure-caption">A diagram of the SIR model. Image source [The SIR dynamic model of infectious disease transmission and its analogy with chemical kinetics - Cory M. (https://peerj.com/articles/pchem-14/)</p>
+    
+</div>
+
+<h3 id="implementation">Implementation</h3>
+<p>The key features of the model can be split up into five semi-distinct sections:</p>
+<h4 id="1-pathogen-and-people">1. Pathogen and people</h4>
+<p>A pathogen with a probability of death and a probability of recovery spreads through the population.</p>
+<ul>
+<li>
+<p>Patients have a small chance of recovering by themselves, or can be treated with antibiotics, which have a larger chance of curing them</p>
+</li>
+<li>
+<p>Different strains of the pathogen exist, which are resistant to different antibiotics</p>
+</li>
+<li>
+<p>Pathogens can mutate to more resistant strains in specific circumstances explained in the mutation section</p>
+</li>
+<li>
+<p>When they have recovered, they become immune to the all strains of the pathogen irrespective to their resistances</p>
+</li>
+<li>
+<p>Patients also have a small chance of dying due to the pathogen</p>
+</li>
+</ul>
+<p>Hence, patients can be in any of the disjoint states: uninfected, infected (possibly with resistance), immune, or dead.</p>
+<p>In the limit of time to infinity, all individuals will be either uninfected, immune or dead, as they will all either not be infected in the first place, or recover or die from the pathogen.</p>
+<div class="centered-image text-center">
+    
+    
+    <img src="../assets/content/model/general.PNG" alt="General state transition diagram" decoding="async"/>
+    
+    
+        <p class="hugo-figure-caption">The state transition diagram of every state a person within the population can take (for reasons discussed later in the treatment section, pathogenic resistances to antibiotics will occur in a set order)</p>
+    
+</div>
+
+<div class="centered-image text-center">
+    
+    
+    <img src="../assets/content/model/specific_none.png" alt="Specific state transition diagram" decoding="async"/>
+    
+    
+        <p class="hugo-figure-caption">The state transition diagram of a person centred around the state of being infected with a pathogen resistant to antibiotic $$n$$ in the precedence of antibiotics</p>
+    
+</div>
+
+<h4 id="2-treatment-and-mutation">2. Treatment and mutation</h4>
+<p>Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $$1$$ being the first administered, and $$n$$ being the last for antibiotics $$1..n$$ ). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify CRE, which are a type of these resistant pathogens.</p>
+<p>Pathogens have a small chance of mutating to develop resistance to antibiotics being used to treat them, as such strains will only become dominant when there is a pressure giving them a survival advantage.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">print(<span style="color:#e6db74">&#34;Hello world&#34;</span>)
-
-
-
-print(<span style="color:#e6db74">&#34;This is a test&#34;</span>)
-
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Mutation to higher resistance due to treatment</span>
+<span style="color:#66d9ef">if</span> decision(PROBABILITY_MUTATION):
+    person<span style="color:#f92672">.</span>mutate_infection()
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="modelling-with-copasi">Modelling with COPASI</h2>
+</div><div class="centered-image text-center">
+    
+    
+    <img src="../assets/content/model/specific_mutation.png" alt="Specific state transition diagram with mutation explanation" decoding="async"/>
+    
+    
+        <p class="hugo-figure-caption">The same specified state transition diagram used above, with additional information about the mutation step to elucidate it</p>
+    
+</div>
+
+<p>The pathogen is modelled as being immediately symptomatic, meaning doctors can immediately identify a patient is infected with it, but they cannot quickly identify whether or not they have a resistant strain if our product is not in use.</p>
+<p>Once a person becomes infected, treatment with the lowest tier of antibiotics becomes immediately, as they are immediately symptomatic.</p>
+<p>If the pathogen is resistant to the antibiotic, the patient still has the opportunity to make a recovery on their own, but the antibiotic will have no effect, whereas if the pathogen is not, the patient has the opportunity to recover both on their own, and via the antibiotic - increasing their likelihood of recovery each timestep.</p>
+<p>Since multiple antibiotics are used in a tiered system, there must be a mechanism to move to a higher antibiotic.</p>
+<p>There are a number of days which can be set as a parameter for the model, before which the same antibiotic will be used, then after this is exceeded a probability parameter is used each day to decide whether they will me moved up to a higher treatment tier.</p>
+<p>With our product, since it provides a fast testing mechanism for highly resistant strains, patients can be detected as having the resistant strain, and immediately moved up to the required higher treatment</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Move up in treatment class if needed</span>
+<span style="color:#66d9ef">if</span> person<span style="color:#f92672">.</span>treatment <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>:
+    <span style="color:#75715e"># If the person is infected but are not being treated</span>
+    <span style="color:#75715e"># with **anything**, start them on the lowest tier</span>
+    <span style="color:#75715e"># treatment (we can know that the person is infected,</span>
+    <span style="color:#75715e"># but not which tier they are on, without diagnostic</span>
+    <span style="color:#75715e"># tools, as we can see they are sick)</span>
+    person<span style="color:#f92672">.</span>treatment <span style="color:#f92672">=</span> Treatment()
+<span style="color:#66d9ef">else</span>:
+    <span style="color:#75715e"># If the person has been treated for a number of</span>
+    <span style="color:#75715e"># consecutive days with the, a certain probability is</span>
+    <span style="color:#75715e"># exceeded, move them up a treatment tier</span>
+    time_cond <span style="color:#f92672">=</span> person<span style="color:#f92672">.</span>treatment<span style="color:#f92672">.</span>time_treated <span style="color:#f92672">&gt;</span> TIMESTEPS_MOVE_UP_LAG_TIME
+    rand_cond <span style="color:#f92672">=</span> decision(PROBABILITY_MOVE_UP_TREATMENT)
+    <span style="color:#66d9ef">if</span> time_cond <span style="color:#f92672">and</span> rand_cond:
+        person<span style="color:#f92672">.</span>increase_treatment()
+
+    <span style="color:#66d9ef">if</span> PRODUCT_IN_USE <span style="color:#f92672">and</span> decision(PROBABILIY_PRODUCT_DETECT):
+        <span style="color:#75715e"># If the product is in use, and it detects the</span>
+        <span style="color:#75715e"># infection (which occurs a certain probability of</span>
+        <span style="color:#75715e"># the time) immediately isolate this with the</span>
+        <span style="color:#75715e"># resistance</span>
+
+
+        <span style="color:#75715e"># If the person is known to have a resistance that</span>
+        <span style="color:#75715e"># is higher than their treatment, increase their</span>
+        <span style="color:#75715e"># treatment</span>
+        <span style="color:#66d9ef">if</span> person<span style="color:#f92672">.</span>treatment<span style="color:#f92672">.</span>drug <span style="color:#f92672">&lt;</span> str(PRODUCT_DETECTION_LEVEL):
+            person<span style="color:#f92672">.</span>treatment<span style="color:#f92672">.</span>drug <span style="color:#f92672">=</span> str(PRODUCT_DETECTION_LEVEL)
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="3-spread">3. Spread</h4>
+<p>Disease can spread from infected patients to uninfected patients, and patients with a less resistant strain. The likelihood of this occurring, and the number of people spread to each time can be controlled as parameters</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Spread the infection strains throughout the population</span>
+<span style="color:#75715e"># We need a deepcopy operation, to prevent someone who has just</span>
+<span style="color:#75715e"># been spread to in this timestep spreading the thing they&#39;ve</span>
+<span style="color:#75715e"># just received, so technically don&#39;t have yet</span>
+updated_population <span style="color:#f92672">=</span> deepcopy(self<span style="color:#f92672">.</span>population)
+<span style="color:#66d9ef">for</span> person <span style="color:#f92672">in</span> self<span style="color:#f92672">.</span>population:
+    <span style="color:#66d9ef">if</span> person<span style="color:#f92672">.</span>infection <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span> <span style="color:#f92672">and</span> decision(PROBABILITY_SPREAD):
+        <span style="color:#66d9ef">for</span> receiver <span style="color:#f92672">in</span> sample(updated_population, NUM_SPREAD_TO):
+            person<span style="color:#f92672">.</span>spread_infection(receiver)
+self<span style="color:#f92672">.</span>population <span style="color:#f92672">=</span> updated_population[:]
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="4-isolation">4. Isolation</h4>
+<p>Patients can be put into isolation, preventing the spreading the disease. This is the main place where the our product differentiates itself.</p>
+<p>Without our product, a person is put in isolation when they exceed a threshold of <strong>treatment</strong></p>
+<p>With our product, as the pathogen can be detected, they are put into isolation when they exceed a threshold of <strong>having the resistant strain</strong></p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> PRODUCT_IN_USE <span style="color:#f92672">and</span> decision(PROBABILIY_PRODUCT_DETECT):
+    <span style="color:#75715e"># If the product is in use, and it detects the</span>
+    <span style="color:#75715e"># infection (which occurs a certain probability of</span>
+    <span style="color:#75715e"># the time) immediately isolate this with the</span>
+    <span style="color:#75715e"># resistance</span>
+
+    <span style="color:#66d9ef">if</span> person<span style="color:#f92672">.</span>infection<span style="color:#f92672">.</span>resistances[str(PRODUCT_DETECTION_LEVEL)]:
+        person<span style="color:#f92672">.</span>isolate()
+
+<span style="color:#66d9ef">if</span> int(person<span style="color:#f92672">.</span>treatment<span style="color:#f92672">.</span>drug) <span style="color:#f92672">&gt;=</span> ISOLATION_THRESHOLD:
+    <span style="color:#75715e"># Isolate if in high enough treatment class (which</span>
+    <span style="color:#75715e"># is not the same as infection class - this will</span>
+    <span style="color:#75715e"># likely lag behind)</span>
+    person<span style="color:#f92672">.</span>isolate()
+
+<span style="color:#75715e"># Increment the number of times a person has been</span>
+<span style="color:#75715e"># treated with the drug</span>
+person<span style="color:#f92672">.</span>treatment<span style="color:#f92672">.</span>time_treated <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="centered-image text-center">
+    
+    
+    <img src="../assets/content/model/specific_isolation.png" alt="Specific state transition diagram with isolation explanation" decoding="async"/>
+    
+    
+        <p class="hugo-figure-caption">The same specified state transition diagram used above, with additional information about the isolation step to elucidate it</p>
+    
+</div>
+
+<h4 id="5-recovery-and-death">5. Recovery and death</h4>
+<p>As discussed in section (1), each timestep, patients can recover (either naturally or via treatment), and patients can die.</p>
+<p>Recovery makes the patients immune, meaning they cannot be infected again, essentially removing them from the system. Death also essentially removes patients from the system, as there cannot be any more state changes after death.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Recovery generally or by treatment if currently infected</span>
+general_recovery <span style="color:#f92672">=</span> decision(PROBABILITY_GENERAL_RECOVERY)
+treatment_recovery <span style="color:#f92672">=</span> (person<span style="color:#f92672">.</span>correct_treatment() <span style="color:#f92672">and</span>
+                    decision(PROBABILITY_TREATMENT_RECOVERY))
+<span style="color:#66d9ef">if</span> general_recovery <span style="color:#f92672">or</span> treatment_recovery:
+    person<span style="color:#f92672">.</span>recover_from_infection()
+
+<span style="color:#75715e"># Deaths due to infection</span>
+<span style="color:#66d9ef">if</span> decision(PROBABILITY_DEATH):
+    person<span style="color:#f92672">.</span>die()
+</code></pre></td></tr></table>
+</div>
+</div><p>The goal is to create a situation where in the limit of time, the number of uninfected and immune people is maximised, and the number of dead people is minimised.</p>
+<h3 id="context">Context</h3>
+<h3 id="discussion-of-the-model">Discussion of the model</h3>
+<p>Some common questions about the model are answered below:</p>
+<ul>
+<li>
+<p>Q. Is the model realistic</p>
+<p>A. No, very little about it is realistic. It is an abstraction of the real world which discards many unnecessary complexities, in order to simply and efficiently model how resistance spreads and is combatted. It is not viable to make a wholly realistic model, as this inevitable turns into a &ldquo;hospital simulator&rdquo;, and would be too complex to design, and take too long to run on current computers.</p>
+</li>
+<li>
+<p>Q. Is the model useful</p>
+<p>A. Yes, because it provides several helpful insights:</p>
+<ul>
+<li>The impact our product will have on the spread of resistance just by quickly detecting who to put into isolation</li>
+<li>Whether higher or lower mortality or transmissibility of a disease increase or decrease the effectiveness</li>
+</ul>
+</li>
+<li>
+<p>Q. What potential improvements are there</p>
+<p>A. It would be possible to add additional features to the model to make it more realistic, for example:</p>
+<ul>
+<li>Spatial considerations – e.g. modelling multiple wards with movement between them</li>
+<li>Asymptomatic transmission periods of infection</li>
+</ul>
+<p>however, these are beyond the scope of our project</p>
+</li>
+<li>
+<p>How does the model compare to other existent ones</p>
+</li>
+<li>
+<p>Q. Can the model be applied to current issues, i.e. the COVID pandemic</p>
+<p>A. Since the model is a very generic abstraction of the real world, by adjusting it&rsquo;s parameters, a vast amount of different scenarios can be modelled. The key issue in adapting it to different scenarios is if they fit the inherent logic and states hard-coded into it. Since COVID is a viral infection, as opposed to a bacterial infection, antibiotics cannot be used to treat it, so the tiered system of antibiotic uses fits less cleanly to it, however, they could instead be considered as increasingly aggressive treatment options, to which it also grows resistant. However, the logic around our product would not apply, as viral infections are not affected by carbapenem, which is the antibiotic we focus on.</p>
+</li>
+</ul>
+<h2 id="modelling-with-copasi">Modelling with COPASI</h2>
 
                 </div>
             </section>
