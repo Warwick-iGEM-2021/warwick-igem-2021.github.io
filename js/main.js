@@ -5,8 +5,18 @@ $(document).ready(function () { // Require all js to load
     Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
         setTimeout(function(){
             $('body').addClass('loaded');
-        }, 500); //TODO: Work out what works for this delay on the actual site
+        }, 1500); //TODO: Work out what works for this delay on the actual site
     });
+});
+
+// Expand the read more section on click
+$('.read_more').find('a[href="#"]').on('click', function (e) {
+    // Don't follow the hyperlink
+    e.preventDefault();
+    // Show the read more
+    $(this).closest('.read_more').find('.read_more_small').toggleClass('read_more_small read_more_big');
+    // Hide the read more message
+    $(this).css("display", "none")
 });
 
 
