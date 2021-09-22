@@ -15,7 +15,7 @@ theme = "wiki-theme"
 [markup]
   [markup.tableOfContents]
     startLevel = 2
-    endLevel = 6
+    endLevel = 3
     ordered = false
 
 
