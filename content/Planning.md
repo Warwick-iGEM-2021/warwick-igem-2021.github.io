@@ -2,9 +2,12 @@
 title: "Planning"
 hero_img: "https://picsum.photos/1920/360"
 toc: false
+summary: "A brief summary of the content of the page"
 date: 2021-08-26T11:45:31+01:00
 draft: false
 ---
+
+
 
 {{< timeline_start >}}
 

@@ -208,7 +208,7 @@ theme = "wiki-theme"
   # Hero section
   [params.hero]
     title = "CREscent to the moon"
-    subtitle = "Fluorescent detection system for CRE"
+    subtitle = "FLUORESCENT DETECTION SYSTEM FOR CRE"
     summary = "CREscent is our team's solution to combat CRE/CPE outbreaks in hospitals. It aims to be fast and efficient so that outbreaks can be prevented in advance."
 
 
