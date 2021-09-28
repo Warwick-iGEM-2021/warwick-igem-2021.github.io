@@ -1,12 +1,5 @@
 /* Setup */
 /* Colours */
-.tertiary-background-gradient {
-  background-color: #535353;
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #535353), color-stop(1, #171717));
-  background-image: -webkit-linear-gradient(top left, #535353 0%, #171717 100%);
-  background-image: linear-gradient(to bottom right, #535353 0%, #171717 100%);
-  background-image: -ms-linear-gradient(top left, #535353 0%, #171717 100%); }
-
 /* Heights */
 /*
 Jerry's colours
@@ -62,7 +55,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   color: #222;
-  background-color: #000;
+  background-color: #111;
   background-size: cover;
   position: relative;
   display: flex;
@@ -257,7 +250,7 @@ https://codepen.io/shamir/pen/YGbbNX
   width: 100%;
   height: 100%;
   z-index: 10000;
-  background: #000; }
+  background: #111; }
 
 .loaded #loader {
   opacity: 0;
@@ -310,7 +303,7 @@ https://codepen.io/shamir/pen/YGbbNX
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: #111;
     width: 50%;
     height: 100%;
     animation: flip 4s 2s steps(2) infinite alternate; }
@@ -331,7 +324,7 @@ https://codepen.io/shamir/pen/YGbbNX
     position: absolute;
     backface-visibility: hidden; }
   .disc::before {
-    background-color: #000; }
+    background-color: #111; }
   .disc::after {
     background-color: #42ea67;
     transform: rotateY(180deg); }
@@ -518,7 +511,7 @@ https://codepen.io/albizan/pen/mMWdWZ
   -webkit-transition: 0s all;
   -o-transition: 0s all;
   transition: 0s all;
-  color: #171717; }
+  color: #222; }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active {
   color: #005700 !important; }
@@ -1122,9 +1115,9 @@ body.contrast .torn-page {
   background: transparent;
   background-size: cover;
   background-position: center center;
-  -moz-box-shadow: inset 0 -20vh 10vh -10vh #000;
-  -webkit-box-shadow: inset 0 -20vh 10vh -10vh #000;
-  box-shadow: inset 0 -20vh 10vh -10vh #000; }
+  -moz-box-shadow: inset 0 -20vh 10vh -10vh #111;
+  -webkit-box-shadow: inset 0 -20vh 10vh -10vh #111;
+  box-shadow: inset 0 -20vh 10vh -10vh #111; }
 
 #hero_fore {
   min-height: 70vh;
@@ -1136,6 +1129,7 @@ body.contrast .torn-page {
     margin-top: 40vh;
     font-size: 6vw;
 } */
+/* Footer section */
 /* Sponsors */
 #sponsor-logos {
   text-align: center; }
@@ -1143,7 +1137,10 @@ body.contrast .torn-page {
 #sponsor-logos img {
   max-width: 100%;
   max-height: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  -webkit-box-shadow: 0 0 10vh #000;
+  -webkit-box-shadow: 0 0 10vh #000;
+  box-shadow: 0 0 10vh #000; }
 
 /* Social media icons
     - https://codepen.io/minimalmonkey/pen/Ecpla

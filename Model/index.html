@@ -35,14 +35,34 @@
 
 
     
-    <script src="../js/jquery.min.js" defer></script>
-	<script src="../js/jquery.sticky.min.js" defer></script>
-	<script src="../js/popper.min.js" defer></script>
-	<script src="../js/bootstrap.min.js" defer></script>
-	<script src="../js/respond.min.js" defer></script>
-	<script src="../js/asb.min.js" defer></script>
-	<script src="../js/parallax.min.js" defer></script>
-    <script src="../js/main.js" defer></script>
+
+    
+    <script type="text/javascript" src="../js/jquery.min.js" defer></script>
+
+    
+	<script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+
+    
+    <script type="text/javascript" src="../js/jquery.sticky.min.js" defer></script>
+	<script type="text/javascript" src="../js/popper.min.js" defer></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js" defer></script>
+	<script type="text/javascript" src="../js/respond.min.js" defer></script>
+	<script type="text/javascript" src="../js/asb.min.js" defer></script>
+	<script type="text/javascript" src="../js/parallax.min.js" defer></script>
+    <script type="text/javascript" src="../js/mathjax.min.js" defer></script>
+    <script type="text/javascript" src="../js/main.js" defer></script>
+
+
+    
 
     </head>
     <body>
@@ -504,7 +524,7 @@ self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">
     <img src="../assets/content/model/specific_none.png" alt="Specific state transition diagram" decoding="async"/>
     
     
-        <p class="hugo-figure-caption">The state transition diagram of a person centred around the state of being infected with a pathogen resistant to antibiotic $$n$$ in the precedence of antibiotics</p>
+        <p class="hugo-figure-caption">The state transition diagram of a person centred around the state of being infected with a pathogen resistant to antibiotic $n$ in the precedence of antibiotics</p>
     
 </div>
 
@@ -515,7 +535,7 @@ self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">
 <div class="content-page">
 
 <h4 id="2-treatment-and-mutation">2. Treatment and mutation</h4>
-<p>Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $$1$$ being the first administered, and $$n$$ being the last for antibiotics $$1..n$$ ). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify CRE, which are a type of these resistant pathogens.</p>
+<p>Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $1$ being the first administered, and $n$ being the last for antibiotics $1..n$ ). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify CRE, which are a type of these resistant pathogens.</p>
 <p>Pathogens have a small chance of mutating to develop resistance to antibiotics being used to treat them, as such strains will only become dominant when there is a pressure giving them a survival advantage.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
