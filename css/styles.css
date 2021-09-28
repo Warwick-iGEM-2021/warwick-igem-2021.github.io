@@ -21,7 +21,16 @@ Old, don't use: #42ea67
 /* Fonts section */
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("/assets/fonts/helvetica_neue/FreeSans.otf") format("opentype"), url("/assets/fonts/helvetica_neue/FreeSans.ttf") format("truetype"); }
+  src: url("/assets/fonts/helvetica_neue/HelveticaNeue-Light.otf") format("opentype"), url("/assets/fonts/helvetica_neue/HelveticaNeueLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 1px; }
+
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  src: url("/assets/fonts/helvetica_neue/HelveticaNeue-Medium.otf") format("opentype"), url("/assets/fonts/helvetica_neue/HelveticaNeueMedium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: bold; }
 
 @font-face {
   font-family: "Bahnschrift";
@@ -87,14 +96,14 @@ h5,
 h6 {
   font-family: "Bahnschrift", sans-serif !important; }
 
-#hugo-content-wrapper h1,
+/* #hugo-content-wrapper h1,
 #hugo-content-wrapper h2,
 #hugo-content-wrapper h3,
 #hugo-content-wrapper h4,
 #hugo-content-wrapper h5,
 #hugo-content-wrapper h6 {
-  color: #005700 !important; }
-
+  color: $text-color-contrast !important;
+} */
 h2::before,
 h3::before,
 h4::before,
@@ -173,6 +182,17 @@ img {
     .content-page {
       margin: 0 30px 2em 30px;
       padding: 20px; } }
+.content-page h1,
+.content-page h2,
+.content-page h3,
+.content-page h4,
+.content-page h5,
+.content-page h6 {
+  font-family: "Helvetica Neue Bold", sans-serif !important; }
+
+#hugo-content ul {
+  padding-left: 50px; }
+
 /* Unique page's stylings */
 /* Homepage custom styles */
 #homepage-hero {
@@ -198,7 +218,9 @@ img {
     #homepage-hero-text {
       display: none; } }
 #homepage-hero-text h3 {
-  color: #42ea67; }
+  color: #42ea67;
+  font-weight: 1000;
+  font-size: 1.4vw; }
 
 #homepage-hero-text h1 {
   font-size: 6vw;
@@ -235,7 +257,7 @@ https://codepen.io/shamir/pen/YGbbNX
   width: 100%;
   height: 100%;
   z-index: 10000;
-  background: #171717; }
+  background: #000; }
 
 .loaded #loader {
   opacity: 0;
@@ -288,7 +310,7 @@ https://codepen.io/shamir/pen/YGbbNX
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #171717;
+    background-color: #000;
     width: 50%;
     height: 100%;
     animation: flip 4s 2s steps(2) infinite alternate; }
@@ -309,7 +331,7 @@ https://codepen.io/shamir/pen/YGbbNX
     position: absolute;
     backface-visibility: hidden; }
   .disc::before {
-    background-color: #171717; }
+    background-color: #000; }
   .disc::after {
     background-color: #42ea67;
     transform: rotateY(180deg); }
@@ -817,7 +839,15 @@ https://codepen.io/albizan/pen/mMWdWZ
   padding-top: 30px;
   font-size: larger !important;
   margin-right: 0;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  font-family: "Bahnschrift", sans-serif !important;
+  font-size: 20px !important; }
+
+.toc-wrapper > h3 {
+  font-family: "Bahnschrift", sans-serif !important; }
+
+.toc-wrapper > h3 > a {
+  color: #222; }
 
 #TableOfContents li.active > a {
   color: #005700;
@@ -1091,12 +1121,21 @@ body.contrast .torn-page {
   color: #fff;
   background: transparent;
   background-size: cover;
+  background-position: center center;
+  -moz-box-shadow: inset 0 -20vh 10vh -10vh #000;
+  -webkit-box-shadow: inset 0 -20vh 10vh -10vh #000;
+  box-shadow: inset 0 -20vh 10vh -10vh #000; }
+
+#hero_fore {
+  min-height: 70vh;
+  background: transparent;
+  background-size: cover;
   background-position: center center; }
 
-#hero h1 {
-  margin-top: 40vh;
-  font-size: 6vw; }
-
+/* #hero h1 {
+    margin-top: 40vh;
+    font-size: 6vw;
+} */
 /* Sponsors */
 #sponsor-logos {
   text-align: center; }
@@ -1392,7 +1431,7 @@ body.contrast .torn-page {
   float: right;
   transform: translateX(-75px);
   position: relative;
-  z-index: 1000; }
+  z-index: 11; }
 
 .read_more {
   margin-bottom: 2em; }
