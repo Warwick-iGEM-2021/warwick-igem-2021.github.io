@@ -1,6 +1,5 @@
 ---
 title: "Proof of Concept"
-hero_img: "/assets/content/proof_of_concept/splash.png"
 hero_img_fore: "/assets/content/proof_of_concept/splash_fore.png"
 hero_img_back: "/assets/content/proof_of_concept/splash_back.png"
 summary: "A brief summary of the content of the page"
