@@ -123,13 +123,13 @@ In the limit of time to infinity, all individuals will be either uninfected, imm
 {{< centeredImage
         src="/assets/content/model/specific_none.png"
         alt="Specific state transition diagram"
-        caption="The state transition diagram of a person centred around the state of being infected with a pathogen resistant to antibiotic $$n$$ in the precedence of antibiotics" >}}
+        caption="The state transition diagram of a person centred around the state of being infected with a pathogen resistant to antibiotic $n$ in the precedence of antibiotics" >}}
 
 {{< new_sheet >}}
 
 #### 2. Treatment and mutation
 
-Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $$1$$ being the first administered, and $$n$$ being the last for antibiotics $$1..n$$ ). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify CRE, which are a type of these resistant pathogens.
+Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $1$ being the first administered, and $n$ being the last for antibiotics $1..n$ ). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify CRE, which are a type of these resistant pathogens.
 
 Pathogens have a small chance of mutating to develop resistance to antibiotics being used to treat them, as such strains will only become dominant when there is a pressure giving them a survival advantage.
 
