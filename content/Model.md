@@ -2,7 +2,7 @@
 title: "Model"
 hero_img_fore: "/assets/content/model/splash_fore.png"
 hero_img_back: "/assets/content/model/splash_back.png"
-summary: "A brief summary of the content of the page"
+summary: "We used modelling in two ways during the course of our project. The first was a custom computer simulation of how our product may perform in the real world, and the second was using a tool called COPASI to simulate biological systems to better inform our wet lab experiments."
 date: 2021-08-26T11:45:27+01:00
 draft: false
 ---
@@ -21,14 +21,6 @@ The purpose of the model is two-fold:
 
 - Demonstrating that our product is beneficial
 - Understanding the use cases where it is most and least applicable
-
-#### Assets
-
-The whole project repository is available on GitHub at: [https://github.com/Warwick-iGEM-2021/modelling](https://github.com/Warwick-iGEM-2021/modelling)
-
-The newest model version is also available: [Model V3](https://github.com/Warwick-iGEM-2021/modelling/blob/main/model_v3.py)
-
-A interactive toy simulator currently under development for the model is [hosted here](https://www.dcs.warwick.ac.uk/~u2006527/iGEM/model_v3_in.html), but is not fully tested, and may be subject to location change
 
 #### Model type
 
@@ -267,6 +259,12 @@ if decision(PROBABILITY_DEATH):
 The goal is to create a situation where in the limit of time, the number of uninfected and immune people is maximised, and the number of dead people is minimised.
 
 {{< new_sheet >}}
+
+### Interactive example
+
+In order to demonstrate the model without requiring users to download the source code and its dependent libraries, then run it through python, we transpiled it into Javascript, so it can be run in the browser. This interactive transpiled model can be used below to demonstrate how parameters changes can affect the model outcome. Then, in the context section, we identify the parameters for the model which match it to the real world to show our product will work. In practice, having a toy model with interactive variables isn't especially rigorous, but it does help show the power of the model, and how it can model vastly different scenarios.
+
+{{< model >}}
 
 ### Context
 
