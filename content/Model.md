@@ -11,16 +11,20 @@ draft: false
 
 To show that our proposed product would positively benefit the environment where it is proposed to be used, we wrote a computer model of the environment, with and without the product in use, and showed that when it is in use, the model scenario result improved.
 
-In our case, this involved modelling the spread of an antibiotic resistant bacteria in a hospital, with and without our diagnostic tool for quickly identifying it, and showing that the rates of infection, recovery and death improve.
-
 ### Introduction
 
-#### Motivation
+In our case, this involved modelling the spread of an antibiotic resistant bacteria in a hospital, with and without our diagnostic tool for quickly identifying it, and showing that the rates of infection, recovery and death improve.
 
 The purpose of the model is two-fold:
 
 - Demonstrating that our product is beneficial
 - Understanding the use cases where it is most and least applicable
+
+#### Toy implementation
+
+In order to demonstrate the model without requiring users to download the source code and its dependent libraries, then run it through python, we transpiled it into Javascript, so it can be run in the browser. This interactive transpiled model can be used below to demonstrate how parameters changes can affect the model outcome. Then, in the context section, we identify the parameters for the model which match it to the real world to show our product will work. In practice, having a toy model with interactive variables isn't especially rigorous, but it does help show the power of the model, and how it can model vastly different scenarios.
+
+{{< model >}}
 
 #### Model type
 
@@ -259,12 +263,6 @@ if decision(PROBABILITY_DEATH):
 The goal is to create a situation where in the limit of time, the number of uninfected and immune people is maximised, and the number of dead people is minimised.
 
 {{< new_sheet >}}
-
-### Interactive example
-
-In order to demonstrate the model without requiring users to download the source code and its dependent libraries, then run it through python, we transpiled it into Javascript, so it can be run in the browser. This interactive transpiled model can be used below to demonstrate how parameters changes can affect the model outcome. Then, in the context section, we identify the parameters for the model which match it to the real world to show our product will work. In practice, having a toy model with interactive variables isn't especially rigorous, but it does help show the power of the model, and how it can model vastly different scenarios.
-
-{{< model >}}
 
 ### Context
 
