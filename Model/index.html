@@ -353,7 +353,7 @@
                 
                     <div class="content-page">
                         <h2 id="summary">Summary</h2>
-                        A brief summary of the content of the page
+                        We used modelling in two ways during the course of our project. The first was a custom computer simulation of how our product may perform in the real world, and the second was using a tool called COPASI to simulate biological systems to better inform our wet lab experiments.
                     </div>
                 
 
@@ -361,18 +361,275 @@
                 <div class="content-page">
                     <h2 id="modelling-the-spread-of-antibiotic-resistance">Modelling the spread of antibiotic resistance</h2>
 <p>To show that our proposed product would positively benefit the environment where it is proposed to be used, we wrote a computer model of the environment, with and without the product in use, and showed that when it is in use, the model scenario result improved.</p>
-<p>In our case, this involved modelling the spread of an antibiotic resistant bacteria in a hospital, with and without our diagnostic tool for quickly identifying it, and showing that the rates of infection, recovery and death improve.</p>
 <h3 id="introduction">Introduction</h3>
-<h4 id="motivation">Motivation</h4>
+<p>In our case, this involved modelling the spread of an antibiotic resistant bacteria in a hospital, with and without our diagnostic tool for quickly identifying it, and showing that the rates of infection, recovery and death improve.</p>
 <p>The purpose of the model is two-fold:</p>
 <ul>
 <li>Demonstrating that our product is beneficial</li>
 <li>Understanding the use cases where it is most and least applicable</li>
 </ul>
-<h4 id="assets">Assets</h4>
-<p>The whole project repository is available on GitHub at: <a href="https://github.com/Warwick-iGEM-2021/modelling">https://github.com/Warwick-iGEM-2021/modelling</a></p>
-<p>The newest model version is also available: <a href="https://github.com/Warwick-iGEM-2021/modelling/blob/main/model_v3.py">Model V3</a></p>
-<p>A interactive toy simulator currently under development for the model is <a href="https://www.dcs.warwick.ac.uk/~u2006527/iGEM/model_v3_in.html">hosted here</a>, but is not fully tested, and may be subject to location change</p>
+<h4 id="toy-implementation">Toy implementation</h4>
+<p>In order to demonstrate the model without requiring users to download the source code and its dependent libraries, then run it through python, we transpiled it into Javascript, so it can be run in the browser. This interactive transpiled model can be used below to demonstrate how parameters changes can affect the model outcome. Then, in the context section, we identify the parameters for the model which match it to the real world to show our product will work. In practice, having a toy model with interactive variables isn&rsquo;t especially rigorous, but it does help show the power of the model, and how it can model vastly different scenarios.</p>
+
+
+
+<div class="text-center">
+    <canvas id="line-chart"></canvas>
+
+
+    <div class="read_more">
+        <div class="read_more_small" style="height: 15em;">
+            <button type="button" onclick="run_and_render()">
+                <h2>Run the model</h2>
+            </button>
+            <p id="loading_text" style="display: none;">Model running - this may take a couple of seconds, and possibly
+                cause
+                the page to hang. It runs locally on your machine, so older computers may struggle with long simulation
+                runs or
+                high populations</p>
+            <p id="error_text" style="display: none; color: red;">An error occurred running the model</p>
+
+
+            <table class="parameter-inputs">
+                <tr>
+                    <th>
+                        <h3>Constants</h3>
+                    </th>
+                    <th>
+                        <h3>Probabilities</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="checkboxInput" id="product_in_use_checkbox" type="checkbox">
+                        <br><button
+                            onclick="model.Params.PRODUCT_IN_USE = document.getElementById('product_in_use_checkbox').checked">
+                            Set whether the product is in use</button>
+                    </td>
+                    <td>
+                        <input class="sliderInput" id="probability_product_detect_slider" type="range" min="0" max="1"
+                            value="0.9" step="0.01"
+                            oninput="probability_product_detect_text.value=probability_product_detect_slider.value" />
+                        <input class="textInput" id="probability_product_detect_text" type="number" value="0.9" min="0"
+                            max="1" step="0.01"
+                            oninput="probability_product_detect_slider.value=probability_product_detect_text.value" />
+                        <br><button
+                            onclick="model.Params.PROBABILIY_PRODUCT_DETECT = parseFloat(document.getElementById('probability_product_detect_text').value)">
+                            Set the probability the product works</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <input class="sliderInput" id="num_timesteps_slider" type="range" min="5" max="200" value="50"
+                            oninput="num_timesteps_text.value=num_timesteps_slider.value" />
+                        <input class="textInput" id="num_timesteps_text" type="number" value="50" min="5" max="200"
+                            oninput="num_timesteps_slider.value=num_timesteps_text.value" />
+                        <br><button
+                            onclick="model.Params.NUM_TIMESTEPS = parseInt(document.getElementById('num_timesteps_slider').value)">
+                            Set the number of timesteps</button>
+                    </td>
+                    <td>
+                        
+                        <input class="sliderInput" id="probability_general_recovery_slider" type="range" min="0" max="1"
+                            step="0.01" value="0.01"
+                            oninput="probability_general_recovery_text.value=probability_general_recovery_slider.value" />
+                        <input class="textInput" id="probability_general_recovery_text" type="number" value="0.01"
+                            min="0" max="1" step="0.01"
+                            oninput="probability_general_recovery_slider.value=probability_general_recovery_text.value" />
+                        <br><button
+                            onclick="model.Params.PROBABILITY_GENERAL_RECOVERY = parseFloat(document.getElementById('probability_general_recovery_text').value)">
+                            Set the probability of general recovery</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="sliderInput" id="population_size_slider" type="range" min="50" max="10000"
+                            step="50" value="1000" oninput="population_size_text.value=population_size_slider.value" />
+                        <input class="textInput" id="population_size_text" type="number" value="1000" min="50"
+                            max="10000" oninput="population_size_slider.value=population_size_text.value" />
+                        <br><button
+                            onclick="model.Params.POPULATION_SIZE = parseInt(document.getElementById('population_size_slider').value)">
+                            Set the population size</button>
+                    </td>
+                    <td>
+                        <input class="sliderInput" id="probability_treatment_recovery_slider" type="range" min="0"
+                            max="1" value="0.2" step="0.01"
+                            oninput="probability_treatment_recovery_text.value=probability_treatment_recovery_slider.value" />
+                        <input class="textInput" id="probability_treatment_recovery_text" type="number" value="0.2"
+                            min="0" max="1" step="0.01"
+                            oninput="probability_treatment_recovery_slider.value=probability_treatment_recovery_text.value" />
+                        <br><button
+                            onclick="model.Params.PROBABILITY_TREATMENT_RECOVERY = parseFloat(document.getElementById('probability_treatment_recovery_text').value)">
+                            Set the probability of treatment recovery</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="sliderInput" id="num_resistance_types_slider" type="range" min="1" max="5"
+                            value="3" oninput="num_resistance_types_text.value=num_resistance_types_slider.value" />
+                        <input class="textInput" id="num_resistance_types_text" type="number" value="3" min="1" max="5"
+                            oninput="num_resistance_types_slider.value=num_resistance_types_text.value" />
+                        <br><button
+                            onclick="model.Params.NUM_RESISTANCE_TYPES = parseInt(document.getElementById('num_resistance_types_slider').value)">
+                            Set the number of resistance types</button>
+                    </td>
+                    <td>
+                        <input class="sliderInput" id="probability_mutation_slider" type="range" min="0" max="1"
+                            value="0.02" step="0.01"
+                            oninput="probability_mutation_text.value=probability_mutation_slider.value" />
+                        <input class="textInput" id="probability_mutation_text" type="number" value="0.02" min="0"
+                            max="1" step="0.01"
+                            oninput="probability_mutation_slider.value=probability_mutation_text.value" />
+                        <br><button
+                            onclick="model.Params.PROBABILITY_MUTATION = parseFloat(document.getElementById('probability_mutation_text').value)">
+                            Set the probability of mutation</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="sliderInput" id="timesteps_move_up_lag_time_slider" type="range" min="0" max="25"
+                            value="5"
+                            oninput="timesteps_move_up_lag_time_text.value=timesteps_move_up_lag_time_slider.value" />
+                        <input class="textInput" id="timesteps_move_up_lag_time_text" type="number" value="5" min="0"
+                            max="25"
+                            oninput="timesteps_move_up_lag_time_slider.value=timesteps_move_up_lag_time_text.value" />
+                        <br><button
+                            onclick="model.Params.TIMESTEPS_MOVE_UP_LAG_TIME = parseInt(document.getElementById('timesteps_move_up_lag_time_slider').value)">
+                            Set the time lag before increasing treatment</button>
+                    </td>
+                    <td>
+                        <input class="sliderInput" id="probability_move_up_treatment_slider" type="range" min="0"
+                            max="1" value="0.8" step="0.01"
+                            oninput="probability_move_up_treatment_text.value=probability_move_up_treatment_slider.value" />
+                        <input class="textInput" id="probability_move_up_treatment_text" type="number" value="0.8"
+                            min="0" max="1" step="0.01"
+                            oninput="probability_move_up_treatment_slider.value=probability_move_up_treatment_text.value" />
+                        <br><button
+                            onclick="model.Params.PROBABILITY_MOVE_UP_TREATMENT = parseFloat(document.getElementById('probability_move_up_treatment_text').value)">
+                            Set the probability of moving up treatment</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="sliderInput" id="isolation_threshold_slider" type="range" min="0" max="5"
+                            value="2" oninput="isolation_threshold_text.value=isolation_threshold_slider.value" />
+                        <input class="textInput" id="isolation_threshold_text" type="number" value="2" min="0" max="5"
+                            oninput="isolation_threshold_slider.value=isolation_threshold_text.value" />
+                        <br><button
+                            onclick="model.Params.ISOLATION_THRESHOLD = parseInt(document.getElementById('isolation_threshold_slider').value)">
+                            Set the resistance level to start isolating</button>
+                    </td>
+                    <td>
+                        <input class="sliderInput" id="probability_death_slider" type="range" min="0" max="1"
+                            value="0.01" step="0.01"
+                            oninput="probability_death_text.value=probability_death_slider.value" />
+                        <input class="textInput" id="probability_death_text" type="number" value="0.01" min="0" max="1"
+                            step="0.01" oninput="probability_death_slider.value=probability_death_text.value" />
+                        <br><button
+                            onclick="model.Params.PROBABILITY_DEATH = parseFloat(document.getElementById('probability_death_text').value)">
+                            Set the probability of death</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="sliderInput" id="num_spread_to_slider" type="range" min="0" max="15" value="2"
+                            oninput="num_spread_to_text.value=num_spread_to_slider.value" />
+                        <input class="textInput" id="num_spread_to_text" type="number" value="2" min="0" max="15"
+                            oninput="num_spread_to_slider.value=num_spread_to_text.value" />
+                        <br><button
+                            onclick="model.Params.NUM_SPREAD_TO = parseInt(document.getElementById('num_spread_to_slider').value)">
+                            Set the number of people spread to</button>
+                    </td>
+                    <td>
+                        <input class="sliderInput" id="probability_spread_slider" type="range" min="0" max="1" value="1"
+                            step="0.01" oninput="probability_spread_text.value=probability_spread_slider.value" />
+                        <input class="textInput" id="probability_spread_text" type="number" value="1" min="0" max="1"
+                            step="0.01" oninput="probability_spread_slider.value=probability_spread_text.value" />
+                        <br><button
+                            onclick="model.Params.PROBABILITY_SPREAD = parseFloat(document.getElementById('probability_spread_text').value)">
+                            Set the probability of spreading</button>
+                    </td>
+                </tr>
+            </table>
+            
+
+        </div>
+        <a href="#">Click to show the interactive parameters</a>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="../js/chart.min.js"></script>
+
+<script type="module">import * as model from '/js/model/model_v3_in.js'; window.model = model;</script>
+
+<script>
+    
+    var ctx = document.getElementById("line-chart");
+    
+    var options = {
+        title: {
+            display: true,
+            text: 'Spread of an antibiotic infection through a population'
+        },
+        scales: {
+            xAxes: [{
+                ticks: {
+                    autoSkip: true,
+                    maxTicksLimit: 20
+                },
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Time / timesteps'
+                }
+            }],
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: '# people'
+                }
+            }]
+        }
+    };
+
+    
+    var chart = new Chart(ctx, {
+        type: 'line',
+        data: [],
+        options: options
+    });
+
+    async function run_and_render() {
+        
+        document.getElementById('loading_text').style.display = "block";
+        await new Promise(r => setTimeout(r, 100));
+
+        try {
+            
+            var dataset = window.model.run();
+            
+            
+            chart.destroy()
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: dataset,
+                options: options
+            });
+            
+            document.getElementById('error_text').style.display = "none";
+        } catch (err) {
+            
+            document.getElementById('error_text').style.display = "block";
+        }
+
+        
+        document.getElementById('loading_text').style.display = "none";
+
+    }
+</script>
+
 <h4 id="model-type">Model type</h4>
 <p>Our model is discrete time, stochastic, and compartmental:</p>
 <ul>
@@ -469,7 +726,7 @@ self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">
 </div></li>
 </ul>
 <p>The model essentially is a modification of the standard SIR model for epidemic disease, adding more &ldquo;compartments&rdquo; for additional states people can take, when they are infected with increasingly antibiotic resistant pathogens.</p>
-<div class="centered-image text-center">
+<div class="text-center">
     
     
     <img src="../assets/content/model/SIR_graph.png" alt="A diagram of the SIR model" decoding="async"/>
@@ -508,7 +765,7 @@ self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">
 </ul>
 <p>Hence, patients can be in any of the disjoint states: uninfected, infected (possibly with resistance), immune, or dead.</p>
 <p>In the limit of time to infinity, all individuals will be either uninfected, immune or dead, as they will all either not be infected in the first place, or recover or die from the pathogen.</p>
-<div class="centered-image text-center">
+<div class="text-center">
     
     
     <img src="../assets/content/model/general.PNG" alt="General state transition diagram" decoding="async"/>
@@ -518,7 +775,7 @@ self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">
     
 </div>
 
-<div class="centered-image text-center">
+<div class="text-center">
     
     
     <img src="../assets/content/model/specific_none.png" alt="Specific state transition diagram" decoding="async"/>
@@ -549,7 +806,7 @@ self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">
     person<span style="color:#f92672">.</span>mutate_infection()
 </code></pre></td></tr></table>
 </div>
-</div><div class="centered-image text-center">
+</div><div class="text-center">
     
     
     <img src="../assets/content/model/specific_mutation.png" alt="Specific state transition diagram with mutation explanation" decoding="async"/>
@@ -715,7 +972,7 @@ self<span style="color:#f92672">.</span>population <span style="color:#f92672">=
 person<span style="color:#f92672">.</span>treatment<span style="color:#f92672">.</span>time_treated <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
 </code></pre></td></tr></table>
 </div>
-</div><div class="centered-image text-center">
+</div><div class="text-center">
     
     
     <img src="../assets/content/model/specific_isolation.png" alt="Specific state transition diagram with isolation explanation" decoding="async"/>
