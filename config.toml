@@ -136,7 +136,7 @@ theme = "wiki-theme"
         weight = 61
         parent = "team"
         identifier = "about"
-        Name = "Team"
+        Name = "Meet the team"
         URL = "/Team"
     [[menu.main]]
         weight = 62

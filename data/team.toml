@@ -7,8 +7,8 @@
 
   [[team_members.item]]
     name = "Ameera Ghani"
-    position = "Biomedical Science"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    position = "Head of human practices"
+    description = "Studies biomedical science"
     img = "/assets/images/people/ag.jpg"
     alt = "Picture of Ameera Ghani"
     social = [
@@ -16,8 +16,8 @@
     ]
   [[team_members.item]]
     name = "Axel Schoerner Emillon"
-    position = "Economics"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    position = "Modelling design"
+    description = "Studies economics"
     img = "/assets/images/people/aes.jpg"
     alt = "Picture of Axel Schoerner Emillon"
     social = [
@@ -25,19 +25,19 @@
     ]
   [[team_members.item]]
     name = "Edmund Goodman"
-    position = "Computer Science"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    position = "Head of wiki and modelling programming"
+    description = "Studies computer science"
     img = "/assets/images/people/eg.jpg"
     alt = "Picture of Edmund Goodman"
     social = [
-      ["icon-github", "https://github.com/EdmundGoodman"],
-      ["icon-globe", "https://edmundgoodman.github.io"],
-      ["fa-linkedin", "https://www.linkedin.com/in/edmundgoodman/"]
+      ["fab fa-github", "https://github.com/EdmundGoodman"],
+      ["fa fa-globe", "https://edmundgoodman.github.io"],
+      ["fab fa-linkedin", "https://www.linkedin.com/in/edmundgoodman/"]
     ]
   [[team_members.item]]
     name = "Jerry Yu"
-    position = "Biochemistry"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    position = "Head of graphic design and video editing"
+    description = "Studies biochemistry"
     img = "/assets/images/people/jy.jpg"
     alt = "Picture of Jerry Yu"
     social = [
@@ -45,8 +45,8 @@
     ]
   [[team_members.item]]
     name = "Lucy Hayter"
-    position = "Biomedical Science"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    position = "Wet lab and human practices"
+    description = "Studies biomedical science"
     img = "/assets/images/people/lh.jpg"
     alt = "Picture of Lucy Hayter"
     social = [
@@ -54,8 +54,8 @@
     ]
   [[team_members.item]]
     name = "Reanna Gregory"
-    position = "Biomedical Science"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    position = "Wet lab and human practices"
+    description = "Studies biomedical science"
     img = "/assets/images/people/rg.jpg"
     alt = "Picture of Reanna Gregory"
     social = [
@@ -63,8 +63,8 @@
     ]
   [[team_members.item]]
     name = "Roman Shantsila"
-    position = "Chemistry"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    position = "---"
+    description = "Studies chemistry"
     img = "/assets/images/people/rs.jpg"
     alt = "Picture of Roman Shantsila"
     social = [
@@ -72,8 +72,8 @@
     ]
   [[team_members.item]]
     name = "Tudor Onose"
-    position = "Biochemistry"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    position = "Team lead and wet lab"
+    description = "Studies biochemistry"
     img = "/assets/images/people/to.png"
     alt = "Picture of Tudor Onose"
     social = [
