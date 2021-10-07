@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-
 
 <html>
-
 
     <head>
         
@@ -256,7 +253,7 @@
                                     <a href="#" class="nav-link">Team&nbsp;&nbsp;</a>
                                     <ul class="dropdown">
                                         
-                                            <li><a href="../Team" class="nav-link">Team</a></li>
+                                            <li><a href="../Team" class="nav-link">Meet the team</a></li>
                                         
                                             <li><a href="../Attributions" class="nav-link">Attributions</a></li>
                                         
@@ -304,10 +301,11 @@
             
 
 
-<section id="hero" class="parallax-window" data-parallax="scroll" data-speed="0.4"
-    data-image-src="">
-    <div id="hero_fore" style="background-image: url('');"></div>
-</section>
+    <section id="hero" class="hero-parallax-window" data-parallax="scroll" data-speed="0.4"
+        data-image-src="">
+        <div id="hero_fore" style="background-image: url('');"></div>
+    </section>
+
 
             
 <section id="hugo-content-wrapper">
@@ -318,13 +316,48 @@
     
     
     
+        <script src="../js/sidebarScrollPath.js" defer></script>
         
-        <section id="hugo-content" class="container">
-            <div class="content-page">
-                <h2 id="table-of-allocated-tasks">Table of allocated tasks</h2>
-<p>TODO: Create a static image of the table of attributions, rather than
-rendering directly in HTML and CSS</p>
-<p>Can try using Hugo a la below, but it&rsquo;s a bit annoying tbh, esp. with stylings</p>
+        <div class="row">
+            
+            <section id="sidebar" class="col-auto">
+                <div class="toc-wrapper content-page">
+                    
+                        <h3><a href="#">Attributions</a></h3>
+                    
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#table-of-task-distribution">Table of task distribution</a></li>
+    <li><a href="#our-advisory-team">Our advisory team</a>
+      <ul>
+        <li><a href="#principal-investigators">Principal investigators</a></li>
+        <li><a href="#supervisors">Supervisors</a></li>
+        <li><a href="#specific-support">Specific support</a></li>
+        <li><a href="#igem-teams">iGEM teams</a></li>
+      </ul>
+    </li>
+    <li><a href="#sponsors">Sponsors</a></li>
+  </ul>
+</nav>
+                    <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000"
+                            stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+                    </svg>
+                </div>
+            </section>
+            
+            <section id="hugo-content" class="col">
+                
+                
+                    <div class="content-page">
+                        <h2 id="summary">Summary</h2>
+                        We have a huge number of people to thank for their help across the course of our project. The most notable are enumerated here, but there are undoubtable many more, along with our friends and family offering moral support for our work during the trying times of a global pandemic
+                    </div>
+                
+
+                
+                <div class="content-page">
+                    <h2 id="table-of-task-distribution">Table of task distribution</h2>
 <table>
 <thead>
 <tr>
@@ -442,8 +475,52 @@ rendering directly in HTML and CSS</p>
 </tbody>
 </table>
 
-            </div>
-        </section>
+
+</div>
+
+<div class="content-page">
+
+<h2 id="our-advisory-team">Our advisory team</h2>
+<h3 id="principal-investigators">Principal investigators</h3>
+<ul>
+<li>Prof. Chris Corre</li>
+</ul>
+<h3 id="supervisors">Supervisors</h3>
+<h3 id="specific-support">Specific support</h3>
+<p>We&rsquo;d like to thank those people who gave us advice on specific topic, allowing our project to be the best it could be</p>
+<h4 id="modelling">Modelling</h4>
+<ul>
+<li>Alex Darlington, for meeting with us to discuss what we could improve about the modelling, and proof-reading the end result</li>
+<li>___, for giving a seminar on using COPASI, and continued assistance with it throughout the project</li>
+</ul>
+<h4 id="wet-lab">Wet lab</h4>
+<ul>
+<li>PhD student #1</li>
+<li>PhD student #2</li>
+<li>&hellip;</li>
+</ul>
+<h4 id="human-practices">Human practices</h4>
+<h3 id="igem-teams">iGEM teams</h3>
+<ul>
+<li>iGEM Manchester, for hosting wiki development codeathons TODO: insert badge</li>
+<li>iGEM KCL, for hosting a virtual meetup</li>
+<li>iGEM ___, for organising the postcard competition</li>
+</ul>
+
+
+</div>
+
+<div class="content-page">
+
+<h2 id="sponsors">Sponsors</h2>
+<ul>
+<li><a href="https://foo.com">Sponsor #1</a></li>
+<li><a href="https://foo.com">Sponsor #2</a></li>
+</ul>
+
+                </div>
+            </section>
+        </div>
     
 
 </section>
