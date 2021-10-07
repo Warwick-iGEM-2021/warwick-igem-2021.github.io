@@ -1043,8 +1043,8 @@ body.accessibility_readingLine #readingLine {
 /* Hero section */
 #hero {
   height: 70vh;
-  padding: 50px 0px 50px 0px;
-  margin: 0px 0px 50px 0px;
+  padding: 0 0 50px 0;
+  margin: 0 0 50px 0;
   color: #fff;
   background: transparent;
   background-size: cover;
