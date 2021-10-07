@@ -235,13 +235,16 @@ tr:nth-child(odd) {
 .homepage-content ul {
   padding-left: 50px; }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 1000px) {
   .homepage-content-left {
     max-width: 35vw;
     margin: 100px auto 100px 5vw !important; }
   .homepage-content-right {
     max-width: 35vw;
-    margin: 100px 5vw 100px auto !important; } }
+    margin: 100px 5vw 100px auto !important; }
+  .homepage-content-center {
+    max-width: 50vw;
+    margin: 100px auto 100px auto !important; } }
 
 /* Partials' stylings */
 /*
@@ -942,7 +945,7 @@ https://codepen.io/albizan/pen/mMWdWZ
   background-color: #535353;
   width: 2.5rem;
   height: 2.5rem;
-  padding: 0;
+  margin: 0 10px 10px 0;
   border-radius: 50%;
   border: none;
   position: absolute;
@@ -1031,97 +1034,6 @@ body.accessibility_readingLine #readingLine {
   left: 0;
   z-index: 9999;
   transform: translateY(0.5rem); }
-
-body.contrast {
-  color: #fff !important;
-  background-image: none !important;
-  background: #000 !important; }
-
-body.contrast nav,
-body.contrast li,
-body.contrast ol,
-body.contrast header,
-body.contrast footer,
-body.contrast section,
-body.contrast main,
-body.contrast aside,
-body.contrast article {
-  background-image: none !important;
-  background: #000 !important;
-  color: #fff !important; }
-
-body.contrast h1,
-body.contrast h2,
-body.contrast h3,
-body.contrast h4,
-body.contrast h5,
-body.contrast h6,
-body.contrast p,
-body.contrast label,
-body.contrast strong,
-body.contrast em,
-body.contrast cite,
-body.contrast q,
-body.contrast i,
-body.contrast b,
-body.contrast u,
-body.contrast span {
-  color: #fff !important; }
-
-body.contrast a {
-  color: #ff0 !important; }
-
-body.contrast a * {
-  color: #ff0 !important; }
-
-body.contrast button,
-body.contrast input[type="button"],
-body.contrast input[type="reset"],
-body.contrast input[type="submit"] {
-  background: #ff0 !important;
-  background-image: none !important;
-  color: #000 !important;
-  font-weight: bold;
-  border: none !important; }
-
-body.contrast img {
-  filter: grayscale(100%) contrast(120%); }
-
-body.contrast input[type="text"],
-body.contrast input[type="password"],
-body.contrast input[type="url"],
-body.contrast input[type="search"],
-body.contrast input[type="email"],
-body.contrast input[type="tel"],
-body.contrast input[type="date"],
-body.contrast input[type="month"],
-body.contrast input[type="week"],
-body.contrast input[type="datetime"],
-body.contrast input[type="datetime-local"],
-body.contrast textarea,
-body.contrast input[type="number"] {
-  background-image: none !important;
-  background: #000 !important;
-  border: 1px solid #fff !important;
-  color: #fff !important; }
-
-body.contrast #accessibilityBar * {
-  background-image: none !important;
-  background-color: #000 !important;
-  color: #ff0 !important; }
-
-body.contrast #accessibilityBar .setAccessibility {
-  border: 1px solid !important; }
-
-body.contrast
-#accessibilityBar
-.setAccessibility[data-accessibility="contrast"] {
-  background-color: #ff0 !important;
-  background-image: none !important;
-  color: #000 !important; }
-
-body.contrast .torn-page {
-  background-image: none !important; }
 
 /* Hero section */
 #hero {
