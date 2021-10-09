@@ -1,20 +1,32 @@
 ---
 title: "Collaborations"
-hero_img: "https://picsum.photos/1920/360"
+hero_img_fore: "/assets/content/collaborations/splash_fore.png"
+hero_img_back: "/assets/content/collaborations/splash_back.png"
 summary: "A brief summary of the content of the page"
 date: 2021-08-26T11:45:25+01:00
 draft: false
 ---
 
+{{< timeline_start >}}
+
+{{< timeline_title >}}
+
 ## McMaster Canada SynBio Song
+
+{{< timeline_content >}}
 
 iGEM Warwick had the opportunity to be involved in iGEM Mcmaster’s song project
 which involved our team members submitting in audio of them singing synthetic
 biology lyrics. This was part of a project to create a song which will teach
 younger students in an unconventional manner more about biology/Synthetic
 Biology and also iGEM.
+{{< div_end >}}
+
+{{< timeline_title >}}
 
 ## UK and Ireland Virtual Meetup
+
+{{< timeline_content >}}
 
 iGEM KCL invited us to attend a virtual meetup with a range of UK and Ireland
 iGEM teams in June 2021. This was an informal meetup where we were able to meet
@@ -23,19 +35,27 @@ We presented a short 3 minute video on what our project will be to the teams in
 our introduction then attended breakout rooms with different teams to work
 together to help each other find solutions to problems arising and to share the
 work we have done so far.
+{{< div_end >}}
+
+{{< timeline_title >}}
 
 ## iGEM Dusseldorf Postcard Project
+
+{{< timeline_content >}}
 
 iGEM Warwick participated in the iGEM Dusseldorf postcard project. We created a
 postcard to be sent to different iGEM teams which will contain information about
 our project. This was a fantastic opportunity to share our project idea with a
 range of iGEM teams in a simple but creative manner.
 
-
 INSERT IMAGE HERE
+{{< div_end >}}
 
+{{< timeline_title >}}
 
 ## iGEM Mingdao virtual Meetup
+
+{{< timeline_content >}}
 
 While creating our Collaborative outreach Magazine iGEM Mingdao team submitted
 their project information in order for it to be added to our booklet. From
@@ -51,8 +71,13 @@ extremely informative and was a fantastic way to get to know another team
 working on a similar project.
 
 INSERT IMAGE HERE
+{{< div_end >}}
+
+{{< timeline_title >}}
 
 ## iGEM Marseille social media emoji Game
+
+{{< timeline_content >}}
 
 iGEM Marseille invited us to participate in their Social Media emoji game which
 involved us submitting an emoji which provided a clue to what our project is in
@@ -61,8 +86,13 @@ choice and project for other iGEM teams participating in the project to have
 access to.
 
 INSERT IMAGE HERE
+{{< div_end >}}
+
+{{< timeline_title >}}
 
 ## Igem Kores_HS Social Media Networking project
+
+{{< timeline_content >}}
 
 INSERT IMAGE HERE
 
@@ -72,23 +102,38 @@ in order for iGEM Korea_HS to create a google drive with our information and
 other teams information. This is a space where a iGEM teams can access
 information on our project and also get in contact with us if they are
 interested in working with us.
+{{< div_end >}}
+
+{{< timeline_title >}}
 
 ## iGEM Stonybrook Cyanobacteria Symposium
+
+{{< timeline_content >}}
 
 On the 15th August iGEM Warwick attended the Wiki Workshop an event part of the
 Cyanobacteria Symposium which we were invited to by iGEM Stonybrook. It was a
 great opportunity to hear how to improve our wiki , what to include and was a
 space to share and gain knowledge from a range of iGEM team members.
+{{< div_end >}}
+
+{{< timeline_title >}}
 
 ## iGEM Taiwan Symposium
+
+{{< timeline_content >}}
 
 iGEM CCU_Taiwan and NCKU_Tainan invited iGEM Warwick to participate in the iASK
 symposium event they hosted. It was an opportunity for our team members to ask
 questions to members of the judging panel committee on the topic of the judging
 form as well gain some advice and wisdom from the 2019 Grand Prize winner
 NCKU_Tainan.
+{{< div_end >}}
+
+{{< timeline_title >}}
 
 ## iGEM Manchester Code-a-thon
+
+{{< timeline_content >}}
 
 iGEM Manchester organised a "code-a-thon", where teams all programmed for 24
 consecutive hours, in order to make progress on their wikis. There were check-in
@@ -102,3 +147,6 @@ able to help out, especially with regards to JavaScript, which seemed to be a
 new experience for the more traditional iGEM team members of biologists!
 
 INSERT IMAGE HERE
+{{< div_end >}}
+
+{{< timeline_end >}}

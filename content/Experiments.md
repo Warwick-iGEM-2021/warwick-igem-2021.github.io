@@ -1,6 +1,7 @@
 ---
 title: "Experiments"
-hero_img: "https://picsum.photos/1920/360"
+hero_img_fore: "/assets/content/experiments/splash_fore.png"
+hero_img_back: "/assets/content/experiments/splash_back.png"
 summary: "A brief summary of the content of the page"
 date: 2021-08-26T11:45:30+01:00
 draft: false

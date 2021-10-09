@@ -1,6 +1,7 @@
 ---
 title: "Attributions"
-hero_img: "https://picsum.photos/1920/360"
+hero_img_fore: "/assets/content/attributions/splash_fore.png"
+hero_img_back: "/assets/content/attributions/splash_back.png"
 summary: "We have a huge number of people to thank for their help across the course of our project. The most notable are enumerated here, but there are undoubtable many more, along with our friends and family offering moral support for our work during the trying times of a global pandemic"
 date: 2021-08-26T11:45:24+01:00
 draft: false

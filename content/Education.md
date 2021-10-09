@@ -1,6 +1,7 @@
 ---
 title: "Education"
-hero_img: "/assets/content/education/splash.jpg"
+hero_img_fore: "/assets/content/education/splash_fore.png"
+hero_img_back: "/assets/content/education/splash_back.png"
 summary: "Throughout the iGEM project, we engaged with both other teams and other students, aiming to help with education and outreach throughout many communities"
 date: 2021-09-07T14:59:05+01:00
 draft: false
