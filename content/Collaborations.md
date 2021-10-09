@@ -6,16 +6,99 @@ date: 2021-08-26T11:45:25+01:00
 draft: false
 ---
 
-## Lorem Ipsum
+## McMaster Canada SynBio Song
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
-dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
-sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
-nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus
-et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula
-placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec
-tellus lacinia, elementum libero a, iaculis justo. Proin interdum placerat elit,
-et consectetur lectus feugiat non. In iaculis eros sit amet dui lobortis, eu
-consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
-diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
-Pellentesque non hendrerit nisl.
+iGEM Warwick had the opportunity to be involved in iGEM Mcmaster’s song project
+which involved our team members submitting in audio of them singing synthetic
+biology lyrics. This was part of a project to create a song which will teach
+younger students in an unconventional manner more about biology/Synthetic
+Biology and also iGEM.
+
+## UK and Ireland Virtual Meetup
+
+iGEM KCL invited us to attend a virtual meetup with a range of UK and Ireland
+iGEM teams in June 2021. This was an informal meetup where we were able to meet
+a range of different teams and discuss more about our project ideas and plans.
+We presented a short 3 minute video on what our project will be to the teams in
+our introduction then attended breakout rooms with different teams to work
+together to help each other find solutions to problems arising and to share the
+work we have done so far.
+
+## iGEM Dusseldorf Postcard Project
+
+iGEM Warwick participated in the iGEM Dusseldorf postcard project. We created a
+postcard to be sent to different iGEM teams which will contain information about
+our project. This was a fantastic opportunity to share our project idea with a
+range of iGEM teams in a simple but creative manner.
+
+
+INSERT IMAGE HERE
+
+
+## iGEM Mingdao virtual Meetup
+
+While creating our Collaborative outreach Magazine iGEM Mingdao team submitted
+their project information in order for it to be added to our booklet. From
+reading about their project we saw similarities with ours such as how we are
+both creating detection kits to detect dangerous bacteria’s on the rise.
+Therefore iGEM Warwick wanted to learn more about their project , human
+practices and wet lab work in particular. iGEM Warwick planned a virtual meeting
+with the team where we introduced our projects , shared a video introducing our
+project as well discussed the wet lab and human practices work we have done. We
+discussed possible problems and solutions such as the idea of working with
+bacteriophages and also who to contact for human practices. This meetup was
+extremely informative and was a fantastic way to get to know another team
+working on a similar project.
+
+INSERT IMAGE HERE
+
+## iGEM Marseille social media emoji Game
+
+iGEM Marseille invited us to participate in their Social Media emoji game which
+involved us submitting an emoji which provided a clue to what our project is in
+order for other teams to guess. We also submitted in an explanation of our emoji
+choice and project for other iGEM teams participating in the project to have
+access to.
+
+INSERT IMAGE HERE
+
+## Igem Kores_HS Social Media Networking project
+
+INSERT IMAGE HERE
+
+iGEM Warwick submitted in a team picture and project description to iGEM
+Korea_HS. The aim of this collaboration was to provide information on our team
+in order for iGEM Korea_HS to create a google drive with our information and
+other teams information. This is a space where a iGEM teams can access
+information on our project and also get in contact with us if they are
+interested in working with us.
+
+## iGEM Stonybrook Cyanobacteria Symposium
+
+On the 15th August iGEM Warwick attended the Wiki Workshop an event part of the
+Cyanobacteria Symposium which we were invited to by iGEM Stonybrook. It was a
+great opportunity to hear how to improve our wiki , what to include and was a
+space to share and gain knowledge from a range of iGEM team members.
+
+## iGEM Taiwan Symposium
+
+iGEM CCU_Taiwan and NCKU_Tainan invited iGEM Warwick to participate in the iASK
+symposium event they hosted. It was an opportunity for our team members to ask
+questions to members of the judging panel committee on the topic of the judging
+form as well gain some advice and wisdom from the 2019 Grand Prize winner
+NCKU_Tainan.
+
+## iGEM Manchester Code-a-thon
+
+iGEM Manchester organised a "code-a-thon", where teams all programmed for 24
+consecutive hours, in order to make progress on their wikis. There were check-in
+meetings every three hours, so we could discuss what we had acheived, and
+generally have a chat. It was a great experience, with strong camaraderie
+amongst the teams, especially during meetings later into the night.
+Additionally, teams were able to help each other out with technical issues, for
+example asking if anyone knew how to debug or fix an issue they'd been having.
+Since two of our team members already have experience with web design, we were
+able to help out, especially with regards to JavaScript, which seemed to be a
+new experience for the more traditional iGEM team members of biologists!
+
+INSERT IMAGE HERE

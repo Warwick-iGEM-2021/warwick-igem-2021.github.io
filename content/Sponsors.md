@@ -8,6 +8,12 @@ draft: false
 
 ## Lorem Ipsum
 
+{{< carousel title="Gallery" >}}
+ - https://picsum.photos/id/500/1920/1080, Slide one
+ - https://picsum.photos/id/501/1920/1080, Slide two
+ - https://picsum.photos/id/502/1920/1080, Slide three
+{{</ carousel >}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
 dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
 sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
