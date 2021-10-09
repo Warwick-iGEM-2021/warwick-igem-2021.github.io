@@ -8,10 +8,7 @@ Implementation.md
 Human_Practices.md
 Model.md
 Proof_Of_Concept.md
-Communication.md
 Model.md
-Entrepreneurship.md
-Sustainable.md
 Team.md
 Experiments.md
 Notebook.md
