@@ -1,16 +1,16 @@
 Attributions.md
 Awards.md
 Collaborations.md
+Communication.md
 Contribution.md
 Description.md
-Communication.md
 Engineering.md
 Experiments.md
-Human practices.md
+Human_Practices.md
 Implementation.md
 Medal_Critera.md
 Model.md
 Planning.md
-Proof of concept.md
+Proof_Of_Concept.md
 Sponsors.md
 Team.md

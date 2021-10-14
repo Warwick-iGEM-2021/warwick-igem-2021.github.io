@@ -60,12 +60,6 @@ theme = "wiki-theme"
     [[menu.main]]
         weight = 7
         parent = "project"
-        identifier = "contribution"
-        Name = "Contributions"
-        URL = "/Contribution"
-        [[menu.main]]
-        weight = 8
-        parent = "project"
         identifier = "implementation"
         Name = "Implementation"
         URL = "/Implementation"
@@ -91,18 +85,6 @@ theme = "wiki-theme"
     [[menu.main]]
         weight = 23
         parent = "lab"
-        identifier = "parts"
-        Name = "Parts"
-        URL = "/Parts"
-    [[menu.main]]
-        weight = 24
-        parent = "lab"
-        identifier = "notebook"
-        Name = "Notebook"
-        URL = "/Notebook"
-    [[menu.main]]
-        weight = 25
-        parent = "lab"
         identifier = "safety"
         Name = "Safety"
         URL = "/Safety"
@@ -123,7 +105,7 @@ theme = "wiki-theme"
         weight = 42
         parent = "human_practices"
         identifier = "communication"
-        Name = "Public engagement and education"
+        Name = "Communication" # Public engagement and education
         URL = "/Communication"
 
     ### Team tab
@@ -139,19 +121,25 @@ theme = "wiki-theme"
         Name = "Meet the team"
         URL = "/Team"
     [[menu.main]]
-        weight = 62
+        weight = 63
+        parent = "team"
+        identifier = "contribution"
+        Name = "Contributions"
+        URL = "/Contribution"
+    [[menu.main]]
+        weight = 63
         parent = "team"
         identifier = "attributions"
         Name = "Attributions"
         URL = "/Attributions"
     [[menu.main]]
-        weight = 63
+        weight = 64
         parent = "team"
         identifier = "collaborations"
         Name = "Collaborations"
         URL = "/Collaborations"
     [[menu.main]]
-        weight = 64
+        weight = 65
         parent = "team"
         identifier = "sponsors"
         Name = "Sponsors"
@@ -160,34 +148,21 @@ theme = "wiki-theme"
     ### Awards tab
     [[menu.main]]
         weight = 80
-        identifier = "awards"
-        Name = "Awards"
+        identifier = "judging"
+        Name = "Judging"
         URL = "#"
     [[menu.main]]
         weight = 81
-        parent = "awards"
-        identifier = "model_award"
-        Name = "Model"
-        URL = "/Model"
+        parent = "judging"
+        identifier = "awards_list"
+        Name = "Awards"
+        URL = "/Awards"
     [[menu.main]]
         weight = 82
-        parent = "awards"
-        identifier = "human_practices_award"
-        Name = "Human practices"
-        URL = "/Human_Practices"
-
-    [[menu.main]]
-        weight = 83
-        parent = "awards"
-        identifier = "sustainable"
-        Name = "Sustainability"
-        URL = "/Sustainable"
-    [[menu.main]]
-        weight = 84
-        parent = "awards"
-        identifier = "entrepreneurship"
-        Name = "Entrepreneurship"
-        URL = "/Entrepreneurship"
+        parent = "judging"
+        identifier = "medal_criteria"
+        Name = "Medal Criteria"
+        URL = "/Medal_Critera"
 
 [params]
 

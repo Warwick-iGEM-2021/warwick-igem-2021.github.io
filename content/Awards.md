@@ -1,9 +1,8 @@
 ---
-title: "Safety"
-hero_img_fore: "/assets/content/safety/splash_fore.png"
-hero_img_back: "/assets/content/safety/splash_back.png"
+title: "Awards"
+hero_img: "https://picsum.photos/1920/360"
 summary: "A brief summary of the content of the page"
-date: 2021-08-26T11:45:32+01:00
+date: 2021-10-14T20:03:59+01:00
 draft: false
 ---
 
