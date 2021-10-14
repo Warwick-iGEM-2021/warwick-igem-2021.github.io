@@ -135,14 +135,19 @@
     readingLine.id = "readingLine";
     document.body.insertBefore(readingLine, document.body.firstChild);
 
-    html.addEventListener("mousemove", function (e) {
+    function moveReadingLine(e) {
         if (body.classList.contains("accessibility_readingLine")) {
             let linePositionY = e.pageY - 20;
-            // console.log(linePositionY);
+            console.log(linePositionY);
             const elReadingLine = document.querySelector("#readingLine"); // Toggle button
             elReadingLine.style.top = `${linePositionY}px`;
         }
-    });
+    }
+
+    html.addEventListener("mousemove", function (e) { moveReadingLine(e); });
+
+    // TODO: Fix this to also move around on scroll???
+    //html.addEventListener("onscroll", function (e) { moveReadingLine(e);});
 
 
     /*
@@ -164,19 +169,15 @@
     function toggleAccessibilities(action) {
         switch (action) {
             case "incFont":
-                window.toggleFontSize(action);
-                break;
             case "oriFont":
-                window.toggleFontSize(action);
-                break;
             case "decFont":
                 window.toggleFontSize(action);
+                drawPath();
                 break;
             case "readingLine":
                 body.classList.toggle("accessibility_readingLine");
                 break;
             case "reset":
-                Contrast.currentState === true ? Contrast.setState(false) : null;
                 window.toggleFontSize("oriFont");
                 body.classList.remove("accessibility_readingLine");
                 break;
