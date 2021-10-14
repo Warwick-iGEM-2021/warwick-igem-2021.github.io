@@ -1,12 +1,15 @@
 # Warwick iGEM 2021 wiki
 
-The code repository for the wiki for the Warwick iGEM 2021 team entry
+The code repository for the static site generator of the wiki for the Warwick iGEM 2021 team entry.
 
+---
 
 The *development* site is hosted on GitHub pages, and is located at: [https://warwick-igem-2021.github.io/](https://warwick-igem-2021.github.io/)
+
 ![Development site up](https://img.shields.io/website.svg?down_color=red&down_message=down&style=for-the-badge&up_color=green&up_message=up&url=https%3A%2F%2Fgithub%2Ecom%2FWarwick%2DiGEM%2D2021%2Fwarwick%2Digem%2D2021%2Egithub%2Eio)
 
 The *production* site is hosted on the iGEM website, and is located at: [https://2021.igem.org/Team:Warwick](https://2021.igem.org/Team:Warwick)
+
 ![Production site up](https://img.shields.io/website.svg?down_color=red&down_message=down&style=for-the-badge&up_color=green&up_message=up&url=https%3A%2F%2F2021%2Eigem%2Eorg%2FTeam%3AWarwick)
 
 ---
