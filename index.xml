@@ -7,21 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language><atom:link href="https://warwick-igem-2021.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Education</title>
-      <link>https://warwick-igem-2021.github.io/Education/</link>
-      <pubDate>Tue, 07 Sep 2021 14:59:05 +0100</pubDate>
+      <title>Medal Critera</title>
+      <link>https://warwick-igem-2021.github.io/Medal_Critera/</link>
+      <pubDate>Thu, 14 Oct 2021 20:04:04 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/Education/</guid>
-      <description>Throughout the iGEM project, we engaged with both other teams and other students, aiming to help with education and outreach throughout many communities</description>
+      <guid>https://warwick-igem-2021.github.io/Medal_Critera/</guid>
+      <description>A brief summary of the content of the page</description>
     </item>
     
     <item>
-      <title>Safety</title>
-      <link>https://warwick-igem-2021.github.io/Safety/</link>
-      <pubDate>Thu, 26 Aug 2021 11:45:32 +0100</pubDate>
+      <title>Awards</title>
+      <link>https://warwick-igem-2021.github.io/Awards/</link>
+      <pubDate>Thu, 14 Oct 2021 20:03:59 +0100</pubDate>
       
-      <guid>https://warwick-igem-2021.github.io/Safety/</guid>
+      <guid>https://warwick-igem-2021.github.io/Awards/</guid>
       <description>A brief summary of the content of the page</description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>https://warwick-igem-2021.github.io/Communication/</link>
+      <pubDate>Tue, 07 Sep 2021 14:59:05 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/Communication/</guid>
+      <description>Throughout the iGEM project, we engaged with both other teams and other students, aiming to help with education and outreach throughout many communities</description>
     </item>
     
     <item>
@@ -30,15 +39,6 @@
       <pubDate>Thu, 26 Aug 2021 11:45:32 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Sponsors/</guid>
-      <description>A brief summary of the content of the page</description>
-    </item>
-    
-    <item>
-      <title>Parts</title>
-      <link>https://warwick-igem-2021.github.io/Parts/</link>
-      <pubDate>Thu, 26 Aug 2021 11:45:31 +0100</pubDate>
-      
-      <guid>https://warwick-igem-2021.github.io/Parts/</guid>
       <description>A brief summary of the content of the page</description>
     </item>
     
@@ -52,29 +52,11 @@
     </item>
     
     <item>
-      <title>Results</title>
-      <link>https://warwick-igem-2021.github.io/Results/</link>
-      <pubDate>Thu, 26 Aug 2021 11:45:31 +0100</pubDate>
-      
-      <guid>https://warwick-igem-2021.github.io/Results/</guid>
-      <description>A brief summary of the content of the page</description>
-    </item>
-    
-    <item>
       <title>Experiments</title>
       <link>https://warwick-igem-2021.github.io/Experiments/</link>
       <pubDate>Thu, 26 Aug 2021 11:45:30 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Experiments/</guid>
-      <description>A brief summary of the content of the page</description>
-    </item>
-    
-    <item>
-      <title>Notebook</title>
-      <link>https://warwick-igem-2021.github.io/Notebook/</link>
-      <pubDate>Thu, 26 Aug 2021 11:45:30 +0100</pubDate>
-      
-      <guid>https://warwick-igem-2021.github.io/Notebook/</guid>
       <description>A brief summary of the content of the page</description>
     </item>
     
@@ -148,7 +130,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:25 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Engineering/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>The process was, as every year, a lengthy one, and the core of our project. Our lab team was thankfully able to enter the lab this summer and carry out a great deal of work to validate our dry designs, which will be detailed below. We are pleased to report that despite not having enough time to achieve all our end goals, we believe we have been successful.</description>
     </item>
     
     <item>
@@ -166,7 +148,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:24 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Description/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>We aim to develop a CRISPR dcas9 based fast fluorescent detection method system for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be implemented in hospital cleaning routine to prevent CRE a common family of antibiotic resistant bacteria found in sinks from spreading.</description>
     </item>
     
   </channel>

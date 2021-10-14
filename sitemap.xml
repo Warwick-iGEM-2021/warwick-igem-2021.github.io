@@ -2,28 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://warwick-igem-2021.github.io/Education/</loc>
-    <lastmod>2021-09-07T14:59:05+01:00</lastmod>
+    <loc>https://warwick-igem-2021.github.io/Medal_Critera/</loc>
+    <lastmod>2021-10-14T20:04:04+01:00</lastmod>
   </url><url>
-    <loc>https://warwick-igem-2021.github.io/Safety/</loc>
-    <lastmod>2021-08-26T11:45:32+01:00</lastmod>
+    <loc>https://warwick-igem-2021.github.io/Awards/</loc>
+    <lastmod>2021-10-14T20:03:59+01:00</lastmod>
+  </url><url>
+    <loc>https://warwick-igem-2021.github.io/Communication/</loc>
+    <lastmod>2021-09-07T14:59:05+01:00</lastmod>
   </url><url>
     <loc>https://warwick-igem-2021.github.io/Sponsors/</loc>
     <lastmod>2021-08-26T11:45:32+01:00</lastmod>
   </url><url>
-    <loc>https://warwick-igem-2021.github.io/Parts/</loc>
-    <lastmod>2021-08-26T11:45:31+01:00</lastmod>
-  </url><url>
     <loc>https://warwick-igem-2021.github.io/Planning/</loc>
     <lastmod>2021-08-26T11:45:31+01:00</lastmod>
   </url><url>
-    <loc>https://warwick-igem-2021.github.io/Results/</loc>
-    <lastmod>2021-08-26T11:45:31+01:00</lastmod>
-  </url><url>
     <loc>https://warwick-igem-2021.github.io/Experiments/</loc>
-    <lastmod>2021-08-26T11:45:30+01:00</lastmod>
-  </url><url>
-    <loc>https://warwick-igem-2021.github.io/Notebook/</loc>
     <lastmod>2021-08-26T11:45:30+01:00</lastmod>
   </url><url>
     <loc>https://warwick-igem-2021.github.io/Team/</loc>
