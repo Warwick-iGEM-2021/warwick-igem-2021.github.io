@@ -1,20 +1,16 @@
 Attributions.md
-Description.md
-Contribution.md
-Engineering.md
+Awards.md
 Collaborations.md
-Human_Practices.md
-Implementation.md
-Human_Practices.md
-Model.md
-Proof_Of_Concept.md
-Model.md
-Team.md
+Contribution.md
+Description.md
+Communication.md
+Engineering.md
 Experiments.md
-Notebook.md
-Parts.md
-Results.md
+Human practices.md
+Implementation.md
+Medal_Critera.md
+Model.md
 Planning.md
-Safety.md
+Proof of concept.md
 Sponsors.md
-Education.md
+Team.md

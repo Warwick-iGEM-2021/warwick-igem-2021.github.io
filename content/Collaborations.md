@@ -2,6 +2,7 @@
 title: "Collaborations"
 hero_img_fore: "/assets/content/collaborations/splash_fore.png"
 hero_img_back: "/assets/content/collaborations/splash_back.png"
+toc: false
 summary: "A brief summary of the content of the page"
 date: 2021-08-26T11:45:25+01:00
 draft: false

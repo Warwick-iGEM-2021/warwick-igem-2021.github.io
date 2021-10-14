@@ -2,26 +2,19 @@
 title: "Description"
 hero_img_fore: "/assets/content/description/splash_fore.png"
 hero_img_back: "/assets/content/description/splash_back.png"
-summary: "A brief summary of the content of the page"
+summary: "We aim to develop a CRISPR dcas9 based fast fluorescent detection method system for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be implemented in hospital cleaning routine to prevent CRE a common family of antibiotic resistant bacteria found in sinks from spreading."
 date: 2021-08-26T11:45:24+01:00
 draft: false
 ---
 
-## Abstract
-
-We aim to develop a CRISPR dcas9 based fast fluorescent detection method system
-for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be
-implemented in hospital cleaning routine to prevent CRE a common family of
-antibiotic resistant bacteria found in sinks from spreading.
-
 ## Carbapenems in the twilight of an era
 
 The antibiotic resistance crisis is an ongoing phenomenon whose consequences are
-far-reaching – with the WHO describing it as "one of the biggest threats to
-global health, food security and development today" [1]. While naturally occurring,
+far-reaching – with the WHO describing it as “one of the biggest threats to
+global health, food security and development today” [1]. While naturally occurring,
 the overuse of antibiotics in a variety of ways has accelerated this process, as
 humanity and pathogenic bacteria are locked in an arms race in which the former
-has the disadvantage. The term "post-antibiotic era" had already been
+has the disadvantage. The term “post-antibiotic era” had already been
 established as early as 2010 [2], but a way to end the crisis has remained elusive.
 
 Carbapenem resistant Enterobacteriaceae (CRE), also known as
@@ -29,13 +22,13 @@ carbapenemase-producing Enterobacteriaceae (CPE) are a part of this phenomenon.
 As their name would suggest, these bacteria, including strains of species like
 Klebsiella pneumoniae and Escherichia coli, have developed resistance mechanism
 to a family of antibiotics known as carbapenems, which in many cases are used as
-"last resort" antibiotics for the treatment of infections. Resistance to
+“last resort” antibiotics for the treatment of infections. Resistance to
 carbapenems is often assessed through routine swabbing when patients are
 admitted into hospitals, but a positive result has a turnaround time on the
 scale of days.
 
 Faster tests, such as the Carba NP test, exist, but they are not effective in
-detecting all the possible carbapenem resistance mechanisms [3], [4], leaving open the
+detecting all the possible carbapenem resistance mechanisms [3] [4], leaving open the
 possibility for false negatives. Patients who test positive for CRE are
 isolated, but the aforementioned long turnaround time and potential for false
 negatives can lead to a window of unchecked spread of carbapenem resistance
@@ -70,13 +63,31 @@ dCas9, stabilising any transcriptional complexes that might form downstream.
 
 Our plasmids (fig. 1 and 2) contain all these components, as well as the gene
 encoding our reporter, a fluorescent RNA aptamer named iSpinach, which, in
-combination with a fluorogen known as DFHBI, produces a strong green signal
-visible under UV light. The PAM sequence for the gRNA we engineered is located
-just upstream of the promoter of this gene. We chose to pursue the use of
-fluorescent RNAs since it eliminates the need to wait for translation to occur –
-healthcare professionals have mentioned that time is of the essence when CRE are
-suspected.
+combination with a non-toxic fluorogen known as DFHBI, produces a strong green
+signal visible under UV light. The PAM sequence for the gRNA we engineered is
+located just upstream of the promoter of this gene. We chose to pursue the use
+of fluorescent RNAs since it eliminates the need to wait for translation to
+occur – healthcare professionals have mentioned that time is of the essence when
+CRE are suspected.
 
 ## Citations
 
-TODO: Complete
+[1] WHO fact sheet at
+https://www.who.int/news-room/fact-sheets/detail/antibiotic-resistance, accessed
+on the 27th of September 2021
+
+[2] Zucca, M., Savoia, D., The Post-Antibiotic Era: Promising Developments in
+the Therapy of Infectious Diseases, Int. J Biomed Sci (2010), 6(2), pp. 77-86
+
+[3] Tijet, N., Boyd, D., Patel, S. N., Mulvey, M. R., Melano, R. G., Evaluation
+of the Carba NP Test for Rapid Detection of Carbapenemase-Producing
+Enterobacteriaceae and Pseudomonas aeruginosa, Antimicrob Agents Chemother
+(2013), 57(9), pp. 4578-4580
+
+[4] Osterblad, M., Hakanen, A. J., Jalava, J., Evaluation of the Carba NP test
+for Carbapenemase Detection, Antimicrob Agents Chemother (2014), 58(12), pp.
+7553-7556
+
+[5] Dong, C., Fontana, J., Patel, A., Carothers, J. M., Zalatan, J. G., Syntheic
+CRISPR-Cas gene activators for transcriptional reprogramming in bacteria, Nat
+Commun (2018), 2489(9), doi: https://doi.org/10.1038/s41467-018-04901-6
