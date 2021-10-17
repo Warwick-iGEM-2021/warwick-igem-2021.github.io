@@ -1,6 +1,7 @@
 ---
 title: "Awards"
-hero_img: "https://picsum.photos/1920/360"
+hero_img_fore: "/assets/content/awards/splash_fore.png"
+hero_img_back: "/assets/content/awards/splash_back.png"
 summary: "A brief summary of the content of the page"
 date: 2021-10-14T20:03:59+01:00
 draft: false
