@@ -204,8 +204,6 @@
                                         
                                             <li><a href="../Model" class="nav-link">Model</a></li>
                                         
-                                            <li><a href="../Results" class="nav-link">Results</a></li>
-                                        
                                             <li><a href="../Implementation" class="nav-link">Implementation</a></li>
                                         
                                     </ul>
@@ -221,8 +219,6 @@
                                             <li><a href="../Proof_Of_Concept" class="nav-link">Proof of concept</a></li>
                                         
                                             <li><a href="../Experiments" class="nav-link">Experiments</a></li>
-                                        
-                                            <li><a href="../Safety" class="nav-link">Safety</a></li>
                                         
                                     </ul>
                                 </li>
@@ -313,24 +309,95 @@
     
     
     
+        <script src="../js/sidebarScrollPath.js" defer></script>
         
-        <section id="hugo-content" class="container">
-            <div class="content-page">
-                <h2 id="lorem-ipsum">Lorem Ipsum</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
-dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
-sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
-nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus
-et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula
-placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec
-tellus lacinia, elementum libero a, iaculis justo. Proin interdum placerat elit,
-et consectetur lectus feugiat non. In iaculis eros sit amet dui lobortis, eu
-consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
-diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
-Pellentesque non hendrerit nisl.</p>
+        <div class="row">
+            
+            <section id="sidebar" class="col-auto">
+                <div class="toc-wrapper content-page">
+                    
+                        <h3><a href="#">Implementation</a></h3>
+                    
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-rationale">The rationale</a></li>
+    <li><a href="#the-kit">The kit</a></li>
+    <li><a href="#the-bigger-picture">The bigger picture</a></li>
+  </ul>
+</nav>
+                    <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000"
+                            stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+                    </svg>
+                </div>
+            </section>
+            
+            <section id="hugo-content" class="col">
+                
+                
+                    <div class="content-page">
+                        <h2 id="summary">Summary</h2>
+                        A brief summary of the content of the page
+                    </div>
+                
 
-            </div>
-        </section>
+                
+                <div class="content-page">
+                    <h2 id="the-rationale">The rationale</h2>
+<p>As mentioned before, this kit is aimed at use by hospital staff with minimal
+training, in order to contain the spread of CRE more effectively. Healthcare
+professionals have let us know that patients are routinely swabbed for various
+types of antibiotic resistant bacteria, including CRE, and we believe that our
+tool would complement this perfectly, providing more information for virtually
+no drawbacks.</p>
+<p>Antibiotic resistance has caused an arms race humanity is doomed to lose unless
+more types of action aside from the discovery of novel antibiotics are taken,
+raising a number of worrying questions about the future of healthcare.
+Mitigating the effect that the spread of antibiotic resistance has is even more
+important than it normally would be due to the COVID-19 pandemic placing
+significant strain upon healthcare systems. Coinfection of COVID patients with
+hospital bacteria has been known to happen, and thus we believe that a quick and
+reliable diagnosis tool such as our detector can prevent at least some of these
+from occurring.</p>
+<h2 id="the-kit">The kit</h2>
+<p>Our circuit was originally designed to also function in vitro - making it work
+in a cell-free context would, in our opinion, not be particularly difficult. The
+kit itself would take the form of a tube, filled with a cell-free extract which
+would contain our engineered components, as well as the necessary substances to
+produce the reporter, such as nucleotides, the buffers necessary for the RNA
+aptamer’s correct folding and the fluorophore, DFHBI. Due to the non-toxic
+nature of all the components and the absence of any living cells within the
+tube, it would be perfectly safe for use with minimal personal protective
+equipment. It would, however, need to be stored at low temperatures in order to
+keep the proteins in the extract (such as dCas9) functional for an extended
+period of time.</p>
+<p>TODO: Insert a big gallery of photos</p>
+<p>The kit’s use would be perfectly integrated into current procedures – after the
+patient has been swabbed once and the initial sample sent for sequencing, a
+second swab can be taken and placed into the tube. After a relatively short time
+spent waiting, the solution can be examined for fluorescence and appropriate
+measures taken, with their extension dependent upon the results of the
+sequencing analysis. This would enable positive patients to be quarantined
+earlier and limit the spread of CRE, as well as preventing the unnecessary
+quarantine of patients who are suspected of carrying CRE but turn up not
+carrying the bacteria. Moreover, this test requires minimal training as the
+signal is obvious and the procedure is very easy to carry out by personnel
+trained in swabbing patients.</p>
+<h2 id="the-bigger-picture">The bigger picture</h2>
+<p>Should the system be particularly successful, it can be iterated upon to produce
+variants which can detect other genes of interest – engineering new cgRNAs is a
+relatively simple process, and all it would take to convert our OXA-48 sensing
+system to sense another gene is replacing this cgRNA. This modular design could
+also see use in other areas such as research, where lengthy and difficult
+procedures such as RNA extractions would be made much easier to carry out.</p>
+<p>Producing the kit is relatively cheap, as once cultures of cells containing our
+system have been established, maintaining them is not particularly expensive. In
+addition, taking fluorescence readings can easily be automated to eliminate the
+possibility of human error.</p>
+
+                </div>
+            </section>
+        </div>
     
 
 </section>
