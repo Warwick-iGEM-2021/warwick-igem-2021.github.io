@@ -314,7 +314,63 @@ Some common questions about the model are answered below:
 
 {{< new_sheet >}}
 
-## Modelling with COPASI
+## Modelling with NUPACK
+
+We used NUPACK, a software suite used to model possible nucleic acid structures,
+to design our gRNAs. We used SnapGene to identify a highly conserved section of
+our target gene (OXA-48), which we could use to design a corresponding gRNA. The
+OXA-48 sequence we selected was as follows:
+
+TODO: Add gene sequence as image to include colours
+
+TTTACTGAACATAAATCACA GGGCGTAGT TGTGCTCTGGAATGA
+
+The sequence for the gRNA we designed was as follows:
+
+TCATTCCAGAGCACA AAAGGTTTTGCAC TGTGATTTATGTTCAGTAAAGTGCAAAACCTTTCGCGGTAGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCG
+
+Green = spacer (DNA binding site for the Cas9)
+
+Yellow = sensing loop (important for RNA recognition)
+
+Red = clamp (antisense Cas9 inhibitor)
+
+Blue = extended sensing domain
+
+The yellow section on the OXA-48 RNA corresponds to the yellow section on our
+gRNA, which would be our sensing loop. The blue section on the OXA-48 RNA
+corresponds to the extended sensing domain on our gRNA.
+
+When we inserted our gRNA sequence into NUPACK, we obtained two different closed
+conformations:
+
+TODO: Insert image
+
+The first conformation is what a single molecule of our gRNA would look like,
+and the second conformation is what happens when two gRNA molecules bind to one
+another. The colours shown represent the probability that those specific bonds
+will form. The dark red nucleotides indicate a very stable structure. The light
+blue areas are where the trigger RNA will eventually come and bind, so these
+bonds are less stable and much more likely to break as a consequence. Double
+stranded nucleotides prevent gRNA function, so this closed conformation is
+inactive.
+
+When we inserted the OXA-48 (trigger RNA) sequence into NUPACK, we received this
+conformation for the gRNA:
+
+TODO: Insert image
+
+When the gRNA comes into close proximity with the trigger RNA, it changes into
+an open, active conformation. The previously weak, light blue bonds break, and
+the target RNA can bind to the single nucleotides to form a double-stranded
+molecule once more. This double-stranded molecule has a much stabler structure
+with far higher binding probabilities than before.
+
+In the open, active conformation, the gRNA is now able to bind to the dCas9.
+This brings the dCas9 into close proximity with the trigger RNA so they can
+bind. Thus the dCas9 is able to recognise the target RNA and cause the
+transcription of GFP to give us a visual indicator that the OXA-48 gene is
+present.
 
 {{< new_sheet >}}
 

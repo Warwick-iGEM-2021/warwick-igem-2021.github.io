@@ -54,12 +54,6 @@ theme = "wiki-theme"
     [[menu.main]]
         weight = 6
         parent = "project"
-        identifier = "results"
-        Name = "Results"
-        URL = "/Results"
-    [[menu.main]]
-        weight = 7
-        parent = "project"
         identifier = "implementation"
         Name = "Implementation"
         URL = "/Implementation"
@@ -82,12 +76,6 @@ theme = "wiki-theme"
         identifier = "experiments"
         Name = "Experiments"
         URL = "/Experiments"
-    [[menu.main]]
-        weight = 23
-        parent = "lab"
-        identifier = "safety"
-        Name = "Safety"
-        URL = "/Safety"
 
     ### Human practices tab
     [[menu.main]]

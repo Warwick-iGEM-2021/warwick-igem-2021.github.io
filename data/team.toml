@@ -8,7 +8,7 @@
 
   [[team_members.item]]
     name = "Ameera Ghani"
-    position = "Human practices"
+    position = "Education and communication"
     description = "A 2nd Year Biomedical Science student who has a real passion for bringing in more collaboration and outreach opportunities as part of the iGEM Warwick Team Project."
     img = "/assets/images/people/ag.jpg"
     alt = "Picture of Ameera Ghani"
@@ -46,7 +46,7 @@
     ]
   [[team_members.item]]
     name = "Lucy Hayter"
-    position = "Wet lab and human practices"
+    position = "Wet lab"
     description = "Studies biomedical science"
     img = "/assets/images/people/lh.jpg"
     alt = "Picture of Lucy Hayter"
@@ -56,7 +56,7 @@
   [[team_members.item]]
     name = "Reanna Gregory"
     position = "Wet lab and human practices"
-    description = "Studies biomedical science"
+    description = "A 2nd Year Biomedical Science student who can normally be found making a load of noise with a bunch of instruments somewhere to procrastinate doing iGEM work. I also enjoy climbing and playing football to distract myself from crying over failed lab experiments!"
     img = "/assets/images/people/rg.jpg"
     alt = "Picture of Reanna Gregory"
     social = [
@@ -64,7 +64,7 @@
     ]
   [[team_members.item]]
     name = "Roman Shantsila"
-    position = "---"
+    position = "Implementation"
     description = "Studies chemistry"
     img = "/assets/images/people/rs.jpg"
     alt = "Picture of Roman Shantsila"

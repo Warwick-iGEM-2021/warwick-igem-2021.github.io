@@ -7,16 +7,63 @@ date: 2021-08-26T11:45:26+01:00
 draft: false
 ---
 
-## Lorem Ipsum
+## The rationale
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
-dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
-sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
-nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus
-et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula
-placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec
-tellus lacinia, elementum libero a, iaculis justo. Proin interdum placerat elit,
-et consectetur lectus feugiat non. In iaculis eros sit amet dui lobortis, eu
-consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
-diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
-Pellentesque non hendrerit nisl.
+As mentioned before, this kit is aimed at use by hospital staff with minimal
+training, in order to contain the spread of CRE more effectively. Healthcare
+professionals have let us know that patients are routinely swabbed for various
+types of antibiotic resistant bacteria, including CRE, and we believe that our
+tool would complement this perfectly, providing more information for virtually
+no drawbacks.
+
+Antibiotic resistance has caused an arms race humanity is doomed to lose unless
+more types of action aside from the discovery of novel antibiotics are taken,
+raising a number of worrying questions about the future of healthcare.
+Mitigating the effect that the spread of antibiotic resistance has is even more
+important than it normally would be due to the COVID-19 pandemic placing
+significant strain upon healthcare systems. Coinfection of COVID patients with
+hospital bacteria has been known to happen, and thus we believe that a quick and
+reliable diagnosis tool such as our detector can prevent at least some of these
+from occurring.
+
+## The kit
+
+Our circuit was originally designed to also function in vitro - making it work
+in a cell-free context would, in our opinion, not be particularly difficult. The
+kit itself would take the form of a tube, filled with a cell-free extract which
+would contain our engineered components, as well as the necessary substances to
+produce the reporter, such as nucleotides, the buffers necessary for the RNA
+aptamer’s correct folding and the fluorophore, DFHBI. Due to the non-toxic
+nature of all the components and the absence of any living cells within the
+tube, it would be perfectly safe for use with minimal personal protective
+equipment. It would, however, need to be stored at low temperatures in order to
+keep the proteins in the extract (such as dCas9) functional for an extended
+period of time.
+
+TODO: Insert a big gallery of photos
+
+The kit’s use would be perfectly integrated into current procedures – after the
+patient has been swabbed once and the initial sample sent for sequencing, a
+second swab can be taken and placed into the tube. After a relatively short time
+spent waiting, the solution can be examined for fluorescence and appropriate
+measures taken, with their extension dependent upon the results of the
+sequencing analysis. This would enable positive patients to be quarantined
+earlier and limit the spread of CRE, as well as preventing the unnecessary
+quarantine of patients who are suspected of carrying CRE but turn up not
+carrying the bacteria. Moreover, this test requires minimal training as the
+signal is obvious and the procedure is very easy to carry out by personnel
+trained in swabbing patients.
+
+## The bigger picture
+
+Should the system be particularly successful, it can be iterated upon to produce
+variants which can detect other genes of interest – engineering new cgRNAs is a
+relatively simple process, and all it would take to convert our OXA-48 sensing
+system to sense another gene is replacing this cgRNA. This modular design could
+also see use in other areas such as research, where lengthy and difficult
+procedures such as RNA extractions would be made much easier to carry out.
+
+Producing the kit is relatively cheap, as once cultures of cells containing our
+system have been established, maintaining them is not particularly expensive. In
+addition, taking fluorescence readings can easily be automated to eliminate the
+possibility of human error.

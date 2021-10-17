@@ -507,6 +507,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/0/0a/T--Warwick--videos--promotionalVideo.mp4
     md5: c616566f36b2e26d7bfb4d1f281c0696
     upload_filename: T--Warwick--videos--promotionalVideo.mp4
+  assets/videos/teamVideo.mp4:
+    link_URL: https://2021.igem.org/wiki/images/6/61/T--Warwick--videos--teamVideo.mp4
+    md5: c21d88797ca8ae450f52d4ac3754b027
+    upload_filename: T--Warwick--videos--teamVideo.mp4
 css:
   css/animate.min.css:
     link_URL: https://2021.igem.org/Template:Warwick/css/animate-minCSS?action=raw&ctype=text/css
@@ -534,7 +538,7 @@ css:
     md5: 3eb56e197e9e81760c0c217452d40ef3
   css/styles.css:
     link_URL: https://2021.igem.org/Template:Warwick/css/stylesCSS?action=raw&ctype=text/css
-    md5: 6a07c5ba6c5058c253e6fafe3ed15e64
+    md5: 14506d3d625f661651efabafc2d0a727
 html:
   Attributions/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Attributions
@@ -604,7 +608,7 @@ html:
     md5: a8fa8785fd22addb2410b2251cb352ea
   Team/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Team
-    md5: c14285777f2150315d600aacc9e2ea23
+    md5: e6193612b69026033a14d9dcd81a3dd2
   index.html:
     link_URL: https://2021.igem.org/Team:Warwick
     md5: 6b1e0609e9d019baecdbda5a4d94cfb8
