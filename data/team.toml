@@ -4,6 +4,7 @@
 
   heading = "Team members"
   subtext = "Our team is made up of people from a diverse range of fields, from more traditional life sciences to economics and computer science."
+  video = "/assets/videos/teamVideo.mp4"
 
   [[team_members.item]]
     name = "Ameera Ghani"
