@@ -1207,6 +1207,50 @@ body.accessibility_readingLine #readingLine {
 
 /* Shortcodes' stylings */
 /* About section */
+#team-video {
+  border: 3px solid #fff;
+  margin-bottom: 20px;
+  position: relative;
+  margin: 0 128px 2em 80px;
+  height: 70vh;
+  overflow-wrap: break-word; }
+  @media only screen and (max-width: 1500px) and (min-width: 1000px) {
+    #team-video {
+      margin: 0 15% 2em 15%; } }
+  @media only screen and (max-width: 1000px) {
+    #team-video {
+      margin: 0 30px 2em 30px;
+      height: 55vh; } }
+  @media only screen and (max-width: 500px) {
+    #team-video {
+      height: 35vh; } }
+#team-video h3 {
+  position: absolute;
+  color: #42ea67;
+  font-weight: 1000;
+  z-index: 1;
+  font-size: 20px;
+  padding: 5px 0px 0px 10px; }
+  @media only screen and (max-width: 450px) {
+    #team-video h3 {
+      display: none; } }
+#team-video h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: 1000;
+  z-index: 1;
+  font-size: 50px;
+  padding: 25px 0px 0px 10px; }
+  @media only screen and (max-width: 450px) {
+    #team-video h1 {
+      padding: 5px 0px 0px 10px; } }
+#team-video video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0; }
+
 .person-wrapper {
   position: relative; }
 
@@ -1223,7 +1267,8 @@ body.accessibility_readingLine #readingLine {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  border-radius: 3px; }
+  border-radius: 3px;
+  padding-bottom: 10px; }
 
 .person-description {
   float: right;
