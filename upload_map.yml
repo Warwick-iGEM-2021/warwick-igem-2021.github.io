@@ -1,4 +1,72 @@
 assets:
+  assets/content/attributions/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/1/12/T--Warwick--content--attributions--splash_back.png
+    md5: c64005b21b514c537c63e99ef391d6e5
+    upload_filename: T--Warwick--content--attributions--splash_back.png
+  assets/content/attributions/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/0/03/T--Warwick--content--attributions--splash_fore.png
+    md5: 889ec91a60510d7af89480339966b565
+    upload_filename: T--Warwick--content--attributions--splash_fore.png
+  assets/content/collaborations/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/6/64/T--Warwick--content--collaborations--splash_back.png
+    md5: 4759d31d25521393ab17780cb0a6276d
+    upload_filename: T--Warwick--content--collaborations--splash_back.png
+  assets/content/collaborations/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/3/38/T--Warwick--content--collaborations--splash_fore.png
+    md5: eba4314f66fd8343bb8fa43beb5cf5ae
+    upload_filename: T--Warwick--content--collaborations--splash_fore.png
+  assets/content/communication/CREPoster.png:
+    link_URL: https://2021.igem.org/wiki/images/e/ed/T--Warwick--content--communication--CREPoster.png
+    md5: ba1ae45743774d77964e46bb06b6fe82
+    upload_filename: T--Warwick--content--communication--CREPoster.png
+  assets/content/communication/LMSUFEMClub.png:
+    link_URL: https://2021.igem.org/wiki/images/6/64/T--Warwick--content--communication--LMSUFEMClub.png
+    md5: 747ae8fbb054293a2093190c94682952
+    upload_filename: T--Warwick--content--communication--LMSUFEMClub.png
+  assets/content/communication/MicrooganismsInHospitalsPoster.png:
+    link_URL: https://2021.igem.org/wiki/images/3/38/T--Warwick--content--communication--MicrooganismsInHospitalsPoster.png
+    md5: d309c4e5272971377f822442c5c13b7c
+    upload_filename: T--Warwick--content--communication--MicrooganismsInHospitalsPoster.png
+  assets/content/communication/PCRPoster.png:
+    link_URL: https://2021.igem.org/wiki/images/3/37/T--Warwick--content--communication--PCRPoster.png
+    md5: cf1e0c64b0e7ccff25a318b2ff8b8fb2
+    upload_filename: T--Warwick--content--communication--PCRPoster.png
+  assets/content/communication/SynBioPoster.png:
+    link_URL: https://2021.igem.org/wiki/images/b/b4/T--Warwick--content--communication--SynBioPoster.png
+    md5: cbb5e302c4834d8a87247b74053edb53
+    upload_filename: T--Warwick--content--communication--SynBioPoster.png
+  assets/content/communication/nuffieldStudentsMeeting.png:
+    link_URL: https://2021.igem.org/wiki/images/2/2d/T--Warwick--content--communication--nuffieldStudentsMeeting.png
+    md5: 5b71be0dfa06a77fb54374908d022d10
+    upload_filename: T--Warwick--content--communication--nuffieldStudentsMeeting.png
+  assets/content/communication/socialMediaStory.png:
+    link_URL: https://2021.igem.org/wiki/images/8/84/T--Warwick--content--communication--socialMediaStory.png
+    md5: ee320ec9f6fb5ace065fd68c2a855990
+    upload_filename: T--Warwick--content--communication--socialMediaStory.png
+  assets/content/communication/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/d/dd/T--Warwick--content--communication--splash_back.png
+    md5: ce1c1de726a7bebcd3eb2c6f3848cca6
+    upload_filename: T--Warwick--content--communication--splash_back.png
+  assets/content/communication/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/6/63/T--Warwick--content--communication--splash_fore.png
+    md5: d0ed8f3b4c856e1bf23075d2dc3bc310
+    upload_filename: T--Warwick--content--communication--splash_fore.png
+  assets/content/contributions/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/4/4a/T--Warwick--content--contributions--splash_back.png
+    md5: 69eeeb36d959ee2b403f57b58a027032
+    upload_filename: T--Warwick--content--contributions--splash_back.png
+  assets/content/contributions/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/f/f3/T--Warwick--content--contributions--splash_fore.png
+    md5: e76a65815840af629baa121c5ad0d945
+    upload_filename: T--Warwick--content--contributions--splash_fore.png
+  assets/content/description/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/0/0c/T--Warwick--content--description--splash_back.png
+    md5: f3d50904fabac162147991871a3d5454
+    upload_filename: T--Warwick--content--description--splash_back.png
+  assets/content/description/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/b/bc/T--Warwick--content--description--splash_fore.png
+    md5: b0dcb158abd4e5eb0048670ba0743fc3
+    upload_filename: T--Warwick--content--description--splash_fore.png
   assets/content/education/CREPoster.png:
     link_URL: https://2021.igem.org/wiki/images/3/3c/T--Warwick--content--education--CREPoster.png
     md5: ba1ae45743774d77964e46bb06b6fe82
@@ -31,6 +99,58 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/1/1f/T--Warwick--content--education--splash.jpg
     md5: ed05ed3e0d95044020cfa1a041294e39
     upload_filename: T--Warwick--content--education--splash.jpg
+  assets/content/engineering/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/1/15/T--Warwick--content--engineering--splash_back.png
+    md5: 99fe59c53f4cca0790318b29cc870363
+    upload_filename: T--Warwick--content--engineering--splash_back.png
+  assets/content/engineering/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/1/15/T--Warwick--content--engineering--splash_fore.png
+    md5: 67353e286372978579ffd2548cc38019
+    upload_filename: T--Warwick--content--engineering--splash_fore.png
+  assets/content/experiments/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/5/5e/T--Warwick--content--experiments--splash_back.png
+    md5: 66a4e1b91e63ae66f06f31f106e0e1dc
+    upload_filename: T--Warwick--content--experiments--splash_back.png
+  assets/content/experiments/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/c/cb/T--Warwick--content--experiments--splash_fore.png
+    md5: f08635ba692df93f4488c1a201286571
+    upload_filename: T--Warwick--content--experiments--splash_fore.png
+  assets/content/human_practices/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/5/54/T--Warwick--content--human_practices--splash_back.png
+    md5: cf7e34badc337e3e0a5ffed4f2b2d122
+    upload_filename: T--Warwick--content--human_practices--splash_back.png
+  assets/content/human_practices/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/3/3e/T--Warwick--content--human_practices--splash_fore.png
+    md5: acefa4ffb1183baf6fe8985449f00674
+    upload_filename: T--Warwick--content--human_practices--splash_fore.png
+  assets/content/implementation/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/6/60/T--Warwick--content--implementation--splash_back.png
+    md5: 9aad483c49ed8837a33e3327ac21ceff
+    upload_filename: T--Warwick--content--implementation--splash_back.png
+  assets/content/implementation/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/4/47/T--Warwick--content--implementation--splash_fore.png
+    md5: 744512481c3da90ab987b6333b0d3735
+    upload_filename: T--Warwick--content--implementation--splash_fore.png
+  assets/content/index/cancerCells.jpg:
+    link_URL: https://2021.igem.org/wiki/images/e/e7/T--Warwick--content--index--cancerCells.jpg
+    md5: bde103dce4d489cca7e68a261c33fa92
+    upload_filename: T--Warwick--content--index--cancerCells.jpg
+  assets/content/index/neonSign.jpg:
+    link_URL: https://2021.igem.org/wiki/images/6/6c/T--Warwick--content--index--neonSign.jpg
+    md5: 6cf2e23b014aae2573fcc5f63d551b91
+    upload_filename: T--Warwick--content--index--neonSign.jpg
+  assets/content/index/neonSignOld.jpg:
+    link_URL: https://2021.igem.org/wiki/images/c/c3/T--Warwick--content--index--neonSignOld.jpg
+    md5: 247742eb48a3476944f5f6532ec87d4e
+    upload_filename: T--Warwick--content--index--neonSignOld.jpg
+  assets/content/index/pathogen.jpg:
+    link_URL: https://2021.igem.org/wiki/images/1/17/T--Warwick--content--index--pathogen.jpg
+    md5: f50011e301e8c844e018cfca412551d2
+    upload_filename: T--Warwick--content--index--pathogen.jpg
+  assets/content/index/puzzlePiece.jpg:
+    link_URL: https://2021.igem.org/wiki/images/7/7a/T--Warwick--content--index--puzzlePiece.jpg
+    md5: 9f622bff6d9fc0076a90070c0aeb9ce7
+    upload_filename: T--Warwick--content--index--puzzlePiece.jpg
   assets/content/model/SIR_graph.png:
     link_URL: https://2021.igem.org/wiki/images/b/b5/T--Warwick--content--model--SIR_graph.png
     md5: 93d84a40018b65988c37f6b837836bf5
@@ -63,6 +183,14 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/6/62/T--Warwick--content--model--splash_fore.png
     md5: f6dc001f66176e73deae5e55ac910769
     upload_filename: T--Warwick--content--model--splash_fore.png
+  assets/content/planning/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/6/6f/T--Warwick--content--planning--splash_back.png
+    md5: f57a850bf4e66b226e491a767cd5978d
+    upload_filename: T--Warwick--content--planning--splash_back.png
+  assets/content/planning/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/7/7f/T--Warwick--content--planning--splash_fore.png
+    md5: 6f7ad54c37fbef87f87767c550f4f10c
+    upload_filename: T--Warwick--content--planning--splash_fore.png
   assets/content/proof_of_concept/splash.png:
     link_URL: https://2021.igem.org/wiki/images/c/cb/T--Warwick--content--proof_of_concept--splash.png
     md5: 0efd94dc45892c10825aa75d04d54c74
@@ -75,6 +203,22 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/e/e0/T--Warwick--content--proof_of_concept--splash_fore.png
     md5: 86ca4ad536e0cad71d309b5a0f6468fb
     upload_filename: T--Warwick--content--proof_of_concept--splash_fore.png
+  assets/content/sponsors/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/9/99/T--Warwick--content--sponsors--splash_back.png
+    md5: 2d2e867b0637616134bd2192fab8f2cb
+    upload_filename: T--Warwick--content--sponsors--splash_back.png
+  assets/content/sponsors/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/2/21/T--Warwick--content--sponsors--splash_fore.png
+    md5: 3f6e6771a0c74abed5d59f01534a13af
+    upload_filename: T--Warwick--content--sponsors--splash_fore.png
+  assets/content/team/splash_back.png:
+    link_URL: https://2021.igem.org/wiki/images/a/a0/T--Warwick--content--team--splash_back.png
+    md5: 30c2d033ccadaed9959c6134dfa24b18
+    upload_filename: T--Warwick--content--team--splash_back.png
+  assets/content/team/splash_fore.png:
+    link_URL: https://2021.igem.org/wiki/images/1/1b/T--Warwick--content--team--splash_fore.png
+    md5: a4b19c0839f009a3a45755332529540d
+    upload_filename: T--Warwick--content--team--splash_fore.png
   assets/favicon.svg:
     link_URL: https://2021.igem.org/wiki/images/7/7b/T--Warwick--favicon.svg
     md5: 3af6ac34bee4132c19feef35b6252981
@@ -362,7 +506,7 @@ css:
     md5: c16aa0267dddde9100c41d97b9042c98
   css/igem-reset.css:
     link_URL: https://2021.igem.org/Template:Warwick/css/igem-resetCSS?action=raw&ctype=text/css
-    md5: 7f22f82480c7758bad30a7ee27ffaf01
+    md5: 29c1f0288f4e25343840ad9c888bdb8a
   css/normalize.min.css:
     link_URL: https://2021.igem.org/Template:Warwick/css/normalize-minCSS?action=raw&ctype=text/css
     md5: b2d45fc1de48a7e68c9f3e2ce811995e
@@ -374,44 +518,50 @@ css:
     md5: 3eb56e197e9e81760c0c217452d40ef3
   css/styles.css:
     link_URL: https://2021.igem.org/Template:Warwick/css/stylesCSS?action=raw&ctype=text/css
-    md5: d46c97deb937591b0d03c99e2c066dec
+    md5: 6a07c5ba6c5058c253e6fafe3ed15e64
 html:
   Attributions/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Attributions
-    md5: 86ccaf01e70002d7aa2ca20f908a688c
+    md5: 952f399865915b30d9d4eb82da460721
+  Awards/index.html:
+    link_URL: https://2021.igem.org/Team:Warwick/Awards
+    md5: 56fdc8593fbe9f83dee5dbe236f262c5
   Collaborations/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Collaborations
-    md5: efd1e30d9a1cf009ffa02c95b9b04d75
+    md5: aea4e0170f638d637ef58f9ff02dc04e
   Communication/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Communication
-    md5: de2621648bd278002470eef2803f7859
+    md5: f01760db7f791e8c2c6d409fdee2cb8e
   Contribution/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Contribution
-    md5: 09dae9626eeb357557d5949270fcde3a
+    md5: 40233f0be3a1dc8b20d081eeb1ef8ce9
   Description/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Description
-    md5: 34819887384a04eb9ba97aa085e77aaf
+    md5: 9555bfb4e16a2f4393b816dc56cc702d
   Education/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Education
     md5: 31d4c6294b7cde8b9d739ba2b8aa577c
   Engineering/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Engineering
-    md5: 5eda23842cea78d84ca88aaf1f6a801c
+    md5: 3d6c25b6f91204dfd4fe12dfa8e062bb
   Entrepreneurship/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Entrepreneurship
     md5: 65761b16f7c693f252c21e10e7e56fe4
   Experiments/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Experiments
-    md5: 81ef8ad4bc83474d0689442f4b466319
+    md5: f46cf827166ccd5520432e8c21c7c950
   Human_Practices/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Human_Practices
-    md5: 7f1117eb3a175d24521ee6f5d30cbfc1
+    md5: b7b8a91f678c6574fa789edf8d75dac5
   Implementation/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Implementation
-    md5: 20ed72fee12b97e6068cfe0a001d8165
+    md5: 456a865ff5faf634d4c61e93997f850e
+  Medal_Critera/index.html:
+    link_URL: https://2021.igem.org/Team:Warwick/Medal_Critera
+    md5: a69a34547784569339e98909fc4901b2
   Model/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Model
-    md5: d500ac590fe57f0ba2862e02d5f2ea87
+    md5: 603bedb0dc1a8d2f7ba92d79c2be7185
   Notebook/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Notebook
     md5: 303f3a4ff6fa5c2b2d50493dbf1927f5
@@ -420,10 +570,10 @@ html:
     md5: 6088d4c3aebb7d74ad255ca842555fcb
   Planning/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Planning
-    md5: 0a3ca24dbb48f107b74726eb5440abb3
+    md5: 29065cae87180403f7b35dda76481b32
   Proof_Of_Concept/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Proof_Of_Concept
-    md5: a363950ea16398069776380e6ff371be
+    md5: 21686396d77d0ae614901ef28cee5f02
   Results/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Results
     md5: 6b33fd5ad5c75a315f5c6e2b3e8361db
@@ -432,26 +582,29 @@ html:
     md5: a4d4869139e0442ca68ee7ceedbdea50
   Sponsors/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Sponsors
-    md5: 9bf492abb2f19532cfdb3a351d2cfaef
+    md5: 3b768a015b0d8d7f2d00cfd637c94fa7
   Sustainable/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Sustainable
     md5: a8fa8785fd22addb2410b2251cb352ea
   Team/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Team
-    md5: b66a7ecea1b81227dbc8ad92c780bc50
+    md5: 66424bc71b18ef48b7924e215380b227
   index.html:
     link_URL: https://2021.igem.org/Team:Warwick
-    md5: ee84f75af7503ef6f4e8c05dfde203c0
+    md5: a4b716d0d5a61a3128f8aa98152471a7
 js:
   js/asb.js:
     link_URL: https://2021.igem.org/Template:Warwick/js/asbJS?action=raw&ctype=text/javascript
-    md5: 9a7bce8482284efbc015b41cbe606116
+    md5: 955026a1e5b90af0b78d51406be4048c
   js/asb.min.js:
     link_URL: https://2021.igem.org/Template:Warwick/js/asb-minJS?action=raw&ctype=text/javascript
     md5: c4919f5c5494530256e85194878474f4
   js/bootstrap.min.js:
     link_URL: https://2021.igem.org/Template:Warwick/js/bootstrap-minJS?action=raw&ctype=text/javascript
     md5: 14d449eb8876fa55e1ef3c2cc52b0c17
+  js/chart.min.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/chart-minJS?action=raw&ctype=text/javascript
+    md5: 4f0fccdbd2f7539e9a01abd2851b20dc
   js/jquery.min.js:
     link_URL: https://2021.igem.org/Template:Warwick/js/jquery-minJS?action=raw&ctype=text/javascript
     md5: c9f5aeeca3ad37bf2aa006139b935f0a
@@ -460,7 +613,37 @@ js:
     md5: 198cc5d537a1f94961c7ab54b0855a6d
   js/main.js:
     link_URL: https://2021.igem.org/Template:Warwick/js/mainJS?action=raw&ctype=text/javascript
-    md5: efc2524b98d403df8002ce91a89c3d0a
+    md5: 6b708bec81717a2774ff04d47fb0c384
+  js/mathjax.min.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/mathjax-minJS?action=raw&ctype=text/javascript
+    md5: 904e0d43932bdc9df71d71eb22c1a5c7
+  js/model/math.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/model/mathJS?action=raw&ctype=text/javascript
+    md5: 4a671d33ed720ce00de9f6de38a4dde5
+  js/model/model.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/model/modelJS?action=raw&ctype=text/javascript
+    md5: a4f18da4f9f37594881d5d3d994f99e7
+  js/model/model_v3_in.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/model/model_v3_inJS?action=raw&ctype=text/javascript
+    md5: 67329ce1a95cb1fb248e0e2ab9c8c417
+  js/model/org.transcrypt.__runtime__.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/model/org-transcrypt-__runtime__JS?action=raw&ctype=text/javascript
+    md5: 88ece7e0907aa585378fba0e6da4e3cd
+  js/model/random.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/model/randomJS?action=raw&ctype=text/javascript
+    md5: 4daa388604204706551bdd165dad8829
+  js/model_old/math.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/model_old/mathJS?action=raw&ctype=text/javascript
+    md5: 23e882f982eff2e04e19d701d8fe484f
+  js/model_old/model_v3_in.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/model_old/model_v3_inJS?action=raw&ctype=text/javascript
+    md5: 67329ce1a95cb1fb248e0e2ab9c8c417
+  js/model_old/org.transcrypt.__runtime__.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/model_old/org-transcrypt-__runtime__JS?action=raw&ctype=text/javascript
+    md5: ef22bae7ef75e7b010ca1cadb1dbb436
+  js/model_old/random.js:
+    link_URL: https://2021.igem.org/Template:Warwick/js/model_old/randomJS?action=raw&ctype=text/javascript
+    md5: e3b20c274252d728fac6791e09411aac
   js/parallax.min.js:
     link_URL: https://2021.igem.org/Template:Warwick/js/parallax-minJS?action=raw&ctype=text/javascript
     md5: 55c40b90249e4fe773664aafa0be3c0e

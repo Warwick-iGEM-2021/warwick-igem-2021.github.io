@@ -2,7 +2,7 @@
 title: "Model"
 hero_img_fore: "/assets/content/model/splash_fore.png"
 hero_img_back: "/assets/content/model/splash_back.png"
-summary: "We used modelling in two ways during the course of our project. The first was a custom computer simulation of how our product may perform in the real world, and the second was using a tool called COPASI to simulate biological systems to better inform our wet lab experiments."
+summary: "We used modelling in two ways during the course of our project. The first was a custom computer simulation of how our product may perform in the real world, and the second was using a tool called NUPACK."
 date: 2021-08-26T11:45:27+01:00
 draft: false
 ---
@@ -19,6 +19,10 @@ The purpose of the model is two-fold:
 
 - Demonstrating that our product is beneficial
 - Understanding the use cases where it is most and least applicable
+
+### Abstract
+
+We propose a validated computational model of the spread of an antibiotic resistant pathogens in a hospital, with and without our diagnostic tool for quickly identifying it, and show that in a relevant scenario it reduces the presence of antibiotic resistant pathogens in our selected scenario, showing our product is beneficial in the real-world.
 
 #### Toy implementation
 
