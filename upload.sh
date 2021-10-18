@@ -38,12 +38,6 @@ echo "Finished upload"
 
 # Clean up, removing any build directories
 echo "Cleaning up"
-# rm -rf public
-# rm -rf out
-# mkdir out
-
-
-printf "\n\n"
-echo "##########################################################"
-echo "### Ensure the wrapping div tags are moved on the site ###"
-echo "##########################################################"
+rm -rf public
+rm -rf out
+mkdir out
