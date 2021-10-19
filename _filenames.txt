@@ -11,6 +11,5 @@ Implementation.md
 Medal_Critera.md
 Model.md
 Planning.md
-Proof_Of_Concept.md
 Sponsors.md
 Team.md

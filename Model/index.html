@@ -215,8 +215,6 @@
                                     <a href="#" class="nav-link">Lab work&nbsp;&nbsp;</a>
                                     <ul class="dropdown">
                                         
-                                            <li><a href="../Proof_Of_Concept" class="nav-link">Proof of concept</a></li>
-                                        
                                             <li><a href="../Experiments" class="nav-link">Experiments</a></li>
                                         
                                     </ul>
@@ -308,7 +306,7 @@
         
         <div class="row">
             
-            <section id="sidebar" class="col-auto">
+            <section id="sidebar" class="col-3"> 
                 <div class="toc-wrapper content-page">
                     
                         <h3><a href="#">Model</a></h3>
@@ -343,7 +341,7 @@
                 </div>
             </section>
             
-            <section id="hugo-content" class="col">
+            <section id="hugo-content" class="col-9">
                 
                 
                     <div class="content-page">
@@ -366,25 +364,24 @@
 <div class="text-center">
     
     
-    <img src="../assets/content/model/deaths_violin_plot.png" alt="A violin plot of the total number of deaths over a full run of the model with the validated parameters" decoding="async"/>
+    <img src="../assets/content/model/deaths_violin_plot.png" alt="A violin plot of the total number of deaths over a full run of the model with the validated parameters" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A violin plot of the total number of deaths over a full run (i.e. till no people are infected) of the model with the validated parameters (discussed in validation section)</p>
     
 </div>
 
-<p>It is evident that the product causes a statistically significant reduction in the number of deaths resulting from the various strains of the pathogen modelled by the system.</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/meropenem_with_without.png" alt="A line plot of the total number of deaths over a full run of the model with the validated parameters" decoding="async"/>
+    <img src="../assets/content/model/meropenem_with_without.png" alt="A line plot of the total number of deaths over a full run of the model with the validated parameters" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A line plot of the total number of deaths over a full run of the model with the validated parameters</p>
     
 </div>
 
-<p>It is again evident that the product causes a statistically significant reduction in the number of people infected with a strain of the pathogen resistant to meropenem - the drug resistance detect by our product.</p>
+<p>It is again evident that the product causes a statistically significant reduction in the number of deaths due to and the number of people infected with a strain of the pathogen resistant to meropenem - the drug resistance detect by our product.</p>
 <h3 id="interactive-web-model">Interactive web model</h3>
 <p>In order to demonstrate the model without requiring users to download the source code and its dependent libraries, then run it through python, we transpiled it into Javascript, so it can be run in the browser. This interactive transpiled model can be used below to demonstrate how parameters changes can affect the model outcome. Then, in the context section, we identify the parameters for the model which match it to the real world to show our product will work. In practice, having a model with interactive variables isn&rsquo;t especially rigorous, but it does help show the power of the model, and how it can adapt to vastly different scenarios.</p>
 
@@ -673,7 +670,23 @@ Spread through the population
 <li>
 <p>Discrete time means that changes in the model occur at granular timesteps, like turns in a boards game</p>
 <p>Below shows the code for how operations are performed on every person in the population each timestep, and data about them recorded</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Make a new data handler for each simulation</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Make a new data handler for each simulation</span>
 self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">.</span>__init__()
 
 <span style="color:#75715e"># Repeat the simulation for a set number of timesteps</span>
@@ -685,7 +698,9 @@ self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">
         <span style="color:#75715e"># Record the data throughout the model</span>
         self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">.</span>record_person(person)
 
-</code></pre></div></li>
+</code></pre></td></tr></table>
+</div>
+</div></li>
 <li>
 <p>Stochastic means that the model is based on random probabilities, as opposed to a deterministic system of equations</p>
 <ul>
@@ -695,7 +710,63 @@ self<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">
 <p>These probabilities, and other variable aspects of the model, such as population size or how many drugs are used, are set as constant values at the top of the model.</p>
 <p>Initially, the model only had a parameter for how many different antibiotics are used, and all the associated probabilities (e.g. likelihood of recovery, likelihood of death, etc.) with these antibiotics were the same. However, in the final version, the different antibiotics are named to more closely map to the real world, and they are allowed to have their own separate values for these probabilities. However, for convenience&rsquo;s sake, we introduce meta-parameters which can be used to set all the antibiotics to have the same probability in a given category.
 Below shows code for a default setting of these probabilities, the meaning of which will be explained further on:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># General model parameters</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># General model parameters</span>
 NUM_TIMESTEPS <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
 POPULATION_SIZE <span style="color:#f92672">=</span> <span style="color:#ae81ff">500</span>
 INITIALLY_INFECTED <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
@@ -747,7 +818,9 @@ RESISTANCE_PROPERTIES[<span style="color:#e6db74">&#34;Amoxycillin+&#34;</span>]
 RESISTANCE_PROPERTIES[<span style="color:#e6db74">&#34;Meropenem&#34;</span>] <span style="color:#f92672">=</span> (PROBABILITY_GENERAL_RECOVERY, PROBABILITY_MUTATION, PROBABILITY_SPREAD, NUM_SPREAD_TO, PROBABILITY_DEATH, DEATH_FUNCTION,)
 RESISTANCE_PROPERTIES[<span style="color:#e6db74">&#34;Colistin&#34;</span>] <span style="color:#f92672">=</span> (PROBABILITY_GENERAL_RECOVERY, PROBABILITY_MUTATION, PROBABILITY_SPREAD, NUM_SPREAD_TO, PROBABILITY_DEATH, DEATH_FUNCTION,)
 
-</code></pre></div><p>Additionally, there are internal settings, for example how the model outputs its results.</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>Additionally, there are internal settings, for example how the model outputs its results.</p>
 </li>
 <li>
 <p>Compartmental means that the model is expressed in terms of the transitions between a set of states. The logic for these transitions forms a fundamental part of the model</p>
@@ -757,7 +830,7 @@ RESISTANCE_PROPERTIES[<span style="color:#e6db74">&#34;Colistin&#34;</span>] <sp
 <div class="text-center">
     
     
-    <img src="../assets/content/model/SIR_graph.png" alt="A diagram of the SIR model. Image source: [1]" decoding="async"/>
+    <img src="../assets/content/model/SIR_graph.png" alt="A diagram of the SIR model. Image source: [1]" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A diagram of the SIR model. Image source: [1]</p>
@@ -789,7 +862,7 @@ RESISTANCE_PROPERTIES[<span style="color:#e6db74">&#34;Colistin&#34;</span>] <sp
 <div class="text-center">
     
     
-    <img src="../assets/content/model/general.png" alt="The state transition diagram of every state a person within the population can take" decoding="async"/>
+    <img src="../assets/content/model/general.png" alt="The state transition diagram of every state a person within the population can take" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">The state transition diagram of every state a person within the population can take (for reasons discussed later in the treatment section, pathogenic resistances to antibiotics will occur in a set order)</p>
@@ -799,23 +872,32 @@ RESISTANCE_PROPERTIES[<span style="color:#e6db74">&#34;Colistin&#34;</span>] <sp
 <div class="text-center">
     
     
-    <img src="../assets/content/model/specific_none.png" alt="A state transition diagram of a person" decoding="async"/>
+    <img src="../assets/content/model/specific_none.png" alt="A state transition diagram of a person" class="centered-image" decoding="async"/>
     
     
-        <p class="hugo-figure-caption">A state transition diagram of a person centred around the state of being infected with a pathogen resistant to antibiotic $$n$$ in the precedence of antibiotics</p>
+        <p class="hugo-figure-caption">A state transition diagram of a person centred around the state of being infected with a pathogen resistant to antibiotic $n$ in the precedence of antibiotics</p>
     
 </div>
 
 <h4 id="2-treatment-and-mutation">2. Treatment and mutation</h4>
-<p>Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $$1$$ being the first administered, and $$n$$ being the last for antibiotics $$1..n$$ ). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify <em>Carbapenem resistant Enterobacteriaceae</em> (CRE), which are a type of these resistant pathogens.</p>
+<p>Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $1$ being the first administered, and $n$ being the last for antibiotics $1..n$). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify <em>Carbapenem resistant Enterobacteriaceae</em> (CRE), which are a type of these resistant pathogens.</p>
 <p>Pathogens have a small chance of mutating to develop resistance to antibiotics being used to treat them, as such strains will only become dominant when there is a pressure giving them a survival advantage.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Handle Mutation to higher resistance due to treatment</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Handle Mutation to higher resistance due to treatment</span>
 <span style="color:#66d9ef">if</span> decision(person<span style="color:#f92672">.</span>infection<span style="color:#f92672">.</span>mutation_probability):
     person<span style="color:#f92672">.</span>mutate_infection()
-</code></pre></div><div class="text-center">
+</code></pre></td></tr></table>
+</div>
+</div><div class="text-center">
     
     
-    <img src="../assets/content/model/specific_mutation.png" alt="The same specified diagram used above, with additional information about the mutation step to elucidate it" decoding="async"/>
+    <img src="../assets/content/model/specific_mutation.png" alt="The same specified diagram used above, with additional information about the mutation step to elucidate it" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">The same specified diagram used above, with additional information about the mutation step to elucidate it</p>
@@ -828,7 +910,36 @@ RESISTANCE_PROPERTIES[<span style="color:#e6db74">&#34;Colistin&#34;</span>] <sp
 <p>Since multiple antibiotics are used in a tiered system, there must be a mechanism to move to a higher antibiotic.</p>
 <p>There are a number of days which can be set as a parameter for the model, before which the same antibiotic will be used, then after this is exceeded a probability parameter is used each day to decide whether they will be moved up to a higher treatment tier.</p>
 <p>Additionally, when our product if a person is detected to be resistant using the product their treatment level is immediately increased to be above that resistance level, as we know that any other lower treatment will be ineffective.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Handle increasing treatment</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Handle increasing treatment</span>
 <span style="color:#66d9ef">if</span> person<span style="color:#f92672">.</span>treatment <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>:
     <span style="color:#75715e"># If the person is infected but are not being treated</span>
     <span style="color:#75715e"># with **anything**, start them on the lowest tier</span>
@@ -853,9 +964,25 @@ RESISTANCE_PROPERTIES[<span style="color:#e6db74">&#34;Colistin&#34;</span>] <sp
         <span style="color:#75715e"># it up to one above)</span>
         <span style="color:#66d9ef">if</span> Params<span style="color:#f92672">.</span>DRUG_NAMES<span style="color:#f92672">.</span>index(person<span style="color:#f92672">.</span>treatment<span style="color:#f92672">.</span>drug) <span style="color:#f92672">&lt;=</span> Params<span style="color:#f92672">.</span>PRODUCT_DETECTION_LEVEL:
             person<span style="color:#f92672">.</span>treatment <span style="color:#f92672">=</span> Treatment(Params<span style="color:#f92672">.</span>DRUG_NAMES[Params<span style="color:#f92672">.</span>PRODUCT_DETECTION_LEVEL<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>])
-</code></pre></div><h4 id="3-spread">3. Spread</h4>
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="3-spread">3. Spread</h4>
 <p>Disease can spread from infected patients to uninfected patients, and patients with a less resistant strain. The likelihood of this occurring, and the number of people spread to each time can be controlled as parameters</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Spread the infection strains throughout the population</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Spread the infection strains throughout the population</span>
 <span style="color:#75715e"># We need a deepcopy operation, to prevent someone who has just</span>
 <span style="color:#75715e"># been spread to in this timestep spreading the thing they&#39;ve</span>
 <span style="color:#75715e"># just received, so technically don&#39;t have yet</span>
@@ -865,11 +992,30 @@ updated_population <span style="color:#f92672">=</span> deepcopy(self<span style
         <span style="color:#66d9ef">for</span> receiver <span style="color:#f92672">in</span> sample(updated_population, NUM_SPREAD_TO):
             person<span style="color:#f92672">.</span>spread_infection(receiver)
 self<span style="color:#f92672">.</span>population <span style="color:#f92672">=</span> updated_population[:]
-</code></pre></div><h4 id="4-isolation">4. Isolation</h4>
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="4-isolation">4. Isolation</h4>
 <p>Patients can be put into isolation, preventing the spreading the disease. This is the main place where the our product differentiates itself.</p>
 <p>Without our product, a person is put in isolation when they exceed a threshold of <strong>treatment</strong></p>
 <p>With our product, since it provides a fast testing mechanism for highly resistant strains, patients can be detected as having the resistant strain, they are put into isolation when they exceed a threshold of <strong>having the resistant strain</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Isolate if in high enough treatment class (which</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Isolate if in high enough treatment class (which</span>
 <span style="color:#75715e"># is not the same as infection class - this will</span>
 <span style="color:#75715e"># likely lag behind)</span>
 treatment_tier <span style="color:#f92672">=</span> Infection<span style="color:#f92672">.</span>get_tier_from_resistance(person<span style="color:#f92672">.</span>treatment<span style="color:#f92672">.</span>drug)
@@ -882,10 +1028,12 @@ treatment_tier <span style="color:#f92672">=</span> Infection<span style="color:
         <span style="color:#75715e"># Put people into isolation if our product detects</span>
         <span style="color:#75715e"># them as being infected</span>
         person<span style="color:#f92672">.</span>isolate()
-</code></pre></div><div class="text-center">
+</code></pre></td></tr></table>
+</div>
+</div><div class="text-center">
     
     
-    <img src="../assets/content/model/specific_isolation.png" alt="The same specified diagram used above, with additional information about the isolation step to elucidate it" decoding="async"/>
+    <img src="../assets/content/model/specific_isolation.png" alt="The same specified diagram used above, with additional information about the isolation step to elucidate it" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">The same specified diagram used above, with additional information about the isolation step to elucidate it</p>
@@ -895,7 +1043,31 @@ treatment_tier <span style="color:#f92672">=</span> Infection<span style="color:
 <h4 id="5-recovery-and-death">5. Recovery and death</h4>
 <p>As discussed in section (1), each timestep, patients can recover (either naturally or via treatment), or patients can die.</p>
 <p>Recovery makes the patients immune, meaning they cannot be infected again, essentially removing them from the system. Death also removes patients from the system.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Handle Recovery generally or by treatment if currently infected</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Handle Recovery generally or by treatment if currently infected</span>
 general_recovery <span style="color:#f92672">=</span> decision(person<span style="color:#f92672">.</span>infection<span style="color:#f92672">.</span>general_recovery_probability)
 treatment_recovery <span style="color:#f92672">=</span> (person<span style="color:#f92672">.</span>correct_treatment() <span style="color:#f92672">and</span>
                     decision(person<span style="color:#f92672">.</span>treatment<span style="color:#f92672">.</span>treatment_recovery_probability))
@@ -915,14 +1087,16 @@ death_probability <span style="color:#f92672">=</span> person<span style="color:
     <span style="color:#75715e"># Don&#39;t do anything else, as infection/treatment will</span>
     <span style="color:#75715e"># now be set to None</span>
     <span style="color:#66d9ef">continue</span>
-</code></pre></div><p>The goal is to create a situation where in the limit of time, the number of uninfected and immune people is maximised, and the number of dead people is minimised.</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>The goal is to create a situation where in the limit of time, the number of uninfected and immune people is maximised, and the number of dead people is minimised.</p>
 <h3 id="software-engineering">Software engineering</h3>
 <h4 id="model-design-process">Model design process</h4>
 <p>We used an iterative design process during the development of the model, as discussed on page 21 in the book &ldquo;Testing and Validation of Computer Simulation Models: Principles, Methods and Applications&rdquo; [5].</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/designBlockDiagram.png" alt="A block diagram of steps in model design" decoding="async"/>
+    <img src="../assets/content/model/designBlockDiagram.png" alt="A block diagram of steps in model design" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A block diagram of steps in model design - taken from &lsquo;Testing and Validation of Computer Simulation Models: Principles, Methods and Applications&rsquo; [5]</p>
@@ -940,7 +1114,22 @@ death_probability <span style="color:#f92672">=</span> person<span style="color:
 <h4 id="automated-testing">Automated testing</h4>
 <p>Whilst testing strategies and reasoning for testing are discussed in the &ldquo;Testing and validation&rdquo; section, the implementation of the testing is a point of interest in its own right. We used the <code>unittest</code> module in Python to implement tests for the source code.</p>
 <p>An example of a test is as follows, where we check that the boundary case of no-one being infected to start results in no infections for the entire model one. Whilst this might seem trivial, if it fails it is clear something is very wrong with the model, which might be a subtle result of a change made during development, and hence can prevent confusion about model results not making sense by showing that the problem is in the model implementation, not the analysis.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TestModel</span>(unittest<span style="color:#f92672">.</span>TestCase):
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TestModel</span>(unittest<span style="color:#f92672">.</span>TestCase):
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_empty_model</span>(self):
         <span style="color:#e6db74">&#34;&#34;&#34;Test that a model with no infected people always stays fully uninfected&#34;&#34;&#34;</span>
         <span style="color:#75715e"># Change parameters for the test setup and run the test</span>
@@ -951,8 +1140,30 @@ death_probability <span style="color:#f92672">=</span> person<span style="color:
         self<span style="color:#f92672">.</span>assertEqual(m<span style="color:#f92672">.</span>data_handler<span style="color:#f92672">.</span>get_infected_data()[<span style="color:#ae81ff">0</span>],
                          [<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span>Params<span style="color:#f92672">.</span>NUM_TIMESTEPS)
         reset_params()
-</code></pre></div><p>An interesting note about these tests is despite the fact they are written as unit tests, which normally refers to tests with a fixed input, these can be thought of as being tested with different inputs dependent on the result of the random number generator.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TestModel</span>(unittest<span style="color:#f92672">.</span>TestCase):
+</code></pre></td></tr></table>
+</div>
+</div><p>An interesting note about these tests is despite the fact they are written as unit tests, which normally refers to tests with a fixed input, these can be thought of as being tested with different inputs dependent on the result of the random number generator.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TestModel</span>(unittest<span style="color:#f92672">.</span>TestCase):
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_empty_model</span>(self):
         <span style="color:#e6db74">&#34;&#34;&#34;Test that a model with no infected people always stays fully uninfected&#34;&#34;&#34;</span>
         <span style="color:#75715e"># Change parameters for the test setup and run the test</span>
@@ -968,13 +1179,15 @@ death_probability <span style="color:#f92672">=</span> person<span style="color:
                              [<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span>Params<span style="color:#f92672">.</span>NUM_TIMESTEPS)
 
         reset_params()
-</code></pre></div><p>If the tests are run many times, with many different resulting random number inputs, these unit tests can now be thought of as property based tests. This refers to checking that a function fulfils a property by randomly providing it with values from its input domain, and checking that the resultant outputs fulfil the property. This is a strategy which was pioneered in the functional programming language Haskell [6], and is often considered preferable to unit based tests [7].</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>If the tests are run many times, with many different resulting random number inputs, these unit tests can now be thought of as property based tests. This refers to checking that a function fulfils a property by randomly providing it with values from its input domain, and checking that the resultant outputs fulfil the property. This is a strategy which was pioneered in the functional programming language Haskell [6], and is often considered preferable to unit based tests [7].</p>
 <h4 id="version-control-and-cicd">Version control and CI/CD</h4>
 <p>Having implemented a robust testing strategy, we now had all the building blocks for a continuous integration/continuous development workflow, as shown below:</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/CI_CD_Diagram.png" alt="A continuous integration/continuous development workflow" decoding="async"/>
+    <img src="../assets/content/model/CI_CD_diagram.png" alt="A continuous integration/continuous development workflow" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A continuous integration/continuous development workflow</p>
@@ -992,14 +1205,38 @@ death_probability <span style="color:#f92672">=</span> person<span style="color:
 <h4 id="uploading-to-pypi">Uploading to PyPI</h4>
 <p>Since we developed our model in python, and it follows best practices as opposed to just being a standalone script, uploading the repository to PyPI, the Python package index, was fairly trivial.</p>
 <p>Doing this greatly simplifies the way in which the package can be distributed. Instead of cloning the repository, and running the code directly through that:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/Warwick-iGEM-2021/modelling
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/Warwick-iGEM-2021/modelling
 cd modelling/tiered-antibiotic-resistance-model
 python3 model.py
-</code></pre></div><p>The module can be installed using <code>pip</code> on the command line, then just imported directly in a Python file:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install tiered-antibiotic-resistance-model
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> tiered_antibiotic_resistance_model <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>The module can be installed using <code>pip</code> on the command line, then just imported directly in a Python file:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install tiered-antibiotic-resistance-model
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> tiered_antibiotic_resistance_model <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
 run_and_output()
-</code></pre></div><p>Furthermore the parameters of the model can be set within the other Python file by directly manipulating the <code>Param</code> object, instead of having to go into the source code and change them in the actual model, which is not a best practice.</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>Furthermore the parameters of the model can be set within the other Python file by directly manipulating the <code>Param</code> object, instead of having to go into the source code and change them in the actual model, which is not a best practice.</p>
 <p>The <a href="https://pypi.org/project/tiered-antibiotic-resistance-model/2.0.1/">PyPI page for the project is accessible here</a></p>
 <h3 id="testing-and-validation">Testing and validation</h3>
 <p>It is important to remember that computer models are not infallible. It is impossible for a computer model of a system to &ldquo;perfectly&rdquo; emulate the real system, as that would require total simulation of the entire universe, which is evidently unfeasible. However, closely approximate models provide a wealth of information when correctly implemented, and can provide a level of abstraction to make the applicable in a wide variety of cases.</p>
@@ -1030,7 +1267,7 @@ run_and_output()
 <div class="text-center">
     
     
-    <img src="../assets/content/model/stackplot_SIR.png" alt="A stack plot showing the S-curve shape" decoding="async"/>
+    <img src="../assets/content/model/stackplot_SIR.png" alt="A stack plot showing the S-curve shape" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A stack plot showing the characteristic &lsquo;S-curve&rsquo; shape</p>
@@ -1052,7 +1289,7 @@ run_and_output()
 <div class="text-center">
     
     
-    <img src="../assets/content/model/meropenem.png" alt="A diagram of the structure of meropenem" decoding="async"/>
+    <img src="../assets/content/model/meropenem.png" alt="A diagram of the structure of meropenem" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A diagram of the structure of meropenem [12]</p>
@@ -1074,7 +1311,38 @@ run_and_output()
 </ol>
 <h4 id="method">Method</h4>
 <p>The parameters used in the model were as follows:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">NUM_TIMESTEPS <span style="color:#f92672">=</span> <span style="color:#ae81ff">150</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">NUM_TIMESTEPS <span style="color:#f92672">=</span> <span style="color:#ae81ff">150</span>
 POPULATION_SIZE <span style="color:#f92672">=</span> <span style="color:#ae81ff">5000</span>
 INITIALLY_INFECTED <span style="color:#f92672">=</span> <span style="color:#ae81ff">50</span>
 
@@ -1101,13 +1369,23 @@ DEATH_FUNCTION <span style="color:#f92672">=</span> <span style="color:#66d9ef">
 <span style="color:#75715e"># TODO: Make this more robust</span>
 PROBABILITY_SPREAD <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.25</span>
 NUM_SPREAD_TO <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-</code></pre></div><p>We ran the programme 10 times with the product in use and 10 times without. Albeit unrealistic in a hospital scenario, the population size was set to 5000 to minimise fluctuations between outcomes due to the stochastic nature of the model.</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>We ran the programme 10 times with the product in use and 10 times without. Albeit unrealistic in a hospital scenario, the population size was set to 5000 to minimise fluctuations between outcomes due to the stochastic nature of the model.</p>
 <p>To further minimise the fluctuations, we then combined all the runs with and without the product respectively to create averaged runs. This meant that, for example, the deaths at timestep 20 of the averaged run without the product was the average of deaths at timestep 20 of each run when the product was not in use.</p>
 <p>After each run we also calculated the Death rate (deaths as % of the population), the Mortality rate (deaths as % of the population that was infected), and the Infection rate (the population that was infected as % of the total population). We then calculated the mean value and variance of the Death, Mortality and Infection rates of the runs with and without the product in use respectively. To confirm that there were statistically significant improvements in outcomes when using the product compared to not using the product, we conducted three one-sided hypothesis tests at the 1% level.</p>
 <p>Since we used an unrealistically large population size in our initial runs, we also ran the programme again but with the parameters:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">POPULATION_SIZE <span style="color:#f92672">=</span> <span style="color:#ae81ff">200</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">POPULATION_SIZE <span style="color:#f92672">=</span> <span style="color:#ae81ff">200</span>
 INITIALLY_INFECTED <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
-</code></pre></div><p>The graphic results of the runs with and without the product in use respectively were then compared to the averaged runs with populations of 5000. This confirmed that the population size does not adversely affect the results of the model, instead merely &ldquo;smoothing the curve&rdquo;, as Markov models with small sample sets tend to give very noisy data, given the law of large numbers.</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>The graphic results of the runs with and without the product in use respectively were then compared to the averaged runs with populations of 5000. This confirmed that the population size does not adversely affect the results of the model, instead merely &ldquo;smoothing the curve&rdquo;, as Markov models with small sample sets tend to give very noisy data, given the law of large numbers.</p>
 <p>Finally, we also did some further analysis into how the product affects the outcome of the model by looking a bit closer at the data. This involved looking at the change over time of cases of resistant pathogens and patients put into isolation.</p>
 <h4 id="results-and-analysis">Results and analysis</h4>
 <h5 id="outputs">Outputs</h5>
@@ -1115,7 +1393,7 @@ INITIALLY_INFECTED <span style="color:#f92672">=</span> <span style="color:#ae81
 <div class="text-center">
     
     
-    <img src="../assets/content/model/graph1.png" alt="NBM average simulation without product in use graph" decoding="async"/>
+    <img src="../assets/content/model/graph1.png" alt="NBM average simulation without product in use graph" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A graph of the average simulation results without the product over ten runs</p>
@@ -1163,7 +1441,7 @@ INITIALLY_INFECTED <span style="color:#f92672">=</span> <span style="color:#ae81
 <div class="text-center">
     
     
-    <img src="../assets/content/model/graph2.png" alt="NBM average simulation with the product in use graph" decoding="async"/>
+    <img src="../assets/content/model/graph2.png" alt="NBM average simulation with the product in use graph" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A graph of the average simulation results with the product over ten runs</p>
@@ -1222,12 +1500,12 @@ INITIALLY_INFECTED <span style="color:#f92672">=</span> <span style="color:#ae81
 <p>$$
 P \left( t_{n_1 + n_2 - 2} &gt; \frac{\overline{x_1} - \overline{x_2}}{\sqrt{\frac{S_0^2}{n_1} + \frac{S_0^2}{n_2}}} \right)
 $$</p>
-<p>We let $$\overline{x_1}$$ be the mean value for any given outcome variable when not using the product and $$\overline{x_2}$$ the mean value when using the product. $$n_1$$ and $$n_2$$ were the sample sizes, which was 10 in both cases. Since the initial assumption is that the null hypothesis holds, $$S_0^2$$ is the hypothesised variance of the hypothesised real distribution, or in other words the square of the standard deviation of the hypothesised distribution.</p>
+<p>We let $\overline{x_1}$ be the mean value for any given outcome variable when not using the product and $\overline{x_2}$ the mean value when using the product. $n_1$ and $n_2$ were the sample sizes, which was 10 in both cases. Since the initial assumption is that the null hypothesis holds, $S_0^2$ is the hypothesised variance of the hypothesised real distribution, or in other words the square of the standard deviation of the hypothesised distribution.</p>
 <p>Since the sample sizes are equal, we calculate the hypothesised variance using the formula:</p>
 <p>$$
 S_0^2 = \frac{S_1^2 + S_2^2}{2}
 $$</p>
-<p>Where $$S_1^2$$ is the variance of any given outcome variable when not using the product and $$S_2^2$$ is the equivalent when using the product.</p>
+<p>Where $S_1^2$ is the variance of any given outcome variable when not using the product and $S_2^2$ is the equivalent when using the product.</p>
 <h6 id="infection-rates">Infection rates</h6>
 <p>For the difference-in-means test of the infection rates, we used the following variables and calculation:</p>
 <table>
@@ -1244,7 +1522,7 @@ $$</p>
 </tr>
 <tr>
 <td>Variance of the infection rate without the product</td>
-<td>2.4$$\times 10^{-5}$$</td>
+<td>2.4$\times 10^{-5}$</td>
 </tr>
 <tr>
 <td>Mean infection rate with the product</td>
@@ -1252,7 +1530,7 @@ $$</p>
 </tr>
 <tr>
 <td>Variance of the infection rate with the product</td>
-<td>2.96$$\times 10^{-4}$$</td>
+<td>2.96$\times 10^{-4}$</td>
 </tr>
 </tbody>
 </table>
@@ -1275,7 +1553,7 @@ $$</p>
 </tr>
 <tr>
 <td>Variance of the infection rate without the product</td>
-<td>7.8$$\times 10^{-5}$$</td>
+<td>7.8$\times 10^{-5}$</td>
 </tr>
 <tr>
 <td>Mean infection rate with the product</td>
@@ -1283,7 +1561,7 @@ $$</p>
 </tr>
 <tr>
 <td>Variance of the infection rate with the product</td>
-<td>1.49$$\times 10^{-4}$$</td>
+<td>1.49$\times 10^{-4}$</td>
 </tr>
 </tbody>
 </table>
@@ -1306,7 +1584,7 @@ $$</p>
 </tr>
 <tr>
 <td>Variance of the infection rate without the product</td>
-<td>8.4$$\times 10^{-5}$$</td>
+<td>8.4$\times 10^{-5}$</td>
 </tr>
 <tr>
 <td>Mean infection rate with the product</td>
@@ -1314,7 +1592,7 @@ $$</p>
 </tr>
 <tr>
 <td>Variance of the infection rate with the product</td>
-<td>3.09$$\times 10^{-4}$$</td>
+<td>3.09$\times 10^{-4}$</td>
 </tr>
 </tbody>
 </table>
@@ -1327,7 +1605,7 @@ $$</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/graph3.png" alt="NBM average simulation without product in use, focussing on resistances and isolation graph" decoding="async"/>
+    <img src="../assets/content/model/graph3.png" alt="NBM average simulation without product in use, focussing on resistances and isolation graph" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A graph of the average simulation results without the product over ten runs, focussing on resistances and isolation graph</p>
@@ -1340,7 +1618,7 @@ $$</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/graph4.png" alt="NBM average simulation with the product in use, focussing on resistances and isolation graph" decoding="async"/>
+    <img src="../assets/content/model/graph4.png" alt="NBM average simulation with the product in use, focussing on resistances and isolation graph" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A graph of the average simulation results with the product over ten runs, focussing on resistances and isolation graph</p>
@@ -1354,16 +1632,30 @@ $$</p>
 <p>Something else to note is the higher frequency of resistance to Colistin when using the product. Peak resistance when using the product reaches 271.7 compared to 256.5 when not using the product, a 5.9% increase. While this may not seem high, it has important implications as resistance again Colistin prevents the effective use of <em>any antibiotic</em>. Once a patient contracts a Colistin-resistant pathogen in this scenario, with no chance of a natural recovery, the patient is guaranteed to die.</p>
 <p>Why does this happen? When the product detects resistance to Meropenem, treatment immediately changes to Colistin. This means that overall when using the product, more people are treated with Colistin than otherwise. Hence, while the frequency of Meropenem-resistance might be lower, the likelihood a pathogen develops resistance against Colistin if it is already resistant against Meropenem is much higher since resistance can only develop if it is treated with Colistin.</p>
 <p>Is this a problem? Not necessarily, for two reasons. First of all, Colistin is only used when all other options are exhausted. In the case of a patient resistant to Meropenem, Colistin is the only effective treatment available to them. Since the chance of recovering without effective treatment is zero, not treating them is effectively letting them die. Furthermore, despite Colistin-resistance increasing in frequency, it is much less likely to spread. Without the product, we cannot know who carries Colistin-resistant pathogens, hence they are not guaranteed to be in isolation. Using the product, however, we always detect any patient resistant to Meropenem <em>or any higher-tier antibiotic</em>. This means all patients with resistance to Colistin are also put in isolation. Hence Colistin-resistance will not spread when the product is used. This is not totally true to the real world, and the change to fix this is discussed in the future work section, as we did not have time to propagate all the new data a fix to this would generate. However, we performed an informal test on the proposed fix (shown below), and found that the change appeared to be negligible.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> person<span style="color:#f92672">.</span>infection<span style="color:#f92672">.</span>get_tier() <span style="color:#f92672">&gt;=</span> PRODUCT_DETECTION_LEVEL:
-</code></pre></div><p>Is replaced by</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> person<span style="color:#f92672">.</span>infection<span style="color:#f92672">.</span>get_tier() <span style="color:#f92672">==</span> PRODUCT_DETECTION_LEVEL:
-</code></pre></div><h5 id="using-a-small-population">Using a small population</h5>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> person<span style="color:#f92672">.</span>infection<span style="color:#f92672">.</span>get_tier() <span style="color:#f92672">&gt;=</span> PRODUCT_DETECTION_LEVEL:
+</code></pre></td></tr></table>
+</div>
+</div><p>Is replaced by</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> person<span style="color:#f92672">.</span>infection<span style="color:#f92672">.</span>get_tier() <span style="color:#f92672">==</span> PRODUCT_DETECTION_LEVEL:
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="using-a-small-population">Using a small population</h5>
 <p>Below, we show pairs of graphs of results with large and small population sizes for comparison</p>
 <p><img src="./diagrams/graph5.png" alt="NBM average simulation (population=5000) without product, focussing on Meropenem resistance graph"></p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/graph5.png" alt="NBM average simulation (population=5000) without product, focussing on Meropenem resistance graph" decoding="async"/>
+    <img src="../assets/content/model/graph5.png" alt="NBM average simulation (population=5000) without product, focussing on Meropenem resistance graph" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A graph of the average simulation results for a population of five thousand people, without the product over ten runs, focussing on Meropenem resistance graph</p>
@@ -1374,7 +1666,7 @@ $$</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/graph6.png" alt="NBM average simulation (population=200) without product, focussing on Meropenem resistance graph" decoding="async"/>
+    <img src="../assets/content/model/graph6.png" alt="NBM average simulation (population=200) without product, focussing on Meropenem resistance graph" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A graph of the average simulation results for a population of two hundred people, without the product over ten runs, focussing on Meropenem resistance graph</p>
@@ -1385,7 +1677,7 @@ $$</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/graph7.png" alt="NBM average simulation (population=5000) with product, focussing on Meropenem resistance graph" decoding="async"/>
+    <img src="../assets/content/model/graph7.png" alt="NBM average simulation (population=5000) with product, focussing on Meropenem resistance graph" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A graph of the average simulation results for a population of size five thousand people, with the product over ten runs, focussing on Meropenem resistance graph</p>
@@ -1396,7 +1688,7 @@ $$</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/graph8.png" alt="NBM average simulation (population=200) with product, focussing on Meropenem resistance graph" decoding="async"/>
+    <img src="../assets/content/model/graph8.png" alt="NBM average simulation (population=200) with product, focussing on Meropenem resistance graph" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A graph of the average simulation results for a population of two hundred people, with the product over ten runs, focussing on Meropenem resistance graph</p>
@@ -1539,7 +1831,7 @@ OXA-48 sequence we selected was as follows:</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/NUPACKsequence1.png" alt="The selected gene sequence" decoding="async"/>
+    <img src="../assets/content/model/NUPACKsequence1.png" alt="The selected gene sequence" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">The selected gene sequence</p>
@@ -1550,7 +1842,7 @@ OXA-48 sequence we selected was as follows:</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/NUPACKsequence2.png" alt="The gene sequence we designed" decoding="async"/>
+    <img src="../assets/content/model/NUPACKsequence2.png" alt="The gene sequence we designed" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">The gene sequence we designed</p>
@@ -1572,7 +1864,7 @@ conformations:</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/gRNA1.svg" alt="The first closed formation generated by NUPACK" decoding="async"/>
+    <img src="../assets/content/model/gRNA1.svg" alt="The first closed formation generated by NUPACK" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">The first closed formation generated by NUPACK</p>
@@ -1582,7 +1874,7 @@ conformations:</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/gRNA2.svg" alt="The second closed formation generated by NUPACK" decoding="async"/>
+    <img src="../assets/content/model/gRNA2.svg" alt="The second closed formation generated by NUPACK" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">The second closed formation generated by NUPACK</p>
@@ -1602,7 +1894,7 @@ conformation for the gRNA:</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/model/gRNA3.svg" alt="A conformation for the gRNA generated by NUPACK" decoding="async"/>
+    <img src="../assets/content/model/gRNA3.svg" alt="A conformation for the gRNA generated by NUPACK" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">A conformation for the gRNA generated by NUPACK</p>

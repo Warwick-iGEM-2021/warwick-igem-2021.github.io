@@ -134,6 +134,14 @@ td {
   border: 1px solid black;
   padding: 0 10px; }
 
+table {
+  margin: auto;
+  width: 90% !important; }
+
+.highlight table {
+  margin: initial;
+  width: initial; }
+
 tr:nth-child(odd) {
   background-color: #f2f2f2; }
 
@@ -844,7 +852,7 @@ https://codepen.io/albizan/pen/mMWdWZ
 */
 /* https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/ */
 #sidebar {
-  max-width: 25%; }
+  max-width: 25vw; }
   @media only screen and (max-width: 1500px) {
     #sidebar {
       display: none; } }
@@ -1330,6 +1338,9 @@ body.accessibility_readingLine #readingLine {
 
 .hugo-figure-caption {
   padding-top: 5px; }
+
+.centered-image {
+  max-width: 100%; }
 
 .timeline {
   position: relative;
