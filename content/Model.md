@@ -190,11 +190,11 @@ In the limit of time to infinity, all individuals will be either uninfected, imm
 {{< centeredImage
         src="/assets/content/model/specific_none.png"
         alt="A state transition diagram of a person"
-        caption="A state transition diagram of a person centred around the state of being infected with a pathogen resistant to antibiotic $$n$$ in the precedence of antibiotics" >}}
+        caption="A state transition diagram of a person centred around the state of being infected with a pathogen resistant to antibiotic $n$ in the precedence of antibiotics" >}}
 
 #### 2. Treatment and mutation
 
-Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $$1$$ being the first administered, and $$n$$ being the last for antibiotics $$1..n$$ ). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify _Carbapenem resistant Enterobacteriaceae_ (CRE), which are a type of these resistant pathogens.
+Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $1$ being the first administered, and $n$ being the last for antibiotics $1..n$). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify _Carbapenem resistant Enterobacteriaceae_ (CRE), which are a type of these resistant pathogens.
 
 Pathogens have a small chance of mutating to develop resistance to antibiotics being used to treat them, as such strains will only become dominant when there is a pressure giving them a survival advantage.
 
@@ -484,7 +484,6 @@ We graphically compared the data outputs with the expected characteristic "S-cur
         alt="A stack plot showing the S-curve shape"
         caption="A stack plot showing the characteristic 'S-curve' shape" >}}
 
-
 Additionally, the book notes that "A special issue in verification occurs with respect to multi-agent models. Multi-agent models can potentially undergo dual level verification; i.e., verification at both the individual and group level. To wit, does the model accurately predict group level behavior, individual level behavior, or both?" [8]
 
 Since our model can be considered to be multi-agent, as it is composed of multiple `Person` classes forming a population, we needed to take account of this special issue.
@@ -586,7 +585,6 @@ A graph showing the change of several variables over time, having averaged 10 ru
         alt="NBM average simulation without product in use graph"
         caption="A graph of the average simulation results without the product over ten runs" >}}
 
-
 Some statistics from the averaged run over a population of 5000 without the product in use:
 
 | Category                  | Mean value | Variance |
@@ -642,7 +640,7 @@ $$
 P \left( t_{n_1 + n_2 - 2} > \frac{\overline{x_1} - \overline{x_2}}{\sqrt{\frac{S_0^2}{n_1} + \frac{S_0^2}{n_2}}} \right)
 $$
 
-We let $$\overline{x_1}$$ be the mean value for any given outcome variable when not using the product and $$\overline{x_2}$$ the mean value when using the product. $$n_1$$ and $$n_2$$ were the sample sizes, which was 10 in both cases. Since the initial assumption is that the null hypothesis holds, $$S_0^2$$ is the hypothesised variance of the hypothesised real distribution, or in other words the square of the standard deviation of the hypothesised distribution.
+We let $\overline{x_1}$ be the mean value for any given outcome variable when not using the product and $\overline{x_2}$ the mean value when using the product. $n_1$ and $n_2$ were the sample sizes, which was 10 in both cases. Since the initial assumption is that the null hypothesis holds, $S_0^2$ is the hypothesised variance of the hypothesised real distribution, or in other words the square of the standard deviation of the hypothesised distribution.
 
 Since the sample sizes are equal, we calculate the hypothesised variance using the formula:
 
@@ -650,18 +648,18 @@ $$
 S_0^2 = \frac{S_1^2 + S_2^2}{2}
 $$
 
-Where $$S_1^2$$ is the variance of any given outcome variable when not using the product and $$S_2^2$$ is the equivalent when using the product.
+Where $S_1^2$ is the variance of any given outcome variable when not using the product and $S_2^2$ is the equivalent when using the product.
 
 ###### Infection rates
 
 For the difference-in-means test of the infection rates, we used the following variables and calculation:
 
-| Category                                           | Value                  |
-| -------------------------------------------------- | ---------------------- |
-| Mean infection rate without the product            | 0.9010                 |
-| Variance of the infection rate without the product | 2.4$$\times 10^{-5}$$  |
-| Mean infection rate with the product               | 0.8585                 |
-| Variance of the infection rate with the product    | 2.96$$\times 10^{-4}$$ |
+| Category                                           | Value                |
+| -------------------------------------------------- | -------------------- |
+| Mean infection rate without the product            | 0.9010               |
+| Variance of the infection rate without the product | 2.4$\times 10^{-5}$  |
+| Mean infection rate with the product               | 0.8585               |
+| Variance of the infection rate with the product    | 2.96$\times 10^{-4}$ |
 
 $$
 P \left( t_{18} > \frac{0.9010 - 0.8585}{\sqrt{\frac{2.4 \times 10^{-5} + 2.96 \times 10^{-4}}{10}}} \right) = P(t_{18} > 7.513) < 1\%
@@ -671,12 +669,12 @@ $$
 
 For the difference-in-means test of the mortality rates, we used the following variables and calculation:
 
-| Category                                           | Value                  |
-| -------------------------------------------------- | ---------------------- |
-| Mean infection rate without the product            | 0.4086                 |
-| Variance of the infection rate without the product | 7.8$$\times 10^{-5}$$  |
-| Mean infection rate with the product               | 0.3812                 |
-| Variance of the infection rate with the product    | 1.49$$\times 10^{-4}$$ |
+| Category                                           | Value                |
+| -------------------------------------------------- | -------------------- |
+| Mean infection rate without the product            | 0.4086               |
+| Variance of the infection rate without the product | 7.8$\times 10^{-5}$  |
+| Mean infection rate with the product               | 0.3812               |
+| Variance of the infection rate with the product    | 1.49$\times 10^{-4}$ |
 
 $$
 P \left( t_{18} > \frac{0.4086 - 0.3812}{\sqrt{\frac{7.8 \times 10^{-5} + 1.49 \times 10^{-4}}{10}}} \right) = P(t_{18} > 5.751) < 1\%
@@ -686,12 +684,12 @@ $$
 
 For the difference-in-means test of the death rates, we used the following variables and calculation:
 
-| Category                                           | Value                  |
-| -------------------------------------------------- | ---------------------- |
-| Mean infection rate without the product            | 0.3682                 |
-| Variance of the infection rate without the product | 8.4$$\times 10^{-5}$$  |
-| Mean infection rate with the product               | 0.3273                 |
-| Variance of the infection rate with the product    | 3.09$$\times 10^{-4}$$ |
+| Category                                           | Value                |
+| -------------------------------------------------- | -------------------- |
+| Mean infection rate without the product            | 0.3682               |
+| Variance of the infection rate without the product | 8.4$\times 10^{-5}$  |
+| Mean infection rate with the product               | 0.3273               |
+| Variance of the infection rate with the product    | 3.09$\times 10^{-4}$ |
 
 $$
 P \left( t_{18} > \frac{0.3682 - 0.3273}{\sqrt{\frac{8.4 \times 10^{-5} + 3.09 \times 10^{-4}}{10}}} \right) = P(t_{18} > 6.524) < 1\%
@@ -768,14 +766,12 @@ A graph showing the change of several variables over time, when the population s
         alt="NBM average simulation (population=5000) with product, focussing on Meropenem resistance graph"
         caption="A graph of the average simulation results for a population of size five thousand people, with the product over ten runs, focussing on Meropenem resistance graph" >}}
 
-
 A graph showing the change of several variables over time, having averaged 10 runs with the product in use. “Meropenem” refers to the number of patients carrying a pathogen with resistance to Meropenem. Only the first 100 time-steps are shown as the variables change only marginally after that.
 
 {{< centeredImage
         src="/assets/content/model/graph8.png"
         alt="NBM average simulation (population=200) with product, focussing on Meropenem resistance graph"
         caption="A graph of the average simulation results for a population of two hundred people, with the product over ten runs, focussing on Meropenem resistance graph" >}}
-
 
 A graph showing the change of several variables over time, when the population size was set to 200 and initially infected at 10, with the product in use. “Meropenem” refers to the number of patients carrying a pathogen with resistance to Meropenem. Only the first 100 time-steps are shown as the variables change only marginally after that.
 
@@ -962,7 +958,7 @@ present.
 
 [11] 2017. _Management of Bacterial Meningitis in infants <3 months_. [pdf] Meningitis Research Foundation. Available at: <https://www.meningitis.org/getmedia/75ce0638-a815-4154-b504-b18c462320c8/Neo-Natal-Algorithm-Nov-2017> [Accessed 15 October 2021].
 
-[12] Mills, B. 2009. *Ball-and-stick model of the meropenem molecule*. Wikimedia Commons. Available at: https://commons.wikimedia.org/wiki/File:Meropenem-from-xtal-1992-3D-balls.png [Accessed 19 October 2021]
+[12] Mills, B. 2009. _Ball-and-stick model of the meropenem molecule_. Wikimedia Commons. Available at: https://commons.wikimedia.org/wiki/File:Meropenem-from-xtal-1992-3D-balls.png [Accessed 19 October 2021]
 
 [13] Mahabeer, P., Mzimela, B., Lawler, M., Singh-Moodley, A., Singh, R. and Mlisana, K., 2018. _Colistin-resistant Acinetobacter baumanniias a cause of neonatal ventriculitis_. Southern African Journal of Infectious Diseases, pp.1-3.
 
