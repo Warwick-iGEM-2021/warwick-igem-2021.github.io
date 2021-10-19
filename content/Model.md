@@ -30,14 +30,12 @@ Our results show that our product will be beneficial in the real world. We know 
         alt="A violin plot of the total number of deaths over a full run of the model with the validated parameters"
         caption="A violin plot of the total number of deaths over a full run (i.e. till no people are infected) of the model with the validated parameters (discussed in validation section)" >}}
 
-It is evident that the product causes a statistically significant reduction in the number of deaths resulting from the various strains of the pathogen modelled by the system.
-
 {{< centeredImage
         src="/assets/content/model/meropenem_with_without.png"
         alt="A line plot of the total number of deaths over a full run of the model with the validated parameters"
         caption="A line plot of the total number of deaths over a full run of the model with the validated parameters" >}}
 
-It is again evident that the product causes a statistically significant reduction in the number of people infected with a strain of the pathogen resistant to meropenem - the drug resistance detect by our product.
+It is again evident that the product causes a statistically significant reduction in the number of deaths due to and the number of people infected with a strain of the pathogen resistant to meropenem - the drug resistance detect by our product.
 
 ### Interactive web model
 
@@ -74,7 +72,7 @@ Our model is discrete time, stochastic, and compartmental:
 
   Below shows the code for how operations are performed on every person in the population each timestep, and data about them recorded
 
-  ```python
+  ```python {linenos=table}
   # Make a new data handler for each simulation
   self.data_handler.__init__()
 
@@ -99,7 +97,7 @@ Our model is discrete time, stochastic, and compartmental:
   Initially, the model only had a parameter for how many different antibiotics are used, and all the associated probabilities (e.g. likelihood of recovery, likelihood of death, etc.) with these antibiotics were the same. However, in the final version, the different antibiotics are named to more closely map to the real world, and they are allowed to have their own separate values for these probabilities. However, for convenience's sake, we introduce meta-parameters which can be used to set all the antibiotics to have the same probability in a given category.
   Below shows code for a default setting of these probabilities, the meaning of which will be explained further on:
 
-  ```python
+  ```python {linenos=table}
   # General model parameters
   NUM_TIMESTEPS = 100
   POPULATION_SIZE = 500
@@ -200,7 +198,7 @@ Antibiotics are used in a specific order, which are numbered accordingly for cla
 
 Pathogens have a small chance of mutating to develop resistance to antibiotics being used to treat them, as such strains will only become dominant when there is a pressure giving them a survival advantage.
 
-```python
+```python {linenos=table}
 # Handle Mutation to higher resistance due to treatment
 if decision(person.infection.mutation_probability):
     person.mutate_infection()
@@ -223,7 +221,7 @@ There are a number of days which can be set as a parameter for the model, before
 
 Additionally, when our product if a person is detected to be resistant using the product their treatment level is immediately increased to be above that resistance level, as we know that any other lower treatment will be ineffective.
 
-```python
+```python {linenos=table}
 # Handle increasing treatment
 if person.treatment is None:
     # If the person is infected but are not being treated
@@ -255,7 +253,7 @@ if person.infection.get_tier() >= PRODUCT_DETECTION_LEVEL:
 
 Disease can spread from infected patients to uninfected patients, and patients with a less resistant strain. The likelihood of this occurring, and the number of people spread to each time can be controlled as parameters
 
-```python
+```python {linenos=table}
 # Spread the infection strains throughout the population
 # We need a deepcopy operation, to prevent someone who has just
 # been spread to in this timestep spreading the thing they've
@@ -276,7 +274,7 @@ Without our product, a person is put in isolation when they exceed a threshold o
 
 With our product, since it provides a fast testing mechanism for highly resistant strains, patients can be detected as having the resistant strain, they are put into isolation when they exceed a threshold of **having the resistant strain**
 
-```python
+```python {linenos=table}
 # Isolate if in high enough treatment class (which
 # is not the same as infection class - this will
 # likely lag behind)
@@ -303,7 +301,7 @@ As discussed in section (1), each timestep, patients can recover (either natural
 
 Recovery makes the patients immune, meaning they cannot be infected again, essentially removing them from the system. Death also removes patients from the system.
 
-```python
+```python {linenos=table}
 # Handle Recovery generally or by treatment if currently infected
 general_recovery = decision(person.infection.general_recovery_probability)
 treatment_recovery = (person.correct_treatment() and
@@ -354,7 +352,7 @@ Whilst testing strategies and reasoning for testing are discussed in the "Testin
 
 An example of a test is as follows, where we check that the boundary case of no-one being infected to start results in no infections for the entire model one. Whilst this might seem trivial, if it fails it is clear something is very wrong with the model, which might be a subtle result of a change made during development, and hence can prevent confusion about model results not making sense by showing that the problem is in the model implementation, not the analysis.
 
-```python
+```python {linenos=table}
 class TestModel(unittest.TestCase):
     def test_empty_model(self):
         """Test that a model with no infected people always stays fully uninfected"""
@@ -370,7 +368,7 @@ class TestModel(unittest.TestCase):
 
 An interesting note about these tests is despite the fact they are written as unit tests, which normally refers to tests with a fixed input, these can be thought of as being tested with different inputs dependent on the result of the random number generator.
 
-```python
+```python {linenos=table}
 class TestModel(unittest.TestCase):
     def test_empty_model(self):
         """Test that a model with no infected people always stays fully uninfected"""
@@ -396,7 +394,7 @@ If the tests are run many times, with many different resulting random number inp
 Having implemented a robust testing strategy, we now had all the building blocks for a continuous integration/continuous development workflow, as shown below:
 
 {{< centeredImage
-        src="/assets/content/model/CI_CD_Diagram.png"
+        src="/assets/content/model/CI_CD_diagram.png"
         alt="A continuous integration/continuous development workflow"
         caption="A continuous integration/continuous development workflow" >}}
 
@@ -422,7 +420,7 @@ Since we developed our model in python, and it follows best practices as opposed
 
 Doing this greatly simplifies the way in which the package can be distributed. Instead of cloning the repository, and running the code directly through that:
 
-```bash
+```bash {linenos=table}
 git clone https://github.com/Warwick-iGEM-2021/modelling
 cd modelling/tiered-antibiotic-resistance-model
 python3 model.py
@@ -430,11 +428,11 @@ python3 model.py
 
 The module can be installed using `pip` on the command line, then just imported directly in a Python file:
 
-```bash
+```bash {linenos=table}
 pip install tiered-antibiotic-resistance-model
 ```
 
-```python
+```python {linenos=table}
 from tiered_antibiotic_resistance_model import *
 run_and_output()
 ```
@@ -530,7 +528,7 @@ The parameters of the model have hence been adjusted as such:
 
 The parameters used in the model were as follows:
 
-```python
+```python {linenos=table}
 NUM_TIMESTEPS = 150
 POPULATION_SIZE = 5000
 INITIALLY_INFECTED = 50
@@ -568,7 +566,7 @@ After each run we also calculated the Death rate (deaths as % of the population)
 
 Since we used an unrealistically large population size in our initial runs, we also ran the programme again but with the parameters:
 
-```python
+```python {linenos=table}
 POPULATION_SIZE = 200
 INITIALLY_INFECTED = 10
 ```
@@ -735,13 +733,13 @@ Why does this happen? When the product detects resistance to Meropenem, treatmen
 
 Is this a problem? Not necessarily, for two reasons. First of all, Colistin is only used when all other options are exhausted. In the case of a patient resistant to Meropenem, Colistin is the only effective treatment available to them. Since the chance of recovering without effective treatment is zero, not treating them is effectively letting them die. Furthermore, despite Colistin-resistance increasing in frequency, it is much less likely to spread. Without the product, we cannot know who carries Colistin-resistant pathogens, hence they are not guaranteed to be in isolation. Using the product, however, we always detect any patient resistant to Meropenem _or any higher-tier antibiotic_. This means all patients with resistance to Colistin are also put in isolation. Hence Colistin-resistance will not spread when the product is used. This is not totally true to the real world, and the change to fix this is discussed in the future work section, as we did not have time to propagate all the new data a fix to this would generate. However, we performed an informal test on the proposed fix (shown below), and found that the change appeared to be negligible.
 
-```python
+```python {linenos=table}
 if person.infection.get_tier() >= PRODUCT_DETECTION_LEVEL:
 ```
 
 Is replaced by
 
-```python
+```python {linenos=table}
 if person.infection.get_tier() == PRODUCT_DETECTION_LEVEL:
 ```
 

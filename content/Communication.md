@@ -23,7 +23,7 @@ The booklet was also distributed to all team which participated in order for the
 
 Overall the booklet contained entries from 20 teams over the 3 different continents (Asia, Europe, North America).
 
- ## Nuffield Placement Students
+## Nuffield Placement Students
 
 The importance of sharing knowledge and providing support for the next cohort of university of students was another important educational aspect to iGEM Warwick. Therefore we contact Nuffield Foundation to express an interest in hosting students (16-18 year olds ) to complete a research project with iGEM Warwick. We were able to host 2 students in July for 2 weeks to assist them on their research essay and also research poster. As this was their first introduction to academic writing and posters in this manner we hosted biweekly meetings as well as extra meetings if needed to assist them in the process . This included helping them to understand scientific terminology they have not come across before in research papers, introducing them to referencing and the basic backbone of a research paper as well as advising them on where to find resources and also attending presentations given by our primary PI Dr Christopher Corre on different topics they could base their research on, including antibiotic resistance and also natural sunscreens based from marine life. We also hosted presentations on different iGEM Warwick team projects from 2016-2021 to allow them to start exploring the range of applications synthetic Biology has and what area in particular they may want to focus their research on.
 

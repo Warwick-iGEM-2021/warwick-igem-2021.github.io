@@ -67,12 +67,6 @@ theme = "wiki-theme"
     [[menu.main]]
         weight = 21
         parent = "lab"
-        identifier = "proof_of_concept"
-        Name = "Proof of concept"
-        URL = "/Proof_Of_Concept"
-    [[menu.main]]
-        weight = 22
-        parent = "lab"
         identifier = "experiments"
         Name = "Experiments"
         URL = "/Experiments"
