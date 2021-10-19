@@ -7,20 +7,18 @@ date: 2021-08-26T11:45:24+01:00
 draft: false
 ---
 
-
 ## Table of task distribution
 
-|                   | Ameera | Axel | Edmund | Jerry | Lucy | Reanna | Roman | Tudor |
-| ----------------- | ------ | ---- | ------ | ----- | ---- | ------ | ----- | ----- |
-| Wiki design       |        |      | 5      |       |      |        |       |       |
-| Human Practices   |        |      |        |       |      |        |       |       |
-| Wet Lab           |        |      |        |       |      |        |       |       |
-| Dry Lab           |        |      | 4      |       |      |        |       |       |
-| Promotional video |        |      | 1      |       |      |        |       |       |
-| ...               |        |      |        |       |      |        |       |       |
-|                   |        |      |        |       |      |        |       |       |
-|                   |        |      |        |       |      |        |       |       |
-|                   |        |      |        |       |      |        |       |       |
+| Name   | Tasks                                                                                                     |
+| ------ | --------------------------------------------------------------------------------------------------------- |
+| Ameera |                                                                                                           |
+| Axel   |                                                                                                           |
+| Edmund | Wiki design, Wiki programming, Model design, Model programming                                            |
+| Jerry  | Wiki design, Promotional video production and editing, Presentation video production, filming and editing |
+| Lucy   |                                                                                                           |
+| Reanna |                                                                                                           |
+| Roman  |                                                                                                           |
+| Tudor  |                                                                                                           |
 
 {{< new_sheet >}}
 
@@ -39,7 +37,8 @@ We'd like to thank those people who gave us advice on specific topic, allowing o
 #### Modelling
 
 - Alex Darlington, for meeting with us to discuss what we could improve about the modelling, and proof-reading the end result
-- ___, for giving a seminar on using COPASI, and continued assistance with it throughout the project
+- Jonathan Goodman, for proof-reading the modelling draft
+- \_\_\_, for giving a seminar on using COPASI, and continued assistance with it throughout the project
 
 #### Wet lab
 
@@ -49,9 +48,8 @@ We'd like to thank those people who gave us advice on specific topic, allowing o
 
 #### Human practices
 
-
 ### iGEM teams
 
 - iGEM Manchester, for hosting wiki development codeathons TODO: insert badge
 - iGEM KCL, for hosting a virtual meetup
-- iGEM ___, for organising the postcard competition
+- iGEM \_\_\_, for organising the postcard competition

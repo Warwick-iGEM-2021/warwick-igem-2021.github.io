@@ -12,83 +12,131 @@ draft: false
 
 {{< timeline_title >}}
 
-## Initial Brainstorming and Planning
+## Our first strong idea
 
-_Mid February_
 {{< timeline_content >}}
-Divided into 3 groups looking at different potential areas following a Microsoft
-teams meeting where we all meteach other (virtually). The group looked into past
-IGEM projects, use of casein and production of alternative dairy products,
-biosensors and also microplastics.
+
+In late March we came up with our first strong idea for our project – a product
+which could be sprayed onto a surface in a hospital and cause any
+disinfectant-resistant bacteria to fluoresce. After discussing this in our
+weekly meetings, the idea was liked by the whole team but after researching the
+idea and discussing our findings, we realised that this was not a major issue in
+hospitals when compared to antibiotic resistance. We also moved from a
+spray-based to a swab-based approach around this time.
+
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-## Sharing Ideas and Research
+Detection of CRE and biosensors
 
-_Early March_
 {{< timeline_content >}}
 
-In our second teams meeting we discussed the research we foundand also potential
-problems for example legal and ethical issues relating to a food product. With
-the helpful advice from previous IGEM members we looked into different tracks
-and what particularly interests us and explored together past work. From here we
-found an interest in environmental field and also looking a diagnostics. Useof
-GFP was mentioned but also plastic biodegradability too.
+After further research from break out groups and speaking to various health
+professionals (see our [human practices](/Human_Practices) page for more
+information) we came across a [Public Health England report about the concerning
+rise in CRE infections](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/926563/Framework_of_actions_to_contain_CPE-draft.pdf.
+
+Current detection methods for CRE require a lab and take 4-5 days for a sample
+to be processed. This can lead to large outbreaks in hospitals, due to a delay
+in results. We decided to think about how we could design a rapid detection
+method which would be used by cleaning staff without training, and which would
+eliminate the need for a lab. If carbapenem resistant bacteria were present on a
+swab, the sample would fluoresce to indicate a positive result.
+
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-## Catch Up and Progress Meeting
+## Developing our idea on how to detect CRE
 
-_Mid March_
 {{< timeline_content >}}
 
-In this meeting we were joined with Dr Christophe Corre and research fellow Emzo
-De Los Santos. We discussed FGP in plants as a detection tool for pathogens as a
-potential project idea. We discussed also the use of social media in
-communication and outreach as well as potential collaborations with societies.
-With the current situation with pandemic we recognised the importance of using
-social media platforms to helps build relationships and connections which could
-aid in future collaborations.
+We started to plan who we might need to contact, in order to begin designing how
+this detection method might work. We contacted microbiologists and specialists
+within the University of Warwick to allow us to gain a better understanding of
+how to tackle this problem.
+
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-## Detection of CRE and Biosensors
+## Meeting with Dr Freya Harrison
 
 {{< timeline_content >}}
 
-After further research from break out groups we came across the concern of CRE
-infections in hospitals by PHE. We decided to think about how we canmake a rapid
-detection product which can be used by cleaning staff without training and will
-eliminate the need for a lab. The second factor is highly important as current
-detection methods for CRE require a lab and will take 4-5 days for sample to be
-processed which can lead to large outbreaks in hospitals due to delay in
-results. The use of fluorescence will be key in staff seeing the presence of CRE.
+Dr Harrison is a specialist on carbapenem resistance, who we contacted to learn
+about the best ways of targeting these bacteria. We were advised to look at
+broad spectrum detection, and the possibility of using specific phages of
+peptidoglycan layer tagging. We also learnt a lot about the importance of
+looking at the infectious dose, how carbapenem resistance spreads, and issues
+surrounding biofilms
+
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-## Developing Our Idea On How To Detect CRE
+## Meeting with Dr Antonia Sagona
 
 {{< timeline_content >}}
-We started to plan who to contact with the advice of PHD students and our
-advisors and as this biosensor is aimed to be used in hospitals and clinical
-environments due these environments having high reservoirs of CRE. We contact
-microbiologists and specialists within the University of Warwick to allow us to
-gain a better understanding of how to tackle this problem.
+
+Dr Sagona is a phage therapy specialist who we contacted about the possibility
+of using phages. We discovered that this would likely be too specific, as we
+would only be able to target one strain of carbapenem resistant bacteria. This
+would be of limited use in a hospital, due to the wide range of different
+carbapenem resistant _Enterobacteriaceae_.
+
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-## Meeting with Freya Harrison
+## Identifying our target gene
 
 {{< timeline_content >}}
-Advised too look at broad spectrum detection and looking a specific phages or
-peptidoglycan layer tagging. we gained some great contacts as well as
-highlighting the importance of looking at what is the infectious dose , how it
-spreads and issues surrounding biofilms.
+
+After reading extensively around the subject of CRE, we came across a gene
+called OXA-48, which we decided we would select as our target. This is because
+there aren’t currently any existing methods which can detect this gene either
+efficiently or quickly. If this gene was present in a bacterial cell, this would
+enable us to identify that the bacterium was resistant to carbapenems. In our
+next weekly meeting, we also decided that we wanted to use a CRISPR-based
+approach in order to accurately identify the presence of this gene in an
+organism.
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+## Meeting with Dr Richard Hastings
+
+{{< timeline_content >}}
+
+Dr Hastings is the Healthcare Regulatory and Technical Manager at
+[Mirius](https://www.mirius.com/), a company producing disinfectants and other
+cleaning solutions. He informed us of all the legal restrictions and regulations
+surrounding the use of biological products on humans, which was of great
+interest to us as it meant we moved away from designing a rapid detection method
+to diagnose patients, due to the many logistical difficulties. We instead
+decided a way of containing the spread of CRE by targeting reservoirs like sinks
+would be more achievable for us, and we would be able to do it more effectively.
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+## Meetings with Jack Lawrence
+
+{{< timeline_content >}}
+
+We met with Jack Lawrence, a member of the 2018 iGEM, to discuss the use of
+CRISPR to detect carbapenem resistance. This was an extremely productive
+meeting, as we designed the gRNAs we would use to allow the dCas9 protein to
+bind to our target gene (OXA-48) using NUPACK. Soon after, we had a second
+meeting where we designed the plasmids we wanted to engineer in order to get
+this system working. We made a rough step-by-step plan of how we would achieve
+this in the lab. Once the correct parts had been ordered, we were ready to start
+in the lab and get the project underway!
+
 {{< div_end >}}
 
 {{< timeline_end >}}

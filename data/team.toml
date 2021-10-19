@@ -9,7 +9,7 @@
   [[team_members.item]]
     name = "Ameera Ghani"
     position = "Education and communication"
-    description = "A 2nd Year Biomedical Science student who has a real passion for bringing in more collaboration and outreach opportunities as part of the iGEM Warwick Team Project."
+    description = "A 2nd-year Biomedical Science student who has a real passion for bringing in more collaboration and outreach opportunities as part of the iGEM Warwick Team Project."
     img = "/assets/images/people/ag.jpg"
     alt = "Picture of Ameera Ghani"
     social = [
@@ -18,7 +18,7 @@
   [[team_members.item]]
     name = "Axel Schoerner Emillon"
     position = "Modelling design"
-    description = "A 2nd year Economics student from Sweden interested in a bit too many things for my own good. Although most of my degree is just mathematics, as a technically non-STEM I'm hoping to bring a bit of a different perspective to the project. Group exercise: try to pronounce my name."
+    description = "A 2nd-year Economics student from Sweden interested in a bit too many things for my own good. Although most of my degree is just mathematics, as a technically non-STEM I'm hoping to bring a bit of a different perspective to the project. Group exercise: try to pronounce my name."
     img = "/assets/images/people/aes.jpg"
     alt = "Picture of Axel Schoerner Emillon"
     social = [
@@ -27,7 +27,7 @@
   [[team_members.item]]
     name = "Edmund Goodman"
     position = "Wiki and modelling programming"
-    description = "A 2nd year Computer Science student who still doesn’t really know how they ended up in a synthetic biology competition. I enjoy playing the trumpet, rock climbing, working on various side projects (some of which I finish!), and can usually be found telling people to use git as version control."
+    description = "A 2nd-year Computer Science student who still doesn’t really know how they ended up in a synthetic biology competition. I enjoy playing the trumpet, rock climbing, working on various side projects (some of which I finish!), and can usually be found telling people to use git as version control."
     img = "/assets/images/people/eg.jpg"
     alt = "Picture of Edmund Goodman"
     social = [
@@ -38,7 +38,7 @@
   [[team_members.item]]
     name = "Jerry Yu"
     position = "Wiki design and video editing"
-    description = "A 3rd year Biochemistry student who loves browsing through Pinterest for inspiration and watching way too many YouTube videos for “educational” purposes. Though they do pay off sometimes, which hopefully shows through the design of this wiki and through the promotional and presentation video."
+    description = "A 3rd-year Biochemistry student who loves browsing through Pinterest for inspiration and watching way too many YouTube videos for “educational” purposes. Though they do pay off sometimes, which hopefully shows through the design of this wiki and through the promotional and presentation video."
     img = "/assets/images/people/jy.jpg"
     alt = "Picture of Jerry Yu"
     social = [
@@ -47,7 +47,7 @@
   [[team_members.item]]
     name = "Lucy Hayter"
     position = "Wet lab"
-    description = "Studies biomedical science"
+    description = "A 2nd-year Biomedical Science student who dreads the question 'where are you from', as I’m Swiss British but speak with an American accent. If I’m not playing lacrosse, I’m stress baking because of the experiments not working."
     img = "/assets/images/people/lh.jpg"
     alt = "Picture of Lucy Hayter"
     social = [
@@ -56,7 +56,7 @@
   [[team_members.item]]
     name = "Reanna Gregory"
     position = "Wet lab and human practices"
-    description = "A 2nd Year Biomedical Science student who can normally be found making a load of noise with a bunch of instruments somewhere to procrastinate doing iGEM work. I also enjoy climbing and playing football to distract myself from crying over failed lab experiments!"
+    description = "A 2nd-year Biomedical Science student who can normally be found making a load of noise with a bunch of instruments somewhere to procrastinate doing iGEM work. I also enjoy climbing and playing football to distract myself from crying over failed lab experiments!"
     img = "/assets/images/people/rg.jpg"
     alt = "Picture of Reanna Gregory"
     social = [
@@ -65,7 +65,7 @@
   [[team_members.item]]
     name = "Roman Shantsila"
     position = "Implementation"
-    description = "Studies chemistry"
+    description = "3rd-year chemistry student who got excited when he heard that we wanted to make a sample test kit. As my main interest is making things using anything from cardboard to steel to silver."
     img = "/assets/images/people/rs.jpg"
     alt = "Picture of Roman Shantsila"
     social = [
@@ -74,7 +74,7 @@
   [[team_members.item]]
     name = "Tudor Onose"
     position = "Wet lab"
-    description = "3rd year Biochemistry student with one too many commitments/passions that he’s juggling like a clown on stimulants. I’m a returning member of the 2020 team and want to pursue SynBio as a career. Biology nerd in the streets, language tutor and death metal frontman in the sheets."
+    description = "3rd-year Biochemistry student with one too many commitments/passions that he’s juggling like a clown on stimulants. I’m a returning member of the 2020 team and want to pursue SynBio as a career. Biology nerd in the streets, language tutor and death metal frontman in the sheets."
     img = "/assets/images/people/to.png"
     alt = "Picture of Tudor Onose"
     social = [

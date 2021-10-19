@@ -51,10 +51,10 @@ Using our social media pages such as Instagram we spread the awareness of other 
 At iGEM Warwick we created educational posters on different topics such as Microorganisms in hospitals, PCR, Carbapenem resistance Enterobacteriaceae and ethics in synthetic biology. This was made available by filling out a google form via a link on our social media pages for teams to provide their email address in order for us to send the posters to them. This will allow them to have access the poster in PDF form in English for them use in their own educational campaigns when working with schools or to send to schools and teachers to distribute to their students. The posters are basic introductions in to topics with short bursts of information in order for it to be easier to understand by our target audience which is 11-15 years old.
 
 {{< carousel caption="A carousel of the posters designed" >}}
- - /assets/content/communication/PCRPoster.png, A poster about PCR
+ - /assets/content/communication/PCRtestingPoster.png, A poster about PCR
  - /assets/content/communication/CREPoster.png, A poster about CRE
- - /assets/content/communication/MicrooganismsInHospitalsPoster.png, A poster about microorganisms in hospitals
- - /assets/content/communication/SynBioPoster.png, A poster about ethics in synthetic biology
+ - /assets/content/communication/microOrgsInHospitalsPoster.png, A poster about microorganisms in hospitals
+ - /assets/content/communication/ethicsSynBioPoster.png, A poster about ethics in synthetic biology
 {{</ carousel >}}
 
 Through our education aims we set we wanted to target a range of age groups from our resources and initiatives in order to make information and resources on synthetic biology accessible to a range of students and different stages of their academic learning. We believe we have achieved this by using posters, booklets, social media and by hosting students personally as well as involving a range of iGEM teams so that they can also further spread the resources and knowledge of biology and the topic of synthetic Biology even further in their own countries.
