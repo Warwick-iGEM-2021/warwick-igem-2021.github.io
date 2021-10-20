@@ -50,9 +50,18 @@ measures taken, with their extension dependent upon the results of the
 sequencing analysis. This would enable positive patients to be quarantined
 earlier and limit the spread of CRE, as well as preventing the unnecessary
 quarantine of patients who are suspected of carrying CRE but turn up not
-carrying the bacteria. Moreover, this test requires minimal training as the
-signal is obvious and the procedure is very easy to carry out by personnel
-trained in swabbing patients.
+carrying the bacteria. Other suspected reservoirs can also be tested very
+easily, including sinks, drains and faucets. Moreover, the kit was designed for
+simplicity of use. It includes a set of 4 step illustrated instructions, clearly
+labelled reagents, a testube rack and a distinct signal for a positive test.
+This means that to carry out a test the personnel only need to be trained in
+swabbing patients. This also means that should the target organisation want to
+deploy this kit in a more extensive format, for example routine swabbing of
+surfaces, it will require little training for any personnel in the organisation
+to carry out a test. The container of the kit and the testube rack are all made
+exclusively from cardboard which is widely recyclable, this is in the aim to
+minimise any environmental damage from a possible widespread deployment of these
+kits. 
 
 ## The bigger picture
 

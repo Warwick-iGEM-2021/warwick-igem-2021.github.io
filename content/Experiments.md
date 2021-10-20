@@ -7,39 +7,89 @@ date: 2021-08-26T11:45:30+01:00
 draft: false
 ---
 
-
 {{< timeline_start >}}
 
-
-
 {{< timeline_title >}}
-## Item 1
-*Date*
+
+_12/08/2021_
+
 {{< timeline_content >}}
 
-INSERT PHOTO HERE
+Obtained PAJ-390 and PAJ-379 containing MG1655-Z1 cells from Professor
+Jaramillo’s lab Prepared plates with appropriate antibiotics for selection
+(spectinomycin for all Z1 cells, chloramphenicol for PAJ-390, kanamycin for
+PAJ-379) Plated cells
 
 {{< div_end >}}
 
+{{< timeline_title >}}
 
+_13/08/2021_
+
+{{< timeline_content >}}
+
+Cells have grown on the appropriate plates
+
+{{< div_end >}}
 
 {{< timeline_title >}}
-## Item 2
-*Date*
+
+_16/08/2021_
+
+{{< timeline_content >}}
+
+Prepared liquid cultures of both lines for miniprep
+Prepared liquid cultures of the 390-containing line for electrocompetence induction
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+_17/08/2021_
+
+{{< timeline_content >}}
+
+Induced competence in 390-containing line
+Miniprepped both plasmids – in hindsight the method was flawed as our yields were low
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+_18/08/2021_
+
 {{< timeline_content >}}
 
 First, we plated the SAJ-351 cells which contained the 390 (dCas9) plasmids. We
 also miniprepped the 379 (GFP) plasmid and obtained a concentration of 26.8
 ng/µl.
 
-INSERT PHOTO HERE
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+_19/08/2021_
+
+{{< timeline_content >}}
+
+Transformation failed, centrifuged Falcon tube with supposed transformants and resuspended pellet in less media – plated the resulting concentrated culture
 
 {{< div_end >}}
 
+{{< timeline_title >}}
+
+_20/08/2021_
+
+{{< timeline_content >}}
+
+No growth from transformants
+
+{{< div_end >}}
 
 {{< timeline_title >}}
-## Item 3
-*23/08/21*
+
+_23/08/2021_
+
 {{< timeline_content >}}
 
 We tried to transform the SAJ-351 cells with the 379 plasmids on the 23/08/21.
@@ -55,10 +105,20 @@ INSERT PHOTO HERE
 
 {{< div_end >}}
 
+{{< timeline_title >}}
+
+_24/08/2021_
+
+{{< timeline_content >}}
+
+Control grew, transformants didn’t - made more competent cells from existing culture but forgot to add antibiotics
+
+{{< div_end >}}
 
 {{< timeline_title >}}
-## Item 4
-*25/08/21*
+
+_25/08/2021_
+
 {{< timeline_content >}}
 
 On the 25/08/21, we tried the transformation again but received the same
@@ -86,12 +146,31 @@ run it for a third time in the future.
 
 {{< div_end >}}
 
-
 {{< timeline_title >}}
-## Item 5
-*02/09/21*
+
+_26/08/2021_
+
 {{< timeline_content >}}
 
+Transformation failed again
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+_01/09/2021_
+
+{{< timeline_content >}}
+
+Prepared new liquid culture for miniprep
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+_02/09/2021_
+
+{{< timeline_content >}}
 
 On the 02/09/21, we again repeated the transformation of the SAJ-351 cells,
 using the new miniprep of 379 plasmid. On the same day, we carried out another
@@ -111,5 +190,34 @@ INSERT PHOTO HERE
 
 {{< div_end >}}
 
+{{< timeline_title >}}
+
+_03/09/2021_
+
+{{< timeline_content >}}
+
+Transformation has worked – one transformed colony
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+_06/09/2021_
+
+{{< timeline_content >}}
+
+Replated half the transformed colony and used the other half for a liquid culture
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+_07/09/2021_
+
+{{< timeline_content >}}
+
+Both cultures grew nicely, giving us confirmation that we have double transformed cells
+
+{{< div_end >}}
 
 {{< timeline_end >}}
