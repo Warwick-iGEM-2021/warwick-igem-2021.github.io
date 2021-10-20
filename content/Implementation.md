@@ -1,7 +1,7 @@
 ---
 title: "Implementation"
-hero_img_fore: "/assets/content/implementation/splash_fore.jpg"
-hero_img_back: "/assets/content/implementation/splash_back.jpg"
+hero_img_fore: "/assets/content/implementation/splash_fore.png"
+hero_img_back: "/assets/content/implementation/splash_back.png"
 summary: "We designed our product with usability in mind – therefore its finished form would take the form of a tube with a cell-free solution swabs can be submerged into. The solution would contain all the necessary components to produce the fluorescent reporter without containing any living cells, eliminating the risk of contamination. Should the kit be successful, iterating on it to detect different genes would be trivial, as only the sensing portion of our cgRNA would need to be changed to complement the mRNA of interest."
 date: 2021-08-26T11:45:26+01:00
 draft: false

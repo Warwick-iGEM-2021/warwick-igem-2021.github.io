@@ -76,7 +76,7 @@ extremely informative and was a fantastic way to get to know another team
 working on a similar project.
 
 {{< centeredImage
-        src="/assets/content/collaborations/iGEMMingdaoWarwickMeetup.png"
+        src="/assets/content/collaborations/igemMingdaoWarwickMeetup.png"
         alt="A photo of the meetup with the iGEM Mingdao team"
         caption="A photo of the meetup with the iGEM Mingdao team" >}}
 

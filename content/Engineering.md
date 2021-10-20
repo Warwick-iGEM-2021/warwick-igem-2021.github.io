@@ -114,11 +114,11 @@ non-toxic fluorogenic compound DFHBI.
 
 {{< centeredImage
         src="/assets/content/engineering/gRNA_1.png"
-        alt="Figure 6" >}}
+        alt="Photo of gRNA" >}}
 
 {{< centeredImage
         src="/assets/content/engineering/gRNA_2.png"
-        alt="Figure 7"
+        alt="Photo of gRNA"
         caption="Schematic diagram of the two plasmids in our system. Above is the schematic of the helper plasmid, encoding our trigger as well as dCas9 and a chloramphenicol resistance gene to assist with selection. Below is the schematic of a reporter plasmid, containing the two reporters – sfGFP and iSpinach – as well as a cgRNA, the MCP-SoxS CRISPRa system, and a kanamycin gene to assist with selection." >}}
 
 The design is modular to allow for a large amount of control (Fig. 7)– the
