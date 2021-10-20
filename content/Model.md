@@ -27,7 +27,6 @@ We designed and validated computational model of the spread of an antibiotic res
 
 Our results show that our product will be beneficial in the real world. We know this as we validated our model to prove that it is a sufficiently close approximation to reality, then showed that the use of our product improved the model metrics, most notably the total number of deaths and the numbers of Carbapenem resistant bacteria across the run of a model.
 
-
 {{< centeredImage
         src="/assets/content/model/deaths_violin_plot.png"
         alt="A violin plot of the distribution of the total number of deaths over a full run (i.e. till no people are infected) of the model with the validated parameters (discussed below)"
@@ -160,6 +159,7 @@ This model can be described as three "compartments", one for people susceptible 
         caption="A diagram of the SIR model transitions. Image source: [2]" >}}
 
 From this, we can derive a set of differential equations which express the system, which is self-evident based on the above state transitions. Note that this is expressed as occurring of continuous time, however, this is just the limit of the time increments size going to zero.
+
 $$
 \frac{d[S]}{dt} = - \beta [S][I]
 $$
@@ -172,7 +172,7 @@ $$
 \frac{d[R]}{dt} = \gamma[I]
 $$
 
-We can then define a further metric $\mathfrak{R}_0 = \frac{\beta}{\gamma}$, which is defined as the initial replacement number when *one* infectious individual is introduced into an *all-susceptible* population. This simplifies expressing the starting parameters of the model, which are themselves written as $[S]_0$, $[I]_0$, and $[R]_0$.
+We can then define a further metric $\mathfrak{R}_0 = \frac{\beta}{\gamma}$, which is defined as the initial replacement number when _one_ infectious individual is introduced into an _all-susceptible_ population. This simplifies expressing the starting parameters of the model, which are themselves written as $[S]_0$, $[I]_0$, and $[R]_0$.
 
 {{< centeredImage
         src="/assets/content/model/SIR_graph.png"
@@ -181,7 +181,7 @@ We can then define a further metric $\mathfrak{R}_0 = \frac{\beta}{\gamma}$, whi
 
 Our custom model extends this concept by adding more "compartments" for additional states people can take when they are infected with increasingly antibiotic resistant pathogens.
 
-There are already examples of models of this extended class for examining antibiotic resistance in *E. coli* [3] [4] [5], showing that it is a suitable methodology for this problem. However, we believe that a custom model written from scratch was required to integrate the mechanism of the product being used.
+There are already examples of models of this extended class for examining antibiotic resistance in _E. coli_ [3] [4] [5], showing that it is a suitable methodology for this problem. However, we believe that a custom model written from scratch was required to integrate the mechanism of the product being used.
 
 {{< new_sheet >}}
 
@@ -237,7 +237,7 @@ In the limit of time to infinity, all individuals will be either uninfected, imm
 
 #### 2. Treatment and mutation
 
-Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $1$ being the first administered, and $n$ being the last for antibiotics $1..n$ ). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify _Carbapenem resistant Enterobacteriaceae_ (CRE), which are a type of these resistant pathogens.
+Antibiotics are used in a specific order, which are numbered accordingly for clarity (with $1$ being the first administered, and $n$ being the last for antibiotics $1..n$ ). This is to simulate the real-world, where different antibiotics are used in a tiered system, reserving the last for highly dangerous, multi-drug resistant pathogens - and is an important aspect of our model, as our product attempts to identify Carbapenem resistant Enterobacteriaceae (CRE), which are a type of these resistant pathogens.
 
 Pathogens have a small chance of mutating to develop resistance to antibiotics being used to treat them, as such strains will only become dominant when there is a pressure giving them a survival advantage.
 
@@ -387,8 +387,6 @@ We used an iterative design process during the development of the model, as disc
         alt="A block diagram of steps in model design"
         caption="A block diagram of steps in model design. Image source [6]" >}}
 
-Above shows a block diagram of steps in model design - taken from "Testing and Validation of Computer Simulation Models: Principles, Methods and Applications" [6]
-
 We went through three iterative design stages of increasing complexity and proximity to real life before settling on our production code:
 
 1. The first version was a very simple Markov model of people who could be infected forming a population. It did not employ the tiered system of antibiotic treatments, so did not map very closely to the real world. The code is [available here](https://raw.githubusercontent.com/Warwick-iGEM-2021/modelling/main/development_versions/v1.py)
@@ -441,6 +439,13 @@ class TestModel(unittest.TestCase):
 
 If the tests are run many times, with many different resulting random number inputs, these unit tests can now be thought of as property based tests. This refers to checking that a function fulfils a property by randomly providing it with values from its input domain, and checking that the resultant outputs fulfil the property. This is a strategy which was pioneered in the functional programming language Haskell [7], and is often considered preferable to unit based tests [8].
 
+The whole set of property based tests we wrote can then be run using the `pytest` command:
+
+{{< centeredImage
+        src="/assets/content/model/pytest.png"
+        alt="A screenshot of the output of running the pytest command"
+        caption="A screenshot of the output of running the `pytest` command" >}}
+
 #### Version control and CI/CD
 
 Having implemented a robust testing strategy, we now had all the building blocks for a continuous integration/continuous development workflow, as shown below:
@@ -452,9 +457,9 @@ Having implemented a robust testing strategy, we now had all the building blocks
 
 The build phase is relatively simple - writing the code in an editor of your choice, and running it with the Python interpreter, and the testing phase is discussed above.
 
-Throughout the entire project, we used `git` as version control. From this, we linked the project to a remote repository on GitHub, which forms the main way to access the most up to data code - forming the merge and continuous delivery steps.
+Throughout the entire project, we used `git` as version control. From this, we linked the project to a remote repository on GitHub, which is the main way to access the most up to data code, so forms both the merge and continuous delivery steps. When code is pushed to the remote repository, actions are automatically run to ensure that the code is both syntactically and conceptually correct, using the static analysis tool [flake8](https://flake8.pycqa.org/en/latest/) for the former, and by running `pytest` on all the code as discussed above for the latter.
 
-We chose not to automate publishing the code to PyPI (discussed below), which could be considered the production aspect of the modelling, as the project was under active development, and minor changes to the repository should not necessarily be pushed, as their general stability and usefulness is not fully known.
+We chose not to automate publishing the code to PyPI (discussed below), which could be considered the production aspect of the modelling, as the project was under active development, and minor changes to the repository should not necessarily be pushed - as their general stability and usefulness is not fully known.
 
 #### Transpilation to Javascript
 
@@ -470,7 +475,7 @@ In order to display the output in a visual manner, we used the [Chart.js](https:
 
 Since we developed our model in python, we uploaded it to PyPI, the Python package index. We did this as it greatly simplifies the way in which the package can be distributed. Instead of cloning the repository, and running the code directly through that:
 
-```bash
+```bash {linenos=table}
 git clone https://github.com/Warwick-iGEM-2021/modelling
 cd modelling/tiered-antibiotic-resistance-model
 python3 model.py
@@ -478,7 +483,7 @@ python3 model.py
 
 The module can be installed using `pip` on the command line, then just imported directly in a Python file:
 
-```bash
+```bash {linenos=table}
 pip install tiered-antibiotic-resistance-model
 ```
 
@@ -689,30 +694,38 @@ The null hypothesis is the initial presumption that the two mean values we are c
 
 The probability of a type I error is the likelihood that you reject the null hypothesis when the null hypothesis is in fact correct. We chose a significance level of 1%, which means that if we are able to reject the null hypothesis, it is because there is a less than 1% chance that we are wrong.
 
-While the purpose of our product was to decrease the overall number of deaths, we cannot know it has the intended effect on infection, mortality and death rates until we have tested it. Hence, we conducted two-sided hypothesis tests. This means that our alternative hypothesis (as opposed to the null hypothesis) was that the mean values for infection, mortality and death rates were *either higher or lower* when using the product than when not using it.
+While the purpose of our product was to decrease the overall number of deaths, we cannot know it has the intended effect on infection, mortality and death rates until we have tested it. Hence, we conducted two-sided hypothesis tests. This means that our alternative hypothesis (as opposed to the null hypothesis) was that the mean values for infection, mortality and death rates were _either higher or lower_ when using the product than when not using it.
 
 We can assume that the outcomes of the model follow a normal distribution. However, we do not know the standard deviation of outcomes. Therefore, we were left with two options: to approximate a normal distribution or to calculate the test based on a student’s t-distribution. Since we ran the simulations 10 times using and 10 times not using the product respectively, we have a sample size of 10 to calculate the mean values. This is a very low sample size, which suggested the most appropriate distribution was a student’s t-distribution. To know the degrees of freedom (DoF) of the t-test, we had to conduct F-tests of equality of variances test. The null hypothesis of these F-tests was that the variances were equal, while the two-sided alternative hypothesis was that they were not equal. For these tests we used a significance level of 10%.
 
 To test equality of variances, we use this formula if $S_1^2 > S_2^2$ :
+
 $$
 P \left( F_{n_1-1, n_2-1} > \frac{S_1^2}{S_2^2} \right)
 $$
+
 And if $S_1^2 < S_2^2$ , we use:
+
 $$
 P \left( F_{n_2-1, n_1-1} > \frac{S_2^2}{S_1^2} \right)
 $$
+
 Where $S_1^2$ is the sample variance of any given outcome variable when not using the product and $S_2^2$ is the equivalent when using the product.
 
 If we the find the variances to be equal, we calculate the probability of a Type I error using this formula:
+
 $$
 P \left( t_{DoF} > \frac{\overline{x_1} - \overline{x_2}}{\sqrt{\frac{S_0^2}{n_1} + \frac{S_0^2}{n_2}}} \right)
 $$
+
 With $DoF=n_1+n_2-2$.
 
 If we the find the variances to not be equal, we calculate the probability of a Type I error using the same formula but changing the degrees of freedom. With equal sample sizes we can calculate and simplify the degrees of freedom when variances are not equal as such:
+
 $$
 DoF = \frac{(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2})^2}{\frac{(\frac{s_1^2}{n_1})^2}{n_1-1} + \frac{(\frac{s_2^2}{n_2})^2}{n_2-1}} = (n-1) \frac{(S_1^2 + S_2^2)^2}{S_1^4 + S_2^4}
 $$
+
 We let $\overline{x_1}$ be the mean value for any given outcome variable when not using the product and $\overline{x_2}$ the mean value when using the product. $n_1$ and $n_2$ were the sample sizes, which was 10 in both cases. Since the initial assumption is that the null hypothesis holds, $S_0^2$ is the hypothesised variance of the hypothesised real distribution, or in other words the square of the standard deviation of the hypothesised distribution.
 
 Since the sample sizes are equal, we calculate the hypothesised variance using the formula:
@@ -729,8 +742,8 @@ Where $S_1^2$ is the variance of any given outcome variable when not using the p
 
 For the equality of variances test of the infection rates, we used the following variables and calculation:
 
-| Category                                           | Value                 |
-| -------------------------------------------------- | --------------------- |
+| Category                                           | Value               |
+| -------------------------------------------------- | ------------------- |
 | Variance of the infection rate without the product | 2.6$\times 10^{-5}$ |
 | Variance of the infection rate with the product    | 3.3$\times 10^{-5}$ |
 
@@ -740,11 +753,11 @@ $$
 
 Hence, we do not reject the null hypothesis that the variances are equal. Therefore, the difference-in-means test of the infection rates was conducted using the following variables and calculation:
 
-| Category                                           | Value                 |
-| -------------------------------------------------- | --------------------- |
-| Mean infection rate without the product            | 0.9010                |
+| Category                                           | Value               |
+| -------------------------------------------------- | ------------------- |
+| Mean infection rate without the product            | 0.9010              |
 | Variance of the infection rate without the product | 2.6$\times 10^{-5}$ |
-| Mean infection rate with the product               | 0.8585                |
+| Mean infection rate with the product               | 0.8585              |
 | Variance of the infection rate with the product    | 3.3$\times 10^{-5}$ |
 
 $$
@@ -759,8 +772,8 @@ Hence, we reject the null hypothesis of no difference-in-means.
 
 For the equality of variances test of the mortality rates, we used the following variables and calculation:
 
-| Category                                           | Value                 |
-| -------------------------------------------------- | --------------------- |
+| Category                                           | Value               |
+| -------------------------------------------------- | ------------------- |
 | Variance of the mortality rate without the product | 8.7$\times 10^{-5}$ |
 | Variance of the mortality rate with the product    | 1.3$\times 10^{-5}$ |
 
@@ -770,11 +783,11 @@ $$
 
 Hence, we reject the null hypothesis that the variances are equal. Therefore, the difference-in-means test of the mortality rates was conducted using the following variables and calculation:
 
-| Category                                           | Value                 |
-| -------------------------------------------------- | --------------------- |
-| Mean infection rate without the product            | 0.4086                |
+| Category                                           | Value               |
+| -------------------------------------------------- | ------------------- |
+| Mean infection rate without the product            | 0.4086              |
 | Variance of the infection rate without the product | 8.7$\times 10^{-5}$ |
-| Mean infection rate with the product               | 0.3812                |
+| Mean infection rate with the product               | 0.3812              |
 | Variance of the infection rate with the product    | 1.3$\times 10^{-5}$ |
 
 $$
@@ -789,8 +802,8 @@ Hence, we reject the null hypothesis of no difference-in-means.
 
 For the equality of variances test of the mortality rates, we used the following variables and calculation:
 
-| Category                                           | Value                 |
-| -------------------------------------------------- | --------------------- |
+| Category                                           | Value               |
+| -------------------------------------------------- | ------------------- |
 | Variance of the mortality rate without the product | 9.3$\times 10^{-5}$ |
 | Variance of the mortality rate with the product    | 1.1$\times 10^{-5}$ |
 
@@ -800,11 +813,11 @@ $$
 
 Hence, we reject the null hypothesis that the variances are equal. Therefore, the difference-in-means test of the mortality rates was conducted using the following variables and calculation:
 
-| Category                                           | Value                 |
-| -------------------------------------------------- | --------------------- |
-| Mean infection rate without the product            | 0.3682                |
+| Category                                           | Value               |
+| -------------------------------------------------- | ------------------- |
+| Mean infection rate without the product            | 0.3682              |
 | Variance of the infection rate without the product | 9.3$\times 10^{-5}$ |
-| Mean infection rate with the product               | 0.3273                |
+| Mean infection rate with the product               | 0.3273              |
 | Variance of the infection rate with the product    | 1.1$\times 10^{-5}$ |
 
 $$
@@ -931,20 +944,20 @@ Throughout the development process, we presented the modelling work to other mem
 
 A table of suggested improvements we received during development is:
 
-| Proposer               | Summary                                                      | Used in final model? |
-| ---------------------- | ------------------------------------------------------------ | -------------------- |
-| Alex Darlington        | Real hospitals only contain a fairly small number of people susceptible within the model, maximum 250, so the population size should be limited by that. This has the effect of increasing variance in the Markov model, as the law of large numbers does not apply, however, it is important for realistic simulation | Yes                  |
-| Alex Darlington        | Add the use of a "last resort" drug, such as Colistin, to resolve the issue of the product detection being too late to make any meaningful action. For example, if a Carbapen is the final drug in the hierarchy, detection of resistance is not useful, as the highest possible isolation threshold is being treated with it, which is a pre-requisite for developing resistance, so people will never be isolated as a result, and there is no higher tier treatment to use, so better treatment cannot be given either. | Yes                  |
-| Alex Darlington        | Add an increasing risk of death if a person has been infected for a long time, as in the real world, people become frail after having been sick for some time. | Yes                  |
+| Proposer               | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Used in final model? |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| Alex Darlington        | Real hospitals only contain a fairly small number of people susceptible within the model, maximum 250, so the population size should be limited by that. This has the effect of increasing variance in the Markov model, as the law of large numbers does not apply, however, it is important for realistic simulation                                                                                                                                                                                                                        | Yes                  |
+| Alex Darlington        | Add the use of a "last resort" drug, such as Colistin, to resolve the issue of the product detection being too late to make any meaningful action. For example, if a Carbapen is the final drug in the hierarchy, detection of resistance is not useful, as the highest possible isolation threshold is being treated with it, which is a pre-requisite for developing resistance, so people will never be isolated as a result, and there is no higher tier treatment to use, so better treatment cannot be given either.                    | Yes                  |
+| Alex Darlington        | Add an increasing risk of death if a person has been infected for a long time, as in the real world, people become frail after having been sick for some time.                                                                                                                                                                                                                                                                                                                                                                                | Yes                  |
 | Axel Schoerner Emillon | Change the detection method to only detect whether someone is currently resistant to Carbapenems, rather than if they have any higher tier resistance, as it is not a pre-requisite in the real world given that mutations might not occur in the Carbapenem treatment stage. This was not implemented as it was identified very late in the process after most of the analysis was completed and we would not have had time to redo it, but we performed an informal test, and found it caused a negligible difference in the model results. | No                   |
 
 A table of suggested future work we received during development is:
 
-| Proposer               | Summary                                                      | Beneficial for future work? |
-| ---------------------- | ------------------------------------------------------------ | --------------------------- |
+| Proposer               | Summary                                                                                                                                                                                                                                                                 | Beneficial for future work? |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | Alex Darlington        | Add a cap of the people who can be isolated at one time, as there is a physical limitation of beds in hospital. This was rejected as a change as isolation can be modelled as just more regular changing of PPE, rather than necessarily having totally discrete rooms. | No                          |
-| Alex Darlington        | Add a spatial aspect to the model, for example having two wards which cannot spread to each other, but having staff who serve both wards and can become infected, in order to act as transmission vectors between the two wards. | Yes                         |
-| Axel Schoerner Emillon | Add an asymptomatic phase to the infections, where people can have the infection and be able to transmit it, but they are have no symptoms, so treatment will no start. | Yes                         |
+| Alex Darlington        | Add a spatial aspect to the model, for example having two wards which cannot spread to each other, but having staff who serve both wards and can become infected, in order to act as transmission vectors between the two wards.                                        | Yes                         |
+| Axel Schoerner Emillon | Add an asymptomatic phase to the infections, where people can have the infection and be able to transmit it, but they are have no symptoms, so treatment will no start.                                                                                                 | Yes                         |
 
 {{< new_sheet >}}
 
@@ -989,14 +1002,6 @@ Some common questions about the model are answered below:
 - Q. Can the model be applied to current issues, i.e. the COVID pandemic?
 
   A. Since the model is a very generic abstraction of the real world, by adjusting it's parameters a vast amount of different scenarios can be modelled. The key issue in adapting it to different scenarios is if they fit the inherent logic and states hard-coded into it. Since COVID is a viral infection, as opposed to a bacterial infection, antibiotics cannot be used to treat it, so the tiered system of antibiotic uses fits less cleanly to it, however, they could instead be considered as increasingly aggressive treatment options, to which it also grows resistant. However, the logic around our product would not apply, as viral infections are not affected by Carbapenem, which is the antibiotic we focus on.
-
-
-
-
-
-
-
-
 
 {{< new_sheet >}}
 
@@ -1074,16 +1079,9 @@ present.
 
 {{< new_sheet >}}
 
+## References
 
-
-
-
-
-
-
-### References
-
-[1] Kermack, W O. McKendrick, A G. 1927. *A contribution to the mathematical theory of epidemics*. Proc. R. Soc. Lond. A 115: 700–721 http://doi.org/10.1098/rspa.1927.0118
+[1] Kermack, W O. McKendrick, A G. 1927. _A contribution to the mathematical theory of epidemics_. Proc. R. Soc. Lond. A 115: 700–721 http://doi.org/10.1098/rspa.1927.0118
 
 [2] Simon, C., 2020. _The SIR dynamic model of infectious disease transmission and its analogy with chemical kinetics_. PeerJ Physical Chemistry, 2, p.e14.
 
@@ -1107,7 +1105,7 @@ present.
 
 [12] 2017. _Management of Bacterial Meningitis in infants <3 months_. [pdf] Meningitis Research Foundation. Available at: <https://www.meningitis.org/getmedia/75ce0638-a815-4154-b504-b18c462320c8/Neo-Natal-Algorithm-Nov-2017> [Accessed 15 October 2021].
 
-[13] Mills, B. 2009. *Ball-and-stick model of the meropenem molecule*. Wikimedia Commons. Available at: https://commons.wikimedia.org/wiki/File:Meropenem-from-xtal-1992-3D-balls.png [Accessed 19 October 2021]
+[13] Mills, B. 2009. _Ball-and-stick model of the meropenem molecule_. Wikimedia Commons. Available at: https://commons.wikimedia.org/wiki/File:Meropenem-from-xtal-1992-3D-balls.png [Accessed 19 October 2021]
 
 [14] Mahabeer, P., Mzimela, B., Lawler, M., Singh-Moodley, A., Singh, R. and Mlisana, K., 2018. _Colistin-resistant Acinetobacter baumanniias a cause of neonatal ventriculitis_. Southern African Journal of Infectious Diseases, pp.1-3.
 
