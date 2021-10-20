@@ -51,7 +51,7 @@ _16/08/2021_
 {{< timeline_content >}}
 
 Prepared liquid cultures of both lines for miniprep
-Prepared liquid cultures of the 390-containing line for electrocompetence induction
+Prepared liquid cultures of the 390-containing line for electro competence induction
 
 {{< div_end >}}
 
@@ -243,6 +243,258 @@ _07/09/2021_
 {{< timeline_content >}}
 
 Both cultures grew nicely, giving us confirmation that we have double transformed cells
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_09/09/2021_
+
+{{< timeline_content >}}
+
+Obtained chemicals necessary for inducing the PAJ circuit – ATC and IPTG
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_13/09/2021_
+
+{{< timeline_content >}}
+
+First attempt at PCR-extracting the backbone for the helper plasmid - failed due to improper polymerase, ordered primers for extraction as 3 3 kbp fragments
+First run of the PAJ fluorescence experiment – checking if the circuit works
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_14/09/2021 - 26/09/2021_
+
+{{< timeline_content >}}
+
+Fluorescence experiment runs
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_17/09/2021_
+
+{{< timeline_content >}}
+
+PAJ circuit function successfully proven with fluorescence experiments
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_20/09/2021_
+
+{{< timeline_content >}}
+
+Successful PCR extraction of the 3 3 kbp fragments
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_21/09/2021_
+
+{{< timeline_content >}}
+
+Attempted purification of PCR output failed
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_22/09/2021_
+
+{{< timeline_content >}}
+
+PCR and purification again – failed again
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_23/09/2021 - 24/09/2021_
+
+{{< timeline_content >}}
+
+Debugging the purification
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_27/09/2021_
+
+{{< timeline_content >}}
+
+Rerunning PCR
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_28/09/2021_
+
+{{< timeline_content >}}
+
+Retried purification with a fresh kit – worked beautifully
+Obtained pure MG1655-Z1 cells
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_29/09/2021_
+
+{{< timeline_content >}}
+
+Attempted assembly of the helper plasmid and transformation into MG1655-Z1 cells
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_30/09/2021_
+
+{{< timeline_content >}}
+
+Yesterday's work failed
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+{{< timeline_title >}}
+
+_31/09/2021_
+
+{{< timeline_content >}}
+
+Reattempted PCR extraction with a new polymerase – PCRd out the full 9 kb backbone
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+_04/09/2021_
+
+{{< timeline_content >}}
+
+Purification of the PCR output and assembly seem to have worked according to gel electrophoresis
+Attempted transformation with the helper plasmid
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+_05/09/2021_
+
+{{< timeline_content >}}
+
+Transformation failed – using more competent cells to purify the assembly output by transformation
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+_06/09/2021_
+
+{{< timeline_content >}}
+
+Successful transformation of competent TOP10 E. coli with the helper plasmid, prepared liquid culture for miniprep
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+_07/09/2021_
+
+{{< timeline_content >}}
+
+Miniprep of the helper plasmid
+Prepared more competent MG1655-Z1 cells
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+_08/09/2021_
+
+{{< timeline_content >}}
+
+Transformation of Z1s with helper plasmid
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+_11/09/2021_
+
+{{< timeline_content >}}
+
+Transformation assessed as successful over the weekend; PCR extracted backbones for operator plasmids
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+_12/09/2021_
+
+{{< timeline_content >}}
+
+Realisation that a part of SoxS-MCP has not arrived from IDT
+Competent Z1s with helper plasmids created
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+_18/09/2021_
+
+{{< timeline_content >}}
+
+SoxS part from IDT finally arrives
+Attempt at operator plasmid assembly + transformation
+
+{{< div_end >}}
+
+{{< timeline_end >}}
+
+_19/09/2021_
+
+{{< timeline_content >}}
+
+Transformation failed – would have to go through more competent cells and miniprep first
 
 {{< div_end >}}
 
