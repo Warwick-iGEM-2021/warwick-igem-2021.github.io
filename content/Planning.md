@@ -12,6 +12,50 @@ draft: false
 
 {{< timeline_title >}}
 
+## Initial Brainstorming and Planning
+
+{{< timeline_content >}}
+
+Divided into 3 groups looking at different potential areas following a Microsoft
+teams meeting where we all meteach other (virtually). The group looked into past
+IGEM projects, use of casein and production of alternative dairy products,
+biosensors and also microplastics.
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+## Sharing Ideas and Research
+
+{{< timeline_content >}}
+
+In our second teams meeting we discussed the research we foundand also potential
+problems for example legal and ethical issues relating to a food product. With
+the helpful advice from previous IGEM members we looked into different tracks
+and what particularly interests us and explored together past work. From here we
+found an interest in environmental field and also looking a diagnostics. Useof
+GFP was mentioned but also plastic biodegradability too.
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+## Catch Up and Progress Meeting
+
+{{< timeline_content >}}
+
+In this meeting we were joined with Dr Christophe Corre and research fellow Emzo
+De Los Santos. We discussed FGP in plants as a detection tool for pathogens as a
+potential project idea. We discussed also the use of social media in
+communication and outreach as well as potential collaborations with societies.
+With the current situation with pandemic we recognised the importance of using
+social media platforms to helps build relationships and connections which could
+aid in future collaborations.
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
 ## Our first strong idea
 
 {{< timeline_content >}}
@@ -28,7 +72,7 @@ spray-based to a swab-based approach around this time.
 
 {{< timeline_title >}}
 
-Detection of CRE and biosensors
+## Detection of CRE and biosensors
 
 {{< timeline_content >}}
 

@@ -52,7 +52,7 @@ At iGEM Warwick we created educational posters on different topics such as Micro
 
 {{< carousel caption="A carousel of the posters designed" >}}
  - /assets/content/communication/PCRtestingPoster.png, A poster about PCR
- - /assets/content/communication/CREPoster.png, A poster about CRE
+ - /assets/content/communication/CREposter.png, A poster about CRE
  - /assets/content/communication/microOrgsInHospitalsPoster.png, A poster about microorganisms in hospitals
  - /assets/content/communication/ethicsSynBioPoster.png, A poster about ethics in synthetic biology
 {{</ carousel >}}
