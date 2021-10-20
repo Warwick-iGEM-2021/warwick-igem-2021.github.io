@@ -11,14 +11,18 @@ draft: false
 
 {{< timeline_title >}}
 
-_12/08/2021_
+### 12/08/2021
 
 {{< timeline_content >}}
 
 Obtained PAJ-390 and PAJ-379 containing MG1655-Z1 cells from Professor
-Jaramillo’s lab Prepared plates with appropriate antibiotics for selection
+Jaramillo’s lab.
+
+Prepared plates with appropriate antibiotics for selection
 (spectinomycin for all Z1 cells, chloramphenicol for PAJ-390, kanamycin for
-PAJ-379) Plated cells
+PAJ-379).
+
+Plated cells.
 
 {{< centeredImage
     src="/assets/content/experiments/1.png"
@@ -28,39 +32,41 @@ PAJ-379) Plated cells
 
 {{< timeline_title >}}
 
-_13/08/2021_
+### 13/08/2021
 
 {{< timeline_content >}}
 
-Cells have grown on the appropriate plates
+Cells have grown on the appropriate plates.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_16/08/2021_
+### 16/08/2021
 
 {{< timeline_content >}}
 
-Prepared liquid cultures of both lines for miniprep
-Prepared liquid cultures of the 390-containing line for electro competence induction
+Prepared liquid cultures of both lines for miniprep.
+
+Prepared liquid cultures of the 390-containing line for electrocompetence induction.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_17/08/2021_
+### 17/08/2021
 
 {{< timeline_content >}}
 
-Induced competence in 390-containing line
-Miniprepped both plasmids – in hindsight the method was flawed as our yields were low
+We induced competence in the cell line containing the 390 plasmid.
+
+We miniprepped both plasmids – in hindsight the method was flawed as our yields were low.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_18/08/2021_
+### 18/08/2021
 
 {{< timeline_content >}}
 
@@ -76,34 +82,36 @@ ng/µl.
 
 {{< timeline_title >}}
 
-_19/08/2021_
+### 19/08/2021
 
 {{< timeline_content >}}
 
-Transformation failed, centrifuged Falcon tube with supposed transformants and resuspended pellet in less media – plated the resulting concentrated culture
+Transformation failed, so we centrifuged a Falcon tube with the supposed transformants and resuspended the pellet in less media. We then plated the resulting concentrated culture
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_20/08/2021_
+### 20/08/2021
 
 {{< timeline_content >}}
 
-No growth from transformants
+There was no growth from the transformants.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_23/08/2021_
+### 23/08/2021
 
 {{< timeline_content >}}
 
-We tried to transform the SAJ-351 cells with the 379 plasmids on the 23/08/21.
+We tried to transform the SAJ-351 cells with the 379 plasmids.
 The 379 plasmid contained resistance to kanamycin (Kan), so if the culture grew
 on the Kan/Spec/Chlor plate then we would know the transformation had been
-successful. Unfortunately, there was no growth, so the transformation was
+successful.
+
+Unfortunately, there was no growth, so the transformation was
 unsuccessful. However, the culture grew on the control plate without kanamycin,
 so the cells were not killed in the procedure and the error lied with either the
 transformation procedure, the concentration of the 379 plasmids, the competence
@@ -117,26 +125,26 @@ of the cells or the 379 plasmid itself.
 
 {{< timeline_title >}}
 
-_24/08/2021_
+### 24/08/2021
 
 {{< timeline_content >}}
 
-Control grew, transformants didn’t - made more competent cells from existing culture but forgot to add antibiotics
+The control grew, but the transformants didn’t. Therefore we made more competent cells from our existing culture, but we forgot to add antibiotics so the procedure didn't work.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_25/08/2021_
+### 25/08/2021
 
 {{< timeline_content >}}
 
-On the 25/08/21, we tried the transformation again but received the same
-results. As we had carefully followed the procedures for both transformation and
+We tried the transformation again but received the same
+results (no growth). As we had carefully followed the procedures for both transformation and
 competence, we decided the most likely cause for the lack of growth on the
 Kan/Spec/Chlor plate was either the 379 plasmid itself or the concentration of
 the 379 plasmids, as it was very low. Therefore, we re-did the 379 plasmid
-miniprep and received a concentration of 40.7 ng/µl
+miniprep and received a concentration of 40.7 ng/µl.
 
 {{< centeredImage
     src="/assets/content/experiments/4.png"
@@ -149,12 +157,30 @@ there was still no visible ladder. We ran the gel again for another 20 minutes,
 but unfortunately the agarose melted which meant we had to try again another
 day.
 
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+### 26/08/2021
+
+{{< timeline_content >}}
+
+The transformation failed again.
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+### 31/08/2021
+
+{{< timeline_content >}}
+
 {{< centeredImage
     src="/assets/content/experiments/5.png"
     alt="Figure 5" >}}
 
-We repeated the restriction digest on 31/08/21 and it appears that it may have
-worked as we have somewhat of a visible ladder, but the integrity of the gel was
+We repeated the restriction digest and it appears that it may have
+worked as we had somewhat of a visible ladder, but the integrity of the gel was
 weak, and it broke easily so we were not convinced of the results and planned to
 run it for a third time in the future.
 
@@ -162,134 +188,118 @@ run it for a third time in the future.
 
 {{< timeline_title >}}
 
-_26/08/2021_
+### 01/09/2021
 
 {{< timeline_content >}}
 
-Transformation failed again
+We prepared new liquid cultures to repeat the miniprep.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_01/09/2021_
+### 02/09/2021
 
 {{< timeline_content >}}
 
-Prepared new liquid culture for miniprep
-
-{{< div_end >}}
-
-{{< timeline_title >}}
-
-_02/09/2021_
-
-{{< timeline_content >}}
-
-On the 02/09/21, we again repeated the transformation of the SAJ-351 cells,
-using the new miniprep of 379 plasmid. On the same day, we carried out another
+We again repeated the transformation of the SAJ-351 cells,
+using the new miniprep of 379 plasmid. On the same day, we carried out yet another
 miniprep of the 379 plasmids to increase the yield to 242.7 ng/µl as a backup in
 case the transformation failed again.
 
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+### 03/09/2021
+
+{{< timeline_content >}}
+
 {{< centeredImage
-    src="/assets/content/experiments/2.png"
+    src="/assets/content/experiments/6.png"
     alt="Figure 6" >}}
 
 However, the transformation was a success, creating a cell line which we called
 PAJ! A single colony grew on the Kan/Spec/Chlor plate, meaning it contained the
-plasmid with the kanamycin resistance gene. This colony was replated on the
-06/09/21 to obtain more of the PAJ cells, so we could use them to prepare liquid
-cultures and run different experiments. The success of the transformation meant
-we did not need to repeat the restriction digest of the 379 plasmid.
+plasmid with the kanamycin resistance gene. The success
+of the transformation meant we did not need to repeat the restriction digest of
+the 379 plasmid.
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+### 06/09/2021
+
+{{< timeline_content >}}
 
 {{< centeredImage
-    src="/assets/content/experiments/2.png"
+    src="/assets/content/experiments/7.png"
     alt="Figure 7" >}}
 
-{{< div_end >}}
-
-{{< timeline_title >}}
-
-_03/09/2021_
-
-{{< timeline_content >}}
-
-Transformation has worked – one transformed colony
+This single colony was replated on to obtain more of the PAJ cells, so we could
+use them to prepare liquid cultures and run different experiments.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_06/09/2021_
+### 07/09/2021
 
 {{< timeline_content >}}
 
-Replated half the transformed colony and used the other half for a liquid culture
+Both cultures grew nicely, giving us confirmation that we had produced transformed cells.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_07/09/2021_
+### 09/09/2021
 
 {{< timeline_content >}}
 
-Both cultures grew nicely, giving us confirmation that we have double transformed cells
+We obtained the chemicals necessary for inducing the PAJ circuit – ATC and IPTG.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_09/09/2021_
+### 13/09/2021
 
 {{< timeline_content >}}
 
-Obtained chemicals necessary for inducing the PAJ circuit – ATC and IPTG
+Our first attempt at PCR-extracting the backbone for the helper plasmid. This
+failed as we used the improper polymerase, ordered primers for extraction as 3 3 kbp
+fragments.
+
+We also attempted our first run of the PAJ fluorescence experiment to check if the circuit
+works. However, we did not successfully manage to produce GFP from the PAJ cells.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_13/09/2021_
+### 17/09/2021
 
 {{< timeline_content >}}
-
-First attempt at PCR-extracting the backbone for the helper plasmid - failed due to improper polymerase, ordered primers for extraction as 3 3 kbp fragments
-First run of the PAJ fluorescence experiment – checking if the circuit works
-
-{{< div_end >}}
-
-{{< timeline_title >}}
-
-_14/09/2021 - 26/09/2021_
-
-{{< timeline_content >}}
-
-Fluorescence experiment runs
-
-{{< div_end >}}
-
-{{< timeline_title >}}
-
-_17/09/2021_
-
-{{< timeline_content >}}
-
-PAJ circuit function successfully proven with fluorescence experiments
 
 {{< centeredImage
     src="/assets/content/experiments/8.png"
     alt="Figure 8" >}}
 
+We repeated the fluoresence experiment, using fresh liquid cultures and incubating these cultures
+with ATC overnight to maximise production of GFP. We successfully proved that the PAJ circuit functions
+by producing GFP from these cells.
+
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_20/09/2021_
+### 20/09/2021
 
 {{< timeline_content >}}
 
-Successful PCR extraction of the 3 3 kbp fragments
+We successfully carried out PCR extraction of the 3 3 kbp fragments.
 
 {{< centeredImage
     src="/assets/content/experiments/9.png"
@@ -299,176 +309,191 @@ Successful PCR extraction of the 3 3 kbp fragments
 
 {{< timeline_title >}}
 
-_21/09/2021_
+### 21/09/2021
 
 {{< timeline_content >}}
 
-Attempted purification of PCR output failed
+Our attempted purification of the PCR output failed. We realised it was
+because the PCR had failed so there was nothing to purify.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_22/09/2021_
+### 22/09/2021
 
 {{< timeline_content >}}
 
-PCR and purification again – failed again
+We carried out PCR and purification again but failed for the second time.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_23/09/2021 - 24/09/2021_
+### 23/09/2021 - 24/09/2021
 
 {{< timeline_content >}}
 
-Debugging the purification
+We spent a few days trying to debug the purification procedure and figure out
+why it wasn't working. One possibility was that the purification kit we used
+was contaminated or faulty.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_27/09/2021_
+### 27/09/2021
 
 {{< timeline_content >}}
 
-Rerunning PCR
+We repeated the PCR for the third time.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_28/09/2021_
+### 28/09/2021
 
 {{< timeline_content >}}
 
-Retried purification with a fresh kit – worked beautifully
-Obtained pure MG1655-Z1 cells
+We reattempted the purification with a fresh kit and it worked beautifully.
+We also obtained pure MG1655-Z1 cells.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_29/09/2021_
+### 29/09/2021
 
 {{< timeline_content >}}
 
-Attempted assembly of the helper plasmid and transformation into MG1655-Z1 cells
+We attempted assembly of the helper plasmid and transformation into MG1655-Z1 cells.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_30/09/2021_
+### 30/09/2021
 
 {{< timeline_content >}}
 
-Yesterday's work failed
+We found out that yesterday's work failed.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_31/09/2021_
+### 31/09/2021
 
 {{< timeline_content >}}
 
-Reattempted PCR extraction with a new polymerase – PCRd out the full 9 kb backbone
+We reattempted PCR extraction with a new polymerase, allowing us to PCR
+out the full 9 kb backbone
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_04/09/2021_
+### 04/10/2021
 
 {{< timeline_content >}}
 
-Purification of the PCR output and assembly seem to have worked according to gel electrophoresis
-Attempted transformation with the helper plasmid
+Purification of the PCR output and assembly seem to have worked according to gel electrophoresis.
+We also attempted transformation with the helper plasmid.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_05/09/2021_
+### 05/10/2021
 
 {{< timeline_content >}}
 
-Transformation failed – using more competent cells to purify the assembly output by transformation
+Our transformation failed. We decided to use more competent cells to purify the
+assembly output by transformation.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_06/09/2021_
+### 06/10/2021
 
 {{< timeline_content >}}
 
-Successful transformation of competent TOP10 E. coli with the helper plasmid, prepared liquid culture for miniprep
+Successful transformation of competent TOP10 *E. coli* with the helper plasmid
+allowed to then prepare liquid culture for miniprep.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_07/09/2021_
+### 07/10/2021
 
 {{< timeline_content >}}
 
-Miniprep of the helper plasmid
-Prepared more competent MG1655-Z1 cells
+We miniprepped the helper plasmid then prepared more competent MG1655-Z1 cells.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_08/09/2021_
+### 08/10/2021
 
 {{< timeline_content >}}
 
-Transformation of Z1s with helper plasmid
+We transformed our Z1 cells with the helper plasmid.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_11/09/2021_
+### 11/10/2021
 
 {{< timeline_content >}}
 
-Transformation assessed as successful over the weekend; PCR extracted backbones for operator plasmids
+The transformation was assessed as successful over the weekend. This allowed
+us to extract backbones for the operator plasmids through PCR.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_12/09/2021_
+### 12/10/2021
 
 {{< timeline_content >}}
 
-Realisation that a part of SoxS-MCP has not arrived from IDT
-Competent Z1s with helper plasmids created
+We realised that a part of SoxS-MCP has not arrived from IDT with the rest of it.
+However, we still managed to create competent Z1s containing helper plasmids.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_18/09/2021_
+### 18/10/2021
 
 {{< timeline_content >}}
 
-SoxS part from IDT finally arrives
-Attempt at operator plasmid assembly + transformation
+The SoxS part from IDT finally arrived. We attempted operator plasmid assembly
+and transformation.
 
 {{< div_end >}}
 
 {{< timeline_title >}}
 
-_19/09/2021_
+### 19/10/2021
 
 {{< timeline_content >}}
 
-Transformation failed – would have to go through more competent cells and miniprep first
+We discovered that the transformation failed as the DNA was not concentrated
+enough. We would have to go through more competent cells and miniprep again to
+repeat, so unfortunately we ran out of time to complete our wet lab work.
+
+The next stage would have been to transform the operator plasmid into our cells
+and then carry out a fluoresence test to prove that the gRNA and dCas9 system
+works according to plan and successfully produces a visual indicator in the
+form of GFP. This would have provided us with real data which we could use to
+obtain proof of concept. However, we did not have time, which is a shame but we
+are still proud of all the progress we made in the lab over the summer.
 
 {{< div_end >}}
 
