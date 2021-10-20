@@ -6,62 +6,62 @@
 
   [[medal_items.item]]
     name = "[Attributions](https://2021.igem.org/Team:Warwick/Attributions)"
-    description = "Our attributions page"
+    description = "We have a huge number of people to thank for their help across the course of our project. Our attributions page lists the most notable formally, but there are undoubtable many more, along with our friends and family offering moral support for our work during the trying times of a global pandemic."
     img = "/assets/content/medal_criteria/bronze.png"
     alt = "A bronze medal"
 
   [[medal_items.item]]
     name = "[Project Description](https://2021.igem.org/Team:Warwick/Description)"
-    description = "Our project description page"
+    description = "Our project description discusses the motivation for choosing our project - the antibiotic resistance crisis, which the WHO describing it as 'one of the biggest threats to global health, food security and development today', along with outlining our mechanism, as we needed to ensure the idea was viable before proceeding."
     img = "/assets/content/medal_criteria/bronze.png"
     alt = "A bronze medal"
 
   [[medal_items.item]]
     name = "[Contributions](https://2021.igem.org/Team:Warwick/Contribution)"
-    description = "Our contributions page"
+    description = "Our contributions page discusses how we made a useful contribution to the iGEM community at large, including how we built on the work of previous iGEM teams, and what we offer for future teams."
     img = "/assets/content/medal_criteria/bronze.png"
     alt = "A bronze medal"
 
 
   [[medal_items.item]]
     name = "[Engineering success](https://2021.igem.org/Team:Warwick/Engineering)"
-    description = "We were able to go through one complete iteration cycle and traverse a wide range of challenges."
+    description = "Our engineering success page discusses how we were able to go through one complete iteration cycle of the engineering process and traverse a wide range of challenges over the course of our project."
     img = "/assets/content/medal_criteria/silver.png"
     alt = "A silver medal"
 
   [[medal_items.item]]
     name = "[Collaboration](https://2021.igem.org/Team:Warwick/Collaborations)"
-    description = "We were able to use social media to form relationships with various IGEM teams and work on group projects collaboratively."
+    description = "Our collaboration success page discusses the ways we collaborated with other iGEM teams. We were especially able to use social media to form relationships with various IGEM teams and facilitate working on group projects collaboratively."
     img = "/assets/content/medal_criteria/silver.png"
     alt = "A silver medal"
 
   [[medal_items.item]]
     name = "[Human Practices](https://2021.igem.org/Team:Warwick/Human_Practices)"
-    description = "We got in touch with experts and obtained their opinions about what form our project should take."
+    description = "Our human practices page discusses how we designed our project to make a positive difference in the world, and how we ensured all our work was done responsibly."
     img = "/assets/content/medal_criteria/silver.png"
     alt = "A silver medal"
 
   [[medal_items.item]]
     name = "[Proposed Implementation](https://2021.igem.org/Team:Warwick/Implementation)"
-    description = "How our system is supposed to be integrated to the “real” world."
+    description = "Our proposed implementation page discusses how our system is supposed to be integrated to the 'real' world, by presenting a prototype test kit that could be deployed to quickly test for Carbepenem resistant bacteria."
     img = "/assets/content/medal_criteria/silver.png"
     alt = "A silver medal"
 
 
   [[medal_items.item]]
     name = "[Integrated Human Practices](https://2021.igem.org/Team:Warwick/Human_Practices)"
-    description = "We took the advice we received from experts and consulted regulations in order to shape our project into something useful and safe."
+    description = "Our integrated human practices page shows how we took the advice we received from experts and consulted regulations in order to shape our project into something useful and safe."
     img = "/assets/content/medal_criteria/gold.png"
     alt = "A gold medal"
 
   [[medal_items.item]]
     name = "[Project Modelling](https://2021.igem.org/Team:Warwick/Model)"
-    description = "We created a computational model to examine the spread of antibiotic resistance within a population, we then used this model to show that our product would be beneficial to the “real” world. We also used NUPACK modeling to examine how our guide RNA would fold."
+    description = "Our project modelling page discusses how we created a computational model to examine the spread of antibiotic resistance within a population, we then used this model to show that our product would be beneficial to the 'real' world. We also used NUPACK modeling to examine how our guide RNA would fold."
     img = "/assets/content/medal_criteria/gold.png"
     alt = "A gold medal"
 
   [[medal_items.item]]
-    name = "[Education and Communication](https://2021.igem.org/Team:Warwick/Communication)"
-    description = "Through our resources and initiatives, we managed to make Synthetic Biology knowledge accessible to students from a wide range of backgrounds and academic levels."
+    name = "[Communication and Education](https://2021.igem.org/Team:Warwick/Communication)"
+    description = "Our communication and education discusses how through our resources and initiatives, we managed to make Synthetic Biology knowledge accessible to students from a wide range of backgrounds and academic levels."
     img = "/assets/content/medal_criteria/gold.png"
     alt = "A gold medal"

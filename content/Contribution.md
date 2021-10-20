@@ -43,6 +43,25 @@ have dissimilar shapes.
 
 Read more about this on [the Parts Registry](http://parts.igem.org/Part:BBa_K2841513)
 
+## Providing new computational tools
+
+In addition to the above contributions, we also wrote a custom computational
+model of the spread of antibiotic resistant bacteria through a population. We
+have published the code and documentation as open source under the MIT License,
+so it can be freely downloaded. We did this as we built the model to be
+inherently adaptible to a vast number of scenarios by either changing its
+parameters or some of its internal logic. You can read more about our model on
+the [Model page](/Model).
+
+We hope that other teams will find this model useful for their own work in
+similar fields in the future, as the code can easily be modified to be applied
+to different scenarios. For example, a future project designing a product to
+mitigate antibiotic resistance could easily modify the code to compare the use
+of their product, as opposed to ours. Furthermore, since the model is incredibly
+flexible, our interactive web-based version could be used by many other teams
+with only a loose focus on antibiotic resistance as part of their planning or
+further research to intuitively understand the dangers of antibiotic resistance.
+
 ## References
 
 [1] Liu, Y., Wan, X. & Wang, B. Engineered CRISPRa enables programmable eukaryote-like gene activation in bacteria. Nat Commun 10, 3693 (2019). https://doi.org/10.1038/s41467-019-11479-0

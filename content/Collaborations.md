@@ -196,7 +196,7 @@ example asking if anyone knew how to debug or fix an issue they had been
 experiencing. Since two of our team members already have experience with web
 design, we were able to help other teams. Especially JavaScript was a hot topic,
 as this was a new experience for many of the more traditional iGEM team members
-with backgrounds in biology! 
+with backgrounds in biology!
 
 {{< centeredImage
         src="/assets/content/collaborations/Manchester_Codeathon_Sticker.svg"

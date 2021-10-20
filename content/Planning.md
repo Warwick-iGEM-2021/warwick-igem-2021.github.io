@@ -14,6 +14,8 @@ draft: false
 
 ## Initial Brainstorming and Planning
 
+_Early February_
+
 {{< timeline_content >}}
 
 We began by dividing into 3 groups so that we could look at different potential
@@ -26,6 +28,8 @@ of alternative dairy products, biosensors, and microplastics.
 {{< timeline_title >}}
 
 ## Sharing Ideas and Research
+
+_Late February_
 
 {{< timeline_content >}}
 
@@ -43,6 +47,8 @@ along with plastic biodegradability.
 {{< timeline_title >}}
 
 ## Catch Up and Progress Meeting
+
+_Early March_
 
 {{< timeline_content >}}
 
@@ -66,6 +72,8 @@ respective projects.
 
 ## Our first strong idea
 
+_Late March_
+
 {{< timeline_content >}}
 
 In late March we produced our first strong idea for our project – a product
@@ -81,6 +89,8 @@ We also moved from a spray-based to a swab-based approach around this time.
 {{< timeline_title >}}
 
 ## Detection of CRE and biosensors
+
+_Early April_
 
 {{< timeline_content >}}
 
@@ -102,6 +112,8 @@ swab, the sample would fluoresce to indicate a positive result.
 
 ## Developing our idea on how to detect CRE
 
+_Late April_
+
 {{< timeline_content >}}
 
 We started to plan who we might need to contact, in order to begin designing how
@@ -114,6 +126,8 @@ how to tackle this problem.
 {{< timeline_title >}}
 
 ## Meeting with Dr Freya Harrison
+
+_May_
 
 {{< timeline_content >}}
 
@@ -130,6 +144,8 @@ surrounding biofilms
 
 ## Meeting with Dr Antonia Sagona
 
+_Early June_
+
 {{< timeline_content >}}
 
 Dr Sagona is a phage therapy specialist who we contacted about the possibility
@@ -143,6 +159,8 @@ Carbapenem resistant _Enterobacteriaceae_.
 {{< timeline_title >}}
 
 ## Identifying our target gene
+
+_Late June_
 
 {{< timeline_content >}}
 
@@ -160,6 +178,8 @@ organism.
 {{< timeline_title >}}
 
 ## Meeting with Dr Richard Hastings
+
+_Early July_
 
 {{< timeline_content >}}
 
@@ -181,7 +201,42 @@ would be more achievable for us, and we would be able to do it more effectively.
 
 {{< timeline_title >}}
 
+## Changing our method of fluorescence
+
+_Late June_
+
+{{< timeline_content >}}
+
+After meeting with Dr Hastings and talking to health professionals, concerns
+were raised about our product containing toxic chemicals. We originally intended
+to use malachite green as our method of fluorescence but realised this would not
+be safe to use in our product as it is a strong irritant. Therefore we adapted
+our detection method to use a combination of iSpinach, a safer RNA, and DFHBI, a
+harmless fluorophore, in order to produce fluorescence.
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
+## A cell-free system
+
+_Late June_
+
+{{< timeline_content >}}
+
+The use of living cells in our test kit also proved to be a safety concern.
+Therefore, we decided to change to a cell-free system, where living cells would
+be lysed, and our product would only contain the necessary components from these
+cells. This meant there was no risk of contamination, and we were able to adhere
+to safety regulations.
+
+{{< div_end >}}
+
+{{< timeline_title >}}
+
 ## Meetings with Jack Lawrence
+
+_July_
 
 {{< timeline_content >}}
 
@@ -200,19 +255,29 @@ the lab and get the project underway!
 
 ## Collaborations and Social Media
 
+_March to September_
+
 {{< timeline_content >}}
 
 From early March we decided to use social media to gain advice and knowledge on
 our project idea as well as use it as a platform to network with a range of iGEM
 teams globally. From June – August we had virtual meetups to discuss our project
-development and ideas with teams such as iGEM KCL , iGEM Mingdao , iGEM
-Stonybrook to name a few. We gained useful insights into how to improve our wiki
+development and ideas with teams such as iGEM KCL, iGEM Mingdao, iGEM
+Stonybrook to name a few.
+
+{{< centeredImage
+        src="/assets/content/communication/socialMediaFeed.jpg"
+        alt="A picture of the Warwick 2021 iGEM Instagram feed"
+        caption="A picture of the Warwick 2021 iGEM Instagram feed" >}}
+
+We gained useful insights into how to improve our wiki
 as well which direction to go in when working on human practices and the type of
 individuals we should contact which we acted on. Furthermore, through our social
 media pages we were able to be involved in many collaborative projects such as
 with McMaster iGEM team in June where we worked with them on an educational song
 to iGEM Aix Marseille in September for their emoji project game on Instagram
-where we shared details of our project on their social media platforms.
+where we shared details of our project on their social media platforms. Read more
+about this on our [Communications page](/Communications).
 
 {{< div_end >}}
 

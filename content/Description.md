@@ -48,7 +48,7 @@ improvement. More importantly, they showed us how the CRISPRa system has a high
 degree of specificity. This would be extremely useful in our application as we
 wanted to detect a specific strain of Carbapenemase resistance. As a detection
 target, we settled upon a Carbapenemase known as OXA-48, due to the difficulty
-of its rapid detection, even with the Carba NP test, due to its slow activity. 
+of its rapid detection, even with the Carba NP test, due to its slow activity.
 
 We settled upon the design of a guide RNA (gRNA) which, under normal conditions,
 folds in such a way that the binding of the gRNA to a Cas9 protein is
