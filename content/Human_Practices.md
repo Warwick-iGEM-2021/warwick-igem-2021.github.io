@@ -102,20 +102,27 @@ us to the realisation that it would be much more difficult to design a rapid
 detection method to diagnose human patients with CRE, and even longer to
 theoretically get it approved and certified for use in hospitals. As a result,
 while potentially useful it would take a long time to deploy, and other methods
-could start tackling the problem faster. Following Dr Richard Hastings advice,
-we decided that containing the spread of CRE by targeting reservoirs like sinks
-and faucets would have a bigger impact and be more achievable. One reason was
-that it would work to prevent patients from becoming infected in the first place
-rather than just diagnosing one patient's specific stage of antibiotic
-resistance. Another important reason was that regulations around surface testing
-are far more relaxed and require far less time to be tested and approved,
-leading to an earlier potential deployment of our product. As a result, we
-designed our product to be used to test surfaces for seamless integration into
-current procedures, as any swabs currently taken for CRE can also be used with
-our device. It would also be relatively easy to adapt out product for direct
-patient testing, and while this is not the direct focus of our product in aims
-of a fast deployment, we decided it was something worth exploring as possible
-follow up to the deployment of our surface testing kit.
+could start tackling the problem faster.
+
+{{< centeredImage
+        src="/assets/content/planning/Richard_Hastings_meeting.png"
+        alt="A photo of our meeting with Richard Hastings"
+        caption="A photo of our meeting with Richard Hastings" >}}
+
+Following Dr Richard Hastings advice, we decided that containing the spread of
+CRE by targeting reservoirs like sinks and faucets would have a bigger impact
+and be more achievable. One reason was that it would work to prevent patients
+from becoming infected in the first place rather than just diagnosing one
+patient's specific stage of antibiotic resistance. Another important reason was
+that regulations around surface testing are far more relaxed and require far
+less time to be tested and approved, leading to an earlier potential deployment
+of our product. As a result, we designed our product to be used to test surfaces
+for seamless integration into current procedures, as any swabs currently taken
+for CRE can also be used with our device. It would also be relatively easy to
+adapt out product for direct patient testing, and while this is not the direct
+focus of our product in aims of a fast deployment, we decided it was something
+worth exploring as possible follow up to the deployment of our surface testing
+kit.
 
 Furthermore, if our product contained living cells, an orthopaedic surgeon we
 contacted informed us that the risk of contamination meant it would not get

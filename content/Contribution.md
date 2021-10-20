@@ -21,22 +21,25 @@ team engineered.
 This gRNA is used as a CRISPR inhibitory (CRISPRi) component and part of a
 double not gate in its original form, but we realised that it could easily be
 turned into a CRISPRa component by adding a handle as described in [1] [2] for the
-respective transcriptional activators (LiuP and SoxS-MCP). This would have the
+respective transcriptional activators (PspF and SoxS-MCP). This would have the
 effect of reducing the induction time from a timescale of days [3] to one of
 hours [1] [2] by eliminating the need for immediate LacI repression [3] and converting
 the double not gate to a simple yes gate.
 
 Moreover, the level of activation by such a system would be much greater than
 would be possible with the double not gate – the initial paper describing the
-LiuP system showed that the expression of the system offered a 78-fold increase
+PspF system showed that the expression of the system offered a 78-fold increase
 in the level of fluorescence observed when compared to controls. The system
 would also be far more reliable as the papers describing these CRISPRa
-components show little variability in data (Fig.1.)
+components show little variability in data (Fig.1.) and would offer great
+modularity as multiple systems could be expressed in the same cell without any
+unintended cross-activation as the binding handles of the activator proteins
+have dissimilar shapes.
 
 {{< centeredImage
         src="/assets/content/contribution/LiuP.jpg"
-        alt="Graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a LiuP handle, the LiuP activator and dCas9"
-        caption="Fig.1. Graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a LiuP handle, the LiuP activator and dCas9." >}}
+        alt="Graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a PspF handle, the PspF activator and dCas9"
+        caption="Fig.1. Graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a PspF handle, the PspF activator and dCas9." >}}
 
 Read more about this on [the Parts Registry](http://parts.igem.org/Part:BBa_K2841513)
 

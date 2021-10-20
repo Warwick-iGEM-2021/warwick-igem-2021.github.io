@@ -24,14 +24,6 @@ PAJ-379) Plated cells
     src="/assets/content/experiments/1.png"
     alt="Figure 1" >}}
 
-{{< centeredImage
-    src="/assets/content/experiments/8.png"
-    alt="Figure 8" >}}
-
-{{< centeredImage
-    src="/assets/content/experiments/9.png"
-    alt="Figure 9" >}}
-
 {{< div_end >}}
 
 {{< timeline_title >}}
@@ -246,8 +238,6 @@ Both cultures grew nicely, giving us confirmation that we have double transforme
 
 {{< div_end >}}
 
-{{< timeline_end >}}
-
 {{< timeline_title >}}
 
 _09/09/2021_
@@ -257,8 +247,6 @@ _09/09/2021_
 Obtained chemicals necessary for inducing the PAJ circuit – ATC and IPTG
 
 {{< div_end >}}
-
-{{< timeline_end >}}
 
 {{< timeline_title >}}
 
@@ -271,8 +259,6 @@ First run of the PAJ fluorescence experiment – checking if the circuit works
 
 {{< div_end >}}
 
-{{< timeline_end >}}
-
 {{< timeline_title >}}
 
 _14/09/2021 - 26/09/2021_
@@ -283,8 +269,6 @@ Fluorescence experiment runs
 
 {{< div_end >}}
 
-{{< timeline_end >}}
-
 {{< timeline_title >}}
 
 _17/09/2021_
@@ -293,9 +277,11 @@ _17/09/2021_
 
 PAJ circuit function successfully proven with fluorescence experiments
 
-{{< div_end >}}
+{{< centeredImage
+    src="/assets/content/experiments/8.png"
+    alt="Figure 8" >}}
 
-{{< timeline_end >}}
+{{< div_end >}}
 
 {{< timeline_title >}}
 
@@ -305,9 +291,11 @@ _20/09/2021_
 
 Successful PCR extraction of the 3 3 kbp fragments
 
-{{< div_end >}}
+{{< centeredImage
+    src="/assets/content/experiments/9.png"
+    alt="Figure 9" >}}
 
-{{< timeline_end >}}
+{{< div_end >}}
 
 {{< timeline_title >}}
 
@@ -319,8 +307,6 @@ Attempted purification of PCR output failed
 
 {{< div_end >}}
 
-{{< timeline_end >}}
-
 {{< timeline_title >}}
 
 _22/09/2021_
@@ -330,8 +316,6 @@ _22/09/2021_
 PCR and purification again – failed again
 
 {{< div_end >}}
-
-{{< timeline_end >}}
 
 {{< timeline_title >}}
 
@@ -343,8 +327,6 @@ Debugging the purification
 
 {{< div_end >}}
 
-{{< timeline_end >}}
-
 {{< timeline_title >}}
 
 _27/09/2021_
@@ -354,8 +336,6 @@ _27/09/2021_
 Rerunning PCR
 
 {{< div_end >}}
-
-{{< timeline_end >}}
 
 {{< timeline_title >}}
 
@@ -368,8 +348,6 @@ Obtained pure MG1655-Z1 cells
 
 {{< div_end >}}
 
-{{< timeline_end >}}
-
 {{< timeline_title >}}
 
 _29/09/2021_
@@ -379,8 +357,6 @@ _29/09/2021_
 Attempted assembly of the helper plasmid and transformation into MG1655-Z1 cells
 
 {{< div_end >}}
-
-{{< timeline_end >}}
 
 {{< timeline_title >}}
 
@@ -392,8 +368,6 @@ Yesterday's work failed
 
 {{< div_end >}}
 
-{{< timeline_end >}}
-
 {{< timeline_title >}}
 
 _31/09/2021_
@@ -404,7 +378,7 @@ Reattempted PCR extraction with a new polymerase – PCRd out the full 9 kb back
 
 {{< div_end >}}
 
-{{< timeline_end >}}
+{{< timeline_title >}}
 
 _04/09/2021_
 
@@ -415,7 +389,7 @@ Attempted transformation with the helper plasmid
 
 {{< div_end >}}
 
-{{< timeline_end >}}
+{{< timeline_title >}}
 
 _05/09/2021_
 
@@ -425,7 +399,7 @@ Transformation failed – using more competent cells to purify the assembly outp
 
 {{< div_end >}}
 
-{{< timeline_end >}}
+{{< timeline_title >}}
 
 _06/09/2021_
 
@@ -435,7 +409,7 @@ Successful transformation of competent TOP10 E. coli with the helper plasmid, pr
 
 {{< div_end >}}
 
-{{< timeline_end >}}
+{{< timeline_title >}}
 
 _07/09/2021_
 
@@ -446,7 +420,7 @@ Prepared more competent MG1655-Z1 cells
 
 {{< div_end >}}
 
-{{< timeline_end >}}
+{{< timeline_title >}}
 
 _08/09/2021_
 
@@ -456,7 +430,7 @@ Transformation of Z1s with helper plasmid
 
 {{< div_end >}}
 
-{{< timeline_end >}}
+{{< timeline_title >}}
 
 _11/09/2021_
 
@@ -466,7 +440,7 @@ Transformation assessed as successful over the weekend; PCR extracted backbones 
 
 {{< div_end >}}
 
-{{< timeline_end >}}
+{{< timeline_title >}}
 
 _12/09/2021_
 
@@ -477,7 +451,7 @@ Competent Z1s with helper plasmids created
 
 {{< div_end >}}
 
-{{< timeline_end >}}
+{{< timeline_title >}}
 
 _18/09/2021_
 
@@ -488,7 +462,7 @@ Attempt at operator plasmid assembly + transformation
 
 {{< div_end >}}
 
-{{< timeline_end >}}
+{{< timeline_title >}}
 
 _19/09/2021_
 

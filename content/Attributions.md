@@ -24,6 +24,9 @@ draft: false
 
 ## Our advisory team
 
+Our project would not have been possible without the generous help and time
+offered by the following people
+
 ### Principal investigators
 
 - Prof. Christophe Corre
