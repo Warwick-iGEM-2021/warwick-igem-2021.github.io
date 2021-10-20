@@ -3,7 +3,7 @@ title: "Human Practices"
 hero_img_fore: "/assets/content/human_practices/splash_fore.png"
 hero_img_back: "/assets/content/human_practices/splash_back.png"
 toc: false
-summary: "A brief summary of the content of the page"
+summary: "Over the course of the last 10 months, we contacted health professionals, academics and engaged with the general public, to receive feedback we could use to adapt and improve our project. Human practices have been essential for us as a team throughout the project, allowing us to design our initial project idea, giving us new ideas about the ways we can improve public awareness of CRE, and continually change things, e.g. the model, as a result of receiving second opinions from academics."
 date: 2021-08-26T11:45:26+01:00
 draft: false
 ---

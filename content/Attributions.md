@@ -11,13 +11,13 @@ draft: false
 
 | Name   | Tasks                                                                                                     |
 | ------ | --------------------------------------------------------------------------------------------------------- |
-| Ameera |                                                                                                           |
-| Axel   |                                                                                                           |
+| Ameera | Education, Communication, Outreach                                                                        |
+| Axel   | Model design, Model analysis                                                                              |
 | Edmund | Wiki design, Wiki programming, Model design, Model programming                                            |
 | Jerry  | Wiki design, Promotional video production and editing, Presentation video production, filming and editing |
-| Lucy   |                                                                                                           |
+| Lucy   | Wet lab, Communication, Collaborations, Social Media                                                      |
 | Reanna | Dry Lab, Wet Lab, Human Practices                                                                         |
-| Roman  | Implementation, test kit design                                                                           |
+| Roman  | Implementation, Test kit design                                                                           |
 | Tudor  | Dry lab, Wet lab                                                                                          |
 
 {{< new_sheet >}}
@@ -26,9 +26,8 @@ draft: false
 
 ### Principal investigators
 
-- Prof. Chris Corre
-
-### Supervisors
+- Prof. Christophe Corre
+- Dr Fabrizio Alberti
 
 ### Specific support
 
@@ -42,6 +41,8 @@ We'd like to thank those people who gave us advice on specific topic, allowing o
 #### Dry lab
 
 - Jack Lawrence, project design and dry lab help
+- Prof. Freya Harrison, advice on the use of phages
+- Dr Antonia Sagona, advice on the use of phages
 
 #### Wet lab
 
@@ -52,6 +53,13 @@ We'd like to thank those people who gave us advice on specific topic, allowing o
 - Patrick Capel, wet lab help
 
 #### Human practices
+
+- Dr Richard Hastings, advice on what form our project would take and regulations
+- Dr Leanne Williams, Survey Approval and Advice
+
+#### Outreach and other advice
+
+- Amanda Bishop, outreach/education advice
 
 ### iGEM teams
 
@@ -64,3 +72,4 @@ We'd like to thank those people who gave us advice on specific topic, allowing o
 - iGEM Stonybrook, for organising the Cyanobacteria Symposium
 - iGEM Taiwan, for organising the iASK Symposium
 - iGEM Manchester, for hosting wiki development codeathons
+- iGEM LMSU, for hosting the FEM club

@@ -2,7 +2,7 @@
 title: "Experiments"
 hero_img_fore: "/assets/content/experiments/splash_fore.png"
 hero_img_back: "/assets/content/experiments/splash_back.png"
-summary: "A brief summary of the content of the page"
+summary: "A concise timeline of our lab work – things didn’t always go to plan but we did our best to overcome any obstacles we came across!"
 date: 2021-08-26T11:45:30+01:00
 draft: false
 ---

@@ -8,7 +8,7 @@
 
   [[team_members.item]]
     name = "Ameera Ghani"
-    position = "Education and communication"
+    position = "Education and communication, outreach"
     description = "A 2nd-year Biomedical Science student who has a real passion for bringing in more collaboration and outreach opportunities as part of the iGEM Warwick Team Project."
     img = "/assets/images/people/ag.jpg"
     alt = "Picture of Ameera Ghani"
@@ -46,7 +46,7 @@
     ]
   [[team_members.item]]
     name = "Lucy Hayter"
-    position = "Wet lab"
+    position = "Wet lab, education and communication"
     description = "A 2nd-year Biomedical Science student who dreads the question 'where are you from', as I’m Swiss British but speak with an American accent. If I’m not playing lacrosse, I’m stress baking because of the experiments not working."
     img = "/assets/images/people/lh.jpg"
     alt = "Picture of Lucy Hayter"

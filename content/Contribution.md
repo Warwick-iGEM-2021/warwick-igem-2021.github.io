@@ -2,7 +2,7 @@
 title: "Contribution"
 hero_img_fore: "/assets/content/contribution/splash_fore.png"
 hero_img_back: "/assets/content/contribution/splash_back.png"
-summary: "A brief summary of the content of the page"
+summary: "2018 Warwick iGEM Ripple’s work can be regarded in several ways as a precursor to CREscent’s - which is why we made an effort to add information to their components. Specifically, the self-terminating gRNA they engineered can be used not only as the inhibitory component they envisioned it as, but also as an activating component."
 date: 2021-08-26T11:45:25+01:00
 draft: false
 ---

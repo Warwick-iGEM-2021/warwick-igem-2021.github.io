@@ -2,7 +2,7 @@
 title: "Medal Critera"
 hero_img_fore: "/assets/content/medal_criteria/splash_fore.png"
 hero_img_back: "/assets/content/medal_criteria/splash_back.png"
-summary: "A brief summary of the content of the page"
+summary: "This page shows how we completed each of the medal criteria including the links to each of the pages. We worked very hard on our project, and hopefully it shows through our wiki pages and presentation video. CREscent to the moon!"
 date: 2021-10-14T20:04:04+01:00
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "Planning"
 hero_img_fore: "/assets/content/planning/splash_fore.png"
 hero_img_back: "/assets/content/planning/splash_back.png"
 toc: false
-summary: "A brief summary of the content of the page"
+summary: "Throughout our project, we kept a detailed timeline of all the different project ideas we explored and the steps we took to come to our final project idea, a rapid detection method for CRE. We were able to meet with a range of academics and specialists to gain a useful insight in to how to progress with our project and how to apply it to our target audience. Through this discussion we were able to modify our wet lab work as well as work on our human practices. By using social media, we were able to network with a range of iGEM teams and gain advice on the direction we should take with our project as well as share knowledge with each other in order to further progress with our project in a successful manner."
 date: 2021-08-26T11:45:31+01:00
 draft: false
 ---

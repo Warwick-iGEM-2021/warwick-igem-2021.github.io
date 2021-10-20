@@ -3,7 +3,7 @@ title: "Collaborations"
 hero_img_fore: "/assets/content/collaborations/splash_fore.png"
 hero_img_back: "/assets/content/collaborations/splash_back.png"
 toc: false
-summary: "A brief summary of the content of the page"
+summary: "As part of our project, we wanted to develop relationships with a range of different iGEM teams in order to learn from each other and to form a community in a virtual manner. By using social media, participating in virtual meetups as well involving teams in our education Collaborative booklet we were able to learn from each other and gain useful insights in how to improve our project and how to find solutions to issues we were facing."
 date: 2021-08-26T11:45:25+01:00
 draft: false
 ---

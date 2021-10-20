@@ -2,7 +2,7 @@
 title: "Engineering"
 hero_img_fore: "/assets/content/engineering/splash_fore.png"
 hero_img_back: "/assets/content/engineering/splash_back.png"
-summary: "The process was, as every year, a lengthy one, and the core of our project. Our lab team was thankfully able to enter the lab this summer and carry out a great deal of work to validate our dry designs, which will be detailed below. We are pleased to report that despite not having enough time to achieve all our end goals, we believe we have been successful."
+summary: "The engineering process was a lengthy one, and not without its problems. Unfortunately, we were not able to overcome all of them within the given timeframe but nonetheless we believe we have been successful in our dry design and partially successful in our wet work. "
 date: 2021-08-26T11:45:25+01:00
 draft: false
 ---

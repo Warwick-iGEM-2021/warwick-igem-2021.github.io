@@ -2,7 +2,7 @@
 title: "Education"
 hero_img_fore: "/assets/content/communication/splash_fore.png"
 hero_img_back: "/assets/content/communication/splash_back.png"
-summary: "Throughout the iGEM project, we engaged with both other teams and other students, aiming to help with education and outreach throughout many communities"
+summary: "Education is an important part of our project and therefore we wanted to focus on further sharing information on the field of synthetic biology and iGEM overall. We created educational resources aimed to individuals from 11 years to university students as well as working closely in hosting science student placements. Overall, by working with a range of iGEM teams across the timeframe of our project we were able to collaborate on a range of projects as well as share educational resources and knowledge at the same time."
 date: 2021-09-07T14:59:05+01:00
 draft: false
 ---
@@ -37,6 +37,8 @@ The importance of sharing knowledge and providing support for the next cohort of
 Using our social media pages such as Instagram we spread the awareness of other IGEM Team educational projects such as iGEM KCL and we also made available via our social media pages educational posters.
 
 ### Social Media
+
+From early March we decided to use social media to gain advice and knowledge on our project idea as well as use it as a platform to network with a range of iGEM teams globally. We had from June – August virtual meetups to discuss our project development and ideas with teams such as iGEM KCL , iGEM Mingdao  , iGEM Stonybrook to name a few. We gained useful insights into how to improve our wiki as well which direction to go in when working on human practices and the type of individuals we should contact which we acted on. Furthermore, through our social media pages we were able to be involved in many collaborative projects such as in June with McMaster iGEM team where we worked with them on an educational song to iGEM Aix Marseille in September for their emoji project game on Instagram where we shared details of our project on their social media platforms.
 
 {{< centeredImage
         src="/assets/content/communication/socialMediaStory.png"
