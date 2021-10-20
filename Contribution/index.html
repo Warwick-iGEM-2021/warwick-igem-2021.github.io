@@ -217,6 +217,10 @@
                                         
                                             <li><a href="../Experiments" class="nav-link">Experiments</a></li>
                                         
+                                            <li><a href="../Lab_Book" class="nav-link">Lab book</a></li>
+                                        
+                                            <li><a href="../Parts" class="nav-link">Parts</a></li>
+                                        
                                     </ul>
                                 </li>
                             
@@ -287,6 +291,7 @@
             
 
 
+
     <section id="hero" data-parallax="scroll" data-speed="0.4"
         data-image-src="../assets/content/contribution/splash_back.png">
         <div id="hero_fore" style="background-image: url('/assets/content/contribution/splash_fore.png');"></div>
@@ -302,32 +307,80 @@
     
     
     
+        <script src="../js/sidebarScrollPath.js" defer></script>
         
-        <section id="hugo-content" class="container">
+        <div class="row">
             
+            <section id="sidebar" class="col-3"> 
+                <div class="toc-wrapper content-page">
+                    
+                        <h3><a href="#">Contribution</a></h3>
+                    
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#building-on-what-came-before">Building on what came before</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+                    <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000"
+                            stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+                    </svg>
+                </div>
+            </section>
             
-            <div class="content-page">
-                <h2 id="summary">Summary</h2>
-                A brief summary of the content of the page
-            </div>
-            
+            <section id="hugo-content" class="col-9">
+                
+                
+                    <div class="content-page">
+                        <h2 id="summary">Summary</h2>
+                        2018 Warwick iGEM Ripple’s work can be regarded in several ways as a precursor to CREscent’s - which is why we made an effort to add information to their components. Specifically, the self-terminating gRNA they engineered can be used not only as the inhibitory component they envisioned it as, but also as an activating component.
+                    </div>
+                
 
-            <div class="content-page">
-                <h2 id="lorem-ipsum">Lorem Ipsum</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
-dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
-sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
-nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus
-et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula
-placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec
-tellus lacinia, elementum libero a, iaculis justo. Proin interdum placerat elit,
-et consectetur lectus feugiat non. In iaculis eros sit amet dui lobortis, eu
-consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
-diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
-Pellentesque non hendrerit nisl.</p>
+                
+                <div class="content-page">
+                    <h2 id="building-on-what-came-before">Building on what came before</h2>
+<p>Past Warwick iGEM teams have made extensive use of CRISPR as a detection tool –
+while our approach is rather different, particularly in our design usable in
+vitro, we nonetheless looked into their components; of these, the 2018 team,
+Ripple, caught our attention due to the number of applications they found for
+their detection system in assisting the bioremediation of water. One part we
+felt like we could add more information to was the <a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K2841513">self-cleaving gRNA
+BBa_K2841513</a> the
+team engineered.</p>
+<p>This gRNA is used as a CRISPR inhibitory (CRISPRi) component and part of a
+double not gate in its original form, but we realised that it could easily be
+turned into a CRISPRa component by adding a handle as described in [1] [2] for the
+respective transcriptional activators (LiuP and SoxS-MCP). This would have the
+effect of reducing the induction time from a timescale of days [3] to one of
+hours [1] [2] by eliminating the need for immediate LacI repression [3] and converting
+the double not gate to a simple yes gate.</p>
+<p>Moreover, the level of activation by such a system would be much greater than
+would be possible with the double not gate – the initial paper describing the
+LiuP system showed that the expression of the system offered a 78-fold increase
+in the level of fluorescence observed when compared to controls. The system
+would also be far more reliable as the papers describing these CRISPRa
+components show little variability in data (Fig.1.)</p>
+<div class="text-center">
+    
+    
+    <img src="../assets/content/contribution/LiuP.jpg" alt="Graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a LiuP handle, the LiuP activator and dCas9" class="centered-image" decoding="async"/>
+    
+    
+        <p class="hugo-figure-caption">Fig.1. Graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a LiuP handle, the LiuP activator and dCas9.</p>
+    
+</div>
 
-            </div>
-        </section>
+<p>Read more about this on <a href="http://parts.igem.org/Part:BBa_K2841513">the Parts Registry</a></p>
+<h2 id="references">References</h2>
+<p>[1] Liu, Y., Wan, X. &amp; Wang, B. Engineered CRISPRa enables programmable eukaryote-like gene activation in bacteria. Nat Commun 10, 3693 (2019). <a href="https://doi.org/10.1038/s41467-019-11479-0">https://doi.org/10.1038/s41467-019-11479-0</a></p>
+<p>[2] Dong, C., Fontana, J., Patel, A. et al. Synthetic CRISPR-Cas gene activators for transcriptional reprogramming in bacteria. Nat Commun 9, 2489 (2018). <a href="https://doi.org/10.1038/s41467-018-04901-6">https://doi.org/10.1038/s41467-018-04901-6</a></p>
+<p>[3] Roberto Galizi, John N. Duncan, William Rostain, Charlotte M Quinn, Marko Storch, Manish Kushwaha, and Alfonso Jaramillo. Engineered RNA-Interacting CRISPR Guide RNAs for Genetic Sensing and Diagnostics, The CRISPR Journal. Oct 2020 .398-408. <a href="http://doi.org/10.1089/crispr.2020.0029">http://doi.org/10.1089/crispr.2020.0029</a></p>
+
+                </div>
+            </section>
+        </div>
     
 
 </section>

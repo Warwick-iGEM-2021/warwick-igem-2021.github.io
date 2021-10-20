@@ -116,6 +116,7 @@ p {
 
 a,
 a:hover,
+a:visited,
 a:active {
   color: #005700;
   -webkit-transition: 0.3s all ease;
@@ -1334,13 +1335,15 @@ body.accessibility_readingLine #readingLine {
 */
 /* Carousel section */
 #carousel {
-  margin: 25px 0px 25px 0px; }
+  margin: auto;
+  max-width: 90%; }
 
 .hugo-figure-caption {
   padding-top: 5px; }
 
 .centered-image {
-  max-width: 100%; }
+  max-width: 90%;
+  min-width: 50%; }
 
 .timeline {
   position: relative;

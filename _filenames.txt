@@ -8,8 +8,10 @@ Engineering.md
 Experiments.md
 Human_Practices.md
 Implementation.md
+Lab_Book.md
 Medal_Critera.md
 Model.md
+Parts.md
 Planning.md
 Sponsors.md
 Team.md

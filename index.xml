@@ -7,12 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language><atom:link href="https://warwick-igem-2021.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Lab Book</title>
+      <link>https://warwick-igem-2021.github.io/Lab_Book/</link>
+      <pubDate>Wed, 20 Oct 2021 01:48:39 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/Lab_Book/</guid>
+      <description>During the labs, we kept a paper book of notes to keep track of what we did, as general electronic devices aren&amp;rsquo;t allowed in and out of the lab. Below is a pdf of the lab book, with rough working for the lab procedures</description>
+    </item>
+    
+    <item>
+      <title>Parts</title>
+      <link>https://warwick-igem-2021.github.io/Parts/</link>
+      <pubDate>Tue, 19 Oct 2021 16:22:25 +0100</pubDate>
+      
+      <guid>https://warwick-igem-2021.github.io/Parts/</guid>
+      <description>Parts iGEM21 Warwick</description>
+    </item>
+    
+    <item>
       <title>Medal Critera</title>
       <link>https://warwick-igem-2021.github.io/Medal_Critera/</link>
       <pubDate>Thu, 14 Oct 2021 20:04:04 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Medal_Critera/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>SummaryThis page shows how we completed each of the medal criteria including the links to each of the pages. We worked very hard on our project, and hopefully it shows through our wiki pages and presentation video. CREscent to the moon!AttributionsOur attributions page
+Project DescriptionOur project description page
+ContributionsOur contributions page
+Engineering successWe were able to go through one complete iteration cycle and traverse a wide range of challenges.</description>
     </item>
     
     <item>
@@ -30,7 +51,7 @@
       <pubDate>Tue, 07 Sep 2021 14:59:05 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Communication/</guid>
-      <description>Throughout the iGEM project, we engaged with both other teams and other students, aiming to help with education and outreach throughout many communities</description>
+      <description>Education is an important part of our project and therefore we wanted to focus on further sharing information on the field of synthetic biology and iGEM overall. We created educational resources aimed to individuals from 11 years to university students as well as working closely in hosting science student placements. Overall, by working with a range of iGEM teams across the timeframe of our project we were able to collaborate on a range of projects as well as share educational resources and knowledge at the same time.</description>
     </item>
     
     <item>
@@ -48,7 +69,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:31 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Planning/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>Throughout our project, we kept a detailed timeline of all the different project ideas we explored and the steps we took to come to our final project idea, a rapid detection method for CRE. We were able to meet with a range of academics and specialists to gain a useful insight in to how to progress with our project and how to apply it to our target audience. Through this discussion we were able to modify our wet lab work as well as work on our human practices. By using social media, we were able to network with a range of iGEM teams and gain advice on the direction we should take with our project as well as share knowledge with each other in order to further progress with our project in a successful manner.</description>
     </item>
     
     <item>
@@ -57,7 +78,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:30 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Experiments/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>A concise timeline of our lab work – things didn’t always go to plan but we did our best to overcome any obstacles we came across!</description>
     </item>
     
     <item>
@@ -66,7 +87,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:29 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Team/</guid>
-      <description>A group of fluorescent adolescentsWho we areAmeera GhaniEducation and communicationA 2nd-year Biomedical Science student who has a real passion for bringing in more collaboration and outreach opportunities as part of the iGEM Warwick Team Project.
+      <description>A group of fluorescent adolescentsWho we areAmeera GhaniEducation and communication, outreachA 2nd-year Biomedical Science student who has a real passion for bringing in more collaboration and outreach opportunities as part of the iGEM Warwick Team Project.
 Axel Schoerner EmillonModelling designA 2nd-year Economics student from Sweden interested in a bit too many things for my own good. Although most of my degree is just mathematics, as a technically non-STEM I&amp;rsquo;m hoping to bring a bit of a different perspective to the project.</description>
     </item>
     
@@ -85,7 +106,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:26 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Human_Practices/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>Over the course of the last 10 months, we contacted health professionals, academics and engaged with the general public, to receive feedback we could use to adapt and improve our project. Human practices have been essential for us as a team throughout the project, allowing us to design our initial project idea, giving us new ideas about the ways we can improve public awareness of CRE, and continually change things, e.g. the model, as a result of receiving second opinions from academics.</description>
     </item>
     
     <item>
@@ -94,7 +115,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:26 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Implementation/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>We designed our product with usability in mind – therefore its finished form would take the form of a tube with a cell-free solution swabs can be submerged into. The solution would contain all the necessary components to produce the fluorescent reporter without containing any living cells, eliminating the risk of contamination. Should the kit be successful, iterating on it to detect different genes would be trivial, as only the sensing portion of our cgRNA would need to be changed to complement the mRNA of interest.</description>
     </item>
     
     <item>
@@ -103,7 +124,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:25 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Collaborations/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>As part of our project, we wanted to develop relationships with a range of different iGEM teams in order to learn from each other and to form a community in a virtual manner. By using social media, participating in virtual meetups as well involving teams in our education Collaborative booklet we were able to learn from each other and gain useful insights in how to improve our project and how to find solutions to issues we were facing.</description>
     </item>
     
     <item>
@@ -112,7 +133,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:25 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Contribution/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>2018 Warwick iGEM Ripple’s work can be regarded in several ways as a precursor to CREscent’s - which is why we made an effort to add information to their components. Specifically, the self-terminating gRNA they engineered can be used not only as the inhibitory component they envisioned it as, but also as an activating component.</description>
     </item>
     
     <item>
@@ -121,7 +142,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:25 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Engineering/</guid>
-      <description>The process was, as every year, a lengthy one, and the core of our project. Our lab team was thankfully able to enter the lab this summer and carry out a great deal of work to validate our dry designs, which will be detailed below. We are pleased to report that despite not having enough time to achieve all our end goals, we believe we have been successful.</description>
+      <description>The engineering process was a lengthy one, and not without its problems. Unfortunately, we were not able to overcome all of them within the given timeframe but nonetheless we believe we have been successful in our dry design and partially successful in our wet work.</description>
     </item>
     
     <item>
@@ -139,7 +160,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:24 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Description/</guid>
-      <description>We aim to develop a CRISPR dcas9 based fast fluorescent detection method system for carbapenem-resistant Enterobacteriaceae (CRE), which will hopefully be implemented in hospital cleaning routine to prevent CRE a common family of antibiotic resistant bacteria found in sinks from spreading.</description>
+      <description>Carbapenem-resistant Enterobacteriaceae (CRE) are one of the symptoms of the ongoing antibiotic resistance crisis – as the name would suggest, they are resistant to carbapenems, a last resort antibiotic used in treating infections. Methods of testing them exist but are either slow or error-prone. We designed a detector system based on a CRISPR activation (CRISPRa) system to hopefully supplement currently existing methods. This would be able to be used on both swabs taken from patients and known reservoirs such as sinks and faucets.</description>
     </item>
     
   </channel>
