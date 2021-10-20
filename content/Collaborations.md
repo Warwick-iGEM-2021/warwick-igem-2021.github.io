@@ -49,7 +49,11 @@ postcard to be sent to different iGEM teams which will contain information about
 our project. This was a fantastic opportunity to share our project idea with a
 range of iGEM teams in a simple but creative manner.
 
-INSERT IMAGE HERE
+{{< carousel caption="Pictures of the postcard we designed" >}}
+- /assets/content/collaborations/PostcardFront.png, The front of our postcard
+- /assets/content/collaborations/PostcardBack.png, The back of our postcard
+{{</ carousel >}}
+
 {{< div_end >}}
 
 {{< timeline_title >}}
@@ -71,7 +75,11 @@ bacteriophages and also who to contact for human practices. This meetup was
 extremely informative and was a fantastic way to get to know another team
 working on a similar project.
 
-INSERT IMAGE HERE
+{{< centeredImage
+        src="/assets/content/collaborations/igemMingdaoWarwickMeetup.png"
+        alt="A photo of the meetup with the iGEM Mingdao team"
+        caption="A photo of the meetup with the iGEM Mingdao team" >}}
+
 {{< div_end >}}
 
 {{< timeline_title >}}
@@ -86,7 +94,11 @@ order for other teams to guess. We also submitted in an explanation of our emoji
 choice and project for other iGEM teams participating in the project to have
 access to.
 
-INSERT IMAGE HERE
+{{< centeredImage
+        src="/assets/content/collaborations/emoji.png"
+        alt="The emoji we designed for the competition"
+        caption="The emoji we designed for the competition" >}}
+
 {{< div_end >}}
 
 {{< timeline_title >}}
@@ -95,14 +107,18 @@ INSERT IMAGE HERE
 
 {{< timeline_content >}}
 
-INSERT IMAGE HERE
-
 iGEM Warwick submitted in a team picture and project description to iGEM
 Korea_HS. The aim of this collaboration was to provide information on our team
 in order for iGEM Korea_HS to create a google drive with our information and
 other teams information. This is a space where a iGEM teams can access
 information on our project and also get in contact with us if they are
 interested in working with us.
+
+{{< centeredImage
+        src="/assets/content/collaborations/virtualGroupPhoto.png"
+        alt="A photo of (most) of our team in our weekly check-in meetings"
+        caption="A photo of (most) of our team in our weekly check-in meetings" >}}
+
 {{< div_end >}}
 
 {{< timeline_title >}}
@@ -115,6 +131,12 @@ On the 15th August iGEM Warwick attended the Wiki Workshop an event part of the
 Cyanobacteria Symposium which we were invited to by iGEM Stonybrook. It was a
 great opportunity to hear how to improve our wiki , what to include and was a
 space to share and gain knowledge from a range of iGEM team members.
+
+{{< centeredImage
+        src="/assets/content/collaborations/wikiWorkshopTalk.png"
+        alt="A photo of some of the team in the wiki workship seminar"
+        caption="A photo of some of the team in the wiki workship seminar" >}}
+
 {{< div_end >}}
 
 {{< timeline_title >}}
@@ -128,6 +150,12 @@ symposium event they hosted. It was an opportunity for our team members to ask
 questions to members of the judging panel committee on the topic of the judging
 form as well gain some advice and wisdom from the 2019 Grand Prize winner
 NCKU_Tainan.
+
+{{< centeredImage
+        src="/assets/content/collaborations/iaskSymposium.png"
+        alt="A photo of some of the team at the symposium"
+        caption="A photo of some of the team at the symposium" >}}
+
 {{< div_end >}}
 
 {{< timeline_title >}}
@@ -147,7 +175,11 @@ Since two of our team members already have experience with web design, we were
 able to help out, especially with regards to JavaScript, which seemed to be a
 new experience for the more traditional iGEM team members of biologists!
 
-INSERT IMAGE HERE
+{{< centeredImage
+        src="/assets/content/collaborations/Manchester_Codeathon_Sticker.svg"
+         alt="The sticker awarded for completing the Manchester code-a-thon"
+        caption="The sticker awarded for completing the Manchester code-a-thon" >}}
+
 {{< div_end >}}
 
 {{< timeline_end >}}

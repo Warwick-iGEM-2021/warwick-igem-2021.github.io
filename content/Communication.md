@@ -16,8 +16,8 @@ Our aim was exactly that, to create educational resources to share knowledge and
 IGEM Warwick initially reached out to IGEM teams via a campaign on social media platforms including Facebook, Twitter, Instagram. We created a google form which contained 4 questions for teams to complete which was made available via our social media platforms and also by direct request. We collated the information from the forms and dedicated a page to each team in the booklet and simplified some terms and description in order to adapt it to our target audience (16-18 year olds). We included a brief introduction page describing iGEM, synthetic biology and aim of the booklet furthermore we also had a tracker page where students could highlight each IGEM team name when they have completed their task. At the end of the booklet their was a certificate of achievement for student to fill in themselves as evidence that the have completed the research tasks in the booklet. This booklet was distributed to widening participation school in and around Coventry which is the city the University of Warwick is based in. It was made available to teachers in school via a monthly newsletter created by the Outreach team at the department of Science, Engineering and Maths and is also available to access on their website.
 [https://www.canva.com/design/DAEilsL-k1M/75ZTPjU7mcVP7iwn9TrXkQ/view](https://www.canva.com/design/DAEilsL-k1M/75ZTPjU7mcVP7iwn9TrXkQ/view)
 
- A second version of the booklet was created which was unedited therefore was not simplified and was made available to members of BIOSOC ( University of Warwick Life Sciences Society). This was made available on their website alongside an article on aim of booklet and iGEM overall.
- [Research and Internships | Warwick BioSoc](https://warwickbiosoc.wixsite.com/website/research-internships)
+A second version of the booklet was created which was unedited therefore was not simplified and was made available to members of BIOSOC ( University of Warwick Life Sciences Society). This was made available on their website alongside an article on aim of booklet and iGEM overall.
+[Research and Internships | Warwick BioSoc](https://warwickbiosoc.wixsite.com/website/research-internships)
 
 The booklet was also distributed to all team which participated in order for their to share the resource in their country and with schools local to their university.
 
@@ -31,9 +31,6 @@ The importance of sharing knowledge and providing support for the next cohort of
         src="/assets/content/communication/nuffieldStudentsMeeting.png"
         alt="A meeting with the Nuffield placement students"
         caption="A meeting with the Nuffield placement students" >}}
-
-
-
 
 ## Educational Resources
 
@@ -51,10 +48,10 @@ Using our social media pages such as Instagram we spread the awareness of other 
 At iGEM Warwick we created educational posters on different topics such as Microorganisms in hospitals, PCR, Carbapenem resistance Enterobacteriaceae and ethics in synthetic biology. This was made available by filling out a google form via a link on our social media pages for teams to provide their email address in order for us to send the posters to them. This will allow them to have access the poster in PDF form in English for them use in their own educational campaigns when working with schools or to send to schools and teachers to distribute to their students. The posters are basic introductions in to topics with short bursts of information in order for it to be easier to understand by our target audience which is 11-15 years old.
 
 {{< carousel caption="A carousel of the posters designed" >}}
- - /assets/content/communication/PCRtestingPoster.png, A poster about PCR
- - /assets/content/communication/CREposter.png, A poster about CRE
- - /assets/content/communication/microOrgsInHospitalsPoster.png, A poster about microorganisms in hospitals
- - /assets/content/communication/ethicsSynBioPoster.png, A poster about ethics in synthetic biology
+- /assets/content/communication/PCRtestingPoster.png, A poster about PCR
+- /assets/content/communication/CREposter.png, A poster about CRE
+- /assets/content/communication/microOrgsInHospitalsPoster.png, A poster about microorganisms in hospitals
+- /assets/content/communication/ethicsSynBioPoster.png, A poster about ethics in synthetic biology
 {{</ carousel >}}
 
 Through our education aims we set we wanted to target a range of age groups from our resources and initiatives in order to make information and resources on synthetic biology accessible to a range of students and different stages of their academic learning. We believe we have achieved this by using posters, booklets, social media and by hosting students personally as well as involving a range of iGEM teams so that they can also further spread the resources and knowledge of biology and the topic of synthetic Biology even further in their own countries.
@@ -68,7 +65,6 @@ LMSU invited those who identify as Female from iGEM Warwick Team to a Fem club t
         alt="A meeting of the LMSU FEM club"
         caption="A meeting of the LMSU FEM club" >}}
 
-
 ## Welcome Week Talk
 
-iGEM Warwick were invited on the 30th September to present to the new 1st year Life sciences  cohort at the University of Warwick the GEM Competition and our project for 2021. This was done via a presentation created and presented on Microsoft teams. The aim was to introduce the competition to students and why they should get involved and participate in iGEM as well as explain our project this year using models created and also the outreach and collaboration work we have done. We wanted to show them the range of aspects which make up the iGEM competition and the range of areas of synthetic biology they can work in and therefore its significance. As this was an introduction to students unaware previously of what iGEM is and with little knowledge on what synthetic biology is also, we wanted to present to them a taster of iGEM and Syn Bio in order to get them interested in getting involved in the iGEM Warwick Team 2022.
+iGEM Warwick were invited on the 30th September to present to the new 1st year Life sciences cohort at the University of Warwick the GEM Competition and our project for 2021. This was done via a presentation created and presented on Microsoft teams. The aim was to introduce the competition to students and why they should get involved and participate in iGEM as well as explain our project this year using models created and also the outreach and collaboration work we have done. We wanted to show them the range of aspects which make up the iGEM competition and the range of areas of synthetic biology they can work in and therefore its significance. As this was an introduction to students unaware previously of what iGEM is and with little knowledge on what synthetic biology is also, we wanted to present to them a taster of iGEM and Syn Bio in order to get them interested in getting involved in the iGEM Warwick Team 2022.

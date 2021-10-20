@@ -7,16 +7,13 @@ date: 2021-08-26T11:45:25+01:00
 draft: false
 ---
 
-## Lorem Ipsum
+## Building on what came before
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat malesuada
-dapibus. Integer aliquam eget risus a ornare. Sed rutrum felis ut eros varius,
-sit amet placerat metus dignissim. Cras non mauris ultricies, pulvinar tellus
-nec, suscipit tortor. Donec cursus euismod tellus, vitae pulvinar est faucibus
-et. Suspendisse fringilla aliquet porta. Fusce nec tortor eget ante vehicula
-placerat. Nulla dignissim quam nibh, ac tincidunt metus convallis eu. Sed nec
-tellus lacinia, elementum libero a, iaculis justo. Proin interdum placerat elit,
-et consectetur lectus feugiat non. In iaculis eros sit amet dui lobortis, eu
-consectetur sapien vestibulum. In urna elit, semper non maximus ut, tempor non
-diam. Nulla sodales lacus non dui mollis, vitae imperdiet magna pellentesque.
-Pellentesque non hendrerit nisl.
+Past Warwick iGEM teams have made extensive use of CRISPR as a detection tool –
+while our approach is rather different, particularly in our design usable in
+vitro, we nonetheless looked into their components; of these, the 2018 team,
+Ripple, caught our attention due to the number of applications they found for
+their detection system in assisting the bioremediation of water. One part we
+felt like we could add more information to was the [self-cleaving gRNA
+BBa_K2841513](http://parts.igem.org/wiki/index.php?title=Part:BBa_K2841513) the
+team engineered.
