@@ -30,10 +30,7 @@
       <pubDate>Thu, 14 Oct 2021 20:04:04 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Medal_Critera/</guid>
-      <description>SummaryThis page shows how we completed each of the medal criteria including the links to each of the pages. We worked very hard on our project, and hopefully it shows through our wiki pages and presentation video. CREscent to the moon!AttributionsOur attributions page
-Project DescriptionOur project description page
-ContributionsOur contributions page
-Engineering successWe were able to go through one complete iteration cycle and traverse a wide range of challenges.</description>
+      <description>SummaryThis page shows how we completed each of the medal criteria including the links to each of the pages. We worked very hard on our project, and hopefully it shows through our wiki pages and presentation video. CREscent to the moon!AttributionsWe have a huge number of people to thank for their help across the course of our project. Our attributions page lists the most notable formally, but there are undoubtable many more, along with our friends and family offering moral support for our work during the trying times of a global pandemic.</description>
     </item>
     
     <item>
@@ -42,7 +39,8 @@
       <pubDate>Thu, 14 Oct 2021 20:03:59 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Awards/</guid>
-      <description>A brief summary of the content of the page</description>
+      <description>Looking forward At the time of the wiki freeze, the projects have not been judged, nor have the awards been announced, so this page is empty - for now.
+As a team, we&amp;rsquo;ve put a huge amount of work into our project, and are genuinely proud of what we&amp;rsquo;ve managed to acheive, despite the limitations of the pandemic making meeting and collaboration that much harder. We hope that the judges will be impressed by the quality of work and effort we&amp;rsquo;ve put into the project!</description>
     </item>
     
     <item>
@@ -60,7 +58,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:32 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Sponsors/</guid>
-      <description>Our work was made possible by the generation contributions for our sponsors, who are listed below</description>
+      <description>Our work was made possible by the contributions of our generous sponsors listed below. We are truly grateful for their support</description>
     </item>
     
     <item>
@@ -115,7 +113,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:26 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Implementation/</guid>
-      <description>We designed our product with usability in mind – therefore its finished form would take the form of a tube with a cell-free solution swabs can be submerged into. The solution would contain all the necessary components to produce the fluorescent reporter without containing any living cells, eliminating the risk of contamination. Should the kit be successful, iterating on it to detect different genes would be trivial, as only the sensing portion of our cgRNA would need to be changed to complement the mRNA of interest.</description>
+      <description>This year as our final product we developed a test kit to meet our target criteria for the project, and should this kit be deployed in the current environment we believe it will have a big impact on CRE spread.</description>
     </item>
     
     <item>
@@ -160,7 +158,7 @@
       <pubDate>Thu, 26 Aug 2021 11:45:24 +0100</pubDate>
       
       <guid>https://warwick-igem-2021.github.io/Description/</guid>
-      <description>Carbapenem-resistant Enterobacteriaceae (CRE) are one of the symptoms of the ongoing antibiotic resistance crisis – as the name would suggest, they are resistant to carbapenems, a last resort antibiotic used in treating infections. Methods of testing them exist but are either slow or error-prone. We designed a detector system based on a CRISPR activation (CRISPRa) system to hopefully supplement currently existing methods. This would be able to be used on both swabs taken from patients and known reservoirs such as sinks and faucets.</description>
+      <description>Carbapenem-resistant Enterobacteriaceae (CRE) are one of the symptoms of the ongoing antibiotic resistance crisis – as the name would suggest, they are resistant to Carbapenems, a last resort antibiotic used in treating infections. Methods of testing them exist but are either slow or error-prone. We designed a detector system based on a CRISPR activation (CRISPRa) system to hopefully supplement currently existing methods. This would be able to be used on both swabs taken from patients and known reservoirs such as sinks and faucets.</description>
     </item>
     
   </channel>

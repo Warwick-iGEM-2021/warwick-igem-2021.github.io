@@ -92,24 +92,19 @@
         <script>
             var messages = [
                 "Generating witty dialog...",
-                "We need a new fuse...",
                 "...and enjoy the elevator music...",
                 "Go ahead -- hold your breath!",
                 "...at least you're not on hold...",
-                "Why don't you order a sandwich?",
                 "It's still faster than you could draw it",
                 "My other loading screen is much faster.",
-                "Reconfoobling energymotron...",
                 "Are we there yet?",
                 "Just count to 10",
                 "Don't panic...",
-                "Do not run! We are your friends!",
                 "Warning: Don't set yourself on fire.",
                 "Creating time-loop inversion field",
                 "Spinning the wheel of fortune...",
                 "I'm sorry Dave, I can't do that.",
                 "I feel like im supposed to be loading something...",
-                "Adjusting flux capacitor...",
                 "I swear it's almost done.",
                 "Let's take a mindfulness minute...",
                 "Cleaning off the cobwebs...",
@@ -120,34 +115,38 @@
                 "You shall not pass! yet...",
                 "Your left thumb points to the right and your right thumb points to the left.",
                 "How did you get here?",
-                "Wait, do you smell something burning?",
                 "Computing the secret to life, the universe, and everything.",
                 "Hello IT, have you tried turning it off and on again?",
-                "What is the airspeed velocity of an unladen swallow?",
                 "Hello, IT... Have you tried forcing an unexpected reboot?",
                 "Didn't know paint dried so quickly.",
                 "Twiddling thumbs...",
-                "Sending data to NS-i mean, our servers.",
                 "Looking for sense of humour, please hold on.",
                 "A different error message? Finally, some progress!",
                 "Distracted by cat gifs",
-                "@todo Insert witty loading message",
-                "Let's hope it's worth the wait",
                 "Whatever you do, don't look behind you...",
                 "Please wait... Consulting the manual...",
                 "Loading funny message...",
                 "Feel free to spin in your chair",
                 "Help, I'm trapped in a loader!",
                 "Never let a computer know you're in a hurry.",
-                "How about this weather, eh?",
                 "Reading Terms and Conditions for you.",
                 "Discovering new ways of making you wait...",
                 "Your time is very important to us. Please wait while we ignore you...",
-                "Time flies like an arrow; fruit flies like a banana",
-                "Two men walked into a bar; the third ducked...",
                 "TODO: Insert elevator music",
                 "We're working very Hard .... Really",
-                "You are number 2843684714 in the queue"
+                "Two blood cells met and fell in love. Sadly, it was all in vein.",
+                "Ants never get sick. They have little anty bodies",
+                "I wish I was adenine, then I could get paired with U.",
+                "What did Gregor Mendel say when he founded genetics? Woopea!",
+                "Did you hear about the man who got cooled to absolute zero? He’s 0K now.",
+                "I had to make these bad chemistry jokes because all the good ones Argon.",
+                "If I go to jail, my nickname would be mitochondria so I’m the powerhouse of the cell",
+                "When plants are sad, they photosympathise with each other.",
+                "Cows have hooves instead of feet, because they lactose",
+                "It’s going tibia okay.",
+                "Why did the germ cross the microscope? To get to the other slide.",
+                "What do you call an acid with an attitude? An a-mean-oh-acid",
+                "A dog and a marine biologist are quite similar. One wags a tail and the other tags a whale."
             ];
             
             var message = messages[Math.floor(Math.random() * messages.length)];
@@ -352,7 +351,7 @@ deal of work to validate our dry lab designs, which will be detailed below. We
 are pleased to report that despite not having enough time to achieve our end
 goals, we believe our project was at the very least partially successful.</p>
 <h2 id="initial-research">Initial research</h2>
-<p>After pinpointing the problem of carbapenem-resistance Enterobacteriaceae (CRE),
+<p>After pinpointing the problem of Carbapenem-resistance Enterobacteriaceae (CRE),
 we investigated several leads we had on detection methods. Ideas such as using
 bait-prey interactions between biosensors proved far too complicated to design
 and using specifically engineered bacteriophages to infect CRE with genes
@@ -362,17 +361,17 @@ and academics from our university – the use of CRISPR as a detection tool by
 engineering a guide RNA (gRNA) able to sense the presence of our target gene -
 known as CRISPR activation, or CRISPRa for short. As for the latter, as
 mentioned on the <a href="../Description">Description page</a>, we settled upon the detection
-of a particular carbapenemase known as OXA-48 (Fig.1). This was because its
-activity is slower than other carbapenemases, which made it more difficult to
+of a particular Carbapenemase known as OXA-48 (Fig.1). This was because its
+activity is slower than other Carbapenemases, which made it more difficult to
 quickly detect using available tests such as the Carba NP test – a result
 requires sampling and sequencing for a positive result.</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/engineering/full_complex.png" alt="The overall structure of the OXA-48 carbapenemase" class="centered-image" decoding="async"/>
+    <img src="../assets/content/engineering/full_complex.png" alt="The overall structure of the OXA-48 Carbapenemase" class="centered-image" decoding="async"/>
     
     
-        <p class="hugo-figure-caption">Fig. 1. The overall structure of the OXA-48 carbapenemase. It is made up of 4 identical chains (each labelled in a different colour) which assemble to form the full protein.</p>
+        <p class="hugo-figure-caption">Fig. 1. The overall structure of the OXA-48 Carbapenemase. It is made up of 4 identical chains (each labelled in a different colour) which assemble to form the full protein.</p>
     
 </div>
 
@@ -386,7 +385,7 @@ obtained from [1]).</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/engineering/FIG_2.png" alt="Figure 2" class="centered-image" decoding="async"/>
+    <img src="../assets/content/engineering/FIG_2.png" alt="Plasmid map of our &#39;operator&#39; plasmid" class="centered-image" decoding="async"/>
     
     
         <p class="hugo-figure-caption">Fig. 2. Plasmid map of our &lsquo;operator&rsquo; plasmid, encoding our cgRNAs and the CRISPRa system.</p>
@@ -416,44 +415,49 @@ turned our gRNA into a conditional gRNA (cgRNA).</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/engineering/FIG_3.png" alt="Figure 3" class="centered-image" decoding="async"/>
+    <img src="../assets/content/engineering/FIG_3.png" alt="Representation of our switch in an &#39;off&#39; state" class="centered-image" decoding="async"/>
     
     
-        <p class="hugo-figure-caption">Fig. 3.</p>
+        <p class="hugo-figure-caption">Fig.3. Representation of our switch in an &lsquo;off&rsquo; state.</p>
     
 </div>
 
 <p>As seen in the above figure, the cgRNA is made up of a number of distinct
 domains. In its natively folded state, the dCas9 binding handle (grey) adopts a
 conformation which prevents its binding to dCas9 – the system is thus in an
-“off” state.</p>
+&lsquo;off&rsquo; state.</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/engineering/FIG_4.png" alt="Figure 4" class="centered-image" decoding="async"/>
+    <img src="../assets/content/engineering/FIG_4.png" alt="Representation of our switch in an &#39;on&#39; state" class="centered-image" decoding="async"/>
     
     
-        <p class="hugo-figure-caption">Fig. 4.</p>
+        <p class="hugo-figure-caption">Fig. 4. Representation of our switch in an &lsquo;on&rsquo; state.</p>
     
 </div>
 
 <p>However, when the OXA-48 mRNA is present (the trigger, in purple), the two RNA
 molecules anneal, causing a significant conformational change in the secondary
 structure of the cgRNA, allowing it to bind dCas9 and switching the system into
-its “on” state, allowing the complex to bind to the PAM and activate
+its &lsquo;on&rsquo; state, allowing the complex to bind to the PAM and activate
 transcription as detalied in the CRISPRa section above.</p>
 <p>We simulated the secondary structure of our cgRNA in its natively folded form
 and when annealed to the mRNA in NUPACK, as seen in Fig. 5.</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/engineering/FIG_5.png" alt="Figure 5" class="centered-image" decoding="async"/>
+    <img src="../assets/content/engineering/FIG_5.png" alt="Diagrams of cgRNA structure" class="centered-image" decoding="async"/>
     
     
-        <p class="hugo-figure-caption">Fig. 5. (left) Diagram of the secondary structure of the cgRNA in its natively folded state. The dCas9 binding handle is misfolded, but the bonds in the blocking domain, shown in blue, are not particularly stable – this is indicative of the fact that the cgRNA can be brought out of this conformational state. (right) Diagram of the secondary structure of the cgRNA when annealed to the target mRNA - the conformation is drastically changed, and the dCas9 binding handle (at the top in this figure) has folded correctly.</p>
+        <p class="hugo-figure-caption">Fig. 5. (left) Diagram of the secondary structure of the cgRNA in its natively folded state. (right) Diagram of the secondary structure of the cgRNA when annealed to the target mRNA.</p>
     
 </div>
 
+<p>On the left of the figure, the dCas9 binding handle is misfolded, but the bonds
+in the blocking domain, shown in blue, are not particularly stable – this is
+indicative of the fact that the cgRNA can be brought out of this conformational
+state. On the right of the figure, the conformation is drastically changed, and
+the dCas9 binding handle (at the top in this figure) has folded correctly.</p>
 <h2 id="the-plasmids">The plasmids</h2>
 <p>All of these components and more were cloned into one of two plasmids, as seen
 in the schematic in Fig.6. As for reporters, we chose to keep the original sfGFP
@@ -463,21 +467,18 @@ non-toxic fluorogenic compound DFHBI.</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/engineering/gRNA_1.png" alt="Figure 6" class="centered-image" decoding="async"/>
+    <img src="../assets/content/engineering/FIG_6.png" alt="Schematic diagram of the two plasmids in our system" class="centered-image" decoding="async"/>
     
     
-</div>
-
-<div class="text-center">
-    
-    
-    <img src="../assets/content/engineering/gRNA_2.png" alt="Figure 7" class="centered-image" decoding="async"/>
-    
-    
-        <p class="hugo-figure-caption">Schematic diagram of the two plasmids in our system. Above is the schematic of the helper plasmid, encoding our trigger as well as dCas9 and a chloramphenicol resistance gene to assist with selection. Below is the schematic of a reporter plasmid, containing the two reporters – sfGFP and iSpinach – as well as a cgRNA, the MCP-SoxS CRISPRa system, and a kanamycin gene to assist with selection.</p>
+        <p class="hugo-figure-caption">Fig. 6. Schematic diagram of the two plasmids in our system.</p>
     
 </div>
 
+<p>Above is the schematic of the helper plasmid, encoding our trigger as well as
+dCas9 and a chloramphenicol resistance gene to assist with selection. Below is
+the schematic of a reporter plasmid, containing the two reporters – sfGFP and
+iSpinach – as well as a cgRNA, the MCP-SoxS CRISPRa system, and a kanamycin gene
+to assist with selection.</p>
 <p>The design is modular to allow for a large amount of control (Fig. 7)– the
 production of the cgRNA is inducible by arabinose (1) and the production of the
 trigger is inducible with anhydrotetracycline (ATC, 2), while both are required
@@ -502,10 +503,10 @@ in time, reaching the first iteration cycle.</p>
 <div class="text-center">
     
     
-    <img src="../assets/content/engineering/FIG_8.png" alt="Figure 8" class="centered-image" decoding="async"/>
+    <img src="../assets/content/engineering/FIG_8.png" alt="Representation of our lab plan. Top to bottom: foundation phase, improvement phase, engineering phase, production phase" class="centered-image" decoding="async"/>
     
     
-        <p class="hugo-figure-caption">Fig. 8.</p>
+        <p class="hugo-figure-caption">Fig. 8. Representation of our lab plan. Top to bottom: foundation phase, improvement phase, engineering phase, production phase.</p>
     
 </div>
 
@@ -514,7 +515,7 @@ in time, reaching the first iteration cycle.</p>
 University of Warwick using PCR – this gave us the linearised backbones which we
 would use in assembling the plasmids in the above sections. Our inserts were
 provided by IDT and included the OXA-48 gene (sequence obtained from [1]). It
-lacked a ribosome binding site as we did not want to proliferate carbapenemase
+lacked a ribosome binding site as we did not want to proliferate Carbapenemase
 resistance during our project. Other parts included the MCP-SoxS gene (sequence
 obtained from [3]). We used Gibson and Goldengate assembly techniques to assemble
 our helper and reporter plasmids, respectively.</p>
