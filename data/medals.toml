@@ -62,6 +62,6 @@
 
   [[medal_items.item]]
     name = "[Communication and Education](https://2021.igem.org/Team:Warwick/Communication)"
-    description = "Our communication and education discusses how through our resources and initiatives, we managed to make Synthetic Biology knowledge accessible to students from a wide range of backgrounds and academic levels."
+    description = "Our communication and education page discusses how through our resources and initiatives, we managed to make Synthetic Biology knowledge accessible to students from a wide range of backgrounds and academic levels."
     img = "/assets/content/medal_criteria/gold.png"
     alt = "A gold medal"

@@ -38,8 +38,8 @@ have dissimilar shapes.
 
 {{< centeredImage
         src="/assets/content/contribution/LiuP.jpg"
-        alt="Graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a PspF handle, the PspF activator and dCas9"
-        caption="Fig.1. Graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a PspF handle, the PspF activator and dCas9." >}}
+        alt="A graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a PspF handle, the PspF activator and dCas9"
+        caption="Fig. 1. A graph showing the extent of the activation of a reporter in a cell line expressing a gRNA with a PspF handle, the PspF activator and dCas9." >}}
 
 Read more about this on [the Parts Registry](http://parts.igem.org/Part:BBa_K2841513)
 
@@ -51,7 +51,12 @@ have published the code and documentation as open source under the MIT License,
 so it can be freely downloaded. We did this as we built the model to be
 inherently adaptible to a vast number of scenarios by either changing its
 parameters or some of its internal logic. You can read more about our model on
-the [Model page](/Model).
+our [model page](/Model).
+
+{{< centeredImage
+        src="/assets/content/contribution/webModel.png"
+        alt="A screenshot of the user interface for our interactive web based implementation of our model"
+        caption="Fig. 2. A screenshot of the user interface for our interactive web based implementation of our model" >}}
 
 We hope that other teams will find this model useful for their own work in
 similar fields in the future, as the code can easily be modified to be applied
