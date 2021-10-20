@@ -10,6 +10,7 @@ Human_Practices.md
 Implementation.md
 Medal_Critera.md
 Model.md
+Parts.md
 Planning.md
 Sponsors.md
 Team.md
