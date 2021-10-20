@@ -16,9 +16,9 @@ draft: false
 | Edmund | Wiki design, Wiki programming, Model design, Model programming                                            |
 | Jerry  | Wiki design, Promotional video production and editing, Presentation video production, filming and editing |
 | Lucy   |                                                                                                           |
-| Reanna |                                                                                                           |
-| Roman  |                                                                                                           |
-| Tudor  |                                                                                                           |
+| Reanna | Dry Lab, Wet Lab, Human Practices                                                                         |
+| Roman  | Implementation, test kit design                                                                           |
+| Tudor  | Dry lab, Wet lab                                                                                          |
 
 {{< new_sheet >}}
 
@@ -38,18 +38,29 @@ We'd like to thank those people who gave us advice on specific topic, allowing o
 
 - Alex Darlington, for meeting with us to discuss what we could improve about the modelling, and proof-reading the end result
 - Jonathan Goodman, for proof-reading the modelling draft
-- \_\_\_, for giving a seminar on using COPASI, and continued assistance with it throughout the project
+
+#### Dry lab
+
+- Jack Lawrence, project design and dry lab help
 
 #### Wet lab
 
-- PhD student #1
-- PhD student #2
-- ...
+- Sophie Jin, wet lab help and supervision
+- Jingfan Zhang, wet lab help and supervision
+- Sopida Wongwas, wet lab help and supervision
+- Jack Weaver, wet lab help and supervision
+- Patrick Capel, wet lab help
 
 #### Human practices
 
 ### iGEM teams
 
-- iGEM Manchester, for hosting wiki development codeathons TODO: insert badge
-- iGEM KCL, for hosting a virtual meetup
-- iGEM \_\_\_, for organising the postcard competition
+- iGEM KCL, for hosting the UK and Ireland Virtual Meetup
+- iGEM Dusseldorf, for organising the postcard competition
+- iGEM Mcmaster, for organising the song project
+- iGEM Mingdao, for joining us in a virtual meetup
+- iGEM Marseille, for organising the social media emoji game
+- iGEM Kores_HS, for organising the social media networking project
+- iGEM Stonybrook, for organising the Cyanobacteria Symposium
+- iGEM Taiwan, for organising the iASK Symposium
+- iGEM Manchester, for hosting wiki development codeathons

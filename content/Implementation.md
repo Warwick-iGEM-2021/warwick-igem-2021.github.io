@@ -1,7 +1,7 @@
 ---
 title: "Implementation"
-hero_img_fore: "/assets/content/implementation/splash_fore.png"
-hero_img_back: "/assets/content/implementation/splash_back.png"
+hero_img_fore: "/assets/content/implementation/splash_fore.jpg"
+hero_img_back: "/assets/content/implementation/splash_back.jpg"
 summary: "A brief summary of the content of the page"
 date: 2021-08-26T11:45:26+01:00
 draft: false
@@ -40,8 +40,6 @@ equipment. It would, however, need to be stored at low temperatures in order to
 keep the proteins in the extract (such as dCas9) functional for an extended
 period of time.
 
-TODO: Insert a big gallery of photos
-
 The kit’s use would be perfectly integrated into current procedures – after the
 patient has been swabbed once and the initial sample sent for sequencing, a
 second swab can be taken and placed into the tube. After a relatively short time
@@ -61,7 +59,27 @@ surfaces, it will require little training for any personnel in the organisation
 to carry out a test. The container of the kit and the testube rack are all made
 exclusively from cardboard which is widely recyclable, this is in the aim to
 minimise any environmental damage from a possible widespread deployment of these
-kits. 
+kits.
+
+## Gallery
+
+{{< carousel caption="Pictures of the kit box" >}}
+- /assets/content/implementation/b1.jpg, The front of our box
+- /assets/content/implementation/b2.jpg, The back of our box
+{{</ carousel >}}
+
+{{< carousel caption="Pictures of the kit open and ready for use" >}}
+- /assets/content/implementation/v1.jpg, The kit
+- /assets/content/implementation/v2.jpg, The kit
+- /assets/content/implementation/v3.jpg, The kit
+- /assets/content/implementation/v4.jpg, The kit
+- /assets/content/implementation/v5.jpg, The kit
+{{</ carousel >}}
+
+{{< carousel caption="Pictures of the kit with the instructions" >}}
+- /assets/content/implementation/i1.jpg, The kit with the front of our instructions
+- /assets/content/implementation/i2.jpg, The kit with the back of our instructions
+{{</ carousel >}}
 
 ## The bigger picture
 

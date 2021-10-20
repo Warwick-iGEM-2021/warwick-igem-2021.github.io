@@ -76,7 +76,7 @@ extremely informative and was a fantastic way to get to know another team
 working on a similar project.
 
 {{< centeredImage
-        src="/assets/content/collaborations/igemMingdaoWarwickMeetup.png"
+        src="/assets/content/collaborations/iGEMMingdaoWarwickMeetup.png"
         alt="A photo of the meetup with the iGEM Mingdao team"
         caption="A photo of the meetup with the iGEM Mingdao team" >}}
 
@@ -103,7 +103,7 @@ access to.
 
 {{< timeline_title >}}
 
-## Igem Kores_HS Social Media Networking project
+## iGEM Kores_HS Social Media Networking project
 
 {{< timeline_content >}}
 

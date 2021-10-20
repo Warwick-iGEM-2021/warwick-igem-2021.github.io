@@ -70,6 +70,18 @@ theme = "wiki-theme"
         identifier = "experiments"
         Name = "Experiments"
         URL = "/Experiments"
+    [[menu.main]]
+        weight = 22
+        parent = "lab"
+        identifier = "lab_book"
+        Name = "Lab book"
+        URL = "/Lab_Book"
+    [[menu.main]]
+        weight = 23
+        parent = "lab"
+        identifier = "parts"
+        Name = "Parts"
+        URL = "/Parts"
 
     ### Human practices tab
     [[menu.main]]
