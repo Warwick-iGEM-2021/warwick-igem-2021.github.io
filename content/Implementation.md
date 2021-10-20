@@ -2,7 +2,7 @@
 title: "Implementation"
 hero_img_fore: "/assets/content/implementation/splash_fore.png"
 hero_img_back: "/assets/content/implementation/splash_back.png"
-summary: "We designed our product with usability in mind – therefore its finished form would take the form of a tube with a cell-free solution swabs can be submerged into. The solution would contain all the necessary components to produce the fluorescent reporter without containing any living cells, eliminating the risk of contamination. Should the kit be successful, iterating on it to detect different genes would be trivial, as only the sensing portion of our cgRNA would need to be changed to complement the mRNA of interest."
+summary: "This year as our final product we developed a test kit to meet our target criteria for the project, and should this kit be deployed in the current environment we believe it will have a big impact on CRE spread. "
 date: 2021-08-26T11:45:26+01:00
 draft: false
 ---
@@ -51,15 +51,15 @@ quarantine of patients who are suspected of carrying CRE but turn up not
 carrying the bacteria. Other suspected reservoirs can also be tested very
 easily, including sinks, drains and faucets. Moreover, the kit was designed for
 simplicity of use. It includes a set of 4 step illustrated instructions, clearly
-labelled reagents, a testube rack and a distinct signal for a positive test.
+labelled reagents, a test-tube rack and a distinct signal for a positive test.
 This means that to carry out a test the personnel only need to be trained in
 swabbing patients. This also means that should the target organisation want to
 deploy this kit in a more extensive format, for example routine swabbing of
 surfaces, it will require little training for any personnel in the organisation
-to carry out a test. The container of the kit and the testube rack are all made
-exclusively from cardboard which is widely recyclable, this is in the aim to
-minimise any environmental damage from a possible widespread deployment of these
-kits.
+to carry out a test. The container of the kit and the test-tube rack are all
+made exclusively from cardboard which is widely recyclable, this is in the aim
+to minimise any environmental damage from a possible widespread deployment of
+these kits. 
 
 ## Gallery
 

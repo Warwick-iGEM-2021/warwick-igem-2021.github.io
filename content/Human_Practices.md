@@ -37,8 +37,8 @@ our project could make a greater impact.
 
 As a result, we spoke to a hospital-based geriatrician as a preliminary,
 non-compulsory scoping exercise to find out some rudimentary opinions. We found
-out that _E. coli_ and pneumococcus infections are the most common infections that
-they encounter and lead to a lot of problems. We also spoke to an ITU
+out that _E. coli_ and pneumococcus infections are the most common infections
+that they encounter and lead to a lot of problems. We also spoke to an ITU
 consultant, who told us a similar story with pneumococcus and Gram-negative
 infections causing the most issues. As a result, our initial thought was to
 target _Streptococcus pneumoniae_. However, this meant we would have had to work
@@ -46,9 +46,8 @@ in a category 2 laboratory, which would have been difficult to achieve under
 iGEM safety guidelines. Therefore, following the feedback from our preliminary
 research, it was suggested that we work with Gram-negative infection (_E. coli_)
 instead, as we could do this in a category 1 laboratory. When researching _E.
-coli_, we came across CRE as a major issue in a recently published [Public Health
-England
-report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923385/Framework_of_actions_to_contain_CPE.pdf).
+coli_, we came across CRE as a major issue in a recently published [Public
+Health England report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923385/Framework_of_actions_to_contain_CPE.pdf).
 This report made us decide that our project should be centred around CRE
 detection.
 
@@ -90,46 +89,53 @@ one strain of Carbapenem resistant bacteria, which would be of limited use in a
 hospital. You can view more detailed information about these meetings on [the
 planning page of our wiki](/Planning).
 
-We considered designing a faster way of diagnosing CRE in patients. However,
-after speaking to a palliative medicine consultant and an orthopaedic surgeon,
-we found out that hospitals nearly always already know what bacteria they are
-treating, especially because patients with CRE are likely already diagnosed with
-E. coli and on the correct treatment pathways (although the treatment is not
-working due to resistance). Furthermore, during a meeting with Dr Richard
-Hastings later that month, he informed us that there are many legal restrictions
-and regulations surrounding the use of biological products on humans. This led
-us to the realisation that it would be much more difficult to design a rapid
-detection method to diagnose human patients with CRE, and even longer to
-theoretically get it approved and certified for use in hospitals. As a result,
-while potentially useful it would take a long time to deploy, and other methods
-could start tackling the problem faster.
+While we originally considered designing a faster way of diagnosing CRE in
+patients, we encountered two problems. After speaking to a palliative medicine
+consultant and an orthopaedic surgeon, we found out that hospitals nearly always
+already know what bacteria they are treating. While they do not know whether
+said bacteria has any resistances, it does make diagnosing CRE more generally a
+superfluous task. Instead, trying to identify resistances more specifically
+would be more useful. Secondly, during a meeting with Dr Richard Hastings later
+that month, he informed us that there are many legal restrictions and
+regulations surrounding the use of biological products on humans. That meant it
+would be difficult to design a rapid detection method to diagnose human patients
+with CRE. It would also take much longer to theoretically get it approved and
+certified for use in hospitals. As a result, we looked at other ways to detect
+CRE.
 
 {{< centeredImage
         src="/assets/content/planning/Richard_Hastings_meeting.png"
         alt="A photo of our meeting with Richard Hastings"
         caption="A photo of our meeting with Richard Hastings" >}}
 
-Following Dr Richard Hastings advice, we decided that containing the spread of
-CRE by targeting reservoirs like sinks and faucets would have a bigger impact
-and be more achievable. One reason was that it would work to prevent patients
-from becoming infected in the first place rather than just diagnosing one
-patient's specific stage of antibiotic resistance. Another important reason was
-that regulations around surface testing are far more relaxed and require far
-less time to be tested and approved, leading to an earlier potential deployment
-of our product. As a result, we designed our product to be used to test surfaces
-for seamless integration into current procedures, as any swabs currently taken
-for CRE can also be used with our device. It would also be relatively easy to
-adapt out product for direct patient testing, and while this is not the direct
-focus of our product in aims of a fast deployment, we decided it was something
-worth exploring as possible follow up to the deployment of our surface testing
-kit.
+Following Dr Hastings' advice, we decided that containing the spread of CRE by
+targeting reservoirs like sinks and faucets would have a bigger impact and be
+more achievable. This would work to prevent patients from becoming infected in
+the first place rather than just diagnosing one patient's specific stage of
+antibiotic resistance. Furthermore, regulations around surface testing are far
+more relaxed and require far less time to be tested and approved, leading to an
+earlier potential deployment of our product. As a result, we designed our
+product to be used to test surfaces. This would seamlessly integrate into
+current procedures, as any swabs already taken for CRE can also be used with our
+device. Furthermore, adapting our product for direct patient testing in the
+future would be technically easy. While patient testing is not the direct focus
+of our product in aims of a fast deployment, we consider it something possibly
+worth exploring in the future.
 
-Furthermore, if our product contained living cells, an orthopaedic surgeon we
-contacted informed us that the risk of contamination meant it would not get
-approval to be used in a hospital environment. This led us to investigate the
-possibility of designing a cell-free system, where living cells would be lysed,
-and the final product would only contain the necessary components from those
-cells with no risk of contamination.
+Another important consideration was the safety of the contents of our testing
+kit, to ensure regulatory compliance. After our meeting with Dr Hastings we were
+inclined to look further into regulations, to ensure our final product was
+viable. These inquires made us realise the use of malachite green, a strong
+irritant, in our testing kit was a potential issue. Therefore we further adapted
+our product by using a combination of iSpinach, a safer RNA, and harmless
+fluorophore called DFHBI for the same purpose. The use of living cells in our
+testing kit further also proved a problem. An orthopaedic surgeon we contacted
+informed us that the risk of contamination meant our product would possibly not
+get approval for use in hospitals. This led us to investigate the possibility of
+designing a cell-free system, where living cells would be lysed. Our goal was to
+design the final product such that it would only contain the necessary
+components from those cells, with no risk of contamination. In these ways,
+safety and adherence to regulations were central to the development process.
 
 {{< div_end >}}
 
@@ -160,19 +166,18 @@ implementation page on our wiki](/Implementation).
 {{< timeline_content >}}
 
 In September we designed a survey to assess how aware the general public were of
-CRE. After gaining ethical approval, the survey was created using Qualtrics,
-then distributed via email to all SLS undergraduate students at the University
-of Warwick and posted on our official Warwick iGEM Instagram and Twitter pages.
-The survey contained 4 questions, as you can see below.
+CRE. After gaining ethical approval, the survey was created using Qualtrics and
+distributed both via email to all SLS undergraduate students at the University
+of Warwick and via our official Warwick iGEM Instagram and Twitter pages. The
+survey contained 4 questions, as you can see below.
 
 {{< centeredImage
         src="/assets/content/human_practices/SurveyPhoto.png"
         alt="A photo of the survey questions"
         caption="A photo of the survey questions" >}}
 
-We managed to obtain 508 results, which was fantastic! We had a strong range of
-ages too, meaning that our survey responses are likely to be representative of
-the whole population.
+We managed to obtain 508 responses from a large range of ages, meaning the
+results should be relatively representative.
 
 {{< centeredImage
         src="/assets/content/human_practices/SurveyResults1.svg"
@@ -180,8 +185,8 @@ the whole population.
         caption="A bar chart showing the breakdown of the age ranges of the survey's respondents" >}}
 
 In response to the first question, we found that the majority of the public
-(91%) were aware that some bacteria are resistant to antibiotics, so this seemed
-to be relatively common knowledge. However, when asked about CRE in particular,
+(91%) were aware that some bacteria are resistant to antibiotics. While this
+seemed to be relatively common knowledge, when asked about CRE in particular,
 only 14% had heard of it before participating in our survey.
 
 {{< centeredImage
@@ -205,11 +210,6 @@ not heard of the infection before.
         src="/assets/content/human_practices/SurveyResults5.png"
         alt="A table showing the age breakdown of whether people are aware of CRE"
         caption="A table showing the age breakdown of whether people are aware of CRE" >}}
-
-{{< centeredImage
-        src="/assets/content/human_practices/SurveyResults6.svg"
-        alt="Pie charts showing the age breakdown of whether people are aware of CRE"
-        caption="Pie charts showing the age breakdown of whether people are aware of CRE" >}}
 
 Next, we looked at the subset of the population who had heard of CRE before
 participating in our survey and discovered that they were most likely to be
@@ -251,22 +251,28 @@ page of our Wiki](/Communication)
 {{< timeline_content >}}
 
 During this time, we were developing a model to try to show how effective our
-solution could be if deployed. However, up until this point the model didn’t
-show our product having a positive effect and changing the outcome of the model
-(the final number of people immune, dead or with carbapenem resistance). This
-was due to a fault in the logic in the initial design of the model. The issue
-was that we were putting people into isolation if they were being treated with
-carbapenems, but our product only detects people with carbapenem resistance,
-which only develops if you have been treated with carbapenems. Therefore, the
-product had little effect as almost everyone it could detect was already in
-isolation.
+solution could be if deployed. However, up until this point the model did not
+show our product having much of an effect on the outcome of our simulations.
+There seemed to be little change in the number of patients who acquired
+pathogens resistant to carbapenems or patients that died. This was due to a
+fault in the logic in the initial design of the model. The issue was that the
+model put people into isolation if they were being treated with carbapenems.
+However, that implies the hospital does not believe the patient can be resistant
+against carbapenems, as then carbapenem treatment would be ineffective. This was
+therefore not only unrealistic (only carbapenem resistance should have been
+identified as an issue worthy notable enough to require isolation), but meant
+our product was barely useful. The product only detects people with carbapenem
+resistance, which requires a patient to be treated with carbapenems for it to
+develop. Therefore, the product had little effect, as almost everyone it could
+identify was already in isolation.
 
 As a result, we reached out to Dr Alexander Darlington, who suggested that we
-included an additional last-resort drug (e.g. colistin) which would allow
+include an additional last-resort drug (e.g. colistin), which would allow
 patients treated with colistin to be placed into isolation rather than those
-treated with carbapenems. This meant patients were unrealistically placed into
-isolation. Therefore, we adapted the model and make the appropriate changes. You
-can view the final model [on the model page of our Wiki](/Model)
+treated with carbapenems. Therefore, we adapted the model and made the
+appropriate changes, meaning a more realistic number of people were put into
+isolation while allowing our product to be useful. You can view the final model
+[on the model page of our Wiki](/Model)
 
 {{< div_end >}}
 

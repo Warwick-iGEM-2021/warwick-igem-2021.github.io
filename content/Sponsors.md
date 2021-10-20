@@ -2,7 +2,7 @@
 title: "Sponsors"
 hero_img_fore: "/assets/content/sponsors/splash_fore.png"
 hero_img_back: "/assets/content/sponsors/splash_back.png"
-summary: "Our work was made possible by the generation contributions for our sponsors, who are listed below"
+summary: "Our work was made possible by the contributions of our generous sponsors listed below. We are truly grateful for their support"
 date: 2021-08-26T11:45:32+01:00
 draft: false
 ---
