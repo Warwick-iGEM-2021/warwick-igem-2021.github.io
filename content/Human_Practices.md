@@ -21,7 +21,15 @@ on a surface would begin to fluoresce if it was resistant to the disinfectant.
 As a result, we contacted and held a meeting with Dr Richard Hastings, the
 Healthcare Regulatory and Technical Manager at
 [Mirius](https://www.mirius.com/), a company producing disinfectants and other
-cleaning solutions. Following this discussion, we decided that a swab-based
+cleaning solutions.
+
+{{< centeredImage
+        src="/assets/content/human_practices/Richard_Hastings_meeting.png"
+        alt="A photo of our meeting with Richard Hastings"
+        caption="A photo of our meeting with Richard Hastings" >}}
+
+
+Following this discussion, we decided that a swab-based
 approach would be preferred over a spray-based one. The main reason was that the
 concentration of our product, when sprayed onto a large surface, would be
 unknown and would vary widely. This would lead to varying and unreliable

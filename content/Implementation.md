@@ -59,7 +59,7 @@ surfaces, it will require little training for any personnel in the organisation
 to carry out a test. The container of the kit and the test-tube rack are all
 made exclusively from cardboard which is widely recyclable, this is in the aim
 to minimise any environmental damage from a possible widespread deployment of
-these kits. 
+these kits.
 
 ## Gallery
 

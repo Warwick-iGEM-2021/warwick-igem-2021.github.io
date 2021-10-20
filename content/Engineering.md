@@ -48,7 +48,7 @@ obtained from [1]).
 
 {{< centeredImage
         src="/assets/content/engineering/FIG_2.png"
-        alt="Figure 2"
+        alt="Plasmid map of our 'operator' plasmid"
         caption="Fig. 2. Plasmid map of our 'operator' plasmid, encoding our cgRNAs and the CRISPRa system." >}}
 
 Our CRISPRa system was engineered with all the controls in mind – each component
@@ -77,23 +77,23 @@ turned our gRNA into a conditional gRNA (cgRNA).
 
 {{< centeredImage
         src="/assets/content/engineering/FIG_3.png"
-        alt="Figure 3"
-        caption="Fig. 3." >}}
+        alt="Representation of our switch in an 'off' state"
+        caption="Fig.3. Representation of our switch in an 'off' state." >}}
 
 As seen in the above figure, the cgRNA is made up of a number of distinct
 domains. In its natively folded state, the dCas9 binding handle (grey) adopts a
 conformation which prevents its binding to dCas9 – the system is thus in an
-“off” state.
+'off' state.
 
 {{< centeredImage
         src="/assets/content/engineering/FIG_4.png"
-        alt="Figure 4"
-        caption="Fig. 4." >}}
+        alt="Representation of our switch in an 'on' state"
+        caption="Fig. 4. Representation of our switch in an 'on' state." >}}
 
 However, when the OXA-48 mRNA is present (the trigger, in purple), the two RNA
 molecules anneal, causing a significant conformational change in the secondary
 structure of the cgRNA, allowing it to bind dCas9 and switching the system into
-its “on” state, allowing the complex to bind to the PAM and activate
+its 'on' state, allowing the complex to bind to the PAM and activate
 transcription as detalied in the CRISPRa section above.
 
 We simulated the secondary structure of our cgRNA in its natively folded form
@@ -101,8 +101,14 @@ and when annealed to the mRNA in NUPACK, as seen in Fig. 5.
 
 {{< centeredImage
         src="/assets/content/engineering/FIG_5.png"
-        alt="Figure 5"
-        caption="Fig. 5. (left) Diagram of the secondary structure of the cgRNA in its natively folded state. The dCas9 binding handle is misfolded, but the bonds in the blocking domain, shown in blue, are not particularly stable – this is indicative of the fact that the cgRNA can be brought out of this conformational state. (right) Diagram of the secondary structure of the cgRNA when annealed to the target mRNA - the conformation is drastically changed, and the dCas9 binding handle (at the top in this figure) has folded correctly." >}}
+        alt="Diagrams of cgRNA structure"
+        caption="Fig. 5. (left) Diagram of the secondary structure of the cgRNA in its natively folded state. (right) Diagram of the secondary structure of the cgRNA when annealed to the target mRNA." >}}
+
+On the left of the figure, the dCas9 binding handle is misfolded, but the bonds
+in the blocking domain, shown in blue, are not particularly stable – this is
+indicative of the fact that the cgRNA can be brought out of this conformational
+state. On the right of the figure, the conformation is drastically changed, and
+the dCas9 binding handle (at the top in this figure) has folded correctly.
 
 ## The plasmids
 
@@ -113,13 +119,15 @@ this RNA produces a strong green fluorescent signal when combined with the
 non-toxic fluorogenic compound DFHBI.
 
 {{< centeredImage
-        src="/assets/content/engineering/gRNA_1.png"
-        alt="Photo of gRNA" >}}
+        src="/assets/content/engineering/FIG_6.png"
+        alt="Schematic diagram of the two plasmids in our system"
+        caption="Fig. 6. Schematic diagram of the two plasmids in our system." >}}
 
-{{< centeredImage
-        src="/assets/content/engineering/gRNA_2.png"
-        alt="Photo of gRNA"
-        caption="Schematic diagram of the two plasmids in our system. Above is the schematic of the helper plasmid, encoding our trigger as well as dCas9 and a chloramphenicol resistance gene to assist with selection. Below is the schematic of a reporter plasmid, containing the two reporters – sfGFP and iSpinach – as well as a cgRNA, the MCP-SoxS CRISPRa system, and a kanamycin gene to assist with selection." >}}
+Above is the schematic of the helper plasmid, encoding our trigger as well as
+dCas9 and a chloramphenicol resistance gene to assist with selection. Below is
+the schematic of a reporter plasmid, containing the two reporters – sfGFP and
+iSpinach – as well as a cgRNA, the MCP-SoxS CRISPRa system, and a kanamycin gene
+to assist with selection.
 
 The design is modular to allow for a large amount of control (Fig. 7)– the
 production of the cgRNA is inducible by arabinose (1) and the production of the
@@ -142,8 +150,8 @@ in time, reaching the first iteration cycle.
 
 {{< centeredImage
         src="/assets/content/engineering/FIG_8.png"
-        alt="Figure 8"
-        caption="Fig. 8." >}}
+        alt="Representation of our lab plan. Top to bottom: foundation phase, improvement phase, engineering phase, production phase"
+        caption="Fig. 8. Representation of our lab plan. Top to bottom: foundation phase, improvement phase, engineering phase, production phase." >}}
 
 We began by extracting the necessary components from existing plasmids
 (PAJ-379-C1 and PAJ-390-C2 [4]) from Professor Alfonso Jaramillo’s lab at the
