@@ -281,6 +281,11 @@ our rapid test kit, and hope that this will be adopted by hospitals in the
 future to help detect CRE on surfaces or in patients, depending on what happens
 with the technology we have designed.
 
+{{< centeredImage
+        src="/assets/content/human_practices/test_kit.jpg"
+        alt="A photo of the prototype test kit"
+        caption="A photo of the prototype test kit" >}}
+
 {{< div_end >}}
 
 {{< timeline_end >}}

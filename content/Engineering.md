@@ -33,7 +33,7 @@ quickly detect using available tests such as the Carba NP test – a result
 requires sampling and sequencing for a positive result.
 
 {{< centeredImage
-        src="https://picsum.photos/200/300"
+        src="/assets/content/engineering/full_complex.png"
         alt="The overall structure of the OXA-48 carbapenemase"
         caption="Fig. 1. The overall structure of the OXA-48 carbapenemase. It is made up of 4 identical chains (each labelled in a different colour) which assemble to form the full protein." >}}
 
@@ -47,9 +47,9 @@ obtained from [1]).
 ## CRISPRa
 
 {{< centeredImage
-        src="https://picsum.photos/200/300"
+        src="/assets/content/engineering/FIG_2.png"
         alt="Figure 2"
-        caption="Fig. 2." >}}
+        caption="Fig. 2. Plasmid map of our 'operator' plasmid, encoding our cgRNAs and the CRISPRa system." >}}
 
 Our CRISPRa system was engineered with all the controls in mind – each component
 of the circuit is thus inducible. To make this easier, we settled upon using E.
@@ -76,7 +76,7 @@ another condition to this binding – the presence of our target mRNA – this
 turned our gRNA into a conditional gRNA (cgRNA).
 
 {{< centeredImage
-        src="https://picsum.photos/200/300"
+        src="/assets/content/engineering/FIG_3.png"
         alt="Figure 3"
         caption="Fig. 3." >}}
 
@@ -86,7 +86,7 @@ conformation which prevents its binding to dCas9 – the system is thus in an
 “off” state.
 
 {{< centeredImage
-        src="https://picsum.photos/200/300"
+        src="/assets/content/engineering/FIG_4.png"
         alt="Figure 4"
         caption="Fig. 4." >}}
 
@@ -100,7 +100,7 @@ We simulated the secondary structure of our cgRNA in its natively folded form
 and when annealed to the mRNA in NUPACK, as seen in Fig. 5.
 
 {{< centeredImage
-        src="https://picsum.photos/200/300"
+        src="/assets/content/engineering/FIG_5.png"
         alt="Figure 5"
         caption="Fig. 5. (left) Diagram of the secondary structure of the cgRNA in its natively folded state. The dCas9 binding handle is misfolded, but the bonds in the blocking domain, shown in blue, are not particularly stable – this is indicative of the fact that the cgRNA can be brought out of this conformational state. (right) Diagram of the secondary structure of the cgRNA when annealed to the target mRNA - the conformation is drastically changed, and the dCas9 binding handle (at the top in this figure) has folded correctly." >}}
 
@@ -113,13 +113,13 @@ this RNA produces a strong green fluorescent signal when combined with the
 non-toxic fluorogenic compound DFHBI.
 
 {{< centeredImage
-        src="https://picsum.photos/200/300"
+        src="/assets/content/engineering/gRNA_1.png"
         alt="Figure 6" >}}
 
 {{< centeredImage
-        src="https://picsum.photos/200/300"
+        src="/assets/content/engineering/gRNA_2.png"
         alt="Figure 7"
-        caption="Schematic diagram of the two plasmids in our system. On the left is the schematic of the helper plasmid, encoding our trigger as well as dCas9 and a chloramphenicol resistance gene to assist with selection. On the right is the schematic of a reporter plasmid, containing the two reporters – sfGFP and iSpinach – as well as a cgRNA, the MCP-SoxS CRISPRa system, and a kanamycin gene to assist with selection." >}}
+        caption="Schematic diagram of the two plasmids in our system. Above is the schematic of the helper plasmid, encoding our trigger as well as dCas9 and a chloramphenicol resistance gene to assist with selection. Below is the schematic of a reporter plasmid, containing the two reporters – sfGFP and iSpinach – as well as a cgRNA, the MCP-SoxS CRISPRa system, and a kanamycin gene to assist with selection." >}}
 
 The design is modular to allow for a large amount of control (Fig. 7)– the
 production of the cgRNA is inducible by arabinose (1) and the production of the
@@ -128,7 +128,7 @@ for the activation of dCas9 (3). Only when this occurs does MCP-SoxS (4)
 exercise its enhancing activity upon the sfGFP promoter (5).
 
 {{< centeredImage
-        src="https://picsum.photos/200/300"
+        src="/assets/content/engineering/FIG_7.png"
         alt="Figure 7"
         caption="Fig. 7. Schematic representation of the cgCRISPR sensing device." >}}
 
@@ -141,7 +141,7 @@ supply chain issues, we were only able to assemble the first reporter plasmids
 in time, reaching the first iteration cycle.
 
 {{< centeredImage
-        src="https://picsum.photos/200/300"
+        src="/assets/content/engineering/FIG_8.png"
         alt="Figure 8"
         caption="Fig. 8." >}}
 

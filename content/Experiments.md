@@ -20,6 +20,18 @@ Jaramillo’s lab Prepared plates with appropriate antibiotics for selection
 (spectinomycin for all Z1 cells, chloramphenicol for PAJ-390, kanamycin for
 PAJ-379) Plated cells
 
+{{< centeredImage
+    src="/assets/content/experiments/1.png"
+    alt="Figure 1" >}}
+
+{{< centeredImage
+    src="/assets/content/experiments/8.png"
+    alt="Figure 8" >}}
+
+{{< centeredImage
+    src="/assets/content/experiments/9.png"
+    alt="Figure 9" >}}
+
 {{< div_end >}}
 
 {{< timeline_title >}}
@@ -64,6 +76,10 @@ First, we plated the SAJ-351 cells which contained the 390 (dCas9) plasmids. We
 also miniprepped the 379 (GFP) plasmid and obtained a concentration of 26.8
 ng/µl.
 
+{{< centeredImage
+    src="/assets/content/experiments/2.png"
+    alt="Figure 2" >}}
+
 {{< div_end >}}
 
 {{< timeline_title >}}
@@ -101,7 +117,9 @@ so the cells were not killed in the procedure and the error lied with either the
 transformation procedure, the concentration of the 379 plasmids, the competence
 of the cells or the 379 plasmid itself.
 
-INSERT PHOTO HERE
+{{< centeredImage
+    src="/assets/content/experiments/3.png"
+    alt="Figure 3" >}}
 
 {{< div_end >}}
 
@@ -128,7 +146,9 @@ Kan/Spec/Chlor plate was either the 379 plasmid itself or the concentration of
 the 379 plasmids, as it was very low. Therefore, we re-did the 379 plasmid
 miniprep and received a concentration of 40.7 ng/µl
 
-INSERT PHOTO HERE
+{{< centeredImage
+    src="/assets/content/experiments/4.png"
+    alt="Figure 4" >}}
 
 We also ran a restriction digest on the 379 plasmids to see whether there were
 any unexpected results. The results were inconclusive – after running the gel
@@ -137,7 +157,9 @@ there was still no visible ladder. We ran the gel again for another 20 minutes,
 but unfortunately the agarose melted which meant we had to try again another
 day.
 
-INSERT PHOTO HERE
+{{< centeredImage
+    src="/assets/content/experiments/5.png"
+    alt="Figure 5" >}}
 
 We repeated the restriction digest on 31/08/21 and it appears that it may have
 worked as we have somewhat of a visible ladder, but the integrity of the gel was
@@ -177,7 +199,9 @@ using the new miniprep of 379 plasmid. On the same day, we carried out another
 miniprep of the 379 plasmids to increase the yield to 242.7 ng/µl as a backup in
 case the transformation failed again.
 
-INSERT PHOTO HERE
+{{< centeredImage
+    src="/assets/content/experiments/2.png"
+    alt="Figure 6" >}}
 
 However, the transformation was a success, creating a cell line which we called
 PAJ! A single colony grew on the Kan/Spec/Chlor plate, meaning it contained the
@@ -186,7 +210,9 @@ plasmid with the kanamycin resistance gene. This colony was replated on the
 cultures and run different experiments. The success of the transformation meant
 we did not need to repeat the restriction digest of the 379 plasmid.
 
-INSERT PHOTO HERE
+{{< centeredImage
+    src="/assets/content/experiments/2.png"
+    alt="Figure 7" >}}
 
 {{< div_end >}}
 
