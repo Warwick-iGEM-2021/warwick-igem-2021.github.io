@@ -2,7 +2,7 @@
 title: "Description"
 hero_img_fore: "/assets/content/description/splash_fore.png"
 hero_img_back: "/assets/content/description/splash_back.png"
-summary: "Carbapenem-resistant Enterobacteriaceae (CRE) are one of the symptoms of the ongoing antibiotic resistance crisis – as the name would suggest, they are resistant to carbapenems, a last resort antibiotic used in treating infections. Methods of testing them exist but are either slow or error-prone. We designed a detector system based on a CRISPR activation (CRISPRa) system to hopefully supplement currently existing methods. This would be able to be used on both swabs taken from patients and known reservoirs such as sinks and faucets."
+summary: "Carbapenem-resistant Enterobacteriaceae (CRE) are one of the symptoms of the ongoing antibiotic resistance crisis – as the name would suggest, they are resistant to Carbapenems, a last resort antibiotic used in treating infections. Methods of testing them exist but are either slow or error-prone. We designed a detector system based on a CRISPR activation (CRISPRa) system to hopefully supplement currently existing methods. This would be able to be used on both swabs taken from patients and known reservoirs such as sinks and faucets."
 date: 2021-08-26T11:45:24+01:00
 draft: false
 ---
@@ -18,20 +18,20 @@ has the disadvantage. The term “post-antibiotic era” had already been
 established as early as 2010 [2], but a way to end the crisis has remained elusive.
 
 Carbapenem resistant Enterobacteriaceae (CRE), also known as
-carbapenemase-producing Enterobacteriaceae (CPE) are a part of this phenomenon.
+Carbapenemase-producing Enterobacteriaceae (CPE) are a part of this phenomenon.
 As their name would suggest, these bacteria, including strains of species like
 *Klebsiella pneumoniae* and *Escherichia coli*, which have developed resistance
-mechanism to a family of antibiotics known as carbapenems. Carbapenems in many
+mechanism to a family of antibiotics known as Carbapenems. Carbapenems in many
 cases are used as“last resort” antibiotics for the treatment of infections.
-Resistance to carbapenems is often assessed through routine swabbing when
+Resistance to Carbapenems is often assessed through routine swabbing when
 patients are admitted into hospitals, but a positive result has a turnaround
 time on the scale of days.
 
 Faster tests, such as the Carba NP test, exist, but they are not effective in
-detecting all the possible carbapenem resistance mechanisms [3] [4], leaving open the
+detecting all the possible Carbapenem resistance mechanisms [3] [4], leaving open the
 possibility for false negatives. Patients who test positive for CRE are
 isolated, but the aforementioned long turnaround time and potential for false
-negatives can lead to a window of unchecked spread of carbapenem resistance
+negatives can lead to a window of unchecked spread of Carbapenem resistance
 throughout a hospital ward.
 
 Our team has designed a novel detection method based on riboswitch-guided CRISPR
@@ -46,8 +46,8 @@ We drew upon previously existing work in the field of CRISPR activation
 inspiration. This exposed us to the many possibilities for iteration and
 improvement. More importantly, they showed us how the CRISPRa system has a high
 degree of specificity. This would be extremely useful in our application as we
-wanted to detect a specific strain of carbapenemase resistance. As a detection
-target, we settled upon a carbapenemase known as OXA-48, due to the difficulty
+wanted to detect a specific strain of Carbapenemase resistance. As a detection
+target, we settled upon a Carbapenemase known as OXA-48, due to the difficulty
 of its rapid detection, even with the Carba NP test, due to its slow activity. 
 
 We settled upon the design of a guide RNA (gRNA) which, under normal conditions,

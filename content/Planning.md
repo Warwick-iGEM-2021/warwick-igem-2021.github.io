@@ -93,7 +93,7 @@ Current detection methods for CRE require a lab and take 4-5 days for a sample
 to be processed. This can lead to large outbreaks in hospitals, due to a delay
 in results. We decided to think about how we could design a rapid detection
 method which would be used by cleaning staff without training, and which would
-eliminate the need for a lab. If carbapenem resistant bacteria were present on a
+eliminate the need for a lab. If Carbapenem resistant bacteria were present on a
 swab, the sample would fluoresce to indicate a positive result.
 
 {{< div_end >}}
@@ -117,11 +117,11 @@ how to tackle this problem.
 
 {{< timeline_content >}}
 
-Dr Harrison is a specialist on carbapenem resistance, who we contacted to learn
+Dr Harrison is a specialist on Carbapenem resistance, who we contacted to learn
 about the best ways of targeting these bacteria. We were advised to look at
 broad spectrum detection, and the possibility of using specific phages of
 peptidoglycan layer tagging. We also learnt a lot about the importance of
-looking at the infectious dose, how carbapenem resistance spreads, and issues
+looking at the infectious dose, how Carbapenem resistance spreads, and issues
 surrounding biofilms
 
 {{< div_end >}}
@@ -134,9 +134,9 @@ surrounding biofilms
 
 Dr Sagona is a phage therapy specialist who we contacted about the possibility
 of using phages. We discovered that this would likely be too specific, as we
-would only be able to target one strain of carbapenem resistant bacteria. This
+would only be able to target one strain of Carbapenem resistant bacteria. This
 would be of limited use in a hospital, due to the wide range of different
-carbapenem resistant _Enterobacteriaceae_.
+Carbapenem resistant _Enterobacteriaceae_.
 
 {{< div_end >}}
 
@@ -150,7 +150,7 @@ After reading extensively around the subject of CRE, we came across a gene
 called OXA-48, which we decided we would select as our target. This is because
 there are not currently any existing methods which can detect this gene either
 efficiently or quickly. If this gene was present in a bacterial cell, this would
-enable us to identify that the bacterium was resistant to carbapenems. In our
+enable us to identify that the bacterium was resistant to Carbapenems. In our
 next weekly meeting, we also decided that we wanted to use a CRISPR-based
 approach in order to accurately identify the presence of this gene in an
 organism.
@@ -186,7 +186,7 @@ would be more achievable for us, and we would be able to do it more effectively.
 {{< timeline_content >}}
 
 We met with Jack Lawrence, a member of the 2018 Warwick iGEM team, to discuss
-the use of CRISPR to detect carbapenem resistance. This was an extremely
+the use of CRISPR to detect Carbapenem resistance. This was an extremely
 productive meeting, as we designed the gRNAs we would use to allow the dCas9
 protein to bind to our target gene (OXA-48) using NUPACK. Soon after, we had a
 second meeting where we designed the plasmids, we wanted to engineer to get this

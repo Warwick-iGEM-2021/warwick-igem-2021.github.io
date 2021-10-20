@@ -17,7 +17,7 @@ goals, we believe our project was at the very least partially successful.
 
 ## Initial research
 
-After pinpointing the problem of carbapenem-resistance Enterobacteriaceae (CRE),
+After pinpointing the problem of Carbapenem-resistance Enterobacteriaceae (CRE),
 we investigated several leads we had on detection methods. Ideas such as using
 bait-prey interactions between biosensors proved far too complicated to design
 and using specifically engineered bacteriophages to infect CRE with genes
@@ -27,15 +27,15 @@ and academics from our university – the use of CRISPR as a detection tool by
 engineering a guide RNA (gRNA) able to sense the presence of our target gene -
 known as CRISPR activation, or CRISPRa for short. As for the latter, as
 mentioned on the [Description page](/Description), we settled upon the detection
-of a particular carbapenemase known as OXA-48 (Fig.1). This was because its
-activity is slower than other carbapenemases, which made it more difficult to
+of a particular Carbapenemase known as OXA-48 (Fig.1). This was because its
+activity is slower than other Carbapenemases, which made it more difficult to
 quickly detect using available tests such as the Carba NP test – a result
 requires sampling and sequencing for a positive result.
 
 {{< centeredImage
         src="/assets/content/engineering/full_complex.png"
-        alt="The overall structure of the OXA-48 carbapenemase"
-        caption="Fig. 1. The overall structure of the OXA-48 carbapenemase. It is made up of 4 identical chains (each labelled in a different colour) which assemble to form the full protein." >}}
+        alt="The overall structure of the OXA-48 Carbapenemase"
+        caption="Fig. 1. The overall structure of the OXA-48 Carbapenemase. It is made up of 4 identical chains (each labelled in a different colour) which assemble to form the full protein." >}}
 
 Detecting DNA, however, has a chance of giving false positives as DNA can be
 left over from dead bacteria after, for example, treatment of a surface with
@@ -158,7 +158,7 @@ We began by extracting the necessary components from existing plasmids
 University of Warwick using PCR – this gave us the linearised backbones which we
 would use in assembling the plasmids in the above sections. Our inserts were
 provided by IDT and included the OXA-48 gene (sequence obtained from [1]). It
-lacked a ribosome binding site as we did not want to proliferate carbapenemase
+lacked a ribosome binding site as we did not want to proliferate Carbapenemase
 resistance during our project. Other parts included the MCP-SoxS gene (sequence
 obtained from [3]). We used Gibson and Goldengate assembly techniques to assemble
 our helper and reporter plasmids, respectively.

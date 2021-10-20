@@ -22,6 +22,11 @@ biology lyrics. This was part of a project to create a song meant to teach
 younger students in an unconventional manner about biology, synthetic biology
 and iGEM.
 
+{{< centeredImage
+        src="/assets/content/collaborations/mcMasterSong.jpg"
+        alt="A photo of the music video for the song, posted on the McMaster social media"
+        caption="A photo of the music video for the song, posted on the McMaster social media" >}}
+
 {{< div_end >}}
 
 {{< timeline_title >}}

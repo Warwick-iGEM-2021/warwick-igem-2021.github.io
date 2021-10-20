@@ -95,8 +95,15 @@ our social media pages educational posters.
 From early March we decided to use social media to gain advice and knowledge on
 our project idea as well as use it as a platform to network with a range of iGEM
 teams globally. We had from June – August virtual meetups to discuss our project
-development and ideas with teams such as iGEM KCL , iGEM Mingdao  , iGEM
-Stonybrook to name a few. We gained useful insights into how to improve our wiki
+development and ideas with teams such as iGEM KCL, iGEM Mingdao, iGEM
+Stonybrook to name a few.
+
+{{< centeredImage
+        src="/assets/content/communication/socialMediaStory.png"
+        alt="A social media story for outreach on Instagram"
+        caption="A social media story for outreach on Instagram" >}}
+
+We gained useful insights into how to improve our wiki
 as well which direction to go in when working on human practices and the type of
 individuals we should contact which we acted on. Furthermore, through our social
 media pages we were able to be involved in many collaborative projects such as
@@ -105,9 +112,9 @@ to iGEM Aix Marseille in September for their emoji project game on Instagram
 where we shared details of our project on their social media platforms.
 
 {{< centeredImage
-        src="/assets/content/communication/socialMediaStory.png"
-        alt="A social media 'story' for outreach on Instagram"
-        caption="A social media 'story' for outreach on Instagram" >}}
+        src="/assets/content/communication/socialMediaFeed.jpg"
+        alt="A picture of the Warwick 2021 iGEM Instagram feed"
+        caption="A picture of the Warwick 2021 iGEM Instagram feed" >}}
 
 ### Educational Posters
 

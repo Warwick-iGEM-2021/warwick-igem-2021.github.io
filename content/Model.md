@@ -40,7 +40,7 @@ It is evident that the product causes a statistically significant reduction in t
         alt="A line plot of the total number of deaths over a full run (i.e. till no people are infected) of the model with the validated parameters (discussed below)"
         caption="A line plot of the total number of deaths over a full run (i.e. till no people are infected) of the model with the validated parameters (discussed below)" >}}
 
-It is again evident that the product causes a statistically significant reduction in the number of people infected with a strain of the pathogen resistant to meropenem - the drug resistance detect by our product.
+It is again evident that the product causes a statistically significant reduction in the number of people infected with a strain of the pathogen resistant to Meropenem - the drug resistance detect by our product.
 
 {{< new_sheet >}}
 
@@ -181,7 +181,7 @@ We can then define a further metric $\mathfrak{R}_0 = \frac{\beta}{\gamma}$, whi
 
 Our custom model extends this concept by adding more "compartments" for additional states people can take when they are infected with increasingly antibiotic resistant pathogens.
 
-There are already examples of models of this extended class for examining antibiotic resistance in E. coli [3] [4] [5], showing that it is a suitable methodology for this problem. However, we believe that a custom model written from scratch was required to integrate the mechanism of the product being used.
+There are already examples of models of this extended class for examining antibiotic resistance in *E. coli* [3] [4] [5], showing that it is a suitable methodology for this problem. However, we believe that a custom model written from scratch was required to integrate the mechanism of the product being used.
 
 {{< new_sheet >}}
 
@@ -562,18 +562,18 @@ Due to the flexibility of the model, its parameters can be adjusted to simulate 
 
 ##### Neonatal bacterial meningitis
 
-Here we have chosen to use neonatal bacterial meningitis (NBM) as an example. The disease, and the nature of its spread and treatment have numerous properties that can be simulated using the model. NBM can easily be spread within hospitals by medical staff and often has a deadly outcome [11], all of which can be simulated in the model. Furthermore, treatment involves a line of antibiotics, the last of which generally is treatment with meropenem, a carbapenem - a diagram of the molecular structure of which is shown below [12].
+Here we have chosen to use neonatal bacterial meningitis (NBM) as an example. The disease, and the nature of its spread and treatment have numerous properties that can be simulated using the model. NBM can easily be spread within hospitals by medical staff and often has a deadly outcome [11], all of which can be simulated in the model. Furthermore, treatment involves a line of antibiotics, the last of which generally is treatment with Meropenem, a Carbapenem - a diagram of the molecular structure of which is shown below [12].
 
 {{< centeredImage
         src="/assets/content/model/meropenem.png"
-        alt="A diagram of the structure of meropenem"
-        caption="A diagram of the structure of meropenem [12]" >}}
+        alt="A diagram of the structure of Meropenem"
+        caption="A diagram of the structure of Meropenem [12]" >}}
 
-However, since the model does not allow for the product to identify resistance to the last line of defence, requiring a later line of defence, we included colistin as the last treatment. Colistin has been used to treat multi-resistant NBM [14], however it is infrequently used due to its harmful side-effects [15].
+However, since the model does not allow for the product to identify resistance to the last line of defence, requiring a later line of defence, we included Colistin as the last treatment. Colistin has been used to treat multi-resistant NBM [14], however it is infrequently used due to its harmful side-effects [15].
 
 The parameters of the model have hence been adjusted as such:
 
-1. NBM has three lines of treatment: amoxicillin + cefotaxime/ceftriaxone, meropenem, and finally colistin. Therefore the model has three levels of treatment and corresponding resistance levels. The first level of treatment will henceforth be referred to as “Amoxicillin+” for the sake of conciseness.
+1. NBM has three lines of treatment: Amoxicillin + Cefotaxime/Ceftriaxone, Meropenem, and finally Colistin. Therefore the model has three levels of treatment and corresponding resistance levels. The first level of treatment will henceforth be referred to as “Amoxicillin+” for the sake of conciseness.
 
 2. There is a 100% mortality rate of untreated NBM [16]. Hence, we have set the chance of recovery if the pathogen is resistant to the current antibiotic in use to zero.
 
@@ -988,7 +988,7 @@ Some common questions about the model are answered below:
 
 - Q. Can the model be applied to current issues, i.e. the COVID pandemic?
 
-  A. Since the model is a very generic abstraction of the real world, by adjusting it's parameters a vast amount of different scenarios can be modelled. The key issue in adapting it to different scenarios is if they fit the inherent logic and states hard-coded into it. Since COVID is a viral infection, as opposed to a bacterial infection, antibiotics cannot be used to treat it, so the tiered system of antibiotic uses fits less cleanly to it, however, they could instead be considered as increasingly aggressive treatment options, to which it also grows resistant. However, the logic around our product would not apply, as viral infections are not affected by carbapenem, which is the antibiotic we focus on.
+  A. Since the model is a very generic abstraction of the real world, by adjusting it's parameters a vast amount of different scenarios can be modelled. The key issue in adapting it to different scenarios is if they fit the inherent logic and states hard-coded into it. Since COVID is a viral infection, as opposed to a bacterial infection, antibiotics cannot be used to treat it, so the tiered system of antibiotic uses fits less cleanly to it, however, they could instead be considered as increasingly aggressive treatment options, to which it also grows resistant. However, the logic around our product would not apply, as viral infections are not affected by Carbapenem, which is the antibiotic we focus on.
 
 
 
