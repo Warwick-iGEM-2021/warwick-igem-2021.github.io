@@ -323,6 +323,7 @@
     <li><a href="#the-grna--recognising-two-things-at-once">The gRNA – recognising two things at once</a></li>
     <li><a href="#the-plasmids">The plasmids</a></li>
     <li><a href="#experimental-layout">Experimental layout</a></li>
+    <li><a href="#model-of-grna-function--leakage-specificity-and-sensitivity">Model of gRNA function – leakage, specificity and sensitivity</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav>
@@ -531,6 +532,69 @@ pursue this cell-free application due to time and materiel constraints, we are
 confident that a future iGEM team could validate the theoretical basis behind
 this device working cell-free.</p>
 <p>A detailed rundown and timeline of our lab work can be found on our <a href="../Experiments">Experiments page</a>.</p>
+<h2 id="model-of-grna-function--leakage-specificity-and-sensitivity">Model of gRNA function – leakage, specificity and sensitivity</h2>
+<p>In order to find out which of our designed cgRNAs was most appropriate despite a
+lack of data, we prepared a mathematical model using which we tested a promising
+sequence against a number of cgRNAs with mismatching spacers. The results of the
+first comparison can be observed in Fig.9 below – while there is a significant
+level of activation, the longer sensing loop could cause unintended activation,
+which is why we followed this up by testing a sequence with a shorter sensing
+loop which would give more specificity to the target sequence.</p>
+<div class="text-center">
+    
+    
+    <img src="../assets/content/engineering/FIG_9.png" alt="Graph of the results of the modelling of fluorescence over time" class="centered-image" decoding="async"/>
+    
+    
+        <p class="hugo-figure-caption">Fig.9. Graph of the results of the modelling of fluorescence over time when using a cgRNA with a longer sensing loop (green), when compared against mismatching cgRNAs (orange, grey) and a negative (blue) and positive (yellow) control.</p>
+    
+</div>
+
+<p>The comparison of the other cgRNA to a mismatch using our model (Fig.10) yielded
+better results, however. There is a large difference in fluorescence between the
+use of the cgRNA we tested when compared against both the negative control and
+against a mismatching gRNA. Moreover, over time the fluorescence appears to
+approach the value exhibited by the positive control! This was, to us,
+indicative of the fact that the increased specificity had no negative effect on
+activation.</p>
+<div class="text-center">
+    
+    
+    <img src="../assets/content/engineering/FIG_10.png" alt="Graph of the results of the modelling of fluorescence over time" class="centered-image" decoding="async"/>
+    
+    
+        <p class="hugo-figure-caption">Fig.10. Graph of the results of the modelling of fluorescence over time when using a cgRNA with a shorter sensing loop (green), when compared against a mismatching cgRNA (grey) and a negative (blue) and positive (yellow) control.</p>
+    
+</div>
+
+<p>We decided to investigate the sensitivity of this particular cgRNA as well and
+simulated its activity with different ratios of cgRNA:trigger as evidenced in
+Fig. 11. The results of this were satisfactory, as when compared to the absence
+of the trigger, the 1:1 ratio yielded a large increase in observed fluorescence.</p>
+<div class="text-center">
+    
+    
+    <img src="../assets/content/engineering/FIG_11.png" alt="Comparison of fluorescence using the cgRNA with the shorter sensing loop at different concentrations" class="centered-image" decoding="async"/>
+    
+    
+        <p class="hugo-figure-caption">Fig 11. Comparison of fluorescence using the cgRNA with the shorter sensing loop at different concentrations – no trigger (orange), 1:1 cgRNA:trigger (green), 2:1 cgRNA:trigger (black), 5:1 cgRNA:trigger (grey).</p>
+    
+</div>
+
+<p>As expected though, as the ratio of cgRNA to trigger increased, less activation
+was observed – this raises an issue when working with low concentrations of
+OXA-48 mRNA in the sample; nonetheless, we believe that this gRNA would make a
+fine candidate for further development.</p>
+<p>See the reactions and values for our model below:</p>
+<div class="text-center">
+    
+    <embed src="../assets/content/engineering/supplementaryInfo.pdf" type="application/pdf" style="width: 90%;" height="750">
+    
+    
+        <p class="hugo-figure-caption">A pdf of the pages of the lab notebook used throughout the lab work</p>
+    
+</div>
+
 <h2 id="references">References</h2>
 <p>[1] Mohammadi Bandari, N. Keyvani, H. Abootaleb, M. <em>Klebsiella pneumoniae strain TFH21 OXA family beta-lactamase (blaOXA) gene, partial cds</em>. Available at: <a href="https://www.ncbi.nlm.nih.gov/nucleotide/MZ275246.1">https://www.ncbi.nlm.nih.gov/nucleotide/MZ275246.1</a> [Accessed 19/10/2021]</p>
 <p>[2] Sekar, K. Gentile, AM. Bostick, JW. Tyo, KE. <em>N-Terminal-Based Targeted, Inducible Protein Degradation in Escherichia coli</em>. PLoS One. 2016 Feb 22; 11(2):e0149746. doi: 10.1371/journal.pone.0149746. eCollection 2016. PONE-D-15-42990 [pii] PubMed 26900850. Available at: <a href="https://www.addgene.org/65915/">https://www.addgene.org/65915/</a> [Accessed 20/10/2021]</p>
