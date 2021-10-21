@@ -536,12 +536,17 @@ The paper defines the verification technique in the following way: "Verification
 
 We graphically compared the data outputs with the expected characteristic "S-curve" shape which is prevalent in SIR type stochastic models similar to ours. Whilst the individual lines for different resistance levels do not form such a curve, if their total is taken, it does - which is the expected behaviour, as the sum of the resistance levels gives total number infected.
 
-This is shown below with the boundary between the pink and the brown items in the graph forming the characteristic curve.
+ This is shown below with the boundary between the light and dark blue items in the graph forming the characteristic curve, which matches the shape of the light blue line in the SIR explanation graph.
 
 {{< centeredImage
         src="/assets/content/model/stackplot_SIR.png"
         alt="A stack plot showing the S-curve shape"
-        caption="A stack plot showing the characteristic 'S-curve' shape" >}}
+        caption="A stack plot of our model output showing the characteristic 'S-curve' shape" >}}
+
+{{< centeredImage
+        src="/assets/content/model/SIR_graph.png"
+        alt="A graph of the SIR model over time - with the blue line being the same shape as seen in the above stackplot output of our model. Image source: [2]"
+        caption="A graph of the SIR model over time - with the blue line being the same shape as seen in the above stackplot output of our model. Image source: [2]" >}}
 
 Additionally, the book notes that "A special issue in verification occurs with respect to multi-agent models. Multi-agent models can potentially undergo dual level verification; i.e., verification at both the individual and group level. To wit, does the model accurately predict group level behavior, individual level behavior, or both?" [9]
 
