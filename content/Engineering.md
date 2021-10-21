@@ -178,6 +178,59 @@ this device working cell-free.
 
 A detailed rundown and timeline of our lab work can be found on our [Experiments page](/Experiments).
 
+
+
+
+
+## Model of gRNA function – leakage, specificity and sensitivity
+
+In order to find out which of our designed cgRNAs was most appropriate despite a
+lack of data, we prepared a mathematical model using which we tested a promising
+sequence against a number of cgRNAs with mismatching spacers. The results of the
+first comparison can be observed in Fig.9 below – while there is a significant
+level of activation, the longer sensing loop could cause unintended activation,
+which is why we followed this up by testing a sequence with a shorter sensing
+loop which would give more specificity to the target sequence.
+
+{{< centeredImage
+        src="/assets/content/engineering/FIG_9.png"
+        alt="Graph of the results of the modelling of fluorescence over time"
+        caption="Fig.9. Graph of the results of the modelling of fluorescence over time when using a cgRNA with a longer sensing loop (green), when compared against mismatching cgRNAs (orange, grey) and a negative (blue) and positive (yellow) control." >}}
+
+The comparison of the other cgRNA to a mismatch using our model (Fig.10) yielded
+better results, however. There is a large difference in fluorescence between the
+use of the cgRNA we tested when compared against both the negative control and
+against a mismatching gRNA. Moreover, over time the fluorescence appears to
+approach the value exhibited by the positive control! This was, to us,
+indicative of the fact that the increased specificity had no negative effect on
+activation.
+
+{{< centeredImage
+        src="/assets/content/engineering/FIG_10.png"
+        alt="Graph of the results of the modelling of fluorescence over time"
+        caption="Fig.10. Graph of the results of the modelling of fluorescence over time when using a cgRNA with a shorter sensing loop (green), when compared against a mismatching cgRNA (grey) and a negative (blue) and positive (yellow) control." >}}
+
+We decided to investigate the sensitivity of this particular cgRNA as well and
+simulated its activity with different ratios of cgRNA:trigger as evidenced in
+Fig. 11. The results of this were satisfactory, as when compared to the absence
+of the trigger, the 1:1 ratio yielded a large increase in observed fluorescence.
+
+{{< centeredImage
+        src="/assets/content/engineering/FIG_11.png"
+        alt="Comparison of fluorescence using the cgRNA with the shorter sensing loop at different concentrations"
+        caption="Fig 11. Comparison of fluorescence using the cgRNA with the shorter sensing loop at different concentrations – no trigger (orange), 1:1 cgRNA:trigger (green), 2:1 cgRNA:trigger (black), 5:1 cgRNA:trigger (grey)." >}}
+
+As expected though, as the ratio of cgRNA to trigger increased, less activation
+was observed – this raises an issue when working with low concentrations of
+OXA-48 mRNA in the sample; nonetheless, we believe that this gRNA would make a
+fine candidate for further development.
+
+See the reactions and values for our model below:
+
+{{< pdf
+    src="/assets/content/engineering/supplementaryInfo.pdf"
+    caption="A pdf of the pages of the lab notebook used throughout the lab work" >}}
+
 ## References
 
 [1] Mohammadi Bandari, N. Keyvani, H. Abootaleb, M. _Klebsiella pneumoniae strain TFH21 OXA family beta-lactamase (blaOXA) gene, partial cds_. Available at: https://www.ncbi.nlm.nih.gov/nucleotide/MZ275246.1 [Accessed 19/10/2021]

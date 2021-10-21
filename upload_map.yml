@@ -179,6 +179,14 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/b/bc/T--Warwick--content--description--splash_fore.png
     md5: b0dcb158abd4e5eb0048670ba0743fc3
     upload_filename: T--Warwick--content--description--splash_fore.png
+  assets/content/engineering/FIG_10.png:
+    link_URL: https://2021.igem.org/wiki/images/1/16/T--Warwick--content--engineering--FIG_10.png
+    md5: 2b1837d86e7c2ceacdf2f32b9288ce8e
+    upload_filename: T--Warwick--content--engineering--FIG_10.png
+  assets/content/engineering/FIG_11.png:
+    link_URL: https://2021.igem.org/wiki/images/7/72/T--Warwick--content--engineering--FIG_11.png
+    md5: 7698c9ec60a6882dd61ef78ec04936f3
+    upload_filename: T--Warwick--content--engineering--FIG_11.png
   assets/content/engineering/FIG_2.png:
     link_URL: https://2021.igem.org/wiki/images/a/a6/T--Warwick--content--engineering--FIG_2.png
     md5: 1e63cc7502beaa0d3b06a54f27bc4b25
@@ -207,6 +215,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/5/5a/T--Warwick--content--engineering--FIG_8.png
     md5: cc82a9ccf5c9c67d86ca2cc4874ba7ab
     upload_filename: T--Warwick--content--engineering--FIG_8.png
+  assets/content/engineering/FIG_9.png:
+    link_URL: https://2021.igem.org/wiki/images/e/ea/T--Warwick--content--engineering--FIG_9.png
+    md5: 72d521d4a7d915bff0a51260b60399b2
+    upload_filename: T--Warwick--content--engineering--FIG_9.png
   assets/content/engineering/full_complex.png:
     link_URL: https://2021.igem.org/wiki/images/4/41/T--Warwick--content--engineering--full_complex.png
     md5: 29d7de2bcd457821913e6746681ab34d
@@ -227,6 +239,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/1/15/T--Warwick--content--engineering--splash_fore.png
     md5: 67353e286372978579ffd2548cc38019
     upload_filename: T--Warwick--content--engineering--splash_fore.png
+  assets/content/engineering/supplementaryInfo.pdf:
+    link_URL: https://2021.igem.org/wiki/images/0/07/T--Warwick--content--engineering--supplementaryInfo.pdf
+    md5: f5842a904a2f3c3cf72ceaed34e8e9b0
+    upload_filename: T--Warwick--content--engineering--supplementaryInfo.pdf
   assets/content/experiments/1.png:
     link_URL: https://2021.igem.org/wiki/images/4/41/T--Warwick--content--experiments--1.png
     md5: 8d109689d68cfd098136dda2bab45c3a
@@ -821,8 +837,12 @@ assets:
     upload_filename: T--Warwick--images--sponsors--WISB.png
   assets/images/sponsors/WellcomeTrust.png:
     link_URL: https://2021.igem.org/wiki/images/a/af/T--Warwick--images--sponsors--WellcomeTrust.png
-    md5: 588044b1da5aa21b678d2b9fa184571a
+    md5: ce37a9f723ee3e41c5225b248d641cb6
     upload_filename: T--Warwick--images--sponsors--WellcomeTrust.png
+  assets/images/sponsors/WellcomeTrust_new.png:
+    link_URL: https://2021.igem.org/wiki/images/c/c1/T--Warwick--images--sponsors--WellcomeTrust_new.png
+    md5: 588044b1da5aa21b678d2b9fa184571a
+    upload_filename: T--Warwick--images--sponsors--WellcomeTrust_new.png
   assets/videos/promotionalVideo.mp4:
     link_URL: https://2021.igem.org/wiki/images/0/0a/T--Warwick--videos--promotionalVideo.mp4
     md5: c616566f36b2e26d7bfb4d1f281c0696
@@ -877,7 +897,7 @@ html:
     md5: 4caeca9720061ce3e0fdaec840001055
   Engineering/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Engineering
-    md5: 0386d5328d1c80f5a69ca2231ae08610
+    md5: 20e639412047ad9d34c5186628882098
   Experiments/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Experiments
     md5: 09bbf0263268dd1fcf1021f60328a13e
@@ -895,7 +915,7 @@ html:
     md5: 00b277e91d56cf1c9dda8c0c7fc7bf1f
   Model/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Model
-    md5: f6d9374c9ec388dd6f0bf582b86cb106
+    md5: 7846cdfa6873b991e9a8fb604d14034b
   Model_Old/index.html:
     link_URL: https://2021.igem.org/Team:Warwick/Model_Old
     md5: 69f47d0c890bdc03d584a83845afc7b9
