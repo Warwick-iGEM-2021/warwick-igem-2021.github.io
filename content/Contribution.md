@@ -14,8 +14,7 @@ while our approach is rather different, particularly in our design usable in
 vitro. We, nonetheless, looked into their components; of these. The 2018 team,
 Ripple, caught our attention due to the number of applications they found for
 their detection system in assisting the bioremediation of water. One part we
-felt like we could add more information to was, the [self-cleaving gRNA
-BBa_K2841513](http://parts.igem.org/wiki/index.php?title=Part:BBa_K2841513) that
+felt like we could add more information to was, the [self-cleaving gRNA BBa_K2841513](http://parts.igem.org/wiki/index.php?title=Part:BBa_K2841513) that
 the team engineered.
 
 This gRNA is used as a CRISPR inhibitory (CRISPRi) component and part of a

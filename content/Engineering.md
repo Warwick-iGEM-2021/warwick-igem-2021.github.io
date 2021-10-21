@@ -169,15 +169,14 @@ versions of the reporter plasmid containing different cgRNAs to screen for the
 one which offered the greatest difference in fluorescence between a positive and
 a negative result.
 
-As alluded to in the diagram, as well as on our [Human Practices
-page](/Human_Practices), our system was designed to work in an in vitro
-scenario; the iSpinach aptamer has been designed to function optimally in vitro.
-While we were not able to pursue this cell-free application due to time and
-materiel constraints, we are confident that a future iGEM team could validate
-the theoretical basis behind this device working cell-free.
+As alluded to in the diagram, as well as on our [Human Practices page](/Human_Practices),
+our system was designed to work in an in vitro scenario; the iSpinach aptamer
+has been designed to function optimally in vitro. While we were not able to
+pursue this cell-free application due to time and materiel constraints, we are
+confident that a future iGEM team could validate the theoretical basis behind
+this device working cell-free.
 
-A detailed rundown and timeline of our lab work can be found on our [Experiments
-page](/Experiments).
+A detailed rundown and timeline of our lab work can be found on our [Experiments page](/Experiments).
 
 ## References
 

@@ -42,16 +42,12 @@ their task. At the end of the booklet there was a certificate of achievement
 which the student can fill in themselves as evidence that they have completed
 the research tasks in the booklet. This booklet was distributed to widening
 participation school in and around Coventry which is the city the University of
-Warwick is based in. It was made available to teachers in school via a [monthly
-newsletter created by the Outreach team at the department of Science,
-Engineering and Maths and is also available to access on their
-website](https://www.canva.com/design/DAEilsL-k1M/75ZTPjU7mcVP7iwn9TrXkQ/view).
+Warwick is based in. It was made available to teachers in school via a [monthly newsletter created by the Outreach team at the department of Science, Engineering and Maths and is also available to access on their website](https://www.canva.com/design/DAEilsL-k1M/75ZTPjU7mcVP7iwn9TrXkQ/view).
 
 A second version of the booklet was created which was unedited therefore was not
 simplified and was made available to members of BIOSOC (University of Warwick
 Life Sciences Society). This was made available on their website alongside an
-article on aim of booklet and iGEM overall. [Research and Internships | Warwick
-BioSoc](https://warwickbiosoc.wixsite.com/website/research-internships)
+article on aim of booklet and iGEM overall. [Research and Internships | Warwick BioSoc](https://warwickbiosoc.wixsite.com/website/research-internships)
 
 The booklet was also distributed to all teams which participated so they could
 share the resource in their country and with schools local to their university.

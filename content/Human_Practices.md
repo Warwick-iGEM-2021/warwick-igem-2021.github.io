@@ -45,8 +45,8 @@ in a category 2 laboratory, which would have been difficult to achieve under
 iGEM safety guidelines. Therefore, following the feedback from our preliminary
 research, it was suggested that we work with Gram-negative infection (*E. coli*)
 instead, as we could do this in a category 1 laboratory. When researching *E.
-coli*, we came across CRE as a major issue in a recently published [Public
-Health England report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923385/Framework_of_actions_to_contain_CPE.pdf).
+coli*, we came across CRE as a major issue in a recently published
+[Public Health England report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923385/Framework_of_actions_to_contain_CPE.pdf).
 This report made us decide that our project should be centred around CRE
 detection.
 
@@ -159,8 +159,7 @@ CRISPR system, would detect the presence of our target RNA transcribed from the
 OXA-48 Carbapenem resistance gene. Therefore, if the bacteria present on the
 swab are resistant to Carbapenems, then the tube will glow green when
 illuminated by UV light, a very distinct and easy to recognise signal. More
-information on our designed test kit can be found on [the implementation page on
-our wiki](/Implementation).
+information on our designed test kit can be found on [the implementation page on our wiki](/Implementation).
 
 {{< div_end >}}
 
@@ -253,8 +252,7 @@ to members of the general public.
         alt="A social media post of our poster"
         caption="A social media post of our poster" >}}
 
-More materials can be found [on the education and communication
-page of our Wiki](/Communication)
+More materials can be found [on the education and communication page of our Wiki](/Communication)
 
 {{< div_end >}}
 

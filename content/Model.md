@@ -15,7 +15,7 @@ We understand that computer models can become quite dry, particularly when expla
 
 As a result of this, we created an in-browser interactive implementation of the model, which plots the output graph of the model based on the user inputting initial parameter states. We intend that this can quickly, intuitively, and interactively show the function and results of the model, which can help inform the goal throughout the implementation explanation, and provide a top-level understanding even if the rest of this page were omitted.
 
-The whole project repository is [available on GitHub](https://github.com/Warwick-iGEM-2021/modelling), and the final production code for the project can be found: [as a standalone Python file](https://raw.githubusercontent.com/Warwick-iGEM-2021/modelling/main/tiered_antibiotic_resistance_model/model.py), or [as a package on PyPI](https://pypi.org/project/tiered-antibiotic-resistance-model/2.0.1/)
+The whole project repository is [available on GitHub](https://github.com/igemsoftware2021/Warwick_modelling), and the final production code for the project can be found: [as a standalone Python file](https://raw.githubusercontent.com/Warwick-iGEM-2021/modelling/main/tiered_antibiotic_resistance_model/model.py), or [as a package on PyPI](https://pypi.org/project/tiered-antibiotic-resistance-model/). Note that if the iGEM team has not transferred the repository, the [previous location can be found here](https://github.com/EdmundGoodman/Warwick_modelling)
 
 {{< new_sheet >}}
 
@@ -476,7 +476,7 @@ In order to display the output in a visual manner, we used the [Chart.js](https:
 Since we developed our model in python, we uploaded it to PyPI, the Python package index. We did this as it greatly simplifies the way in which the package can be distributed. Instead of cloning the repository, and running the code directly through that:
 
 ```bash {linenos=table}
-git clone https://github.com/Warwick-iGEM-2021/modelling
+git clone https://github.com/igemsoftware2021/Warwick_modelling
 cd modelling/tiered-antibiotic-resistance-model
 python3 model.py
 ```
@@ -973,7 +973,7 @@ Some common questions about the model are answered below:
 
 - Q. Is the model realistic?
 
-  A. The model is a balance of realism with abstraction. If the model were designed to be holly realistic model, it would inevitably turn into a "hospital simulator", would be too complex to design, and take too long to run on current computers. However, the model must not be too heavily abstracted, as otherwise it does not fully encode the complexities of the system. We carefully designed the model to only consider the aspects of the real world we thought relevant to its results, and abstracted away the rest, and were shown to have done this correctly by completing the validation process. In summary, the model is realistic "where it counts", but it does not simulate unnecessary complexities
+  A. The model is a balance of realism with abstraction. If the model were designed to be wholly realistic model, it would inevitably turn into a "hospital simulator", would be too complex to design, and take too long to run on current computers. However, the model must not be too heavily abstracted, as otherwise it does not fully encode the complexities of the system. We carefully designed the model to only consider the aspects of the real world we thought relevant to its results, and abstracted away the rest, and were shown to have done this correctly by completing the validation process. In summary, the model is realistic "where it counts", but it does not simulate unnecessary complexities
 
 - Q. Is the model useful?
 

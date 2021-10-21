@@ -27,25 +27,35 @@ draft: false
 Our project would not have been possible without the generous help and time
 offered by the following people
 
+{{< br >}}
+
 ### Principal investigators
 
 - Prof. Christophe Corre
 - Dr Fabrizio Alberti
 
+{{< br >}}
+
 ### Specific support
 
-We'd like to thank those people who gave us advice on specific topic, allowing our project to be the best it could be
+We'd like to thank those people who gave us advice on specific topic, allowing our project to be the best it could be.
+
+{{< br >}}
 
 #### Modelling
 
 - Alex Darlington, for meeting with us to discuss what we could improve about the modelling, and proof-reading the end result
 - Jonathan Goodman, for proof-reading the modelling draft
 
+{{< br >}}
+
 #### Dry lab
 
 - Jack Lawrence, project design and dry lab help
 - Prof. Freya Harrison, advice on the use of phages
 - Dr Antonia Sagona, advice on the use of phages
+
+{{< br >}}
 
 #### Wet lab
 
@@ -55,16 +65,22 @@ We'd like to thank those people who gave us advice on specific topic, allowing o
 - Jack Weaver, wet lab help and supervision
 - Patrick Capel, wet lab help
 
+{{< br >}}
+
 #### Human practices
 
 - Dr Richard Hastings, advice on what form our project would take and regulations
 - Dr Leanne Williams, Survey Approval and Advice
 
+{{< br >}}
+
 #### Outreach and other advice
 
 - Amanda Bishop, outreach/education advice
 
-### iGEM teams
+{{< new_sheet >}}
+
+### Other iGEM teams
 
 - iGEM KCL, for hosting the UK and Ireland Virtual Meetup
 - iGEM Dusseldorf, for organising the postcard competition
