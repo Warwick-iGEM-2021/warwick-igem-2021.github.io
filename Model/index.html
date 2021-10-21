@@ -358,7 +358,7 @@
 <p>To show that our proposed product would positively benefit the environment where it is proposed to be used, we wrote a custom stochastic computational model of the environment, with and without the product in use, and showed that when it is in use, the model scenario result improved.</p>
 <p>We understand that computer models can become quite dry, particularly when explaining the details of their implementation. However, we believe that it is important to do this precisely, even at the cost of conciseness, as a small misunderstanding can be quickly amplified to an unexpected result, since the model&rsquo;s high complexity causes it to have a chaotic output.</p>
 <p>As a result of this, we created an in-browser interactive implementation of the model, which plots the output graph of the model based on the user inputting initial parameter states. We intend that this can quickly, intuitively, and interactively show the function and results of the model, which can help inform the goal throughout the implementation explanation, and provide a top-level understanding even if the rest of this page were omitted.</p>
-<p>The whole project repository is <a href="https://github.com/Warwick-iGEM-2021/modelling">available on GitHub</a>, and the final production code for the project can be found: <a href="https://raw.githubusercontent.com/Warwick-iGEM-2021/modelling/main/tiered_antibiotic_resistance_model/model.py">as a standalone Python file</a>, or <a href="https://pypi.org/project/tiered-antibiotic-resistance-model/2.0.1/">as a package on PyPI</a></p>
+<p>The whole project repository is <a href="https://github.com/igemsoftware2021/Warwick_modelling">available on GitHub</a>, and the final production code for the project can be found: <a href="https://raw.githubusercontent.com/Warwick-iGEM-2021/modelling/main/tiered_antibiotic_resistance_model/model.py">as a standalone Python file</a>, or <a href="https://pypi.org/project/tiered-antibiotic-resistance-model/">as a package on PyPI</a>. Note that if the iGEM team has not transferred the repository, the <a href="https://github.com/EdmundGoodman/Warwick_modelling">previous location can be found here</a></p>
 
 
 </div>
@@ -1325,7 +1325,7 @@ death_probability <span style="color:#f92672">=</span> person<span style="color:
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/Warwick-iGEM-2021/modelling
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/igemsoftware2021/Warwick_modelling
 cd modelling/tiered-antibiotic-resistance-model
 python3 model.py
 </code></pre></td></tr></table>
@@ -2055,7 +2055,7 @@ $$</p>
 <ul>
 <li>
 <p>Q. Is the model realistic?</p>
-<p>A. The model is a balance of realism with abstraction. If the model were designed to be holly realistic model, it would inevitably turn into a &ldquo;hospital simulator&rdquo;, would be too complex to design, and take too long to run on current computers. However, the model must not be too heavily abstracted, as otherwise it does not fully encode the complexities of the system. We carefully designed the model to only consider the aspects of the real world we thought relevant to its results, and abstracted away the rest, and were shown to have done this correctly by completing the validation process. In summary, the model is realistic &ldquo;where it counts&rdquo;, but it does not simulate unnecessary complexities</p>
+<p>A. The model is a balance of realism with abstraction. If the model were designed to be wholly realistic model, it would inevitably turn into a &ldquo;hospital simulator&rdquo;, would be too complex to design, and take too long to run on current computers. However, the model must not be too heavily abstracted, as otherwise it does not fully encode the complexities of the system. We carefully designed the model to only consider the aspects of the real world we thought relevant to its results, and abstracted away the rest, and were shown to have done this correctly by completing the validation process. In summary, the model is realistic &ldquo;where it counts&rdquo;, but it does not simulate unnecessary complexities</p>
 </li>
 <li>
 <p>Q. Is the model useful?</p>
