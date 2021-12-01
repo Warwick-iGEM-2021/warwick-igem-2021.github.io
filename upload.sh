@@ -33,7 +33,7 @@ echo "Loaded credentials"
 # Upload the wiki using the igem-wikisync library in a python venv
 echo "Starting upload"
 source venv/bin/activate
-python wikisync.py $IGEM_TEAM
+python3 wikisync.py $IGEM_TEAM
 echo "Finished upload"
 
 # Clean up, removing any build directories
