@@ -841,15 +841,15 @@ Digging deeper into how the product impacts the outcome of the model, we can loo
 
 {{< centeredImage
         src="/assets/content/model/graph3.png"
-        alt="NBM average simulation without product in use, focussing on resistances and isolation graph"
-        caption="A graph of the average simulation results without the product over ten runs, focussing on resistances and isolation graph" >}}
+        alt="NBM average simulation without product in use, focusing on resistances and isolation graph"
+        caption="A graph of the average simulation results without the product over ten runs, focusing on resistances and isolation graph" >}}
 
 Above is a graph showing the change of frequency in Meropenem and Colistin resistances as well as isolation over time, having averaged 10 runs without the product in use. As resistance to Colistin naturally yields resistance again Meropenem in the model, the frequency of resistance to Meropenem is always higher than that to Colistin. It is clear that isolation is lagging behind the spread of resistant pathogens, with many people who carry and could spread pathogens resistant to Meropenems not being put into isolation. At peak levels, resistance to Meropenem and Colistin reaches 496.8 and 256.5 respectively, while peak isolation reaches 295.5.
 
 {{< centeredImage
         src="/assets/content/model/graph4.png"
-        alt="NBM average simulation with the product in use, focussing on resistances and isolation graph"
-        caption="A graph of the average simulation results with the product over ten runs, focussing on resistances and isolation graph" >}}
+        alt="NBM average simulation with the product in use, focusing on resistances and isolation graph"
+        caption="A graph of the average simulation results with the product over ten runs, focusing on resistances and isolation graph" >}}
 
 Above is a graph showing the change of frequency in Meropenem and Colistin resistances as well as isolation over time, having averaged 10 runs with the product in use. As resistance to Colistin naturally yields resistance again Meropenem in the model, the frequency of resistance to Meropenem is always higher than that to Colistin, however only by a slight amount. The frequency of resistance to Meropenem and that of being put into isolation is almost indistinguishable, as everyone who is resistant to Meropenem is put into isolation. The frequency of resistance to Meropenem is slightly higher than isolation levels while the disease is still spreading since patients only enter isolation the timestep after they develop Meropenem-resistance. At peak levels, resistance to Meropenem and Colistin reaches 323.6 and 271.7 respectively, while peak isolation reaches 313.5.
 
@@ -886,30 +886,30 @@ if person.infection.get_tier() == PRODUCT_DETECTION_LEVEL:
 Below, we show pairs of graphs of results with large and small population sizes for comparison
 
 {{< centeredImage
-        src="/assets/content/model/graph5.png"
-        alt="NBM average simulation (population=5000) without product, focussing on Meropenem resistance graph"
-        caption="A graph of the average simulation results for a population of five thousand people, without the product over ten runs, focussing on Meropenem resistance graph" >}}
+        src="/assets/content/model/graph6.png"
+        alt="NBM average simulation (population=5000) without product, focusing on Meropenem resistance graph"
+        caption="A graph of the average simulation results for a population of five thousand people, without the product over ten runs, focusing on Meropenem resistance graph" >}}
 
 Above is a graph showing the change of several variables over time, taking the average of 10 runs without the product in use. “Meropenem” refers to the number of patients carrying a pathogen with resistance to Meropenem. Only the first 100 time-steps are shown as the variables change only marginally after that.
 
 {{< centeredImage
-        src="/assets/content/model/graph6.png"
-        alt="NBM average simulation (population=200) without product, focussing on Meropenem resistance graph"
-        caption="A graph of the average simulation results for a population of two hundred people, without the product over ten runs, focussing on Meropenem resistance graph" >}}
+        src="/assets/content/model/graph8.png"
+        alt="NBM average simulation (population=200) without product, focusing on Meropenem resistance graph"
+        caption="A graph of the average simulation results for a population of two hundred people, without the product over ten runs, focusing on Meropenem resistance graph" >}}
 
 Above is a graph showing the change of several variables over time, when the population size was set to 200 and initially infected at 10, taking the average of 10 runs without the product in use. “Meropenem” refers to the number of patients carrying a pathogen with resistance to Meropenem. Only the first 100 time-steps are shown as the variables change only marginally after that.
 
 {{< centeredImage
-        src="/assets/content/model/graph7.png"
-        alt="NBM average simulation (population=5000) with product, focussing on Meropenem resistance graph"
-        caption="A graph of the average simulation results for a population of size five thousand people, with the product over ten runs, focussing on Meropenem resistance graph" >}}
+        src="/assets/content/model/graph5.png"
+        alt="NBM average simulation (population=5000) with product, focusing on Meropenem resistance graph"
+        caption="A graph of the average simulation results for a population of size five thousand people, with the product over ten runs, focusing on Meropenem resistance graph" >}}
 
 Above is a graph showing the change of several variables over time, taking the average of 10 runs with the product in use. “Meropenem” refers to the number of patients carrying a pathogen with resistance to Meropenem. Only the first 100 time-steps are shown as the variables change only marginally after that.
 
 {{< centeredImage
-        src="/assets/content/model/graph8.png"
-        alt="NBM average simulation (population=200) with product, focussing on Meropenem resistance graph"
-        caption="A graph of the average simulation results for a population of two hundred people, with the product over ten runs, focussing on Meropenem resistance graph" >}}
+        src="/assets/content/model/graph7.png"
+        alt="NBM average simulation (population=200) with product, focusing on Meropenem resistance graph"
+        caption="A graph of the average simulation results for a population of two hundred people, with the product over ten runs, focusing on Meropenem resistance graph" >}}
 
 Above is a graph showing the change of several variables over time, when the population size was set to 200 and initially infected at 10, taking the average of with the product in use. “Meropenem” refers to the number of patients carrying a pathogen with resistance to Meropenem. Only the first 100 time-steps are shown as the variables change only marginally after that.
 
