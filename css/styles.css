@@ -424,9 +424,9 @@ https://codepen.io/shamir/pen/YGbbNX
 
 @keyframes animStar {
   from {
-    transform: translate(0px, 0px); }
+    transform: translateY(0px); }
   to {
-    transform: translate(1000px, -2000px); } }
+    transform: translateY(-2000px); } }
 
 /* Nav section */
 /*
